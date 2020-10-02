@@ -4,7 +4,11 @@
 
 ## Description
 
+[pending] To complete.
+
 ## How to contribute
+
+[pending] To complete.
 
 ## License
 
@@ -16,4 +20,7 @@ Continuous architecture toolkit was initially developed by Michelin & Gluendo to
 
 They were quickly joined by a small group of like-minded enthusiasts from DXC and Société Générale sharing the same ideas about the evolution of architecture in the world of information system design and this project is now maintains by the following core group of contributors:
 
+* @tfraudet
+* @ojauze
+* [pending] To complete.
 * ...
