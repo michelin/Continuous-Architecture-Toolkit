@@ -24,7 +24,7 @@ Check out our [contribution guidelines](CONTRIBUTING.md) for information on how 
 
 Continuous architecture materials are distributed under Apache License 2.0 apart from some illustrations which are distributed under Ceative Common Attribution ShareAlike 4.0 International License. Please, refer to the LICENSE file for further information.
 
-## Authors
+## Maintainers
 
 Continuous architecture toolkit was initially developed by [Thierry Fraudet](mailto:34861241+tfraudet@users.noreply.github.com) & [Olivier Jauze](mailto:ojauze@gmail.com) from Michelin and by [Nicolas Chevalier](mailto:nch.nicolas.chevalier@gmail.com) from Gluendo to setup an agile architecture operating model and to support the Michelin digital journey.
 

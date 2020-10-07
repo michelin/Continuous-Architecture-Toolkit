@@ -8,6 +8,7 @@ If you'd like to speak to maintainers of this project, you can reach us through 
 
 * **GitHub** On github.com, you can always notify the entire project team by using the @github/Continuous-Architecture-Toolkit handle.
 * **Slack** We're pretty active on #<creat a slack channel ?>.
+* other ?
 
 ## Roles and Responsibilities
 
@@ -19,7 +20,18 @@ If you'd like to speak to maintainers of this project, you can reach us through 
 
 ## Decision-Making process
 
-Which model ?
+The Continuous Architecture Toolkit project uses a Governance Committee Meeting as the primary forum of decision making for matters that need consensus like:
 
-* BDFL (“Benevolent Dictator for Life”)  
-* Meritocracy: active project contributors (those who demonstrate “merit”) are given a formal decision making role. Decisions are  made based on pure voting consensus. The meritocracy concept was pioneered by the Apache Foundation
+* Keep oversight of the pull-requests and ensure that the codebase does not have copyright and license issues, and that the project is heading in the desired direction.
+* Keep oversight of the communication channels and community to ensure that the open development ideals are upheld.
+* Decide what is distributed as products of the project. In particular all releases containd must be approved by the Governance Committe.
+* Guide the direction of the project.
+* Strive for and help to facilitate a harmonious productive community.
+* Nominate new Governance Committee members (i.e. maintainers).
+* Maintain the project's shared resources, including the codebase repository, communications channels, websites.
+* Speak on behalf of the project.
+* Maintain these and other guidelines of the project
+
+This meeting is organized as required and conducted using a video cal. Participation is open to all maintainers. Agenda items can be added by any maintainers by simply adding topics to the Governance Meeting Agenda.
+
+Decisions are taken with a [lazy consensus approach](http://www.apache.org/foundation/how-it-works.html#decision-making)
