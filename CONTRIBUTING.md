@@ -2,7 +2,7 @@
 
 Thanks for your interest in contributing! This document outlines how we expect contributions to happen.
 
-Note that contributions can only be made by individuals representing themselves, not by a company.
+:warning: Note that contributions can only be made by individuals representing themselves, not by a company.
 
 ## TL;DR
 

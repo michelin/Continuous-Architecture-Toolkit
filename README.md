@@ -8,7 +8,7 @@
 
 ## Gouvernance
 
-See [GOVERNANCE.md](https://github.com/michelin/Continuous-Architecture-Toolkit/blob/master/GOVERNANCE.md)
+See [GOVERNANCE.md](GOVERNANCE.md)
 
 ## Community
 
