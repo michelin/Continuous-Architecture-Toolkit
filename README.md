@@ -18,7 +18,7 @@ See [GOVERNANCE.md](https://github.com/michelin/Continuous-Architecture-Toolkit/
 
 We aim to make contributing to Continuous Architecture Toolkit a pleasant and enriching experience for all participants, and we welcome contributions of all kinds. Anyone can contribute to the project, regardless of their skills.
 
-Please see [CONTRIBUTING.md](https://github.com/michelin/Continuous-Architecture-Toolkit/blob/master/CONTRIBUTING.md) for current contribution guidelines.
+Check out our [contribution guidelines](https://github.com/michelin/Continuous-Architecture-Toolkit/blob/master/CONTRIBUTING.md) for information on how to get involved.
 
 ## License
 
@@ -26,7 +26,7 @@ Continuous architecture materials are distributed under Apache License 2.0 apart
 
 ## Authors
 
-Continuous architecture toolkit was initially developed by [Thierry Fraudet](mailto:34861241+tfraudet@users.noreply.github.com) and [Olivier Jauze](mailto:ojauze@gmail.com) from Michelin & by [Nicolas Chevalier](mailto:nch.nicolas.chevalier@gmail.com) from Gluendo to setup an agile architecture operating model and to support the Michelin digital journey.
+Continuous architecture toolkit was initially developed by [Thierry Fraudet](mailto:34861241+tfraudet@users.noreply.github.com) & [Olivier Jauze](mailto:ojauze@gmail.com) from Michelin and by [Nicolas Chevalier](mailto:nch.nicolas.chevalier@gmail.com) from Gluendo to setup an agile architecture operating model and to support the Michelin digital journey.
 
 They were quickly joined by a small group of enthusiasts from DXC, Société Générale and others sharing the same ideas about the evolution of architecture in the world of information system design and this project is now maintains by the following core group of people:
 
