@@ -8,7 +8,7 @@
 
 ## Gouvernance
 
-See [GOVERNANCE.md](GOVERNACE.md)
+See [GOVERNANCE.md](https://github.com/michelin/Continuous-Architecture-Toolkit/blob/master/GOVERNANCE.md)
 
 ## Community
 
@@ -16,9 +16,9 @@ See [GOVERNANCE.md](GOVERNACE.md)
 
 ## How to contribute
 
-We aim to make contributing to Continuous Architecture Toolkit a pleasant and enriching experience for all participants, and we welcome contributions of all kinds. Anyone can contribute to the project, regardless of their skills. 
+We aim to make contributing to Continuous Architecture Toolkit a pleasant and enriching experience for all participants, and we welcome contributions of all kinds. Anyone can contribute to the project, regardless of their skills.
 
-Please see CONTRIBUTING.md for current contribution guidelines.
+Please see [CONTRIBUTING.md](https://github.com/michelin/Continuous-Architecture-Toolkit/blob/master/CONTRIBUTING.md) for current contribution guidelines.
 
 ## License
 
