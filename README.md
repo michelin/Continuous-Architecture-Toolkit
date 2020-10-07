@@ -18,9 +18,14 @@ Continuous architecture materials are distributed under Apache License 2.0 apart
 
 Continuous architecture toolkit was initially developed by Michelin & Gluendo to setup an agile architecture operating model and to support the Michelin digital journey.
 
-They were quickly joined by a small group of enthusiasts from DXC and Société Générale sharing the same ideas about the evolution of architecture in the world of information system design and this project is now maintains by the following core group of people:
+They were quickly joined by a small group of enthusiasts from DXC and Société Générale and others sharing the same ideas about the evolution of architecture in the world of information system design and this project is now maintains by the following core group of people:
 
-* @tfraudet
-* @ojauze
+* [Thierry Fraudet](mailto:34861241+tfraudet@users.noreply.github.com) (Michelin)
+* [Olivier Jauze](mailto:ojauze@gmail.com) (Michelin)
+* [Nicolas Chevalier](mailto:nch.nicolas.chevalier@gmail.com) (Gluendo)
+* [Frédéric Lé](mailto:fle3@dxc.com) (DXC)
+* Jean-Marc Bunouf (Société Générale)
+* Jerome Regnier (Société Générale)
+* Jérémie Grodziski (Adixe)
 * [pending] To complete.
 * ...
