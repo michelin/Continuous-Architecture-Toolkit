@@ -8,7 +8,7 @@
 
 ## Gouvernance
 
-See GOVERNANCE.md
+See [GOVERNANCE.md](GOVERNACE.md)
 
 ## Community
 

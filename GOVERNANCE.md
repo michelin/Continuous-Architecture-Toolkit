@@ -1,6 +1,8 @@
 # Governance
 
-## Roles
+The objective of this document is to describe the process of decision making and defines the social rules of interaction for our project.
+
+## Roles and Responsibilities
 
 * **Users** are community members who have a need for Continuous Architecture Toolkit. They are the most important members of the community and without them the project would have no purpose. Anyone can be a user; there are no special requirements. We asks  users to participate in community and give us as much feedback as they can. User contributions enable the project team to ensure that they are satisfying the needs of those users.
 
@@ -8,7 +10,7 @@
 
 * **Maintainers** are people responsible over the direction of the project and are committed to improving it in the long run. There are the only people in a project with commit access (Maintainers are listed in the README.md file).
 
-## Making decision process
+## Decision-Making process
 
 Which model ?
 
