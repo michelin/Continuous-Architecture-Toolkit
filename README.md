@@ -18,7 +18,7 @@ See [GOVERNANCE.md](https://github.com/michelin/Continuous-Architecture-Toolkit/
 
 We aim to make contributing to Continuous Architecture Toolkit a pleasant and enriching experience for all participants, and we welcome contributions of all kinds. Anyone can contribute to the project, regardless of their skills.
 
-Check out our [contribution guidelines](https://github.com/michelin/Continuous-Architecture-Toolkit/blob/master/CONTRIBUTING.md) for information on how to get involved.
+Check out our [contribution guidelines](CONTRIBUTING.md) for information on how to get involved.
 
 ## License
 

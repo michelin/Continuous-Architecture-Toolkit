@@ -6,7 +6,7 @@ The objective of this document is to describe the process of decision making and
 
 If you'd like to speak to maintainers of this project, you can reach us through a bunch of different channels.
 
-* **GitHub** On github.com, you can always notify the entire project team by using the @??? handle.
+* **GitHub** On github.com, you can always notify the entire project team by using the @github/Continuous-Architecture-Toolkit handle.
 * **Slack** We're pretty active on #<creat a slack channel ?>.
 
 ## Roles and Responsibilities
