@@ -1,7 +1,12 @@
 language: ruby
 rvm:
-- 2.2.0
-sudo: required
+ - 2.2.0
+
+os: 
+  - linux
+
+dist:
+  - trusty
 
 services:
   - docker
@@ -11,10 +16,8 @@ before_install:
   - docker pull asciidoctor/docker-asciidoctor
 
 script: 
-  - docker run -v $TRAVIS_BUILD_DIR:/docs/ --name asciidoc-to-html asciidoctor/docker-asciidoctor asciidoctor -D /docs/output *.adoc
+  - docker run -it -v $TRAVIS_BUILD_DIR:/documents/ --name asciidoc-to-html asciidoctor/docker-asciidoctor asciidoctor -D /documents/output *.adoc
 
-after_error: 
-  - docker logs asciidoc-to-html
 after_failure:
   - docker logs asciidoc-to-html
 
