@@ -34,8 +34,7 @@ They were quickly joined by a small group of enthusiasts from DXC, Société Gé
 * [Olivier Jauze](mailto:ojauze@gmail.com) (Michelin)
 * [Nicolas Chevalier](mailto:nch.nicolas.chevalier@gmail.com) (Gluendo)
 * [Frédéric Lé](mailto:fle3@dxc.com) (DXC)
-* Jean-Marc Bunouf (Société Générale)
-* Jerome Regnier (Société Générale)
-* Jérémie Grodziski (Adixe)
-* [pending] To complete.
-* ...
+* [Jean-Marc Bunouf](mailto:jean-marc.bunouf@socgen.com) (Société Générale)
+* [Jerome Regnier](mailto:jerome.regnier@socgen.com) (Société Générale)
+* [Jérémie Grodziski](mailto:jeremie@grodziski.com) (Adixe)
+* [Antoine Lonjon](mailto:alonjon@mega.com) (Mega)
