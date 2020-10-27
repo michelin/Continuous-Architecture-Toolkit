@@ -1,6 +1,0 @@
-= Why changing the way we architect our solutions?
-The environment we're living in is often qualified using the VUCA acronym standing for Volatility, Uncertainty, Complexity & Ambiguity. In such context, the only thing we can do is to build a resilient, flexible and reactive open information system. We can't predict what the near future will be so lets design our Information System in a way it can evolve whatever the evolution looks like.
-
-"Yesterday’s architecture methodologies and processes will not deliver future solutions.". It's our credo.  We need to change our operating model to maintain our system integrity @scale and to make people autonomous and safe when they exercise initiative. We're coming from a world where architecture decisions were taken centrally and we know it'll become an unbearable bottleneck. But decentralisation is more complex than simply delegating authority. In other words,  ALIGNMENT + AUTONOMY > CONTROL.
-
-There is another big change we have to deal with: software engineering became continuous. We are continuously building and deploying our solutions to deliver value regularly to our users. As a consequence, we must continuously make important decisions correctly and quickly: that's what we call Continuous Architecture.

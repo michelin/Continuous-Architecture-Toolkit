@@ -1,8 +1,27 @@
 language: ruby
 rvm:
 - 2.2.0
-sudo: false
-script: bundle exec rake deploy
-env:
-  global:
-    secure: TMEQSxCsE3KjlYISeCYRKLk0xQMafaIOL/IOCh/2yY0gICwKZkI4guCQ2hmfDwfgMldktzLbm5xE+r5mQGR2Kbi3ezZxI2ibnYiFxBcUnpUETr9efoL9eKwaEJ6aVoJmfrtkEqTClwGagmDZ2c5N+JR0X9OnuuI4ke/U21pmofRTs7Q7APmUinAuKnme6nFU/cm/+s3vbMj7n2gEo6k2+wwiffAkozCItVoxZUvooek2I6ZPJJ02e0ZtvEWVJwpDUoiNOLeSP2wXTae3Sx548S8crilT96nfcQtOBlSOLEWwrheajMjRG12jgErcKo6RATORgmbM4eM7fr/N9OwRAb6oeFwgrTlzE1Gi6FjHxUgB19UlZgTOjgXmQ6xBb8cpdjw5z0Pw9S3NbeLSRVVNNanYH0E44TBeyxK7kPaslbkyktp2xnWQPM5s9hrDRfohuYjb45bfUEMYKIoxwSV3C4aHv/T+ox9HQ3AS7aP7tzUtqs2LxLzfZKuONLSYduPjjtslsbHi40Z7wKgKT8ELTDUR8GRmeSrxHU+y3+d5WzYgXE5M6wIU6MipZd7kOmAZ8XpT7X4nuz/6URhl4mtXXyZRglPZj/Bmcxm+CCp4KUitsJIRWDsKQBxyLGs5CjDRxmQODuxDPgjtwpeabOxrkxDcY7JsvpEna6xgqEBOTZM=
+sudo: required
+
+services:
+  - docker
+
+before_install:
+  - mkdir -p output
+  - docker pull asciidoctor/docker-asciidoctor
+
+script: 
+  - docker run -v $TRAVIS_BUILD_DIR:/docs/ --name asciidoc-to-html asciidoctor/docker-asciidoctor asciidoctor -D /docs/output *.adoc
+
+after_error: 
+  - docker logs asciidoc-to-html
+after_failure:
+  - docker logs asciidoc-to-html
+
+after_success:      
+  - cd output ; mv README.html index.html ; cp -R ../img img
+  - git init
+  - git config user.name "${GH_USER_NAME}"
+  - git config user.email "{GH_USER_EMAIL}"
+  - git add . ; git commit -m "Deploy to GitHub Pages"
+  - git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:gh-pages > /dev/null 2>&1  
