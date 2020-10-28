@@ -36,7 +36,8 @@ endif::[]
 == Introduction
 
 Welcome to the *Contributor guide*. You'll find here information to be able to contribute to the *{main-title}*.
-*{main-title}* apply the principles of <<LIVEDOC,Live Documentation>> by using https://www.writethedocs.org/guide/docs-as-code/[Docs as Code] philosophy.
+
+*{main-title}* applies the principles of <<LIVEDOC,Live Documentation>> by using https://www.writethedocs.org/guide/docs-as-code/[Docs as Code] philosophy.
 It offers a clear, simple and effective structure to document and communicate.
 
 To contribute you'll have to understand the <<TOOLCHAIN,tool chain>>, the <<DOCSTRUCT,structure of the document>> and <<ENVSETUP,setup the environment>> in your local context.
