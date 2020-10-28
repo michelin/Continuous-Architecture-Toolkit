@@ -1,0 +1,215 @@
+= Contributor Guide
+Jean-Marc Bunouf <jean-marc.bunouf@socgen.com>
+v0.1
+// Metadata:
+:description: Contributor Guide
+:keywords: guide
+:main-title: Continuous Architecture Toolkit 
+// Settings:
+:icons: 
+:idprefix:
+:idseparator: -
+:preface-title: 
+:toc2:
+:toc:
+:toclevels: 3
+:numbered:
+:sectlinks:
+:sectanchors:
+:experimental:
+:stylesdir: ./styles
+:scriptsdir: ./js
+// 
+:imagesdir: ./img
+
+// GitHub admonitions:
+ifdef::env-github[]
+:icons: 
+:tip-caption: :bulb:
+:note-caption: pass:[&#8505;]
+:important-caption: :heavy_exclamation_mark:
+:caution-caption: :fire:
+:warning-caption: :warning:
+endif::[]
+
+[.lead]
+== Introduction
+
+Welcome to the *Contributor guide*. You'll find here information to be able to contribute to the *{main-title}*.
+*{main-title}* apply the principles of <<LIVEDOC,Live Documentation>> by using https://www.writethedocs.org/guide/docs-as-code/[Docs as Code] philosophy.
+It offers a clear, simple and effective structure to document and communicate.
+
+To contribute you'll have to understand the <<TOOLCHAIN,tool chain>>, the <<DOCSTRUCT,structure of the document>> and <<ENVSETUP,setup the environment>> in your local context.
+
+[[TOOLCHAIN]]
+== Tool chain
+
+=== Global view
+
+image::usage.jpg[]
+
+==== Initialization (Once) 
+&#10102; *Clone* the {main-title} repository into your local working Repository Folder from https://github.com/michelin/Continuous-Architecture-Toolkit.git[here].
+
+....
+> git clone https://github.com/michelin/Continuous-Architecture-Toolkit.git
+....
+
+==== Modification (Iterative)
+&#10103; *Edit*: edit and adapt the different sections of the template files respecting the <<DOCSTRUCTURE,document structure>>  in your local repository with your VSCode Integrated Development Environment (IDE).
+
+&#10104; *Update*:
+
+* _pull_ or _rebase_ 
+
+* _commit_ and _push_ the files in the remote repository of the project by using the integrated *Git* commands.
+
+
+=== Automatic Publication
+
+A CI/CD toolchain is defined to publish automatically the documentation from the the SCM website
+
+_To Be Completed_ 
+
+[[ENVSETUP]]
+== Environment setup
+
+[cols="0h,a"]
+|===
+|Tools 
+h|Description
+
+a|image::icons/vscode.png[width=40pt]
+|* *Install* Editor https://code.visualstudio.com/download[Visual Studio Code]
+
+a|image::icons/asciidoctor.png[width=40pt]
+image::icons/drawio.png[width=40pt]
+|* *Install* VSCode extensions: 
+** *Install* https://marketplace.visualstudio.com/items?itemName=asciidoctor.asciidoctor-vscode[Asciidoctor],
+** *Install* https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio[Draw.io Integration]
+
+a|image::icons/git.png[width=40pt]
+|* *Install* Software Configuration System https://git-scm.com/[Git] 
+
+a|image::icons/github.png[width=40pt] 
+|* Connect to https://github.com/[Github] 
+|===
+
+
+[[DOCSTRUCTURE]]
+== Documentation structure
+
+=== Generic Structure
+
+==== Documentation generic structure
+image::docstruct.jpg[]
+
+As described, the generic structure of the documentation proposes to define differents autonomous sections.
+Sections could be embedded in a hierarchical way or at the same level.
+
+During the edition, it is possible to import third party tools resources as described in the following image.
+
+image::import.jpg[]
+
+==== Header, Footer and inclusion
+
+The header, Footer and inclusion proposed here allows to generate individually or in an embedded manner the section files.
+
+.header
+....
+= Title
+author <author@mail.com>;
+v0.1
+// Metadata:
+:description: 
+:keywords: 
+:main-title:  
+// Settings:
+:icons: 
+:idprefix:
+:idseparator: -
+:preface-title: 
+:toc2:
+:toc:
+:toclevels: 3
+:numbered:
+:sectlinks:
+:sectanchors:
+:experimental:
+:stylesdir: ./css
+:scriptsdir: ./js
+// tag::all[]
+:imagesdir: ./img
+// GitHub admonitions:
+\ifdef::env-github[]
+:icons: 
+:tip-caption: :bulb:
+:note-caption: pass:[&#8505;]
+:important-caption: :heavy_exclamation_mark:
+:caution-caption: :fire:
+:warning-caption: :warning:
+\endif::[]
+....
+
+.Footer 
+....
+// end::all[]
+....
+
+.Include 
+....
+[[SECTION]]
+== Section title
+\include::subsectionfile.adoc[leveloffset=+1,tag=all]
+....
+
+
+[[LIVEDOC]]
+== References
+
+=== Language
+
+* http://asciidoc.org/[AsciiDoc] - AsciiDoc is a text document format for writing notes, documentation, articles, books, ebooks, slideshows, web pages, man pages and blogs. AsciiDoc files can be translated to many formats including HTML, PDF, EPUB, man page. AsciiDoc is highly configurable: both the AsciiDoc source file syntax and the backend output markups (which can be almost any type of SGML/XML markup) can be customized and extended by the user. AsciiDoc is free software and is licensed under the terms of the GNU General Public License version 2 (GPLv2). Refer to http://asciidoctor.org/docs/asciidoc-writers-guide/[AsciiDoc guide]
+
+
+[[TOOLS]]
+=== Tools
+
+==== Editor
+
+* https://code.visualstudio.com/[Visual Studio Code] - Visual Studio Code combines the simplicity of a code editor with what developers need for their core edit-build-debug cycle. Visual Studio Code is free and an OSS release is provided.
+
+[[DIAGRAMS]]
+==== Diagrams
+
+* *png* and *jpg* formats are preconised. 
+
+.Image syntax
+....
+image::image-file.png[]
+....
+
+* http://go/drawio/[Draw.io] is preconised here:
+** it is well integrated with the VSCode IDE as its plugin allows to edit and generate directly a *png* image:
+*** create a new file with *_<filename>.drawio.png_* extension
+*** click on the file, the editor is launched automatically 
+** it supports standards Design notations: *ARCHIMATE*, *UML*, *BPMN*
+*** it support infrastructure icons: *AWS*, *Azure*
+*** it generates a *png* image file directly
+
+* All other external drawing tools (*Gimp*, *Visio*, *Illustrator*, etc.) or modeling tools (*Capella*, *MEGA HOPEX*, etc.) can be used to generate images that can be easily integrated. 
+
+* *PlantUML* embedded syntax is usefull but limited to UML and requires a third party tool to generate the documentation.
+
+==== Generation and Conversion
+
+* http://asciidoctor.org/[asciidoctor] - A fast text processor & publishing toolchain for converting AsciiDoc to HTML5, DocBook & more.
+* https://pandoc.org/[Pandoc] - If you need to convert files from one markup format into another, pandoc is your swiss-army knife. (asciidoc, markdown, office, etc.)
+
+==== Software Configuration Management (SCM)
+
+.Local repository
+* https://git-scm.com//[Git] - Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency
+
+.Central repositories
+* https://github.fr.world.socgen/[Github]
