@@ -15,12 +15,11 @@ v0.1
 :stylesdir: ./css
 :scriptsdir: ./js
 :imagesdir: ./img
-
-== Continuous-Architecture-Toolkit
+Update
 
 image::continuous-architecture-logo.png[ca-logo]
 
-=== Purpose
+== Purpose
 
 For Digital and Agile enterprises wanting to leverage the architecture
 discipline to better steer their transformation journey while coping
@@ -29,17 +28,17 @@ provides materials (posters, kits, roles description, rituals) to frame
 the new way of doing architecture and accelerate the change management
 among architects, delivery and operation teams.
 
-=== Gouvernance
+== Gouvernance
 
 See link:GOVERNANCE.md[]
 
-=== Community
+== Community
 
 [pending] 
 .To complete: 
 _Reference here the web-site and the lindkedin group._
 
-=== How to contribute
+== How to contribute
 
 We aim to make contributing to Continuous Architecture Toolkit a
 pleasant and enriching experience for all participants, and we welcome
@@ -49,14 +48,14 @@ regardless of their skills.
 Check out our link:CONTRIBUTING.md[contribution guidelines] for
 information on how to get involved.
 
-=== License
+== License
 
 Continuous architecture materials are distributed under Apache License
 2.0 apart from some illustrations which are distributed under Ceative
 Common Attribution ShareAlike 4.0 International License. Please, refer
 to the LICENSE file for further information.
 
-=== Maintainers
+== Maintainers
 
 Continuous architecture toolkit was initially developed by
 mailto:34861241+tfraudet@users.noreply.github.com[Thierry Fraudet] &
