@@ -4,9 +4,7 @@
 
 ## Purpose
 
-~~For IT organizations who want to adapt their architecture operating model and cope with the exponential flow of changes of digital enterprise journey, Continuous Architecture Toolkit provides materials (posters, kits, roles description, rituals) to frame the new way of doing architecture in an agile organization that accelerate the change management among architects & delivery teams.~~
-
-For Digital and Agile enterprises wanting to leverage the architecture discipline to better steer their transformation journey while coping with the exponential flow of changes, Continuous Architecture Toolkit provides materials (posters, kits, roles description, rituals) to frame the new way of doing architecture and accelerate the change management among architects & delivery teams.
+For IT organizations who want to adapt their architecture operating model and cope with the exponential flow of changes of digital enterprise journey, Continuous Architecture Toolkit provides materials (posters, kits, roles description, rituals) to frame the new way of doing architecture in an agile organization that accelerate the change management among architects & delivery teams.
 
 ## Gouvernance
 
