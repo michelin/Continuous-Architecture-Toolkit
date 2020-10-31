@@ -2,7 +2,7 @@
 Jean-Marc Bunouf <jean-marc.bunouf@socgen.com>
 v0.1
 // Metadata:
-:description: Contributor Guide
+:description: Governance
 :keywords: guide
 :main-title: Continuous Architecture Toolkit 
 // Settings:
