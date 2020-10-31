@@ -99,23 +99,27 @@ a|image::icons/github.png[width=40pt]
 [[DOCSTRUCTURE]]
 == Documentation structure
 
-=== Generic Structure
-
-==== Documentation generic structure
+=== Section generic structure
 image::docstruct.jpg[width="50%"]
 
 As described, the generic structure of the documentation proposes to define differents autonomous sections.
-Sections should be embedded in a hierarchical way.
+Sections should be embedded in a hierarchical way. A section can contain 0 to N sub sections.
+
+=== Section organization
 
 image::include.jpg[width="50%"]
 
-Note that the section file can be split into different chapters (autonomous) files depending on the size of the section and when when it make sense to manage it separatly for maintenance or responsabiltiy purposes.
+Note that the section file can be split into different chapters (autonomous) files depending on the size of the section and when when it make sense to manage it separatly for maintenance or responsabilty purposes.
+
+=== Import from third party tools
 
 During the edition, it is possible to import third party tools resources as described in the following image.
 
 image::import.jpg[]
 
-==== Header, Footer and inclusion
+When it's possible, it is preconised to store the original file into the *refs* folder to be able to manage maintenance.
+
+=== Header, Footer and inclusion
 
 The header, Footer and inclusion proposed here allows to both generate individually or in an embedded manner the section files.
 
