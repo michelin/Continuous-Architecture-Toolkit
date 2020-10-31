@@ -1,4 +1,4 @@
-= Contributor Guide
+= Maintener Guide
 Jean-Marc Bunouf <jean-marc.bunouf@socgen.com>
 v0.1
 // Metadata:
@@ -21,7 +21,6 @@ v0.1
 :scriptsdir: ./js
 // GitHub admonitions:
 ifdef::env-github[]
-:icons: 
 :tip-caption: :bulb:
 :note-caption: pass:[&#8505;]
 :important-caption: :heavy_exclamation_mark:
@@ -103,14 +102,14 @@ a|image::icons/github.png[width=40pt]
 === Generic Structure
 
 ==== Documentation generic structure
-image::docstruct.jpg[]
+image::docstruct.jpg[width="50%"]
 
 As described, the generic structure of the documentation proposes to define differents autonomous sections.
 Sections should be embedded in a hierarchical way.
 
-image::include.jpg[]
+image::include.jpg[width="50%"]
 
-A section can be split into different chapters (autonomous).
+Note that the section file can be split into different chapters (autonomous) files depending on the size of the section and when when it make sense to manage it separatly for maintenance or responsabiltiy purposes.
 
 During the edition, it is possible to import third party tools resources as described in the following image.
 
@@ -118,7 +117,7 @@ image::import.jpg[]
 
 ==== Header, Footer and inclusion
 
-The header, Footer and inclusion proposed here allows to generate individually or in an embedded manner the section files.
+The header, Footer and inclusion proposed here allows to both generate individually or in an embedded manner the section files.
 
 .header
 ....
@@ -145,7 +144,6 @@ v0.1
 :scriptsdir: ./js
 // GitHub admonitions:
 \ifdef::env-github[]
-:icons: 
 :tip-caption: :bulb:
 :note-caption: pass:[&#8505;]
 :important-caption: :heavy_exclamation_mark:
