@@ -30,7 +30,7 @@ among architects, delivery and operation teams.
 
 == Gouvernance
 
-See <<governance.adoc, Governance>>.
+See <<governance.adoc#Governance, Governance>>.
 
 == Community
 
