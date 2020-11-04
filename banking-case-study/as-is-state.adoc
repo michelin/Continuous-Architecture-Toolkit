@@ -1,7 +1,7 @@
 [[as-is-state]]
-== "As-is" State of the bank
+== "As-is" State of RB Bank
 
-The bank operates in three countries, France, Germany and Spain. 
+*RB Bank* operates in three countries, France, Germany and Spain. 
 
 In France the banks operates under three brands:
 
@@ -12,6 +12,8 @@ In France the banks operates under three brands:
 In Germany the bank operates under the *Broker* brand and provides Personal Investment services mainly through a direct banking model with a few branches in large cities.
 
 In Spain the bank operates under the *Banco 7* brand and caters to consumers and small businesses through a click and mortar model with 860 branches.
+
+=== Product offerings
 
 The table below describes the product families each brand offers to the market.
 
@@ -34,7 +36,7 @@ The table below describes the product families each brand offers to the market.
 |X
 |X
 
-|Consumer credit
+|Personal credit
 |X
 |
 |X
@@ -76,3 +78,19 @@ The table below describes the product families each brand offers to the market.
 |
 |X
 
+|P&C insurance
+|X
+|X
+|X
+|
+|X
+
+|===
+
+=== Operating model
+
+Each brand is a legal entity that is fully owned by the RB Bank Group and manages its balance sheet and P&L. Financial and regulatory reporting is consolidated at the group level.
+
+Each brand manages its own information system with minimum guidance from the group.
+
+XXX.
