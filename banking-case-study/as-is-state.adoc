@@ -22,7 +22,7 @@ The table below describes the product families each brand offers to the market.
 .Product offerings
 
 |===
-|*Product*
+|*Product Family*
 |*Uni*
 |*SB*
 |*Direct*
