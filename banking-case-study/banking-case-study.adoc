@@ -3,7 +3,7 @@ Frédéric Lé <frederic9@gmail.com>, Jean-Pierre Le Cam <jean-pierre.le-cam@wan
 v0.1
 // Metadata
 :description: Banking Case Study to illustrate Agile Architecture practices
-:keywords: Case Study
+:keywords: Case Study, banking domain
 :main-title: Banking Case Study
 
 // Settings:
