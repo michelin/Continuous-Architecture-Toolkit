@@ -13,3 +13,66 @@ In Germany the bank operates under the *Broker* brand and provides Personal Inve
 
 In Spain the bank operates under the *Banco 7* brand and caters to consumers and small businesses through a click and mortar model with 860 branches.
 
+The table below describes the product families each brand offers to the market.
+
+[[tbl-o-aaf-safe-concepts]]
+[cols="1,2a,2a,2a,2a,2a", options="header"]
+.Product offerings
+
+|===
+|*Product*
+|*Universal*
+|*Entrepreneur*
+|*Direct Bank*
+|*Broker*
+|*Banco 7*
+
+|Checking account
+|X
+|X
+|X
+|X
+|X
+
+|Consumer credit
+|X
+|
+|X
+|
+|X
+
+|Consumer credit
+|X
+|
+|X
+|
+|X
+
+|Mortgage loans
+|X
+|X
+|X
+|
+|X
+
+|Saving products
+|X
+|
+|
+|X
+|X
+
+|Brokerage services
+|
+|
+|
+|X
+|
+
+|Equipment loans
+|X
+|X
+|
+|
+|X
+
