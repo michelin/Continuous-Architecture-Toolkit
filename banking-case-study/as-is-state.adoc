@@ -1,4 +1,15 @@
 [[as-is-state]]
 == "As-is" State of the bank
 
-The bank operates in three countries.
+The bank operates in three countries, France, Germany and Spain. 
+
+In France the banks operates under three brands:
+
+* *Universal* which caters to consumers, small businesses and enterprises through a click and mortar model with 740 branches
+* *Entrepreneurs* which caters to small businesses and their owners through a network of 420 branches mainly operating in the south east part of the country
+* *Direct Bank* which caters to young urban consumers through a mobile banking model.
+
+In Germany the bank operates under the *Broker* brand and provides Personal Investment services mainly through a direct banking model with a few branches in large cities.
+
+In Spain the bank operates under the *Banco 7* brand and caters to consumers and small businesses through a click and mortar model with 860 branches.
+
