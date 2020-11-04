@@ -45,8 +45,8 @@ include::as-is-state.adoc[]
 
 
 
-// Test inclusion image
-image::test-image.png[]
+// CC license image
+image::by-sa.png[fig-cc-license,100,100, align="left"]
 
 //....
 //.Footer 

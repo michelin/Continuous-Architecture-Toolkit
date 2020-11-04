@@ -5,9 +5,9 @@
 
 In France the banks operates under three brands:
 
-* *Universal* which caters to consumers, small businesses and enterprises through a click and mortar model with 740 branches
+* *Uni* which caters to consumers, small businesses and enterprises through a click and mortar model with 740 branches
 * *SB* which caters to small businesses and their owners through a network of 420 branches mainly operating in the south east part of the country
-* *Direct Bank* which caters to young urban consumers through a mobile banking model.
+* *Direct* which caters to young urban consumers through a mobile banking model.
 
 In Germany the bank operates under the *Broker* brand and provides Personal Investment services mainly through a direct banking model with a few branches in large cities.
 
@@ -23,9 +23,9 @@ The table below describes the product families each brand offers to the market.
 
 |===
 |*Product*
-|*Universal*
+|*Uni*
 |*SB*
-|*Direct Bank*
+|*Direct*
 |*Broker*
 |*Banco 7*
 
