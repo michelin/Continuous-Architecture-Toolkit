@@ -15,7 +15,7 @@ In Spain the bank operates under the *Banco 7* brand and caters to consumers and
 
 === Product offerings
 
-The table below describes the product families each brand offers to the market.
+The table below describes offered product families for each brand.
 
 [[tbl-o-aaf-safe-concepts]]
 [cols="2a,1a,1a,1a,1a,1a", options="header"]
