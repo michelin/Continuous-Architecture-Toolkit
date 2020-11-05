@@ -107,4 +107,17 @@ Each brand is a legal entity that is fully owned by the RB Bank Group and manage
 
 Each brand manages its own information system with minimum guidance from the group.
 
-XXX.
+==== UNI operations
+
+The UNI Operating Unit has adopted a classical retail banking organizational structure, see <<uni-org-chart>>.
+
+[[uni-org-chart]]
+.UNI Organization
+image::uni-org-chart.png[uni-org-chart,500,500, align="left"]
+
+It is supported by an information system that is described in figure <<uni-IT-landscape>>.
+
+[[uni-IT-landscape]]
+.UNI IT Landscape
+image::uni-IT-landscape.png[uni-org-chart,500,500, align="left"]
+
