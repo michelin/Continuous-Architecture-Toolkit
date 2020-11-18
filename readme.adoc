@@ -15,7 +15,7 @@ v0.1
 :stylesdir: ./css
 :scriptsdir: ./js
 :imagesdir: ./img
-Update
+
 
 image::continuous-architecture-logo.png[ca-logo]
 
