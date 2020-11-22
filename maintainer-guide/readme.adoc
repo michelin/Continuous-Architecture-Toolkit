@@ -104,7 +104,7 @@ At the root level the document folder contains files which are focusd on the pro
 .Document structure
 image::docstruct.jpg[width="50%"]
 
-=== Section structure 
+=== Section folder structure 
 
 Documentation is organized by sections following the structure in the figure below. 
 
