@@ -6,7 +6,7 @@ v0.1
 :keywords: guide
 :main-title: Continuous Architecture Toolkit 
 // Settings:
-:icons: 
+:icons: font
 :idprefix:
 :idseparator: -
 :preface-title: 
@@ -17,7 +17,7 @@ v0.1
 :sectlinks:
 :sectanchors:
 :experimental:
-:stylesdir: ./styles
+:stylesdir: ./css
 :scriptsdir: ./js
 // GitHub admonitions:
 ifdef::env-github[]
@@ -95,35 +95,37 @@ a|image::icons/github.png[width=40pt]
 |* Connect to https://github.com/[Github] 
 |===
 
-
 [[DOCSTRUCTURE]]
 == Documentation structure
 
-=== Section generic structure
+Documentation structure falls into section folders that focus on content.
+At the root level the document folder contains files which are focusd on the production of documentation depending on the format, audience, etc.
+
+.Document structure
 image::docstruct.jpg[width="50%"]
 
-As described, the generic structure of the documentation proposes to define differents autonomous sections.
-Sections should be embedded in a hierarchical way. A section can contain 0 to N sub sections.
+=== Section structure 
 
-=== Section organization
+Documentation is organized by sections following the structure in the figure below. 
 
-image::include.jpg[width="50%"]
+.Section generic structure
+image::sectionfolder.jpg[width="50%"]
 
-Note that the section file can be split into different chapters (autonomous) files depending on the size of the section and when when it make sense to manage it separatly for maintenance or responsabilty purposes.
+Section file can be split into several files depending on the size of the section and when when it make sense for the content to manage it separatly for maintenance, *inclusion* or responsabilty purposes.
 
 === Import from third party tools
 
-During the edition, it is possible to import third party tools resources as described in the following image.
+During the edition of the section, it is possible to import third party tools resources as described in the following image.
 
 image::import.jpg[]
 
-When it's possible, it is preconised to store the original file into the *refs* folder to be able to manage maintenance.
+When it's possible, it is preconised to store the original file into the *refs* folder to be able to maintain the content.
 
-=== Header, Footer and inclusion
+=== Section Header, Footer and Filtering
 
-The header, Footer and inclusion proposed here allows to both generate individually or in an embedded manner the section files.
+The header, Footer and filtering proposed here allows to both generate individually or in an embedded manner the section files.
 
-.header
+.Header
 ....
 = Title
 author <author@mail.com>;
@@ -133,7 +135,7 @@ v0.1
 :keywords: 
 :main-title:  
 // Settings:
-:icons: 
+:icons: font
 :idprefix:
 :idseparator: -
 :preface-title: 
@@ -155,7 +157,11 @@ v0.1
 :warning-caption: :warning:
 \endif::[]
 // tag::all[]
-:imagesdir: ./img
+:section: concepts
+:imagesdir: img
+\ifdef::rootpath[]
+:imagesdir: {rootpath}{section}/{imagesdir}
+\endif::rootpath[]
 ....
 
 .Footer 
@@ -163,13 +169,68 @@ v0.1
 // end::all[]
 ....
 
-.Include 
+TIP: As you noticed the tag *all* will allow to included the whole content of the section file.
+Other filter could be defined to generate content for specific audience or purpose as follow:
+
+.Tags 
 ....
-[[SECTIONB]]
-== Section B title
-\include::sectionB-filename.adoc[leveloffset=+1,tag=all]
+// tag::fitername[]
+   
+   ...content...
+
+// end::filtername[]
 ....
 
+
+=== Documentation folder 
+
+Above the sections, target files are defined to manage inclusion and filtering of the content depending of the audience and purpose of the documentation to be produced.
+
+.Document folder
+image:docfolder.jpg[width="50%"]
+
+.Header 
+....
+= Title
+author <author@mail.com>;
+v0.1
+// Metadata:
+:description: 
+:keywords: 
+:main-title:  
+// Settings:
+:icons: font
+:idprefix:
+:idseparator: -
+:preface-title: 
+:toc2:
+:toc:
+:toclevels: 3
+:numbered:
+:sectlinks:
+:sectanchors:
+:experimental:
+:stylesdir: ./css
+:scriptsdir: ./js
+// GitHub admonitions:
+\ifdef::env-github[]
+:tip-caption: :bulb:
+:note-caption: pass:[&#8505;]
+:important-caption: :heavy_exclamation_mark:
+:caution-caption: :fire:
+:warning-caption: :warning:
+\endif::[]
+:rootpath: ./
+....
+
+.Include
+....
+[[SECTIONANCHOR]]
+== SECTIONTITLE
+\include::sectionname/sectionfile.adoc[leveloffset=+1,tag=all]
+....
+
+TIP: tag filtering allows wildcards or combination to produce documentation depending on your audience or target
 
 [[LIVEDOC]]
 == References
