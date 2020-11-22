@@ -99,7 +99,7 @@ a|image::icons/github.png[width=40pt]
 == Documentation structure
 
 Documentation structure falls into section folders that focus on content.
-At the root level the document folder contains files which are focusd on the production of documentation depending on the format, audience, etc.
+At the root level the document folder contains files which are focus on the production of documentation depending on the format, audience, etc.
 
 .Document structure
 image::docstruct.jpg[width="50%"]
