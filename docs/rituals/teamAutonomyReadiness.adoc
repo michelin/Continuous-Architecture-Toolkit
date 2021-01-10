@@ -1,7 +1,7 @@
 = Team Readiness for Autonomy.
 
 One of the key objective of Continuous Architecture operating model is to safely entrust product teams in taking architecture decisions to enable end-to-end ownership and continuous delivery. This means that we need to
- decentralize decision making around architecture while keeping the integrity of an information system which is usaly compose of thousands of applications with a complex interweaving flows of data between them.
+ decentralize decision making around architecture while keeping the integrity of an information system which is usally compose of thousands of applications with a complex interweaving flows of data between them.
 
 To achieve this objective and as different delivery teams require varying levels of oversight to successfully conduct architecture activities, C.A. operating model proposes a formal approach to evaluate their level of readiness for autonomy in taking architecture decisions based on the context. This assessmeent is done on a regular basis, over a 12 to 18 months horizon, during the xref:team-readiness-ritual[Team readiness for autonomy ritual] and formalize using the tool xref:team-readiness-poster[Team Autonomy readiness poster].
 
@@ -21,7 +21,7 @@ The level of readiness is defined delivery team by delivery team based on the as
 ** technical and functional skills assessment of the delivry team's members.
 . on x axis: the level of architecture risks related to the product considering among other things:
 ** the stage of the product in its life cycle
-** dependencies with other products and cross-team decisions needed
+** dependencies with other products and cross-team decisions needs
 ** security/legal consideration for the company
 ** level of investment
 ** sourcing that engage the company
@@ -30,9 +30,9 @@ image::../../Assets/4.Practices/KIT Generic Autonomy Assesment 2020.2.png[Team R
 
 TIP: Together, the team’s functional & technical maturity and the level of architecture risk determine its level of readiness to self-manage architectural decisions on products it manages.
 
-As one of the responsability or the architect role in C.A. operating model is to educate delivery teams in design and architecture considerations (to develop their judgement and increase their autonomy), the assessment ritual is the opportunity to evaluate C.A practices adopted (the A symbol on the poster) and identify areas to improve with the delivery team (T symbol in the poster).
+As one of the responsability or the architect role in C.A. operating model is to educate delivery teams in design and architecture considerations, the assessment ritual is the opportunity to evaluate C.A practices adopted (the A symbol on the poster) and identify areas to improve with the delivery team (T symbol in the poster).
 
-NOTE: ToDo: voir avec Nicolas comment mieux expliquer la partie drote du poster: La roue progress plan? la zone A/T ?
+NOTE: ToDo: voir avec Nicolas comment mieux expliquer la partie droite du poster: La roue progress plan? la zone A/T ?
 
 [[team-readiness-ritual]]
 == The team autonomy readiness assessment ritual
