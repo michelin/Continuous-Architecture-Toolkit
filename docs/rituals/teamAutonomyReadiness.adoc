@@ -49,7 +49,7 @@ For preparation, Product/Fullstack architects have to consider following inputs:
 
 * Products delivery roadmap for the next 12 to 18 months
 * Last link:../../4.Practices/KIT%20Generic%20Progress%20Plan%202020.2.png[Continuous Architecture progress plans] review 
-* Global architecture asssement of their product portfolio (level of obsolecence & IT Debt, alignement with architecture principles &blueprints, quality of sevice, quality of experience,...)
+* Global architecture asssements of their product portfolio (level of obsolecence & IT Debt, alignment with architecture principles & blueprints, quality of service, quality of experience,...)
 
 NOTE: ToDo: Demander à Nicolas de relire et compléter ci-besoin.
 
