@@ -12,21 +12,21 @@ The tool propose 3 different levels of centralization/decentralization of archit
 
 * *Level 1*: The delivery team is autonomous to make the architectural decisions necessary for the evolution of the products it manages. Product & Fullstack architects provide support on-demand.
 * *Level 2*: Architectural decisions are taken under the guidance of Product and Fullstack architects in charge of the domain/product line to which the product belongs. They lead the collaboration between all actors, ensure the end to end integrity and consistency of the system at scale while developing delivery teams judgement (coaching & mentoring) to increase their autonomy.
-* *Level 3*: Architectural decisions need to be taken centraly under governance of enterprise architecture. EA architects educate architects community and delivery teams on new architecture considerations to develop their judgement and increase their autonomy.
+* *Level 3*: Architectural decisions need to be taken centraly under governance of enterprise architecture. EA architects educate architects community and delivery teams on new architecture considerations to increase their autonomy.
 
 The level of readiness is defined delivery team by delivery team based on the assessment around 2 dimensions.
 
-. On y axis: the delivery team maturity regarding:
-** knwoledge and mastery of architecture guiderails (principles, blueprints & standards) of the organisation it belongs to.
+. On *Y* axis: the delivery team maturity regarding:
+** knowledge and mastery of architecture guiderails (principles, blueprints & standards) of the organisation it belongs to.
 ** technical and functional skills assessment of the delivry team's members.
-. on x axis: the level of architecture risks related to the product considering among other things:
+. on *X* axis: the level of architecture risks related to the product considering among other things:
 ** the stage of the product in its life cycle
 ** dependencies with other products and cross-team decisions needs
 ** security/legal consideration for the company
 ** level of investment
 ** sourcing that engage the company
 
-image::../../Assets/4.Practices/KIT Generic Autonomy Assesment 2020.2.png[Team Readiness for Autonomy]
+image::../../Assets/4.Practices/KIT%20Generic%20Autonomy%20Assesment 2020.2.png[Team Readiness for Autonomy]
 
 TIP: Together, the team’s functional & technical maturity and the level of architecture risk determine its level of readiness to self-manage architectural decisions on products it manages.
 
@@ -37,11 +37,21 @@ NOTE: ToDo: voir avec Nicolas comment mieux expliquer la partie droite du poster
 [[team-readiness-ritual]]
 == The team autonomy readiness assessment ritual
 
-Evaluation of teams autonomy readiness is done on a regular basis during this ritual animated and facilitated by the Product architect and the Fullstack architect for the product or line of product he/she is in charge of.
+Evaluation of teams autonomy readiness is done on a regular basis during this ritual animated and facilitated by the Product architect and the Fullstack architect for the product or line of product they have in charge of.
 
-image::../../Assets/3.Rituals/Continuous-architecture Generic Rituals - Readiness for Team Autonomy - 2020-2.png[Team Readiness for Autonomy]
+image::../../Assets/3.Rituals/Continuous-architecture%20Generic%20Rituals%20-%20Readiness%20for%20Team%20Autonomy%20-%202020-2.png[Team Readiness for Autonomy]
 
-NOTE: ToDo: décrire le fonctionnement du rituel.
+The participants are usually, the Delivery Manager, the Lead Architect, the EA Architect and optionaly techical leaders and team leaders of delivery squads.
+
+The main outcome of the meeting is obviously the assessement of teams formalized in the xref:team-readiness-poster[Team Autonomy readiness poster] but the dialogue between the parties is just as important. Possibly a specific organization and governance can be set up around architecture decisions for the related topic. And the ritual is also the oppotunity to update link:../../4.Practices/KIT%20Generic%20Progress%20Plan%202020.2.png[Continuous Architecture progress plans] and competences plans for delivery teams and architects as needed.
+
+For preparation, Product/Fullstack architects have to consider following inputs:
+
+* Products delivery roadmap for the next 12 to 18 months
+* Last link:../../4.Practices/KIT%20Generic%20Progress%20Plan%202020.2.png[Continuous Architecture progress plans] review 
+* Global architecture asssement of their product portfolio (level of obsolecence & IT Debt, alignement with architecture principles &blueprints, quality of sevice, quality of experience,...)
+
+NOTE: ToDo: Demander à Nicolas de relire et compléter ci-besoin.
 
 == Team autonomy readiness assessment outcome example
 
