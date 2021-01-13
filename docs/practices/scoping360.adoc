@@ -1,0 +1,42 @@
+= Scoping 360°
+
+NOTE: The Scoping 360 toolkit is a major evolution of the internal Michelin Value Driven Design / Design Event practice (descibe in the free book https://www.infoq.com/minibooks/agile-guts/[Agile with Guts - A pragmatic guide to value-driven development] developed around 2010. Evolution which is based-on and inspired by https://blog.octo.com/le-cadrage-360-preparez-vos-projets-de-delivery-agile/[OCTO 360° Agile Scoping methodology].
+
+The objective of the Scoping 360° toolkit is to best prepare an agile delivery team so that they can build the right product right and fast. It is practice describing activities to perform in order to align the delivery team on a vision, ready to develop a product integrated with its ecosystem, managing risks.  
+
+Concretely it's a set of collaborative meetings, tailored based on the context, usually organized at the boudaries of MVPs/release of your product.
+
+image::../../Assets/1.Landmarks%20Posters/Continuous%20Architecture%20Generic%20-%20From%20Idea%20to%20Retirement%20-%202020.2.png[Product lifecycle & Scoping 360°]
+
+== Scoping 360° guiding principles & goals
+
+* *Time boxed*: To quickly converge towards tradeoff. The duration (usually between 2 to 6 weeks) of the scoping depends on the adaptation to the  context, but as soon as we agreed on the planning, the end-date is fixed. 
+* *Unit of time, unit of place*: To encourage cooperation, all the people, business and IS/IT, who have to deal with one of the themes addressed in the scoping participate at the same time and in the same (virtual) place to the workshops that deals with the theme. The journey is as important as the scoping delivrables, so all participants must experience the same journey.
+* *Incremental & evolutive*: The goal is to be ready to start implementing the next release not all future releases of your product until the end of its life. As scoping 360° is an iterative approach, you will have opportunity to readjust when needed.
+* *See the whole*: don't ignore themes. [black yellow-background]#PENDING: To develop !!#
+* *Enjoy*: have fun and learn together.
+
+image:img/scoping360%20-%20all%20workshops.png[Scoping 360° timeline]
+
+360° means that the scoping covers all themes that the agile team will have to deal for the delivery of the product:
+
+* Product:  vision, value proposition, problems to solve, users research, storymap, roadmap,...
+* Delivery oragnization: role & repsonsabilities, risks, team's skills, team delivery standard,....
+* Technics: functional and technical architecture, devops, test strategy, development practices, ... 
+
+The differents workshops are based on a mix of Lean, Agile, User research (UX, Design Thinking,...), software engineering and continuous architecture technics in order to:  
+
+* understand the end-user problems to solve,  
+* build the product vision,  
+* figure the team organization,  
+* manage the risks
+* create the product framing,  
+* define the architecture (including operability),  
+* define the product design, 
+* plan your Minimum Viable Product.  
+ 
+image:img/scoping360%20-%20goals.png[Scoping 360° goals]
+
+== Architecture workshops in Scoping 360°
+
+NOTE: ToDo !!
