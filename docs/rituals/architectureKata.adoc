@@ -1,19 +1,53 @@
 = Can we help architects to practice?
+// Metadata:
+:description: Rituals
+:keywords: guide
+:main-title: Continuous Architecture Toolkit 
+// Settings:
 :icons: font
+:idprefix:
+:idseparator: -
+:preface-title: 
+:toc:
+:toc2:
+:toclevels: 3
+:numbered:
+:sectlinks:
+:sectanchors:
+:experimental:
+:stylesdir: ./css
+:scriptsdir: ./js
+// GitHub admonitions:
+ifdef::env-github[]
+:tip-caption: :bulb:
+:note-caption: pass:[&#8505;]
+:important-caption: :heavy_exclamation_mark:
+:caution-caption: :fire:
+:warning-caption: :warning:
+endif::[]
+
+// tag::all[]
+:imagesdir: img
+:section: rituals
+ifdef::rootpath[]
+:imagesdir: {rootpath}{section}/{imagesdir}
+endif::rootpath[]
+
 
 Unless you're practicing architecture every day, we often spend our time on very different activites as depicted on the below charts.
 
-image::../../img/architects_do.jpg[]
+image::architects_do.jpg[]
 (courtesy from https://www.innoq.com/en/staff/stefan-tilkov/[Stefan Tilkov]). 
 
 So if you find yourself in this situation, we have a ritual that was created to help you: it's the architecture kata and we want to give credits to https://archkatas.herokuapp.com[Ted Neward] who formalized it several years ago.
 
-== Why having a ritual to practice architecture?
+== Why having a ritual to practice architecture ?
 
 The two below quotes are self explanatory we believe:
 
-* "`How do we get great designers? Great designers design, of course.`" --Fred Brooks
-* "`So how are we supposed to get great architects, if they only get the chance to architect fewer than a half-dozen times in their career?`" --Ted Neward
+> "`How do we get great designers? Great designers design, of course.`" --Fred Brooks
+
+> "`So how are we supposed to get great architects, if they only get the chance to architect fewer than a half-dozen times in their career?`" --Ted Neward
 
 Naming this ritual kata is a direct analogy to the Japanese Kata word (形, 型) where it  literally means "form referring to a detailed choreographed pattern of martial arts movements made to be practised aloneor within groups and in unison when training. It is practised in Japanese martial arts as a way to memorize and perfect the movements being executed." -- Wikipedia 
 
@@ -41,4 +75,5 @@ icon:thumbs-down[2x] : You thought they missed a few things, enough to make you 
 
 The below visual recaps how an architecture kata is conducted:
 
-image::../../Assets/3.Rituals/Continuous-architecture Rituals Generic - Architecture Kata - 2020.2.png[]
+image::Continuous-architecture Rituals Generic - Architecture Kata - 2020.2.png[]
+// end::all[]

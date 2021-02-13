@@ -1,4 +1,38 @@
-= Team Readiness for Autonomy.
+= Team Readiness for Autonomy
+// Metadata:
+:description: Rituals
+:keywords: guide
+:main-title: Continuous Architecture Toolkit 
+// Settings:
+:icons: font
+:idprefix:
+:idseparator: -
+:preface-title: 
+:toc:
+:toc2:
+:toclevels: 3
+:numbered:
+:sectlinks:
+:sectanchors:
+:experimental:
+:stylesdir: ./css
+:scriptsdir: ./js
+// GitHub admonitions:
+ifdef::env-github[]
+:tip-caption: :bulb:
+:note-caption: pass:[&#8505;]
+:important-caption: :heavy_exclamation_mark:
+:caution-caption: :fire:
+:warning-caption: :warning:
+endif::[]
+
+// tag::all[]
+:imagesdir: img
+:section: rituals
+ifdef::rootpath[]
+:imagesdir: {rootpath}{section}/{imagesdir}
+endif::rootpath[]
+
 
 One of the key objective of Continuous Architecture operating model is to safely entrust product teams in taking architecture decisions to enable end-to-end ownership and continuous delivery. This means that we need to
  decentralize decision making around architecture while keeping the integrity of an information system which is usally compose of thousands of applications with a complex interweaving flows of data between them.
@@ -26,7 +60,7 @@ The level of readiness is defined delivery team by delivery team based on the as
 ** level of investment
 ** sourcing that engage the company
 
-image::../../Assets/4.Practices/KIT%20Generic%20Autonomy%20Assesment 2020.2.png[Team Readiness for Autonomy]
+image::KIT%20Generic%20Autonomy%20Assesment 2020.2.png[Team Readiness for Autonomy]
 
 TIP: Together, the team’s functional & technical maturity and the level of architecture risk determine its level of readiness to self-manage architectural decisions on products it manages.
 
@@ -39,11 +73,11 @@ NOTE: ToDo: voir avec Nicolas comment mieux expliquer la partie droite du poster
 
 Evaluation of teams autonomy readiness is done on a regular basis during this ritual animated and facilitated by the Product architect and the Fullstack architect for the product or line of product they have in charge of.
 
-image::../../Assets/3.Rituals/Continuous-architecture%20Generic%20Rituals%20-%20Readiness%20for%20Team%20Autonomy%20-%202020-2.png[Team Readiness for Autonomy]
+image::Continuous-architecture%20Generic%20Rituals%20-%20Readiness%20for%20Team%20Autonomy%20-%202020-2.png[Team Readiness for Autonomy]
 
 The participants are usually, the Delivery Manager, the Lead Architect, the EA Architect and optionaly techical leaders and team leaders of delivery squads.
 
-The main outcome of the meeting is obviously the assessement of teams formalized in the xref:team-readiness-poster[Team Autonomy readiness poster] but the dialogue between the parties is just as important. Possibly a specific organization and governance can be set up around architecture decisions for the related topic. And the ritual is also the oppotunity to update link:../../4.Practices/KIT%20Generic%20Progress%20Plan%202020.2.png[Continuous Architecture progress plans] and competences plans for delivery teams and architects as needed.
+The main outcome of the meeting is obviously the assessement of teams formalized in the xref:team-readiness-poster[Team Autonomy readiness poster] but the dialogue between the parties is just as important. Possibly a specific organization and governance can be set up around architecture decisions for the related topic. And the ritual is also the oppotunity to update link:../../4.Practices/KIT%20Generic%20Progress%20Plan%202020.2.png[Continuous Architecture progress plans] and competences plans f]r delivery teams and architects as needed.
 
 For preparation, Product/Fullstack architects have to consider following inputs:
 
@@ -56,3 +90,5 @@ NOTE: ToDo: Demander à Nicolas de relire et compléter ci-besoin.
 == Team autonomy readiness assessment outcome example
 
 NOTE: ToDo: mettre un example ici d'un assessment.
+
+// end:all[]
