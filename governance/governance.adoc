@@ -30,7 +30,7 @@ endif::[]
 The objective of this document is to describe the process of decision
 making and defines the social rules of interaction for our project.
 
-== Communication
+== Community
 
 If you'd like to speak to maintainers of this project, you can reach us
 through a bunch of different channels.
@@ -46,8 +46,7 @@ See link:contributing.adoc[Contributor guide] for more details.
 * *Contributors* are community members who contribute in concrete ways to the project. It could be anyone who identify requirements, report issue, add value to the project with a merged pull request, evangelising or help the community to grow. +
 See link:contributing.adoc[Contributor guide] for more details.
 * *Maintainers* are people responsible over the direction of the project and are committed to improving it in the long run. There are the only people in a project with commit access. 
-See link:maintainer-guide/readme.adoc[Maintainer guide] for more details. +
-Maintainers are listed link:../readme.adoc#MAINTAINERS[here].
+See link:maintainer-guide.adoc[Maintainer guide] for more details. 
 
 == Decision-Making process
 
