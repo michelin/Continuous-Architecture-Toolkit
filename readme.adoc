@@ -54,7 +54,8 @@ Check out our link:governance.adoc#governance[Governance] for information on how
 
 Continuous architecture materials are distributed under Apache License
 2.0 apart from some illustrations which are distributed under Ceative
-Common Attribution ShareAlike 4.0 International License. Please, refer to the licence file for further information.
+Common Attribution ShareAlike 4.0 International License. +
+Please, refer to the link:license.md[licence file] for further information.
 
 [[MAINTAINERS]]
 == Maintainers
