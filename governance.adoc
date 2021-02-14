@@ -47,8 +47,8 @@ See <<contributor.adoc,Contributor guide>> for more details.
 * *Contributors* are community members who contribute in concrete ways to the project. It could be anyone who identify requirements, report issue, add value to the project with a merged pull request, evangelising or help the community to grow. +
 See <<contributing.adoc,Contributor guide>> for more details.
 * *Maintainers* are people responsible over the direction of the project and are committed to improving it in the long run. There are the only people in a project with commit access. 
-See <<maintainer-guide/readme.adoc,Maintainer guide>> for more details. +
-Maintainers are listed <<maintainer-guide/readme.adoc#MAINTAINERS,here>>.
+See <<maintainer-guide/readme.adoc, Maintainer guide>> for more details. +
+Maintainers are listed <<../readme.adoc#MAINTAINERS,here>>.
 
 == Decision-Making process
 
@@ -74,7 +74,7 @@ http://www.apache.org/foundation/how-it-works.html#decision-making[lazy
 consensus] approval by maintainers, meaning at least one binding +1 vote
 and no vetos (-1) in order to be committed.
 
-=== Governance Committe
+=== Governance Committee
 
 For other matters that need consensus like:
 
