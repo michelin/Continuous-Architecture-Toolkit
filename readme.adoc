@@ -36,7 +36,7 @@ among architects, delivery and operation teams.
 
 == Gouvernance
 
-See <<governance.adoc#governance, Governance>>.
+See link:governance.adoc#governance[Governance].
 
 == Community
 
@@ -48,7 +48,7 @@ _Reference here the web-site and the lindkedin group._
 
 We aim to make contributing to Continuous Architecture Toolkit a pleasant and enriching experience for all participants, and we welcome contributions of all kinds. Anyone can contribute to the project, regardless of their skills.
 
-Check out our <<governance.adoc#governance, Governance>> for information on how to get involved.
+Check out our link:governance.adoc#governance[Governance] for information on how to get involved.
 
 == License
 

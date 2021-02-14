@@ -37,8 +37,7 @@ through a bunch of different channels.
 
 * *GitHub* On github.com, you can always notify the entire project team
 by using the @github/Continuous-Architecture-Toolkit handle.
-* *Slack* We're pretty active on #<creat a slack channel ?>.
-* other ?
+* *Slack* We're pretty active on slack.
 
 == Roles and Responsibilities
 
