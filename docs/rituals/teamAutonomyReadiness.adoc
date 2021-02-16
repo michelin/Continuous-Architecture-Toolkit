@@ -60,7 +60,7 @@ The level of readiness is defined delivery team by delivery team based on the as
 ** level of investment
 ** sourcing that engage the company
 
-image::KIT%20Generic%20Autonomy%20Assesment 2020.2.png[Team Readiness for Autonomy]
+image::KIT-Generic-Autonomy-Assesment-2020.2.png[Team Readiness for Autonomy]
 
 TIP: Together, the team’s functional & technical maturity and the level of architecture risk determine its level of readiness to self-manage architectural decisions on products it manages.
 
@@ -73,7 +73,7 @@ NOTE: ToDo: voir avec Nicolas comment mieux expliquer la partie droite du poster
 
 Evaluation of teams autonomy readiness is done on a regular basis during this ritual animated and facilitated by the Product architect and the Fullstack architect for the product or line of product they have in charge of.
 
-image::Continuous-architecture%20Generic%20Rituals%20-%20Readiness%20for%20Team%20Autonomy%20-%202020-2.png[Team Readiness for Autonomy]
+image::Continuous-architecture-Generic Rituals-Readiness-for-Team-Autonomy-2020-2.png[Team Readiness for Autonomy]
 
 The participants are usually, the Delivery Manager, the Lead Architect, the EA Architect and optionaly techical leaders and team leaders of delivery squads.
 
