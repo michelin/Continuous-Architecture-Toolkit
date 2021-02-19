@@ -3,6 +3,12 @@ name: Upload to S3
 on: [push]
 
 jobs:
+  cp-images:
+    runs-on: ubuntu-latest
+    steps:
+      - name: copy image files
+        run: find . -type f -name '*.png' -o -name '*.jpg' -exec cp {} /output/img \;
+        working-directory: .
   upload:
     runs-on: ubuntu-latest
     steps:
