@@ -9,6 +9,19 @@ jobs:
       - name: copy image files
         run: find . -type f -name '*.png' -o -name '*.jpg' -exec cp {} /output/img \;
         working-directory: .
+  adoc_build:
+    runs-on: ubuntu-latest
+    name: asciidoctor -D docs --backend=html5 -o index.html -a toc2 docs/index.adoc 
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+    - name: Get build container
+      id: adocbuild
+      uses: avattathil/asciidoctor-action@master
+      with:
+          program: "asciidoctor -D docs --backend=html5 -o index.html docs/index.adoc"
+    - name: Print execution time
+      run: echo "Time ${{ steps.adocbuild.outputs.time }}"
   upload:
     runs-on: ubuntu-latest
     steps:
