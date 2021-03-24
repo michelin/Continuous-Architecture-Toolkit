@@ -1,0 +1,46 @@
+
+== Abundance of architect roles
+
+For the last 10 years or so, different architect roles raised: enterprise architects, platform architects, infrastructure architects, integration architects, security architects, data architects ... Behind this trend there was the idea that you needed to be specialized in a given area and master it from top to bottom. There were two main consequences we noticed
+1. It's no surprise that this siloed approach ended up with many architec​​​​​​​ts trying to collaborate on a project. From a delivery team perspectives, a swarm of architects was melting on them. Each of them with a different perspective, skill set, objectives ... Many of the teams we interviewed told us it could have been a challenge to align everyone on a common vision. 
+2. We lost the perspective of the overall system. ​​​​​​​This very specialized approach dit not help to consider all the stacks on which products were built: from deep roots within infrastructure to highly functional layers. 
+3. Last but not least, architects were mostly staffed outside of teams in a transverse position making it difficult to be really involved within teams.
+
+With Continuous Architecture, we try to make the life of delivery teams easier and ensure a fullstack design. We ended up with 3 roles: Enterprise architect, Product architect and Fullstack architect. 
+
+[cols=3*]
+|===
+|Enterprise Architect
+|Product Architect
+|Fullstack Architect
+| image:./img/EA_role.png[Click to enlarge]
+| image:./img/PA_role.png[Click to enlarge]
+| image:./img/FA_role.png[Click to enlarge]
+|===
+
+== Why only describing three roles?
+
+First, let it be clear: by no means we are saying that all other architect roles do not exist anymore but they were not serving our purpose. Let's take several examples:
+
+* network architects: it's an interesting case as the network itself can be considered as a product (a big one though) and as such could have a product architect. But each team nowadays is building distributed systems and as such should consider network when designing its product. Network architects can be consulted in specific cases when it exceed the skill of the team.
+* integration or data architects: while they can be usefull to help teams on these tough topics, they are not staffed within the teams creating a dependency and preventing the teams to take over. 
+* security architects: no one can say security does not matter. So what's wrong with having security architects? it's the same problem than with integration architects: you can always rely on an external security architect to deal with security questions but we do prefer to have teams empowered on this matter and possibly relies on security architects when it goes beyond their knowledge or expertise.
+
+Do you see a pattern emerging? specialized architects are still usefull either to manage their own product (network, data centers, integration middlewares ...) or to help teams when they are reaching their knowledge & expertise domain. 
+
+While we accept these different architect roles still exists and are useful, we wanted to insist on three different horizons:
+
+* linking the business strategy & architecture with the Information System: that's the purpose of Enterprise architects.
+* designing products to meet end user expectations and fix their problems. The idea here was to focus on the value created by products and the usage from end users. It means a real proximity of the Product Architect with end users and the product owners
+* designing the product as a distributed systems. It's the purpose of the Fullstack architect and here we got our inspiration from the fullstack developer.
+
+== Staff the teams with appropriate skills
+
+Product delivery teams get asked to do a lot of different things, each of which require different skillsets. And as you understood it now, we're asking the team to perform architecture activities too. 
+
+Roles, job positions and persons are different things: 
+
+* A role is a set of activities that needs to be done in a team. 
+* A person can have one or more roles depending on the person's skill sets and appetence. We've seen several cases where both Product Architect and Fullstack Architect were fullfiled by the same person. 
+* It's perfectly acceptable to have some architecture activites performed by team members
+* Depending on the roles a person can take, it defines its job position.

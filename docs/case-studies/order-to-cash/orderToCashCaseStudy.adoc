@@ -12,7 +12,7 @@ After several years, we saw different issues rising with this approach especiall
 . It became a single point of failure. When the orchestrator was down, we had a direct impact on our deliveries to our customers 
 . It became a sort of monolith very difficult to maintain over time. We ended up having around 20 processes deployed in this BPM engine and we could not modify some of them without having to re-test everything for instance. 
 
-# Our journey
+## Our journey
 
 So, we decided to re-think our architecture around the concept of events and their choregraphy as we wanted to get rid of this orchestrator. And we'll explain how we did it. The approach we took, look at it as a recipe we tried but keep in mind we don't pretend to be a three star restaurant ;) 
 
