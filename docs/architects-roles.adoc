@@ -18,7 +18,7 @@ Our objectives are to:
 2. Develop system thinking (see the whole)
 3. Clarify roles and responsabilities between architects, subject matter experts or IT specialists and delivery teams
 
-We ended up with 3 roles: Enterprise architect, Product architect and Fullstack architect. 
+Sticking to the principle that architects should focus on system as a whole, cross-cutting concerns (breadth) while Designers / Experts / IT Specialist should focus on specialties (depth), we ended up with 3 roles: Enterprise architect, Product architect and Fullstack architect. 
 
 [cols=3*]
 |===
