@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+$text-color: #000;
+
+$grey-color-light: rgb(242, 242, 242);
+$grey-color-medium: rgb(215, 215, 215);
+$grey-color-dark: rgb(172, 172, 172);
+
+$base-font-size: 18px;
+
+$spacing-unit: 20px;
+
+
+@mixin media-query($device) {
+  @media screen and (max-width: $device) {
+    @content;
+  }
+}
+
+@mixin relative-font-size($ratio) {
+  font-size: $base-font-size * $ratio;
+}
+
+// Import partials.
+@import
+  "styles/base",
+  "styles/layout",
+  "styles/syntax-highlighting"
+;
