@@ -4,7 +4,7 @@ layout: home
 permalink: /
 hero:
   image:
-  baseline: "Operating Model to continuously modernize IT and embrace the digital future"
+  baseline: "For enterprises that leverage the architecture discipline to accelerate their journey toward a digital and agile operating model in a Volatile, Uncertain, Complex and Ambiguous (VUCA) world.  The Continuous Architecture Toolkit provides a set of Practices and Rituals that organized into a Framework help the actors of the enterprise create new digital offerings, deliver superior customer experience, improve and automate their operations and modernize IT."
   call_to_action:
     text:
     url:
