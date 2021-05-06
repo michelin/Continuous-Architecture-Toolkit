@@ -10,3 +10,7 @@ Defining a role is always difficult as each company can have its own role / job 
 * Product Architecture: Contribute to the architecture document describing among other thing the functional decisions, the applicative & data layer of your product. 
 * Promote Marketing Architecture: Support, explain, promote and communicate product evolutions and strategy. 
 * Skills and collaboration: Educate delivery teams in design and architecture consideration to develop their judgement and increase their autonomy.
+
+We propose the below visual to recap these different activities and the other roles with which a product architect will be connected.
+
+image:./img/ProductArchitect_Role.png[Product architect]

@@ -39,8 +39,6 @@ image:img/scoping360%20-%20goals.png[Scoping 360° goals]
 
 == Architecture workshops in Scoping 360°
 
-NOTE: ToDo !!
-
 To outline the architecture of a product, we have defined a sequence of workshops as represented in the below figure. As for the whole scoping approach, we tried to cover all aspects of the architecture in a 360° overview manner. Behind each workshop, the objective is to collectively and progressively define the architecture of your products but also to produce the minimal set of architecture deliverables. Because yes we do believe architecture documents have to be produced.
 
 image:img/scoping360%20-%20scoping%20architecture.png[Scoping 360° architecture]
