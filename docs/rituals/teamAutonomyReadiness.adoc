@@ -26,7 +26,6 @@ ifdef::env-github[]
 :warning-caption: :warning:
 endif::[]
 
-// tag::all[]
 :imagesdir: img
 :section: rituals
 ifdef::rootpath[]
@@ -91,4 +90,3 @@ NOTE: ToDo: Demander à Nicolas de relire et compléter ci-besoin.
 
 NOTE: ToDo: mettre un example ici d'un assessment.
 
-// end:all[]

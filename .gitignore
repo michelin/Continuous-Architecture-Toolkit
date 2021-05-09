@@ -4,3 +4,5 @@ _site
 website/.jekyll-cache
 **/.DS_Store
 Gemfile.lock
+asciidoc-output
+.envrc

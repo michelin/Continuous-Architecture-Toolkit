@@ -44,6 +44,14 @@ We aim to make contributing to Continuous Architecture Toolkit a pleasant and en
 
 Check out our link:governance/governance.adoc#governance[Governance] for information on how to get involved.
 
+=== Running Asciidoctor on your machine
+
+==== MacOS
+
+. Install Asciidoctor: `brew install asciidoctor`
+. Run the `build.sh` script in the `docs` directory
+. Open the generated HTML: `open index.html`
+
 == License
 
 Continuous architecture materials are distributed under Apache License

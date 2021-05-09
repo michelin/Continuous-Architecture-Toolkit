@@ -36,6 +36,6 @@ There is another big change we have to deal with: software engineering became co
 
 [[RITUALS]]
 == Rituals
-include::rituals/architectureKata.adoc[leveloffset=+1,tag=all]
+include::rituals/architectureKata.adoc[leveloffset=+1]
 
-include::rituals/teamAutonomyReadiness.adoc[leveloffset=+1,tag=all]
+include::rituals/teamAutonomyReadiness.adoc[leveloffset=+1]
