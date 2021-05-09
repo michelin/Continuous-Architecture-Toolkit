@@ -26,7 +26,6 @@ ifdef::env-github[]
 :warning-caption: :warning:
 endif::[]
 
-// tag::all[]
 :imagesdir: img
 :section: rituals
 ifdef::rootpath[]
@@ -76,4 +75,3 @@ icon:thumbs-down[2x] : You thought they missed a few things, enough to make you 
 The below visual recaps how an architecture kata is conducted:
 
 image::Continuous-architecture Rituals Generic - Architecture Kata - 2020.2.png[]
-// end::all[]
