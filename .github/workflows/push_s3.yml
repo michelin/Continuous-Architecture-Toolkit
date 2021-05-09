@@ -10,6 +10,7 @@ jobs:
         uses: actions/checkout@v2
       - name: copy image files
         run: |
+          mkdir -p ./asciidoc-output
           find docs -iname '*.jpg' -exec cp --parents {} ./asciidoc-output/ \;
           find docs -iname '*.png' -exec cp --parents {} ./asciidoc-output/ \;
           ls ./output/img
