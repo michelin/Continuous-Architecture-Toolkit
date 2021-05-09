@@ -13,7 +13,7 @@ jobs:
           mkdir -p ./asciidoc-output
           find docs -iname '*.jpg' -exec cp --parents {} ./asciidoc-output/ \;
           find docs -iname '*.png' -exec cp --parents {} ./asciidoc-output/ \;
-          ls ./output/img
+          ls ./asciidoc-output/
         working-directory: .
       - name: asciidoctor generation
         id: adocbuild
