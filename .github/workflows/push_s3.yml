@@ -20,10 +20,6 @@ jobs:
         uses: avattathil/asciidoctor-action@master
         with:
              program: "asciidoctor -R docs -D asciidoc-output **/*.adoc"
-      - name: copy image files
-        run: 
-          find output -iname '*.html'
-        working-directory: .
       - name: list generated files
         run: 
           find ./asciidoc-output
