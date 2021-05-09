@@ -4,6 +4,32 @@ layout: default
 
 <div class="home">
   
-  {{ page.hero.baseline }}
+  <div class="hero row justc-center alitems-center">
+    <div></div>
+    <div class="column">
+      {{ page.hero.baseline }}
+    </div>
+  </div>
+
+  <div class="features">
+    <div>
+      {{ page.features.top.title }}
+      {{ page.features.top.text | markdownify }}
+    </div>
+    <div>
+      <div>
+        {{ page.features.left.title }}
+        {{ page.features.left.text | markdownify }}
+      </div>
+      <div>
+        {% for feature in page.features.right %}
+          <div>
+            {{ feature.title }}
+            {{ feature.text | markdownify }}
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
 
 </div>

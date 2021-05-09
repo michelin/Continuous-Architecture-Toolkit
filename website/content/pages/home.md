@@ -10,16 +10,16 @@ hero:
     url:
 features:
   top:
-    - title: "Problem Discovery"
-      text: |-
-        *What problems is your company trying to solve?*. Question the way problems are framed. Look outside the frame and challenge the way the company formulates its objectives. Before you dig into analyzing the problems make sure you are starting from a well formulated set of Objectives and Key Results (OKRs).
-      icon:
+    title: "Problem Discovery"
+    text: |-
+      *What problems is your company trying to solve?*. Question the way problems are framed. Look outside the frame and challenge the way the company formulates its objectives. Before you dig into analyzing the problems make sure you are starting from a well formulated set of Objectives and Key Results (OKRs).
+    icon:
   left:
-    - title: "Framework"
-      text: |-
-        The environment we're living can be **V**olatile, **U**ncertain, **C**omplex or **A**mbiguous. In such context, the only thing we can do is to build a resilient, flexible and reactive open information systemso it can evolve whatever the changes look like.
-        "Yesterday’s architecture methodologies and processes will not deliver future solutions". We propose to change our operating model to maintain our system integrity @scale and make people autonomous and safe when they exercise initiative. The equation we're proposing is **ALIGNMENT + AUTONOMY > CONTROL**
-      icon:
+    title: "Framework"
+    text: |-
+      The environment we're living can be **V**olatile, **U**ncertain, **C**omplex or **A**mbiguous. In such context, the only thing we can do is to build a resilient, flexible and reactive open information systemso it can evolve whatever the changes look like.
+      "Yesterday’s architecture methodologies and processes will not deliver future solutions". We propose to change our operating model to maintain our system integrity @scale and make people autonomous and safe when they exercise initiative. The equation we're proposing is **ALIGNMENT + AUTONOMY > CONTROL**
+    icon:
   right:
     - title: "Roles"
       text: |-
