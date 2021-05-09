@@ -26,7 +26,7 @@ jobs:
         working-directory: .
       - name: list generated files
         run: 
-          find ./output
+          find ./asciidoc-output
         working-directory: .
       - name: copy to s3
         uses: shallwefootball/s3-upload-action@master
