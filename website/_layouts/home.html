@@ -4,30 +4,85 @@ layout: default
 
 <div class="home">
   
-  <div class="hero row justc-center alitems-center">
-    <div></div>
-    <div class="column">
-      {{ page.hero.baseline }}
+  <div class="hero row justc-center alitems-stretch">
+    <div class="content-wrapper row justc-center alitems-center pd-xl">
+      <div class="hero-image-wrapper row justc-center alitems-center mgr-l">
+        <div class="hero-image">
+          <img src="{{page.hero.image}}" alt="">
+        </div>
+      </div>
+      <div class="hero-text mgl-l column">
+        <h1 class="xlarge-font black mgb-s">{{ page.hero.title }}</h1>
+        <div class="light mgb-m">{{ page.hero.baseline | markdownify }}</div>
+        <a class="button white aliself-start" href="{{ page.hero.call_to_action.url }}">{{ page.hero.call_to_action.text }}</a>
+      </div>
+    </div>  
+  </div>
+
+  <div class="features row justc-center">
+    <div class="content-wrapper mg-vertical-xl pd-vertical-l column alitems-stretch">
+      <div class="feature-card row alitems-center mgb-s">
+        <div class="feature-icon mgr-m l-mgr-s">
+          <img src="{{ page.features.top.icon }}" alt="icon">
+        </div>
+        <div class="flex-1">
+          <h2 class="large-font bold mgb-xs">{{ page.features.top.title }}</h2>
+          <div class="grey-text">{{ page.features.top.text | markdownify }}</div>
+          <a class="feature-link mgt-xs" href="{{ page.feature.top.url }}">Learn more →</a>
+        </div>
+      </div>
+      <div class="row alitems-stretch">
+        <div class="cards-wrapper row alitems-stretch">
+          <div class="feature-card column justc-center alitems-start mgr-s">
+            <div class="feature-icon mgb-s">
+              <img src="{{ page.features.left.icon }}" alt="icon">
+            </div>
+            <div>
+              <h2 class="large-font bold mgb-xs">{{ page.features.left.title }}</h2>
+              <div class="grey-text">{{ page.features.left.text | markdownify }}</div>
+              <a class="feature-link mgt-xs" href="{{ page.feature.left.url }}">Learn more →</a>  
+            </div>
+          </div>
+        </div>
+        <div class="cards-wrapper">
+          {% for feature in page.features.right %}
+            <div class="feature-card row alitems-center {% if forloop.last == false %} mgb-s {% endif %} ">
+              <div class="feature-icon mgr-m l-mgr-s">
+                <img src="{{ feature.icon }}" alt="icon">
+              </div>
+              <div class="flex-1">
+                <h2 class="large-font bold mgb-xs">{{ feature.title }}</h2>
+                <div class="grey-text">{{ feature.text | markdownify }}</div>
+                <a class="feature-link mgt-xs" href="{{ feature.url }}">Learn more →</a>
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
     </div>
   </div>
 
-  <div class="features">
-    <div>
-      {{ page.features.top.title }}
-      {{ page.features.top.text | markdownify }}
-    </div>
-    <div>
-      <div>
-        {{ page.features.left.title }}
-        {{ page.features.left.text | markdownify }}
-      </div>
-      <div>
-        {% for feature in page.features.right %}
-          <div>
-            {{ feature.title }}
-            {{ feature.text | markdownify }}
-          </div>
-        {% endfor %}
+
+  <div class="case-studies row justc-center ">
+    <div class="content-wrapper mg-vertical-xl pdt-s pdb-l column justc-center">
+      <h3 class="cs-title xlarge-font bold mgb-m">Case Studies</h3>
+      <div class="row aliself-stretch">
+        <div class="case-studies-list pdb-m">
+          {% for case_study in page.case_studies %}
+            <div class="cs-list-entry mgb-s" index="{{forloop.index}}" id="list{{forloop.index}}">
+              <h6 class="black">{{case_study.company}}</h6>
+              <div class="light">{{case_study.title}}</div>
+            </div>
+          {% endfor %}
+        </div>
+        <div class="case-studies-content flex-1 aliself-stretch row alitems-stretch">
+          {% for case_study in page.case_studies %}
+            <div class="cs-content-entry" id="content{{forloop.index}}">
+              <h6 class="large-font mgb-s bold">{{case_study.detailed_title}}</h6>
+              {{case_study.content | markdownify }}
+            </div>
+          {% endfor %}
+        </div>
       </div>
     </div>
   </div>

@@ -7,11 +7,19 @@ p, blockquote, pre, hr,
 dl, dd, ol, ul, figure {
   margin: 0;
   padding: 0;
+
+}
+
+html {
+  font-size: $base-font-size;
 }
 
 body {
   color: $text-color;
-  font-size: $base-font-size;
+  font-family: $base-font;
+  font-size: 1rem; // fallback when clamp() fn not supported 
+  font-size: unquote("clamp(1rem, 1.5vw, 22px)");
+  font-weight: 400;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
      -moz-font-feature-settings: "kern" 1;
@@ -20,8 +28,43 @@ body {
   font-kerning: normal;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400;
+  font-size: unquote("clamp(1rem, 1.5vw, 22px)");
+}
+
+.xlarge-font {
+  font-size: 2rem; // fallback when clamp() fn not supported 
+  font-size: clamp(2rem, 3vw, 54px);
+}
+.large-font {
+  font-size: 1.4rem; // fallback when clamp() fn not supported 
+  font-size: clamp(1.4rem, 2.25vw, 32px);
+}
+.small-font {
+  font-size: 0.8rem; // fallback when clamp() fn not supported 
+  font-size: clamp(0.8rem, 1.2vw, 18px);
+}
+
+.black {
+  font-weight: 700;
+}
+
+.bold, strong {
+  font-weight: 500;
+}
+
+.light {
+  font-weight: 200;
+}
+
+.grey-text {
+  color: $text-grey;
+}
+
 ul, ol {
-  margin-left: $spacing-unit;
+  margin-left: 0;
+  padding-left: $spacing-unit;
 }
 
 li {
@@ -31,20 +74,18 @@ li {
   }
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-weight: bold;
-}
+
 
 a {
   text-decoration: underline;
-  color: $text-color;
+  color: inherit;
 
   &:visited {
-    color: $text-color;
+    // color: inherit;
   }
 
   &:hover {
-    color: $text-color;
+    // color: inherit;
     opacity: 0.75;
   }
 }
@@ -52,7 +93,6 @@ a {
 blockquote {
   border-left: 4px solid $grey-color-light;
   padding-left: $spacing-unit / 2;
-  @include relative-font-size(1.125);
   letter-spacing: -1px;
   font-style: italic;
 
@@ -63,7 +103,6 @@ blockquote {
 
 pre,
 code {
-  @include relative-font-size(0.9375);
   border: 1px solid $grey-color-light;
   border-radius: 3px;
   background-color: #eef;
@@ -81,5 +120,107 @@ pre {
     border: 0;
     padding-right: 0;
     padding-left: 0;
+  }
+}
+
+
+.content-wrapper {
+  width: 100%;
+  max-width: 1500px;
+  padding: 0 $spacing-unit*2;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 90px;
+  padding-top: $spacing-unit;
+  z-index: 10;
+  background-color: transparent;
+  transform: translateY(0);
+  transition: background-color 0.3s, transform 0.3s;
+
+  .logo {
+    display: inline-flex;
+    height: 40px;
+    position: relative;
+
+    img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+    }
+  }
+
+  .links a {
+    text-decoration: none;
+    display: inline-flex;
+    border-radius: 4px;
+    padding: 0 4px;
+    color: $white;
+    transition: color 0.2s, background-color 0.2s;
+
+    &:hover {
+      color: $accent-color;
+      opacity: 1;
+      background-color: $white;
+    }
+  }
+
+  .logo-light {
+    opacity: 1;
+    transition: opacity 0.3s;
+  }
+
+  .logo-dark {
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+
+  &.scrolled {
+    background-color: $white;
+    box-shadow: $base-shadow;
+    transform: translateY(-20px);
+
+    .logo-light {
+      opacity: 0;
+    }
+    .logo-dark {
+      opacity: 1;
+    }
+
+    .links a {
+      color: $text-color;
+  
+      &:hover {
+        color: $accent-color;
+      }
+    }
+  }
+}
+
+
+.button {
+  display: inline-flex;
+  padding: $spacing-unit*0.75 $spacing-unit;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  font-size: clamp(1.1rem, 1.5vw, 24px);
+  text-decoration: none;
+  font-weight: bold;
+
+  &.white {
+    background-color: $white;
+    color: $accent-color;
+
+    &:hover {
+      background-color: $accent-color;
+      color: $white;
+      opacity: 1;
+      transform: scale(1.02);
+    }
   }
 }

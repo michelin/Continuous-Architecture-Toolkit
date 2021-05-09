@@ -1,0 +1,148 @@
+.hero {
+  width: 100%;
+  height: 90vh;
+  background: $gradient-dark;
+  color: $white;
+}
+
+.hero-image-wrapper {
+  width: 40%;
+  position: relative;
+
+  .hero-image {
+    overflow: hidden;
+    border-radius: 30px;
+  }
+
+  img {
+    width: 100%;
+    display: block;
+    position: relative;
+    z-index: 1;
+  }
+
+  &:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 40%;
+    height: 40%;
+    background-color: $navy-light;
+    bottom: -40px;
+    left: -40px;
+    border-radius: 30px;
+    border-bottom-left-radius: 0;
+  }
+
+  &:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 60%;
+    height: 60%;
+    background-color: $navy-dark;
+    top: -40px;
+    right: -40px;
+    border-radius: 30px;
+    border-top-right-radius: 0;
+  }
+}
+
+.hero-text {
+  width: 50%;
+}
+
+.features {
+  background-color: $grey-color-light;
+
+  .content-wrapper {
+    width: 90%;
+
+    @include media-query($laptop) {
+      width: 100%;
+    }
+  }
+}
+
+.cards-wrapper {
+  width: 50%;
+}
+
+.feature-card {
+  background-color: $white;
+  border-radius: 30px;
+  box-shadow: $base-shadow;
+  padding: $spacing-unit*1.5 $spacing-unit*2;
+
+  @include media-query($laptop) {
+    padding: $spacing-unit $spacing-unit;
+  }
+}
+
+.feature-icon {
+  width: 80px;
+
+  @include media-query($laptop) {
+    width: 60px;
+  }
+
+  img {
+    display: block;
+    width: 100%;
+  }
+}
+
+.feature-link {
+  color: $accent-color;
+  font-weight: 500;
+  text-decoration: none;
+  display: inline-flex;
+}
+
+
+.case-studies {
+  background: $gradient-dark;
+}
+
+.cs-title {
+  color: $white;
+  text-align: center;
+}
+
+.case-studies-list {
+  width: 30%;
+
+}
+
+.cs-list-entry {
+  background-color: $navy-light;
+  border-radius: 20px;
+  padding: $spacing-unit*1.5 $spacing-unit*2;
+  color: $white;
+  margin-right: $spacing-unit;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $navy-dark;
+  }
+
+  &.active {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-right: solid 12px $accent-color;
+    margin-right: 0;
+  }
+}
+
+.cs-content-entry {
+  width: 100%;
+  display: none;
+  background-color: $white;
+  border-radius: 30px;
+  border-top-left-radius: 0;
+  padding: $spacing-unit*2 $spacing-unit*3;
+
+  &.visible {
+    display: block;
+  }
+}

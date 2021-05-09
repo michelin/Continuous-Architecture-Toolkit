@@ -1,15 +1,33 @@
 @charset "utf-8";
+@import "fonts";
 
-$text-color: #000;
+$white: #fff;
 
-$grey-color-light: rgb(242, 242, 242);
-$grey-color-medium: rgb(215, 215, 215);
-$grey-color-dark: rgb(172, 172, 172);
+$text-color: #0B1D37;
+$text-grey: #69707d;
+$accent-color: #357BFF;
 
-$base-font-size: 18px;
+$navy-dark: #0A0C18;
+$navy-medium: #0F1A28;
+$navy-light: #142A45;
+
+$gradient-dark: linear-gradient(45deg, $navy-medium 0%, $navy-medium 30%, $navy-light 100%);
+
+$grey-color-light: #F4F5F9;
+$grey-color-medium: #E4E6E9;
+$grey-color-dark: #d2d4d8;
+
+$base-font: "clear-sans", Sans-Serif;
+
+$base-shadow: 0px 0px 20px rgba(10, 14, 28, 0.15);
+// target font sizes : 14, 18, 26, 42. Handled fluidly in base.scss
+$base-font-size: 16px;
 
 $spacing-unit: 20px;
 
+$mobile: 680px;
+$tablet: 960px;
+$laptop: 1200px;
 
 @mixin media-query($device) {
   @media screen and (max-width: $device) {
@@ -17,13 +35,10 @@ $spacing-unit: 20px;
   }
 }
 
-@mixin relative-font-size($ratio) {
-  font-size: $base-font-size * $ratio;
-}
-
 // Import partials.
 @import
   "styles/base",
   "styles/layout",
-  "styles/syntax-highlighting"
+  "styles/syntax-highlighting",
+  "styles/home-page"
 ;

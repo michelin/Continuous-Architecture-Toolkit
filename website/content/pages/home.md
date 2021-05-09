@@ -3,8 +3,11 @@
 layout: home
 permalink: /
 hero:
-  image:
-  baseline: "For enterprises that leverage the architecture discipline to accelerate their journey toward a digital and agile operating model in a Volatile, Uncertain, Complex and Ambiguous (VUCA) world.  The Continuous Architecture Toolkit provides a set of Practices and Rituals that organized into a Framework help the actors of the enterprise create new digital offerings, deliver superior customer experience, improve and automate their operations and modernize IT."
+  image: assets/imgs/hero-cover.jpg
+  title: Continuous Architecture
+  baseline: |-
+    For enterprises that leverage the architecture discipline to accelerate their journey toward a digital and agile operating model in a Volatile, Uncertain, Complex and Ambiguous (VUCA) world.  
+    The Continuous Architecture Toolkit provides a set of Practices and Rituals that organized into a Framework help the actors of the enterprise create new digital offerings, deliver superior customer experience, improve and automate their operations and modernize IT.
   call_to_action:
     text: Start your journey 
     url:
@@ -13,26 +16,31 @@ features:
     title: "Problem Discovery"
     text: |-
       *What problems is your company trying to solve?*. Question the way problems are framed. Look outside the frame and challenge the way the company formulates its objectives. Before you dig into analyzing the problems make sure you are starting from a well formulated set of Objectives and Key Results (OKRs).
-    icon:
+    icon: assets/imgs/magnifier-icon.svg
+    url:
   left:
     title: "Framework"
     text: |-
       The environment we're living can be **V**olatile, **U**ncertain, **C**omplex or **A**mbiguous. In such context, the only thing we can do is to build a resilient, flexible and reactive open information systemso it can evolve whatever the changes look like.
       "Yesterday’s architecture methodologies and processes will not deliver future solutions". We propose to change our operating model to maintain our system integrity @scale and make people autonomous and safe when they exercise initiative. The equation we're proposing is **ALIGNMENT + AUTONOMY > CONTROL**
-    icon:
+    icon: assets/imgs/framework-icon.svg
+    url:
   right:
     - title: "Roles"
       text: |-
         What are the *roles* we propose in the Continuous Architecture operating model.
-      icon:
+      icon: assets/imgs/roles-icon.svg
+      url:
     - title: "Practices"
       text: |-
         Here is the *toolbox* we have created to help teams realizing their architecture activities. A set of tools and kits that can be used.
-      icon:
+      icon: assets/imgs/practices-icon.svg
+      url:
     - title: "Rituals"
       text: |-
         Architecting is not only about tools, kits and practices. Equally important is the time we spend together working on the architecture around some key *rituals*. The objective is to foster collaboration in teams on architecture activities.
-      icon:
+      icon: assets/imgs/rituals-icon.svg
+      url:
 testimonials:
   - name:
     position:
