@@ -1,9 +1,10 @@
-name: Build Asciidoc then Upload to S3
+name: Build Contents with Asciidoctor then Upload to S3
 
 on:
-  push:
-    paths:
-    - 'docs/**'
+  - push:
+      paths:
+      - 'docs/**'
+  - workflow_dispatch
 
 jobs:
   asciidoc-build:
@@ -40,7 +41,7 @@ jobs:
           aws_bucket: ${{ secrets.AWS_BUCKET }}
           source_dir: 'dist/docs'
           destination_dir: 'docs'
-      - name: invalidate Cloudfront distribution
+      - name: Invalidate Cloudfront distribution
         uses: chetan/invalidate-cloudfront-action@master
         env:
           DISTRIBUTION: ${{ secrets.CLOUDFRONT_DISTRIBUTION }}

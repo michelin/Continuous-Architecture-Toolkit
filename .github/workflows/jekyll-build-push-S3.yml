@@ -1,9 +1,10 @@
-name: Build Jekyll then Upload to S3
+name: Build Landing Page with Jekyll then Upload to S3
 
 on:
-  push:
-    paths:
-    - 'landing/**'
+  - push:
+      paths:
+      - 'landing/**'
+  - workflow_dispatch
 
 jobs:
   jekyll-build:
@@ -33,7 +34,7 @@ jobs:
           aws_bucket: ${{ secrets.AWS_BUCKET }}
           source_dir: 'dist'
           destination_dir: ''
-      - name: invalidate Cloudfront distribution
+      - name: Invalidate Cloudfront distribution
         uses: chetan/invalidate-cloudfront-action@master
         env:
           DISTRIBUTION: ${{ secrets.CLOUDFRONT_DISTRIBUTION }}
