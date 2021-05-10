@@ -47,7 +47,7 @@ jobs:
         uses: helaili/jekyll-action@v2
         with:
           target_path: dist 
-          build_onlu: true
+          build_only: true
           jekyll_src: landing
       - name: List generated files
         run: 
