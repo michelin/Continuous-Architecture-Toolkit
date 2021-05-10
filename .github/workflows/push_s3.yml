@@ -16,12 +16,12 @@ jobs:
           ls ./dist/docs/
         working-directory: .
       - name: Asciidoctor HTML build 
-        id: adocbuild
+        id: asciidoc-html-build
         uses: avattathil/asciidoctor-action@master
         with:
              program: "asciidoctor -D dist/docs docs/index.adoc"
       - name: Asciidoctor PDF build 
-        id: adocbuild
+        id: asciidoc-pdf-build
         uses: avattathil/asciidoctor-action@master
         with:
              program: "asciidoctor-pdf --out-file dist/docs/continuous-architecture.pdf docs/index.adoc"
@@ -43,7 +43,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
       - name: Jekyll build
-        id: jekyllbuild
+        id: jekyll-build
         uses: helaili/jekyll-action@v2
         with:
           target_path: dist 
