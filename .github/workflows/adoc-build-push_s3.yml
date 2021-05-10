@@ -2,8 +2,8 @@ name: Build Contents with Asciidoctor then Upload to S3
 
 on:
   push:
-      paths:
-      - 'docs/**'
+    paths:
+    - 'docs/**'
   workflow_dispatch:
 
 jobs:
