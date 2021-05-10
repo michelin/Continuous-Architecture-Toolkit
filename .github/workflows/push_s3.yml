@@ -1,4 +1,4 @@
-name: Upload to S3
+name: Build Asciidoc, Jekyll then Upload to S3
 
 on: [push]
 
@@ -10,19 +10,24 @@ jobs:
         uses: actions/checkout@v2
       - name: copy image files
         run: |
-          mkdir -p ./asciidoc-output
-          find docs -iname '*.jpg' -exec cp --parents {} ./asciidoc-output/ \;
-          find docs -iname '*.png' -exec cp --parents {} ./asciidoc-output/ \;
-          ls ./asciidoc-output/
+          mkdir -p ./dist/docs
+          find docs -iname '*.jpg' -exec cp --parents {} ./dist/docs/ \;
+          find docs -iname '*.png' -exec cp --parents {} ./dist/docs/ \;
+          ls ./dist/docs/
         working-directory: .
-      - name: Asciidoctor generation
+      - name: Asciidoctor HTML build 
         id: adocbuild
         uses: avattathil/asciidoctor-action@master
         with:
-             program: "asciidoctor -R docs -D asciidoc-output **/*.adoc"
+             program: "asciidoctor -D dist/docs docs/index.adoc"
+      - name: Asciidoctor PDF build 
+        id: adocbuild
+        uses: avattathil/asciidoctor-action@master
+        with:
+             program: "asciidoctor-pdf --out-file dist/docs/continuous-architecture.pdf docs/index.adoc"
       - name: List generated files
         run: 
-          find ./asciidoc-output
+          find ./dist/docs
         working-directory: .
       - name: Copy to S3
         uses: shallwefootball/s3-upload-action@master
@@ -30,5 +35,29 @@ jobs:
           aws_key_id: ${{ secrets.AWS_KEY_ID }}
           aws_secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws_bucket: ${{ secrets.AWS_BUCKET }}
-          source_dir: 'asciidoc-output'
+          source_dir: 'dist/docs'
           destination_dir: 'docs'
+  jekyll-build:
+    run-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Jekyll build
+        id: jekyllbuild
+        uses: helaili/jekyll-action@v2
+        with:
+          target_path: dist 
+          jekyll_src: landing
+      - name: List generated files
+        run: 
+          find ./dist
+        working-directory: .
+      - name: Copy to S3
+        uses: shallwefootball/s3-upload-action@master
+        with:
+          aws_key_id: ${{ secrets.AWS_KEY_ID }}
+          aws_secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws_bucket: ${{ secrets.AWS_BUCKET }}
+          source_dir: 'dist'
+          destination_dir: ''
+
