@@ -49,7 +49,7 @@ jobs:
         id: jekyll-build
         uses: helaili/jekyll-action@v2
         with:
-          target_path: dist 
+          jekyll_build_options: --destination dist
           build_only: true
           jekyll_src: landing
       - name: List generated files
