@@ -11,8 +11,8 @@ jobs:
       - name: copy image files
         run: |
           mkdir -p ./dist/docs
-          find docs -iname '*.jpg' -exec cp --parents {} ./dist/docs/ \;
-          find docs -iname '*.png' -exec cp --parents {} ./dist/docs/ \;
+          find docs -iname '*.jpg' -exec cp --parents {} ./dist/ \;
+          find docs -iname '*.png' -exec cp --parents {} ./dist/ \;
           ls ./dist/docs/
         working-directory: .
       - name: Asciidoctor HTML build 
@@ -42,6 +42,9 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
+      - name: Create dist directory
+        run:
+          mkdir -p ./dist
       - name: Jekyll build
         id: jekyll-build
         uses: helaili/jekyll-action@v2
