@@ -1,10 +1,10 @@
 name: Build Contents with Asciidoctor then Upload to S3
 
 on:
-  - push:
+  push:
       paths:
       - 'docs/**'
-  - workflow_dispatch
+  workflow_dispatch
 
 jobs:
   asciidoc-build:

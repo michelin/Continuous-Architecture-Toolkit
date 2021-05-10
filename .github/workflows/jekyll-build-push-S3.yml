@@ -1,10 +1,10 @@
 name: Build Landing Page with Jekyll then Upload to S3
 
 on:
-  - push:
-      paths:
-      - 'landing/**'
-  - workflow_dispatch
+  push:
+    paths:
+    - 'landing/**'
+  workflow_dispatch
 
 jobs:
   jekyll-build:
