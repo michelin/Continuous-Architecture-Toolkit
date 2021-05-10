@@ -38,7 +38,7 @@ jobs:
           source_dir: 'dist/docs'
           destination_dir: 'docs'
   jekyll-build:
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
