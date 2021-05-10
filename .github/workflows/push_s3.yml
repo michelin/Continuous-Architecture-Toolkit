@@ -3,7 +3,7 @@ name: Upload to S3
 on: [push]
 
 jobs:
-  cp-images:
+  asciidoc-build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
@@ -15,16 +15,16 @@ jobs:
           find docs -iname '*.png' -exec cp --parents {} ./asciidoc-output/ \;
           ls ./asciidoc-output/
         working-directory: .
-      - name: asciidoctor generation
+      - name: Asciidoctor generation
         id: adocbuild
         uses: avattathil/asciidoctor-action@master
         with:
              program: "asciidoctor -R docs -D asciidoc-output **/*.adoc"
-      - name: list generated files
+      - name: List generated files
         run: 
           find ./asciidoc-output
         working-directory: .
-      - name: copy to s3
+      - name: Copy to S3
         uses: shallwefootball/s3-upload-action@master
         with:
           aws_key_id: ${{ secrets.AWS_KEY_ID }}

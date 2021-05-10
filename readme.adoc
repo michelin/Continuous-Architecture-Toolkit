@@ -44,13 +44,19 @@ We aim to make contributing to Continuous Architecture Toolkit a pleasant and en
 
 Check out our link:governance/governance.adoc#governance[Governance] for information on how to get involved.
 
-=== Running Asciidoctor on your machine
+=== Building the Continuous Architecture website on your machine
+
+==== Asciidoctor and Jekyll
+
+The https://continuous-architecture.org[Continuous Architecture landing page] is built with https://jekyllrb.com[Jekyll], the content with https://asciidoctor.org[Asciidoctor].
+The website building is done with Docker image of Jekyll and Asciidoctor to avoid any specific environment trouble.
+The website whoe static HTML files is rendered in the `dist` directory.
 
 ==== MacOS
 
-. Install Asciidoctor: `brew install asciidoctor`
-. Run the `build.sh` script in the `docs` directory
-. Open the generated HTML: `open index.html`
+. https://docs.docker.com/docker-for-mac/install/[Install Docker Desktop]
+. Run the `build.sh` script at the directory root
+. Open the generated HTML: `open dist/index.html`
 
 == License
 
