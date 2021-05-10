@@ -4,7 +4,7 @@ on:
   push:
     paths:
     - 'landing/**'
-  workflow_dispatch
+  workflow_dispatch:
 
 jobs:
   jekyll-build:
