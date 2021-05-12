@@ -30,7 +30,7 @@ features:
       text: |-
         What are the *roles* we propose in the Continuous Architecture operating model.
       icon: assets/imgs/roles-icon.svg
-      url:
+      url: 
     - title: "Practices"
       text: |-
         Here is the *toolbox* we have created to help teams realizing their architecture activities. A set of tools and kits that can be used.
@@ -41,19 +41,6 @@ features:
         Architecting is not only about tools, kits and practices. Equally important is the time we spend together working on the architecture around some key *rituals*. The objective is to foster collaboration in teams on architecture activities.
       icon: assets/imgs/rituals-icon.svg
       url:
-testimonials:
-  - name:
-    position:
-    company:
-    image:
-  - name:
-    position:
-    company:
-    image:
-  - name:
-    position:
-    company:
-    image:
 case_studies:
   - company: Michelin
     title: Order to cash domain
@@ -74,6 +61,23 @@ case_studies:
     detailed_title: x
     content: |-
       x
+references:
+  - name: Continuous Architecture
+    position: left
+    image: assets/imgs/references/ca-book-cover.jpg
+    content: |-
+      When we decided to start this Continuous Architecture journey, we discovered that the term have been already coined by Murat Erder and Pierre Pureur. Back in 2015, they published their fist book  https://www.amazon.fr/Continuous-Architecture-Sustainable-Agile-Cloud-Centric/dp/0128032847 [Continuous Architecture: Sustainable Architecture in an Agile and Cloud-Centric World] and they are working on a second one https://continuousarchitecture.com [Continuous Architecture in Practice]. We can say that Murat and Pierre through their work were a source of inspiration for us. We got in touch with them to make sure it was ok to reuse the Continuous Architecture term and they agreed. We're very grateful to them and the least we could do is to reference their work. If you have a chance to have a look at it, you'll see that we share many things: spirit, ideas, philiosophy & experiences. 
+  - name: Open Agile Architecture
+    position: middle
+    image: assets/imgs/references/open-group-aaf.jpg
+    content: |-
+      Several Continuous Architecture's maintainers contributed to the development of the Open Agile Architecture(TM) Standard. Though the Continuous Architecture Toolkit and Framework was developed independently, we believe the two bodies of knowledge share many common principles and are therefore consistent and complementary.
+  - name: SAFe and Scaled Agile Framework
+    position: right
+    image:
+    content: |-
+      Continuous Architecture toolkit leverages the architectural runway, a practice coming from the https://www.scaledagileframework.com/[SAFe and Scaled Agile Framework] ^(R)^ 
+      SAFe and Scaled Agile Framework are registered trademarks of Scaled Agile, Inc.
 value_proposition:
   title:
   text: |-
