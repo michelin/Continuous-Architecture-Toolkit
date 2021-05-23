@@ -100,6 +100,73 @@
 }
 
 
+.references {
+
+  .ref-item {
+    width: 70%;
+
+    .ref-image {
+      width: 180px;
+      height: auto;
+      border-radius: 22px;
+      overflow: hidden;
+      margin-top: 6px;
+
+      img {
+        display: block;
+        width: 100%;
+      }
+    }
+
+    .ref-text {
+      background-color: $grey-color-light;
+    }
+
+    &:nth-child(odd) {
+      align-self: flex-start;
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+
+      .ref-content {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .ref-image {
+        margin-right: $spacing-unit;
+      }
+
+      .ref-text {
+        border-radius: 0 30px 30px 30px;
+      }
+    }
+
+    &:nth-child(even) {
+      align-self: flex-end;
+      display: flex;
+      flex-direction: row-reverse;
+      align-items: flex-start;
+
+      .ref-content {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+      }
+
+      .ref-image {
+        margin-left: $spacing-unit;
+      }
+
+      .ref-text {
+        border-radius: 30px 0 30px 30px;
+      }
+    }
+  }
+}
+
+
 .case-studies {
   background: $gradient-dark;
 }
@@ -111,7 +178,6 @@
 
 .case-studies-list {
   width: 30%;
-
 }
 
 .cs-list-entry {
@@ -131,6 +197,17 @@
     border-bottom-right-radius: 0;
     border-right: solid 12px $accent-color;
     margin-right: 0;
+  }
+}
+
+.case-study-logo {
+  width: 60px;
+  height: 60px;
+  border-radius: 60px;
+  overflow: hidden;
+  
+  img {
+    width: 100%;
   }
 }
 

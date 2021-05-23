@@ -43,6 +43,7 @@ features:
       url:
 case_studies:
   - company: Michelin
+    logo: assets/imgs/logo-michelin.jpg
     title: Order to cash domain
     detailed_title: How we leverage Continuous Architecture and Domain Driven Design approaches to switch to an Event Driven Architecture
     content: |-
@@ -50,6 +51,7 @@ case_studies:
       As soon as you have several systems contributing, you need a central component to ensure the overall execution and in our case it was a central orchestrator through Business Process Management tool. After several years, we saw different issues rising with this approach especially around the orchestrator.
       So, we decided to re-think our architecture around the concept of events and their choregraphy as we wanted to get rid of this orchestrator. And we'll explain how we did it. The approach we took, look at it as a recipe we tried but keep in mind we don't pretend to be a three star restaurant ;) 
   - company: Michelin
+    logo: assets/imgs/logo-michelin.jpg
     title: Re-architecting our curing solution
     detailed_title: How Continuous Architecture helped us to re-architect monolith legacies on our plants with an Event driven micro-services solution
     content: |-
@@ -57,26 +59,24 @@ case_studies:
       Here we'll share with you how we leverage the Continuous Architecture operating model in the creation of a new delivery team and how Domain Driven Design and Continuous Architecture are tightly related.
       You'll see how to explore a domain with an Event Storming, how to decompose your domain into bounded contexts, how to define the coupling between bounded contexts with a context map, how to describe your contexts and the end to end dynamic.
   - company: Société Générale
+    logo: assets/imgs/logo-sg.jpg
     title: x
     detailed_title: x
     content: |-
       x
 references:
   - name: Continuous Architecture
-    position: left
     image: assets/imgs/references/ca-book-cover.jpg
     content: |-
-      When we decided to start this Continuous Architecture journey, we discovered that the term have been already coined by Murat Erder and Pierre Pureur. Back in 2015, they published their fist book  https://www.amazon.fr/Continuous-Architecture-Sustainable-Agile-Cloud-Centric/dp/0128032847 [Continuous Architecture: Sustainable Architecture in an Agile and Cloud-Centric World] and they are working on a second one https://continuousarchitecture.com [Continuous Architecture in Practice]. We can say that Murat and Pierre through their work were a source of inspiration for us. We got in touch with them to make sure it was ok to reuse the Continuous Architecture term and they agreed. We're very grateful to them and the least we could do is to reference their work. If you have a chance to have a look at it, you'll see that we share many things: spirit, ideas, philiosophy & experiences. 
+      When we decided to start this Continuous Architecture journey, we discovered that the term have been already coined by Murat Erder and Pierre Pureur. Back in 2015, they published their fist book [Continuous Architecture: Sustainable Architecture in an Agile and Cloud-Centric World](https://www.amazon.fr/Continuous-Architecture-Sustainable-Agile-Cloud-Centric/dp/0128032847) and they are working on a second one [Continuous Architecture in Practice](https://continuousarchitecture.com). We can say that Murat and Pierre through their work were a source of inspiration for us. We got in touch with them to make sure it was ok to reuse the Continuous Architecture term and they agreed. We're very grateful to them and the least we could do is to reference their work. If you have a chance to have a look at it, you'll see that we share many things: spirit, ideas, philiosophy & experiences. 
   - name: Open Agile Architecture
-    position: middle
     image: assets/imgs/references/open-group-aaf.jpg
     content: |-
       Several Continuous Architecture's maintainers contributed to the development of the Open Agile Architecture(TM) Standard. Though the Continuous Architecture Toolkit and Framework was developed independently, we believe the two bodies of knowledge share many common principles and are therefore consistent and complementary.
   - name: SAFe and Scaled Agile Framework
-    position: right
-    image:
+    image: assets/imgs/references/safe.jpg
     content: |-
-      Continuous Architecture toolkit leverages the architectural runway, a practice coming from the https://www.scaledagileframework.com/[SAFe and Scaled Agile Framework] ^(R)^ 
+      Continuous Architecture toolkit leverages the architectural runway, a practice coming from the [SAFe and Scaled Agile Framework](https://www.scaledagileframework.com/) ® 
       SAFe and Scaled Agile Framework are registered trademarks of Scaled Agile, Inc.
 value_proposition:
   title:

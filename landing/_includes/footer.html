@@ -1,3 +1,13 @@
-<footer class="site-footer">
+<footer class="footer row justc-center">
+  <div class="content-wrapper row justc-space-b pd-vertical-l">
+    <div class="footer-logo">
+      <img class="logo-dark" src="assets/imgs/continuous-architecture-logo-dark.svg" alt="logo">
+    </div>
 
+    <div class="footer-links">
+      {% for link in site.data.footer.links %}
+        <a class="mgl-s" href="{{link.url}}">{{link.text}}</a>
+      {% endfor %}
+    </div>
+  </div>
 </footer>

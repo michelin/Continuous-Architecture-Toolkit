@@ -63,15 +63,46 @@ layout: default
   </div>
 
 
+  <div class="references row justc-center">
+    <div class="content-wrapper column alitems-center pd-vertical-xl">
+      <h3 class="xlarge-font bold mgb-xl">References</h3>
+      <div class="aliself-stretch column">
+        {% for ref in page.references %}
+        <div class="ref-item mgb-xl">
+          {% if ref.image %}
+            <div class="ref-image no-shrink">
+              <img src="{{ref.image}}" alt="ref">
+            </div>
+          {% endif %}
+          <div class="ref-content">
+            <div class="large-font bold mgb-s">
+              {{ref.name}}
+            </div>
+            <div class="ref-text pd-m">
+              {{ref.content | markdownify }}
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+      </div>
+    </div>
+  </div>
+
+
   <div class="case-studies row justc-center ">
     <div class="content-wrapper mg-vertical-xl pdt-s pdb-l column justc-center">
       <h3 class="cs-title xlarge-font bold mgb-m">Case Studies</h3>
       <div class="row aliself-stretch">
         <div class="case-studies-list pdb-m">
           {% for case_study in page.case_studies %}
-            <div class="cs-list-entry mgb-s" index="{{forloop.index}}" id="list{{forloop.index}}">
-              <h6 class="black">{{case_study.company}}</h6>
-              <div class="light">{{case_study.title}}</div>
+            <div class="cs-list-entry row alitems-center mgb-s" index="{{forloop.index}}" id="list{{forloop.index}}">
+              <div class="case-study-logo no-shrink mgr-s">
+                <img src="{{case_study.logo}}" alt="logo">
+              </div>
+              <div>
+                <h6 class="black">{{case_study.company}}</h6>
+                <div class="light">{{case_study.title}}</div>
+              </div>
             </div>
           {% endfor %}
         </div>
