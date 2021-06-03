@@ -59,7 +59,7 @@ case_studies:
       Here we'll share with you how we leverage the Continuous Architecture operating model in the creation of a new delivery team and how Domain Driven Design and Continuous Architecture are tightly related.
       You'll see how to explore a domain with an Event Storming, how to decompose your domain into bounded contexts, how to define the coupling between bounded contexts with a context map, how to describe your contexts and the end to end dynamic.
   - company: Société Générale
-    logo: assets/imgs/logo-sg.jpg
+    logo: assets/imgs/logo-bank.svg
     title: x
     detailed_title: x
     content: |-
