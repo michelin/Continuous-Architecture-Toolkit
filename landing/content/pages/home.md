@@ -63,7 +63,7 @@ case_studies:
     title: Innovative lending product
     detailed_title: How Continuous Architecture leverages the Jobs-To-Be-Done approach to help innovate products and services
     content: |-
-      x
+      We used the Jobs-To-Be-Done approach to understand what treasurers seek to accomplish. A job is a goal or an objective independent of the products or services a bank offers. Bank clients, in this example treasurers, purchase your products or services as a mean to an end which is to help them better do their jobs. For example, treasurers forecast cash flows that result from their operations to estimate working capital requirements. If a bank can predict small businesses’ minimum sales with high accuracy, it can invent a differentiated lending product. We will illustrate how such an outside-in approach helped this Retail Bank innovate.
 references:
   - name: Continuous Architecture
     image: assets/imgs/references/ca-book-cover.jpg
