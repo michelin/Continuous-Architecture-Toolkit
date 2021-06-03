@@ -25,7 +25,7 @@ features:
       "Yesterday’s architecture methodologies and processes will not deliver future solutions". We propose to change our operating model to maintain our system integrity @scale and make people autonomous and safe when they exercise initiative. The equation we're proposing is **ALIGNMENT + AUTONOMY > CONTROL**.
 
       The diagram below represents the perspectives that are documented in the Continuous Architecture Framework and their links.
-      ![Framework](assets/imgs/ca-framework-v06.svg)
+      <img src="assets/imgs/ca-framework-v06.svg" alt="drawing" width="100"/>
     icon: assets/imgs/framework-icon.svg
     url: 
   right:
