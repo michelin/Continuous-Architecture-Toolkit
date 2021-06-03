@@ -15,7 +15,7 @@ features:
   top:
     title: "Problem Discovery"
     text: |-
-      *What are the major issues facing your enterprise?* Engineers and architects are proficient at solving problems, they are often less skilled at challenging the way problems are stated. Spending time solving the wrong problem wastes the enterprise's time and resources. Therefore, Continuous Architecture recommends to pay attention to the way problems are framed because it largely influences solutions. Continuous Architecture recommends taking time to challenge the way a problem is framed. Reframing a problem can sometimes help you find radically different and more effective solutions. The discovery of a problem begins with an acute sense of observation that leads you to ask the right questions. Reframing also requires the open minded attitude that can help you think out of the box. 
+      *What are the major issues facing your enterprise?* Engineers and architects are proficient at solving problems, they are often less skilled at challenging the way problems are stated. Spending time solving the wrong problem wastes the enterprise's time and resources. Therefore, Continuous Architecture recommends to pay attention to the way problems are framed because it largely influences solutions. Reframing a problem can sometimes help you find radically different and more effective solutions. The discovery of a problem begins with an acute sense of observation that leads you to ask the right questions. Reframing also requires the open minded attitude that can help you think out of the box. 
     icon: assets/imgs/magnifier-icon.svg
     url:
   left:
