@@ -58,10 +58,10 @@ case_studies:
       In the tyre industry, we do make tyres by cooking or curing a raw tyre, so-called green tyre which is an assembly of rubber and metallic layers. This process takes place in plants in the curing shop where press lines composed of press machines are steered in parallel by an Information System.
       Here we'll share with you how we leverage the Continuous Architecture operating model in the creation of a new delivery team and how Domain Driven Design and Continuous Architecture are tightly related.
       You'll see how to explore a domain with an Event Storming, how to decompose your domain into bounded contexts, how to define the coupling between bounded contexts with a context map, how to describe your contexts and the end to end dynamic.
-  - company: Société Générale
+  - company: Retail Bank
     logo: assets/imgs/logo-bank.svg
-    title: x
-    detailed_title: x
+    title: Innovative lending product
+    detailed_title: How Continuous Architecture leverages the Jobs-To-Be-Done approach to help innovate products and services
     content: |-
       x
 references:
