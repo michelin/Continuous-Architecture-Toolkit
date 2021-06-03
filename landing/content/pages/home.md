@@ -15,7 +15,7 @@ features:
   top:
     title: "Problem Discovery"
     text: |-
-      *What problems is your company trying to solve?*. Question the way problems are framed. Look outside the frame and challenge the way the company formulates its objectives. Before you dig into analyzing the problems make sure you are starting from a well formulated set of Objectives and Key Results (OKRs).
+      *What are the major issues facing your enterprise?* Engineers and architects are proficient at solving problems, they are often less skilled at challenging the way problems are stated. Spending time solving the wrong problem wastes the enterprise's time and resources. Therefore, Continuous Architecture recommends to pay attention to the way problems are framed because it largely influences solutions. Continuous Architecture recommends taking time to challenge the way a problem is framed. Reframing a problem can sometimes help you find radically different and more effective solutions. The discovery of a problem begins with an acute sense of observation that leads you to ask the right questions. Reframing also requires the open minded attitude that can help you think out of the box. 
     icon: assets/imgs/magnifier-icon.svg
     url:
   left:
