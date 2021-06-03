@@ -24,7 +24,7 @@ features:
       The environment we're living can be **V**olatile, **U**ncertain, **C**omplex or **A**mbiguous. In such context, the only thing we can do is to build a resilient, flexible and reactive open information systemso it can evolve whatever the changes look like.
       "Yesterday’s architecture methodologies and processes will not deliver future solutions". We propose to change our operating model to maintain our system integrity @scale and make people autonomous and safe when they exercise initiative. The equation we're proposing is **ALIGNMENT + AUTONOMY > CONTROL**
     icon: assets/imgs/framework-icon.svg
-    url:
+    url: assets/imgs/ca-framework-v06.svg
   right:
     - title: "Roles"
       text: |-
@@ -69,7 +69,7 @@ references:
     image: assets/imgs/references/ca-book-cover.jpg
     content: |-
       When we decided to start this Continuous Architecture journey, we discovered that the term have been already coined by Murat Erder and Pierre Pureur. Back in 2015, they published their fist book [Continuous Architecture: Sustainable Architecture in an Agile and Cloud-Centric World](https://www.amazon.fr/Continuous-Architecture-Sustainable-Agile-Cloud-Centric/dp/0128032847) and they are working on a second one [Continuous Architecture in Practice](https://continuousarchitecture.com). We can say that Murat and Pierre through their work were a source of inspiration for us. We got in touch with them to make sure it was ok to reuse the Continuous Architecture term and they agreed. We're very grateful to them and the least we could do is to reference their work. If you have a chance to have a look at it, you'll see that we share many things: spirit, ideas, philosophy & experiences. 
-  - name: Open Agile Architecture
+  - name: Open Agile Architecture<sup>TM</sup>
     image: assets/imgs/references/open-group-aaf.jpg
     content: |-
       Several Continuous Architecture's maintainers contributed to the development of the Open Agile Architecture<sup>TM</sup> Standard. Though the Continuous Architecture Toolkit and Framework was developed independently, we believe the two bodies of knowledge share many common principles and are therefore consistent and complementary.
