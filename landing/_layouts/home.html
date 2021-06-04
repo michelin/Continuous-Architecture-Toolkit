@@ -16,7 +16,7 @@ layout: default
         <div class="light mgb-m">{{ page.hero.baseline | markdownify }}</div>
         <a class="button white aliself-start" href="{{ page.hero.call_to_action.url }}">{{ page.hero.call_to_action.text }}</a>
       </div>
-    </div>  
+    </div>
   </div>
 
   <div class="features row justc-center">
@@ -46,7 +46,7 @@ layout: default
         </div>
         <div class="cards-wrapper">
           {% for feature in page.features.right %}
-            <div class="feature-card row alitems-center {% if forloop.last == false %} mgb-s {% endif %} ">
+            <div class="feature-card row alitems-center {% if forloop.last == false %} mgb-s {% endif %} " id="{{ feature.title | slugify }}">
               <div class="feature-icon mgr-m l-mgr-s">
                 <img src="{{ feature.icon }}" alt="icon">
               </div>
@@ -91,7 +91,7 @@ layout: default
 
   <div class="case-studies row justc-center ">
     <div class="content-wrapper mg-vertical-xl pdt-s pdb-l column justc-center">
-      <h3 class="cs-title xlarge-font bold mgb-m">Case Studies</h3>
+      <h3 class="cs-title xlarge-font bold mgb-m" id="case-studies">Case Studies</h3>
       <div class="row aliself-stretch">
         <div class="case-studies-list pdb-m">
           {% for case_study in page.case_studies %}
