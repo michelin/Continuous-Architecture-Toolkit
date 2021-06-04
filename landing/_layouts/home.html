@@ -65,7 +65,7 @@ layout: default
 
   <div class="references row justc-center">
     <div class="content-wrapper column alitems-center pd-vertical-xl">
-      <h3 class="xlarge-font bold mgb-xl">References</h3>
+      <h3 class="xlarge-font bold mgb-xl" id="references">References</h3>
       <div class="aliself-stretch column">
         {% for ref in page.references %}
         <div class="ref-item mgb-xl">
@@ -74,7 +74,7 @@ layout: default
               <img src="{{ref.image}}" alt="ref">
             </div>
           {% endif %}
-          <div class="ref-content">
+          <div class="ref-content" id="{{ ref.name | slugify }}">
             <div class="large-font bold mgb-s">
               {{ref.name}}
             </div>
