@@ -1,7 +1,7 @@
 logo-url: /
 links:
   - text: Manifesto
-    url: https://twitter.com/ContinuousArch  
+    url: https://continuous-architecture.org/docs/manifest/manifesto.html
   - text: Join us
     url: https://github.com/michelin/Continuous-Architecture-Toolkit/blob/master/governance/contributing.adoc
   - text: Github repo

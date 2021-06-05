@@ -60,6 +60,6 @@ Here is an example of an assesment done on a domain composed of several delivery
 | Rounded rectangles materializes long lived teams. As you can see, on this domain, one team is considered autonomous when it comes to architecture because they do have the skills within the teams to do the architecture and the level of risk is considered acceptable. We have two teams that are maturing toward this autonomy thanks to architects being embedded into them. And we have one team that require to be steered as it is positionned on critical business process without the skills in the team to safely make those decisions. For each team, a set of post-its are defined: green ones represent latest achievements and red ones progress areas.
 Through this tool you have a clear and simple overview of your domain based on your product teams.
 | The radar is used to show for each of these teams where they are on the journey to adopt Continuous Architecture. It helps to visualize areas where teams consider they've reached their target and those where they are still progressing. But it also give the overall level of maturity of the domain and where progresses are being made
-| image:./img/team-autonomy-sample1.jpg[Click to enlarge]
-| image:./img/team-autonomy-sample2.jpg[Click to enlarge]
+| image:./img/team-autonomy-sample1.jpg[Click to enlarge,width=256,link="./img/team-autonomy-sample1.jpg]
+| image:./img/team-autonomy-sample2.jpg[Click to enlarge,width=256,link="./img/team-autonomy-sample2.jpg]
 |===

@@ -3,7 +3,7 @@ Through Continuous Architecture, we're promoting several mindset shifts:
 * Architecture is a set of activities that are performed in teams where we should architects
 * A dialog zone must be created so the team can exchange and debate on architecture. It's a place where the intentional architecture meets the emerging design.
 
- Agile ceremonies that we know such as daily scrums, sprint planning ... put some discipline on the delivery operating model. Continuous Architecture rituals are inspired from this idea: we believe that having regular ceremonies with clear attendees and agenda at the team level will help to practice architecture collectively.
+Agile ceremonies that we know such as daily scrums, sprint planning ... put some discipline on the delivery operating model. Continuous Architecture rituals are inspired from this idea: we believe that having regular ceremonies with clear attendees and agenda at the team level will help to practice architecture collectively.
 
 So far, we have documented several rituals
 
