@@ -10,14 +10,14 @@ hero:
     The Continuous Architecture Toolkit provides a set of Practices and Rituals that organized into a Framework help the actors of the enterprise create new digital offerings, deliver superior customer experience, improve and automate their operations and modernize IT.
   call_to_action:
     text: Start your journey 
-    url:
+    url: ./docs/start-your-journey/start-your-journey.html
 features:
   top:
     title: "Problem Discovery"
     text: |-
       *What are the major issues facing your enterprise?* Engineers and architects are proficient at solving problems, they are often less skilled at challenging the way problems are stated. Spending time solving the wrong problem wastes the enterprise's time and resources. Therefore, Continuous Architecture recommends to pay attention to the way problems are framed because it largely influences solutions. Reframing a problem can sometimes help you find radically different and more effective solutions. The discovery of a problem begins with an acute sense of observation that leads you to ask the right questions. Reframing also requires the open minded attitude that can help you think out of the box. 
     icon: assets/imgs/magnifier-icon.svg
-    url:
+    url: ./docs/problem-discovery/problem-discovery.html
   left:
     title: "Framework"
     text: |-
@@ -27,23 +27,23 @@ features:
       <p style="page-break-after: always">
       <img src="assets/imgs/ca-framework-v07.svg" alt="drawing" width="400"/>
     icon: assets/imgs/framework-icon.svg
-    url: 
+    url: ./docs/framework/framework.html
   right:
     - title: "Roles"
       text: |-
         What are the *roles* we propose in the Continuous Architecture operating model.
       icon: assets/imgs/roles-icon.svg
-      url: 
+      url: ./docs/roles/architects-roles.html
     - title: "Practices"
       text: |-
         Here is the *toolbox* we have created to help teams realizing their architecture activities. A set of tools and kits that can be used.
       icon: assets/imgs/practices-icon.svg
-      url:
+      url: ./docs/practices/practices.html
     - title: "Rituals"
       text: |-
         Architecting is not only about tools, kits and practices. Equally important is the time we spend together working on the architecture around some key *rituals*. The objective is to foster collaboration in teams on architecture activities.
       icon: assets/imgs/rituals-icon.svg
-      url:
+      url: ./docs/rituals/rituals.html
 case_studies:
   - company: Michelin
     logo: assets/imgs/logo-michelin.jpg
@@ -53,6 +53,7 @@ case_studies:
       Several years ago, we revisited our information system supporting order to cash processes from order capture to transportation optimization up to logistic delivery. We used to have a legacy monolith hosted on a mainframe supporting most of these processes. We decided to adopt a best of breed approach: several solutions were implemented to support the different part of these end to end processes. 
       As soon as you have several systems contributing, you need a central component to ensure the overall execution and in our case it was a central orchestrator through Business Process Management tool. After several years, we saw different issues rising with this approach especially around the orchestrator.
       So, we decided to re-think our architecture around the concept of events and their choregraphy as we wanted to get rid of this orchestrator. And we'll explain how we did it. The approach we took, look at it as a recipe we tried but keep in mind we don't pretend to be a three star restaurant ;) 
+    url: ./docs/case-studies/order-to-cash/orderToCashCaseStudy.html
   - company: Michelin
     logo: assets/imgs/logo-michelin.jpg
     title: Re-architecting our curing solution
@@ -61,12 +62,14 @@ case_studies:
       In the tyre industry, we do make tyres by cooking or curing a raw tyre, so-called green tyre which is an assembly of rubber and metallic layers. This process takes place in plants in the curing shop where press lines composed of press machines are steered in parallel by an Information System.
       Here we'll share with you how we leverage the Continuous Architecture operating model in the creation of a new delivery team and how Domain Driven Design and Continuous Architecture are tightly related.
       You'll see how to explore a domain with an Event Storming, how to decompose your domain into bounded contexts, how to define the coupling between bounded contexts with a context map, how to describe your contexts and the end to end dynamic.
+    url: ./docs/case-studies/curing-domain/curing.html
   - company: Retail Bank
     logo: assets/imgs/logo-bank.svg
     title: Innovative lending product
     detailed_title: How Continuous Architecture leverages the Jobs-To-Be-Done approach to help innovate products and services
     content: |-
       We used the Jobs-To-Be-Done approach to understand what treasurers seek to accomplish. A job is a goal or an objective independent of the products or services a bank offers. Bank clients, in this example treasurers, purchase your products or services as a mean to an end which is to help them better do their jobs. For example, treasurers forecast the cash flows that result from their operations to estimate working capital requirements. If a bank can predict small businesses’ minimum sales with high accuracy, it can invent a differentiated lending product. We illustrate this outside-in approach helped the bank innovate.
+    url: ./docs/case-studies/banking-case-study/banking-case-study.html
 references:
   - name: Continuous Architecture
     image: assets/imgs/references/ca-book-cover.jpg

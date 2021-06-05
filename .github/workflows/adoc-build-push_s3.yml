@@ -23,7 +23,7 @@ jobs:
         id: asciidoc-html-build
         uses: avattathil/asciidoctor-action@master
         with:
-             program: "asciidoctor -D dist/docs docs/index.adoc"
+             program: "asciidoctor -D dist/docs -R docs '**/*.adoc' -d book"
       - name: Asciidoctor PDF build 
         id: asciidoc-pdf-build
         uses: avattathil/asciidoctor-action@master
