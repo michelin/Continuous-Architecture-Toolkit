@@ -1,6 +1,19 @@
 == Terms and definitions
 
-[[product feature]]
+[[capability]]
+=== capaility
+domain:[problem domain]
+The ability to produce an outcome
+
+[[outcome]]
+=== outcome
+domain:[Product and customer experience]
+
+Event that is a change of state of some object in the domain, that has become available due the activity of a producer for the benefit of a consumer.
+
+
+
+[[product capability]]
 === product feature
 alt:[product functionality]
 domain:[Product and customer experience]
@@ -12,6 +25,15 @@ Foreign seeds, husks, bran, sand, dust.
 
 NOTE: It provides a factual description of capabilities offered how a product delivers its outcomes.
 
-[.source]
-<<ISO7301,section 3.2>>, The term "cargo rice" is shown as deprecated,
-and Note 1 to entry is not included here
+[[product]]
+=== product
+alt:[product functionality]
+domain:[Product and customer experience]
+
+Functional characteristic of a product.
+
+[example]
+Foreign seeds, husks, bran, sand, dust.
+
+NOTE: It provides a factual description of capabilities offered how a product delivers its outcomes.
+
