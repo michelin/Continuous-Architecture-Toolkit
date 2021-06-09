@@ -1,1 +1,12 @@
-work in progress
+[[problem-discovery]]
+=== Problem Discovery
+
+In his book _"Kaizen and the art of creative thinking"_ Shigeo Shingo footnote:[pcspress.com, 2007, translated by Enna Products Corporation and PCS Inc., ISBN 978-1-897363-59-1] states there are three essential steps to problem solving:
+
+* Find the problem
+* Clarify the problem
+* Find the cause.
+
+Finding the right problems is the a critical first step that is too often skipped. Engineers and architects are by training proficient problem solvers. What happens when they do not even realize a problem exists, or when they misunderstand the nature of the problem altogether?
+
+In his book _"What's your problem? To solve your toughhest problems, change the problems you solve"_ Thomas Wedell-Wedellsborg footnote:[Harvard Business Review Press, 2020, ISBN 9781633697225] asks a challenging question: are you solving the right problems?
