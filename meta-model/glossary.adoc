@@ -5,7 +5,7 @@
 The following terms have non-normative effect, and should be ignored by the ametrical.
 
 [[product feature]]
-=== Product
+=== product feature
 alt:[product functionality]
 domain:[Product and customer experience]
 
