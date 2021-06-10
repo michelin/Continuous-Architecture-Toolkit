@@ -28,7 +28,7 @@ When representing a systemic structure, implicit or explicit system boundary ass
 
 ==== Reframe problems
 
-Reframing a problem is about changing the way you see it. Whether you framed the problem yourself or someone else did it for your it is a good practice to take a step back and modify the way you define it. For example if you define your problem as the waiting time between at a bus stop is too long you will focus on solutions that increase bus frequency which may be sub-optimum from a capacity usage and cost view point. 
+Reframing a problem is about changing the way you see it. Whether you framed the problem yourself or someone else did it for you, it is a good practice to take a step back and possibly modify the way it is defined. For example if you define your problem as the waiting time between at a bus stop is too long you will focus on solutions that increase bus frequency which may be sub-optimum from a capacity usage and cost view point. 
 
 If you define your problem as the waiting time is perceived as too long you might explore solutions that address the perception problem. For example you might inform passengers in each bus station when the next bus will arrive. By providing this information you create predictability which changes the way the waiting time is perceived.
 
