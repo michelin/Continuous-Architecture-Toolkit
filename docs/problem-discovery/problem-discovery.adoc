@@ -13,4 +13,6 @@ In his book _"What's your problem? To solve your toughest problems, change the p
 
 ==== Find the right problems
 
+Challenging the status quo helps surface new problems the enterprise must address to improve. Actors in the enterprise too often base their decisions and actions on assumptions they think are true. Knowing what you don't know is critical. when decisions and actions are based on unverified assumptions, the risk of unintended outcomes is high. When facts are not established, the reasoning that link your countermeasures to expected improvements is likely to be faulty.
+
 
