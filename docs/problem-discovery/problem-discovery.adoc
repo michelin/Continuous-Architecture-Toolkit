@@ -24,9 +24,9 @@ Alongside with Barbara Minto, we recommend you start by creating a useful struct
 * The *systemic structure* is about representing the key interrelationships that link these factors; This is an iterative process which consists in adding and removing hypothesis until you can draw a meaningful and possibly simple diagram that provides a useful representation of the system
 * last level is about changing the existing *Mental Models* of the actors of the enterprise when these are based of flawed causality assumptions.
 
-When representing a systemic structure, implicit or explicit assumptions on the boundaries of the systems are made. We'll see in the next section that changing these boundaries is key to reframing your problem.
+When representing a systemic structure, implicit or explicit system boundary assumptions are made. We'll see in the next section that changing these boundary assumptions is key to reframing problems.
 
-==== Reframing problems
+==== Reframe problems
 
 
 
