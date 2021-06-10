@@ -27,6 +27,7 @@ features:
       <img src="assets/imgs/ca-framework-v07.svg" alt="drawing" width="400"/>
     icon: assets/imgs/framework-icon.svg
     url: assets/imgs/ca-framework-v07.svg
+    url: ./docs/framework/framework.html
   right:
     - title: "Roles"
       text: |-
