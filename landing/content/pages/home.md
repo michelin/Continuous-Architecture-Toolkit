@@ -26,7 +26,7 @@ features:
       The diagram below introduces the architecture views of the framework.
       <img src="assets/imgs/ca-framework-v07.svg" alt="drawing" width="400"/>
     icon: assets/imgs/framework-icon.svg
-    url: ./docs/framework/framework.html
+    url: assets/imgs/ca-framework-v07.svg
   right:
     - title: "Roles"
       text: |-
