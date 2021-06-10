@@ -4,7 +4,6 @@
 
 //[[framework]]
 === Continuous Architecture Framework (CAF)
-By Frédéric Lé
 //:toc: preamble
 //xref:o-aaf-deployment[o-aaf-deployment-vision]
 
