@@ -1,9 +1,16 @@
 == Terms and definitions
 
 [[capability]]
-=== capaility
+=== capability
+alt:[feature]
 domain:[problem domain]
 The ability to produce an outcome
+
+[[capability]]
+=== capability
+domain:[problem domain]
+The ability to produce an outcome
+
 
 [[outcome]]
 === outcome
@@ -11,11 +18,10 @@ domain:[Product and customer experience]
 
 Event that is a change of state of some object in the domain, that has become available due the activity of a producer for the benefit of a consumer.
 
-
-
 [[product capability]]
 === product feature
 alt:[product functionality]
+alt:[product feature]
 domain:[Product and customer experience]
 
 Functional characteristic of a product.
@@ -27,13 +33,13 @@ NOTE: It provides a factual description of capabilities offered how a product de
 
 [[product]]
 === product
-alt:[product functionality]
 domain:[Product and customer experience]
 
-Functional characteristic of a product.
+Merchandises offered for sale. Products come in two forms:
+1. Goods produced as the result of manufacturing or a
+2. Services, i.e. some work done by one person or group that benefits another.
 
 [example]
-Foreign seeds, husks, bran, sand, dust.
 
-NOTE: It provides a factual description of capabilities offered how a product delivers its outcomes.
+NOTE: A product always include the service of sales.
 
