@@ -1,0 +1,11 @@
+//:sectnums:
+//:doctype: book
+:reproducible:
+
+//[[framework]]
+==== Experience Objectives
+By Frédéric Lé
+//:toc: preamble
+//xref:o-aaf-deployment[o-aaf-deployment-vision]
+
+Experience is about outside-in thinking. In order to provide a positive experience to any stakeholder, you need to start from her aspirations, needs or problems.

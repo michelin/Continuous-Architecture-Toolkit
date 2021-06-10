@@ -1,5 +1,6 @@
 [[problem-discovery]]
 === Problem Discovery
+By Frédéric Lé
 
 In his book _"Kaizen and the art of creative thinking"_ Shigeo Shingo footnote:[pcspress.com, 2007, translated by Enna Products Corporation and PCS Inc., ISBN 978-1-897363-59-1] states there are three essential steps to problem solving:
 
