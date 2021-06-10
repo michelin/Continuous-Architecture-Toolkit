@@ -1,8 +1,8 @@
 //:sectnums:
 //:doctype: book
-:reproducible:
+//:reproducible:
 
-//[[framework]]
+[[experience-objectives]]
 ==== Experience Objectives
 By Frédéric Lé
 //:toc: preamble
