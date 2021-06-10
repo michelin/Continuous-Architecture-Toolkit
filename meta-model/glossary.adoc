@@ -1,22 +1,21 @@
 == Terms and definitions
 
-[[capability]]
-=== capability
-alt:[feature]
-domain:[problem domain]
-The ability to produce an outcome
-
-[[capability]]
-=== capability
-domain:[problem domain]
-The ability to produce an outcome
-
-
 [[outcome]]
 === outcome
 domain:[Product and customer experience]
 
-Event that is a change of state of some object in the domain, that has become available due the activity of a producer for the benefit of a consumer.
+Event that is a change of state of some object in the domain that has become available due the activity of a producer for the benefit of a consumer.
+
+[[capability]]
+=== capability
+alt:[ability]
+domain:[problem domain]
+The ability to produce an outcome
+
+NOTE: Capabilities is a functional quality. It abstracts both the systems and behaviors that can actually produce the outcome.
+
+[.source]
+<<WordNet>>,  ability (the quality of being able to perform; a quality that permits or facilitates achievement or accomplishment)
 
 [[product capability]]
 === product feature
@@ -24,22 +23,32 @@ alt:[product functionality]
 alt:[product feature]
 domain:[Product and customer experience]
 
-Functional characteristic of a product.
+Capabilities offered by a product.
 
-[example]
-Foreign seeds, husks, bran, sand, dust.
-
-NOTE: It provides a factual description of capabilities offered how a product delivers its outcomes.
+NOTE: It summarizes the capabilities offfered by the product services and/or goods.
 
 [[product]]
 === product
 domain:[Product and customer experience]
 
-Merchandises offered for sale. Products come in two forms:
-1. Goods produced as the result of manufacturing or a
+Merchandises offered for sale and associated with contractual obligations.
+Products come in two forms:
+1. Goods produced as the result of manufacturing,
 2. Services, i.e. some work done by one person or group that benefits another.
 
-[example]
-
 NOTE: A product always include the service of sales.
+
+[[goods]]
+=== goods
+domain:[Product and customer experience]
+
+Artifact offered for sale in which property is transferred from the seller (vendor) to the buyer (vendee).
+
+NOTE: Goods can be tangile or intangible
+
+[[service]]
+=== service
+domain:[Operating Domain]
+
+Work done by one person or group that benefits another.
 
