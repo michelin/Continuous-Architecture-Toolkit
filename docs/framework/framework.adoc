@@ -1,6 +1,6 @@
 //:sectnums:
 //:doctype: book
-:reproducible:
+//:reproducible:
 
 //[[framework]]
 === Continuous Architecture Framework (CAF)
