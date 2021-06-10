@@ -17,7 +17,7 @@ Challenging the status quo helps surface new problems the enterprise must addres
 
 In her book _"The pyramid principle: logic in writing and thinking_" footnote[Pearson Education Limited, 2009, ISBN: 978-0-273-71051-6], Barbara Minto writes: _"When you identify a problem, essentially what you do is recognize that a particular situation yields a specific result. The problem is either that you do not like the result, or that you cannot explain the result"_.
 
-Alongside with Barbara Minto, we recommend you start by creating a useful structure of the situation. In a VUCA environment, causal relationships are not likely to be linear and simple. This is why we think the best way to represent a situation is to create a systems view of the enterprise. The book _"The fith discipline fieldbook"_ includes a section, _"Starting with storytelling_" which provides a simple way to model a systems view of an organization. A good system thinker is someone who can see four levels operating simultaneously: events, patterns of behavior, systems and mental models:
+Alongside with Barbara Minto, we recommend you start by creating a useful structure of the situation. In a VUCA environment, causal relationships are not likely to be linear and simple. This is why we think the best way to represent a situation is to create a systems view of the enterprise or of part of it. The book _"The fith discipline fieldbook"_ includes a section, _"Starting with storytelling_" footnote:[Section 16 by Jennifer Kemeny, Michael Goodman and Rick Karash, a Currency book, 1994, ISBN 0-385-47256-0] which provides a simple way to model a systems view of an organization. A good system thinker is someone who can see four levels operating simultaneously: events, patterns of behavior, systems and mental models:
 
 * *Events* refer to individual events which have recently troubled the enterprise. They are symptoms of the problems you try to identify
 * *Patterns of behavior* is about understanding you apparently isolated events relate to each other; the authors suggest selecting key variables and tracking them back three or four years to discover trends
@@ -28,5 +28,13 @@ When representing a systemic structure, implicit or explicit system boundary ass
 
 ==== Reframe problems
 
+Reframing a problem is about changing the way you see it. Whether you framed the problem yourself or someone else did it for your it is a good practice to take a step back and modify the way you define it. For example if you define your problem as the waiting time between at a bus stop is too long you will focus on solutions that increase bus frequency which may be sub-optimum from a capacity usage and cost view point. 
 
+If you define your problem as the waiting time is perceived as too long you might explore solutions that address the perception problem. For example you might inform passengers in each bus station when the next bus will arrive. By providing this information you create predictability which changes the way the waiting time is perceived.
+
+Reframing is different from analyzing. It is a higher-level activity that helps you think _"out of the bax"_. The framing theory developed by Gregory Bateson in 1972 footnote:[Arowolo, Sunday. (2017). UNDERSTANDING FRAMING THEORY. 10.13140/RG.2.2.25800.52482.] suggests that how something is presented to the audience (called “the frame”) influences the choices people make about how to process that information. Frames are abstractions that work to organize or structure message meaning.
+
+Thomas Wedell-Wedellsborg Notes that _"Reframing is not limited to the start of the process, nor should it be done independent of the work of analyzing and solving the problem. On the contrary, your understanding of the problem will develop alongside your solution."_
+
+Though you should start doing problem discovery before you spend too much resources and energy analyzing a problem, it should not be done in a waterfall manner. You should consider problem discovery and problem analysis as two concurrent activities that combined help you clarify the problems your enterprise must solve.
 
