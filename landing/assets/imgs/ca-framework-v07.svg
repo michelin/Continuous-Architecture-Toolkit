@@ -83,6 +83,8 @@
                     text-anchor="middle" font-weight="bold" font-style="italic">Technology</text>
             </switch>
         </g>
+        <a xlink:href="./docs/framework/experience-objectives.html"
+	        target="_blank">
         <rect x="237" y="0" width="160" height="30" rx="4.5" ry="4.5" fill="#00004d" stroke="#001485"
             pointer-events="all" />
         <g transform="translate(-0.5 -0.5)">
@@ -102,6 +104,7 @@
                     text-anchor="middle" font-weight="bold" font-style="italic">Experience Objectives</text>
             </switch>
         </g>
+        </a>
         <rect x="147" y="100" width="40" height="20" fill="none" stroke="none" pointer-events="all" />
         <g transform="translate(-0.5 -0.5)">
             <switch>
