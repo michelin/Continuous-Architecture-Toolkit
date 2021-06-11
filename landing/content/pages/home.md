@@ -23,8 +23,6 @@ features:
     text: |-
       The tools and kits we have created can be used in isolation or they can work together to help the enterprise change to be more successful. In a  **V**olatile, **U**ncertain, **C**omplex or **A**mbiguous world, it is important to bring structure while enabling business and operational agility. The Continuous Architecture Framework (CAF) combines intentional architecture and emergent design to help autonomous teams align around a common purpose and a set of shared Objectives and Key Results (OKRs) while preserving agile teams' autonomy. 
       The CAF helps maintain the integrity of the enterprise during its journey toward an agile @scale operating model. The equation we're proposing is **ALIGNMENT + AUTONOMY > CONTROL**.
-      The diagram below introduces the architecture views of the framework.
-      <img src="assets/imgs/ca-framework-v07.svg" alt="drawing" width="400"/>
     icon: assets/imgs/framework-icon.svg
     url: ./docs/framework/framework.html
   right:
