@@ -1,0 +1,10 @@
+//:sectnums:
+//:doctype: book
+//:reproducible:
+
+[[product]]
+==== Product
+//:toc: preamble
+//xref:o-aaf-deployment[o-aaf-deployment-vision]
+
+The term product refers to goods and/or services...

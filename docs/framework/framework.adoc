@@ -23,4 +23,5 @@ The questions below drive the navigation between the views of the framework:
 * How can we design a truly agile organization?
 
 include::experience-objectives.adoc[]
+include::product.adoc[]
 
