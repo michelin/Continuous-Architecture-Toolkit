@@ -7,4 +7,4 @@
 //:toc: preamble
 //xref:o-aaf-deployment[o-aaf-deployment-vision]
 
-The term product refers to goods and/or services...
+The term product refers to goods and/or services. This view is about designing and developing a product that meets clients' needs as captured in the *Experience Objectives* view.

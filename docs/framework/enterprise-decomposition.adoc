@@ -1,0 +1,10 @@
+//:sectnums:
+//:doctype: book
+//:reproducible:
+
+[[enterprise-decomposition]]
+==== Enterprise Decomposition
+//:toc: preamble
+//xref:o-aaf-deployment[o-aaf-deployment-vision]
+
+Xxx ...
