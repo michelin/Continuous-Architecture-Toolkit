@@ -17,6 +17,7 @@ jobs:
           mkdir -p ./dist/docs
           find docs -iname '*.jpg' -exec cp --parents {} ./dist/ \;
           find docs -iname '*.png' -exec cp --parents {} ./dist/ \;
+          find docs -iname '*.svg' -exec cp --parents {} ./dist/ \;
           ls ./dist/docs/
         working-directory: .
       - name: Asciidoctor HTML build 
