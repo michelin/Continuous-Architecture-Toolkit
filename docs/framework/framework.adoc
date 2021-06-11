@@ -24,4 +24,5 @@ The questions below drive the navigation between the views of the framework:
 
 include::experience-objectives.adoc[]
 include::product.adoc[]
+include::enterprise-decomposition[]
 
