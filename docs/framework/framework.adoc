@@ -12,17 +12,15 @@ The Continuous Architecture Framework or CAF is organized into six related views
 
 image::../../landing/assets/imgs/ca-framework-v07.svg[800,align="left"]
 
-The CAF starts from an outside-in perspective and is *experience driven*. Though the perspectives are related the diagram should not be interpreted as a waterfall process model. The activities of the framework are executed in a continuous manner. A balance between intentional architecture and emergent design helps better manage the uncertainty and complexity that characterizes the digital journey of the enterprise.
+The CAF starts from an outside-in perspective and is *experience driven*. Though the perspectives are related, the diagram should not be interpreted as a waterfall process model. The activities of the framework are executed in a continuous manner. A balance between intentional architecture and emergent design helps better manage the uncertainty and complexity that characterizes the digital journey of the enterprise.
 
-The key questions below drive the navigation between the views of the framework:
+The questions below drive the navigation between the views of the framework:
 
 * How to decompose the enterprise?
 * Can we achieve product market fit?
-* Do we need to improve our capabilities to deliver our products?
-* How can software enable and augment our products and processes?
-* How to design an organization capable of delivering the intentional architecture?
-
-Organizational model that mirrors the intentional architecture
+* Do we need to improve our operational capabilities?
+* How can technology enable and augment our products and capabilities?
+* How can we design a truly agile organization?
 
 include::experience-objectives.adoc[]
 
