@@ -6,9 +6,10 @@
     style="background-color: rgb(255, 255, 255);">
     <defs />
     <g>
+    <a xlink:href="./enterprise-decomposition.html"
+        target="_blank">
         <rect x="0" y="125" width="120" height="45" rx="6.75" ry="6.75" fill="#00004d" stroke="#001485"
             pointer-events="all" />
-        <a xlink:href="./enterprise-decomposition.html"
         <rect x="20" y="139.5" width="80" height="17" fill="none" stroke="none" pointer-events="all" />
         <g transform="translate(-0.5 -0.5)">
             <switch>
@@ -47,6 +48,8 @@
                     text-anchor="middle" font-weight="bold" font-style="italic">Product</text>
             </switch>
         </g>
+        <a xlink:href="./operations.html"
+            target="_blank">
         <rect x="407" y="176" width="160" height="30" rx="4.5" ry="4.5" fill="#00004d" stroke="#001485"
             pointer-events="all" />
         <g transform="translate(-0.5 -0.5)">
@@ -66,7 +69,8 @@
                     text-anchor="middle" font-weight="bold" font-style="italic">Operations</text>
             </switch>
         </g>
-         <a xlink:href="./technology.html"
+        </a>
+        <a xlink:href="./technology.html"
 	        target="_blank">
         <rect x="240" y="256" width="327" height="30" rx="4.5" ry="4.5" fill="#00004d" stroke="#001485"
             pointer-events="all" />
