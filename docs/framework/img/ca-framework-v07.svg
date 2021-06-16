@@ -6,9 +6,9 @@
     style="background-color: rgb(255, 255, 255);">
     <defs />
     <g>
-     <a xlink:href="./enterprise-decomposition.html"
         <rect x="0" y="125" width="120" height="45" rx="6.75" ry="6.75" fill="#00004d" stroke="#001485"
             pointer-events="all" />
+        <a xlink:href="./enterprise-decomposition.html"
         <rect x="20" y="139.5" width="80" height="17" fill="none" stroke="none" pointer-events="all" />
         <g transform="translate(-0.5 -0.5)">
             <switch>
