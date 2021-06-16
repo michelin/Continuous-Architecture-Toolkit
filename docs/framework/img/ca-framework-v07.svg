@@ -6,6 +6,7 @@
     style="background-color: rgb(255, 255, 255);">
     <defs />
     <g>
+     <a xlink:href="./enterprise-decomposition.html"
         <rect x="0" y="125" width="120" height="45" rx="6.75" ry="6.75" fill="#00004d" stroke="#001485"
             pointer-events="all" />
         <rect x="20" y="139.5" width="80" height="17" fill="none" stroke="none" pointer-events="all" />
@@ -25,6 +26,7 @@
                     text-anchor="middle" font-weight="bold" font-style="italic">Enterprise...</text>
             </switch>
         </g>
+        </a>
         <rect x="217" y="66" width="373" height="250" fill="#ffffff" stroke="#000057" pointer-events="all" />
         <rect x="237" y="96" width="160" height="30" rx="4.5" ry="4.5" fill="#000057" stroke="#001485"
             pointer-events="all" />
