@@ -28,4 +28,4 @@ The questions below drive the navigation between the views of the framework:
 //include::product.adoc[]
 //include::enterprise-decomposition.adoc[]
 
-link:../landing/content/pages/home.html[Return to the CA Toolkit overview]
+link:https://continuous-architecture.org/[Return to the CA Toolkit overview]
