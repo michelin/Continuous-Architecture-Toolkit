@@ -28,6 +28,8 @@
             </switch>
         </g>
         </a>
+        <a xlink:href="./product.html"
+        target="_blank">
         <rect x="217" y="66" width="373" height="250" fill="#ffffff" stroke="#000057" pointer-events="all" />
         <rect x="237" y="96" width="160" height="30" rx="4.5" ry="4.5" fill="#000057" stroke="#001485"
             pointer-events="all" />
@@ -48,6 +50,7 @@
                     text-anchor="middle" font-weight="bold" font-style="italic">Product</text>
             </switch>
         </g>
+        </a>
         <a xlink:href="./operations.html"
             target="_blank">
         <rect x="407" y="176" width="160" height="30" rx="4.5" ry="4.5" fill="#00004d" stroke="#001485"
