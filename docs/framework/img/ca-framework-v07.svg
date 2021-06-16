@@ -148,6 +148,8 @@
                     text-anchor="middle">Emerge...</text>
             </switch>
         </g>
+         <a xlink:href="./organization.html"
+        target="_blank">
         <rect x="237" y="361" width="333" height="30" rx="4.5" ry="4.5" fill="#00004d" stroke="#001485"
             pointer-events="all" />
         <g transform="translate(-0.5 -0.5)">
@@ -167,6 +169,7 @@
                     text-anchor="middle" font-weight="bold" font-style="italic">Organization</text>
             </switch>
         </g>
+        </a>
         <path d="M 390 338 L 398 328 L 398 335 L 422 335 L 422 328 L 430 338 L 422 348 L 422 341 L 398 341 L 398 348 Z"
             fill="#1ba1e2" stroke="#006eaf" stroke-miterlimit="10" transform="rotate(90,410,338)"
             pointer-events="all" />
