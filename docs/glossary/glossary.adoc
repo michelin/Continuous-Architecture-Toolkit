@@ -1,0 +1,10 @@
+//:sectnums:
+//:doctype: book
+//:reproducible:
+
+[[glossary]]
+==== Glossary
+//:toc: preamble
+Test
+
+Xxx
