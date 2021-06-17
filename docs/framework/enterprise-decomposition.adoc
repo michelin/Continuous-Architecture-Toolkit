@@ -31,18 +31,29 @@ recursively into one or more Operating Units. The generic meaning given to Opera
 the enterprise's specific terminology. For example a retail bank is composed of a distribution network and a set of back-offices. 
 The distribution network is organized into groups of branches by territory and large enterprises are managed into portfolios by industry sectors.
 
-Operating Units sell products and/or services to external or internal clients. It has an income statement and possibly a balance sheet.
+Operating Units sell products and/or services to external or internal clients and have an income statement and possibly a balance sheet.
 
 image::img/enterprise-decomposition.svg[800,align="left",opts=inline]
 
-Beyond the vocabulary question lies more interesting questions:
+Beyond the choice of vocabulary lies more interesting questions:
 
-* Which combination of decomposition criterias should be used to decompose the enterprise?
+* Which combination of criterias should be used to decompose the enterprise?
 * What are the responsabilities of an Operating Unit?
 * Which level of autonomy should an Operating Unit enjoy?
-* Which collaborations should an Operating Unit should develop?
-* How do you align the Operating Units that compose an enterprise?
+* How Operating Units coordinate and coordonate with each other?
+* How to align the Operating Units that compose an enterprise?
 
- 
+The other views provide inputs to help answer these questions, for example:
+
+* The Experience Objective view provides market segmentation assumptions which is a key decomposition criteria. For example, 
+should a specific Operating Unit cater for the needs of the wealth segment? Should we setup a different Operating Unit to address the needs of the
+young clients segment? Is the Operating Unit in charge of the wealth segment free to create its own mortgage loan products, or should it
+reuse existing one?
+* The Product view helps determine the opportunity to create product platforms that are shared across more than one Operating Unit.
+* The Operations view helps identify industrialized factories that take advantage of economies of scale and skills to provide cost effective services
+ to marker facing Operating units.
+* The Technology view helps identify shared digital capabilities that can be offered to other Operating Units to help accelerate their digital journey.
+
+in a reciprocal way, the Enterprise Decomposition view influences the evolution or design of the other views.
 
 link:framework.html[Return to the CAF diagram]
