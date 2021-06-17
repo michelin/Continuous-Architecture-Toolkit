@@ -14,7 +14,10 @@ image::./img/ca-framework-v07.svg[800,align="left",opts=inline]
 
 To navigate the framework, click on rectangles that represent framework views.
 
-Though the CAF perspectives are related, the diagram should not be interpreted as a waterfall process model. The activities of the framework are executed in a continuous manner. A balance between intentional architecture and emergent design helps better manage the uncertainty and complexity that characterizes the digital journey of the enterprise.
+Though the CAF perspectives are related, the diagram should not be interpreted as a waterfall process model. 
+The activities of the framework are executed in a continuous manner. 
+A balance between intentional architecture and emergent design helps better manage the uncertainty and complexity
+ that characterizes the digital journey of the enterprise.
 
 The questions below drive the navigation between the views of the framework:
 
