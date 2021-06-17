@@ -51,7 +51,7 @@ young clients segment? Is the Operating Unit in charge of the wealth segment fre
 reuse existing one?
 * The Product view helps regroup products into product lines and determine the opportunity to create product platforms that are shared across more than one Operating Unit.
 * The Operations view helps identify industrialized factories that take advantage of economies of scale and skills to provide cost effective services
- to marker facing Operating units.
+ to market facing Operating units.
 * The Technology view helps identify shared digital capabilities that can be offered to other Operating Units to help accelerate their digital journey.
 
 in a reciprocal way, the Enterprise Decomposition view influences the evolution of other views (intentional architecture).
