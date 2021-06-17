@@ -5,6 +5,6 @@
 [[glossary]]
 ==== Glossary
 //:toc: preamble
-Test
+Test2 JR
 
 Xxx
