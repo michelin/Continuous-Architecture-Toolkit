@@ -1,22 +1,5 @@
 == Terms and definitions
 
-[[outcome]]
-=== outcome
-domain:[Product and customer experience]
-
-Event that is a change of state of some object in the domain that has become available due the activity of a producer for the benefit of a consumer.
-
-[[capability]]
-=== capability
-alt:[ability]
-domain:[problem domain]
-The ability to produce an outcome
-
-NOTE: Capabilities is a functional quality. It abstracts both the systems and behaviors that can actually produce the outcome.
-
-[.source]
-<<WordNet>>,  ability (the quality of being able to perform; a quality that permits or facilitates achievement or accomplishment)
-
 [[product capability]]
 === product feature
 alt:[product functionality]
