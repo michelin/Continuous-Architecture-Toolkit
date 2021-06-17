@@ -37,13 +37,13 @@ image::img/enterprise-decomposition.svg[800,align="left",opts=inline]
 
 Beyond the choice of vocabulary lies more interesting questions:
 
-* Which combination of criterias should be used to decompose the enterprise?
-* What are the responsabilities of an Operating Unit?
+* Which combination of criteria should be used to decompose the enterprise?
+* What are the responsibilities of an Operating Unit?
 * Which level of autonomy should an Operating Unit enjoy?
-* How Operating Units coordinate and coordonate with each other?
+* How Operating Units coordinate and cooperate with each other?
 * How to align the Operating Units that compose an enterprise?
 
-The other views provide inputs to help answer these questions, for example:
+The other views provide inputs to help answer these questions (emergent design), for example:
 
 * The Experience Objective view provides market segmentation assumptions which is a key decomposition criteria. For example, 
 should a specific Operating Unit cater for the needs of the wealth segment? Should we setup a different Operating Unit to address the needs of the
@@ -54,6 +54,6 @@ reuse existing one?
  to marker facing Operating units.
 * The Technology view helps identify shared digital capabilities that can be offered to other Operating Units to help accelerate their digital journey.
 
-in a reciprocal way, the Enterprise Decomposition view influences the evolution or design of other views.
+in a reciprocal way, the Enterprise Decomposition view influences the evolution of other views (intentional architecture).
 
 link:framework.html[Return to the CAF diagram]
