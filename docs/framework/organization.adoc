@@ -23,4 +23,10 @@ The figure below presents a generic team topologies model.
 
 image::img/team-topologies.svg[800,align="left",opts=inline]
 
+When shaping the structure of the organization it is important to take into account:
+
+* The Conway law by applying the reverse Conway Maneuver
+* The cognitive load and the Dunbar number which defines limits when defining the scope of responsibility and the interactions of teams
+
+
 link:framework.html[Return to the CAF diagram]
