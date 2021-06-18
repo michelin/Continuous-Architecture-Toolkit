@@ -22,7 +22,7 @@ The CAF proposes content that cover each of the organizational dimensions covere
 
 The figure below presents a generic team topologies model.
 
-image::img/team-topologies.svg[800,align="left",opts=inline]
+image::img/team-topologies.svg[600,align="left",opts=inline]
 
 When shaping the structure of the organization it is important to take into account:
 
