@@ -4,7 +4,7 @@
 
 //[[framework]]
 === Continuous Architecture Framework (CAF)
-By Frédéric Lé and Jean-Pierre Le Cam
+_By Frédéric Lé and Jean-Pierre Le Cam_
 //:toc: preamble
 //xref:o-aaf-deployment[o-aaf-deployment-vision]
 
