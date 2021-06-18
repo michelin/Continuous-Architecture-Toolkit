@@ -15,7 +15,7 @@ image::img/organization.svg[800,align="left",opts=inline]
 We need to complete the structural decomposition of the enterprise into Operating units:
 
 * Vertically by defining the teams that compose Operating Units
-* Horizontally (the organizational dimensions) by specifying how power is allocated, which skills people need, which management systems should be deployed, what are the news ways of working, the new Beliefs, Mindset and Behavior that should become the norm
+* Horizontally (organizational dimensions) by specifying how power is allocated, which skills people need, which management systems should be deployed, what are the news ways of working, the new Beliefs, Mindset and Behavior that should become the norm
 
 The CAF proposes content that cover each of the organizational dimensions covered, for example it describes a set of of practices and rituals and it explains how to shape team topologies, see: link:./docs/practices/practices.html or link:./docs/rituals/rituals.html
 
