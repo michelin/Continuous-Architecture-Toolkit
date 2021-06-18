@@ -10,7 +10,7 @@
 The Organization view maps the hierarchical decomposition of the enterprise into an organizational model. 
 The figure below describes the way the CAF suggests you model your organization.
 
-image::img/organization.svg[800,align="left",opts=inline]
+image::img/organization.svg[600,align="left",opts=inline]
 
 We need to complete the structural decomposition of the enterprise into Operating units:
 
