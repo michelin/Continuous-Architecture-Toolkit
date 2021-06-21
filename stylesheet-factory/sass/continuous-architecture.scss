@@ -1,0 +1,106 @@
+@import "settings/continuous-architecture";
+@import "components/asciidoc";
+@import "components/awesome-icons";
+
+body {
+  font-family: "clear-sans", Sans-Serif;
+  font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "clear-sans", Sans-Serif;
+}
+
+h1, h2 {
+  font-weight: 700;
+}
+
+h3, h4, h5, h6 {
+  font-weight: 500;
+}
+
+a {
+  color: $accent-color;
+
+  &:visited {
+    color: $accent-color-dark;
+  }
+  &:hover {
+    color: $accent-color-light;
+  }
+}
+
+code {
+  color: $green-dark;
+}
+
+#toc.toc2 {
+  background-color: $grey-color-light;
+}
+
+.exampleblock > .content {
+  border-radius: 8px;
+}
+
+.sidebarblock {
+  background-color: $grey-color-medium;
+  border-radius: 8px;
+}
+
+.literalblock pre, .listingblock > .content > pre:not(.highlight), .listingblock > .content > pre[class="highlight"], .listingblock > .content > pre[class^="highlight "] {
+  background-color: $grey-color-medium;
+  border-radius: 8px;
+}
+
+table thead, table tfoot {
+  background-color: $grey-color-medium;
+}
+
+table tr.even, table tr.alt, table tr:nth-of-type(2n) {
+  background-color: $grey-color-light;
+}
+
+#footer {
+  background: $gradient-dark;
+}
+
+.admonitionblock td.icon .icon-tip::before {
+  display: block;
+  width: 50px;
+  height: 50px;
+  content: "";
+  background-image: image-url('continuous-architecture/tip.svg');
+}
+
+.admonitionblock td.icon .icon-note::before {
+  display: block;
+  width: 50px;
+  height: 50px;
+  content: "";
+  background-image: image-url('continuous-architecture/info.svg');
+}
+
+.admonitionblock td.icon .icon-important::before {
+  display: block;
+  width: 50px;
+  height: 50px;
+  content: "";
+  background-image: image-url('continuous-architecture/important.svg');
+}
+
+.admonitionblock td.icon .icon-caution::before {
+  display: block;
+  width: 50px;
+  height: 50px;
+  content: "";
+  background-image: image-url('continuous-architecture/fire.svg');
+  background-size: 100%;
+}
+
+.admonitionblock td.icon .icon-warning::before {
+  display: block;
+  width: 50px;
+  height: 50px;
+  content: "";
+  background-image: image-url('continuous-architecture/warning.svg');
+}

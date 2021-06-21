@@ -1,0 +1,142 @@
+.print-only { display: none !important; }
+// @page must be outside of @media print according to some validators
+@page {
+  margin: 1.25cm 0.75cm;
+}
+@media print {
+  * {
+    @include box-shadow(none !important);
+    text-shadow: none !important;
+  }
+  html {
+    font-size: 80%;
+  }
+  a {
+    color: inherit !important;
+    text-decoration: underline !important;
+  }
+  a.bare,
+  a[href^="#"],
+  a[href^="mailto:"] {
+    text-decoration: none !important;
+  }
+  //a[href^="mailto:"]:not(.bare):after,
+  a[href^="http:"]:not(.bare):after,
+  a[href^="https:"]:not(.bare):after {
+    content: "(" attr(href) ")";
+    display: inline-block;
+    font-size: 0.875em;
+    padding-left: 0.25em;
+  }
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+  pre, blockquote, tr, img, object, svg {
+    page-break-inside: avoid;
+  }
+  thead {
+    display: table-header-group;
+  }
+  // NOTE Foundation already sets max-width: 100% for img, object & embed
+  svg {
+    max-width: 100%;
+  }
+  // QUESTION should we reduce size of lead paragraph too?
+  p, blockquote, dt, td.content {
+    font-size: 1em;
+    orphans: 3;
+    widows: 3;
+  }
+  h2, h3, #toctitle, .sidebarblock > .content > .title {
+    page-break-after: avoid;
+  }
+  #header, #content, #footnotes, #footer {
+    max-width: none;
+  }
+  #toc, .sidebarblock, .exampleblock > .content {
+    background: none !important;
+  }
+  // FIXME don't set padding-bottom for toc in content (appears like sidebarblock)
+  #toc {
+    border-bottom: 1px solid $hr-border-color !important;
+    padding-bottom: 0 !important;
+  }
+  body.book {
+    #header {
+      text-align: center;
+      > h1:first-child {
+        border: 0 !important;
+        margin: 2.5em 0 1em 0;
+      }
+      .details {
+        border: 0 !important;
+        display: block;
+        padding: 0 !important;
+        span:first-child { margin-left: 0 !important; }
+        br {
+          display: block;
+          + span:before {
+            content: none !important;
+          }
+        }
+      }
+    }
+    #toc {
+      border: 0 !important;
+      text-align: left !important;
+      padding: 0 !important;
+      margin: 0 !important;
+    }
+    #toc,
+    #preamble,
+    h1.sect0,
+    .sect1 > h2 {
+      page-break-before: always;
+    }
+  }
+  .literalblock,
+  .listingblock {
+    pre, pre[class] {
+      @if $pre-border-size {
+        border: 0 !important;
+      }
+      // QUESTION force normal font weight?
+      //font-weight: normal !important;
+      //background: #f7f7f7 !important;
+      //padding: 1em !important;
+    }
+  }
+  .listingblock code[data-lang]:before {
+    display: block;
+  }
+  #footer {
+    padding: 0 ($column-gutter / 2);
+  }
+  .hide-on-print { display: none !important; }
+  .print-only { display: block !important; }
+  .hide-for-print { display: none !important; }
+  .show-for-print { display: inherit !important; }
+}
+@media print, amzn-kf8 {
+  #header > h1:first-child {
+    margin-top: 1.25rem;
+  }
+  .sect1 {
+    padding: 0 !important;
+    + .sect1 {
+      border: 0;
+    }
+  }
+  #footer {
+    background: none;
+  }
+  #footer-text {
+    color: $blockquote-cite-font-color;
+    font-size: 0.9em;
+  }
+}
+@media amzn-kf8 {
+  #header, #content, #footnotes, #footer {
+    padding: 0;
+  }
+}

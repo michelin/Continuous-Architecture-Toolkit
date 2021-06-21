@@ -1,0 +1,100 @@
+@font-face {
+  font-family: 'clear-sans';
+  src: url('https://continuous-architecture.org/assets/fonts/ClearSans-Thin.woff') format('woff');
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: 'clear-sans';
+  src: url('https://continuous-architecture.org/assets/fonts/ClearSans-Light.woff') format('woff');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'clear-sans';
+  src: url('https://continuous-architecture.org/assets/fonts/ClearSans-Regular.woff') format('woff');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'clear-sans';
+  src: url('https://continuous-architecture.org/assets/fonts/ClearSans-Bold.woff') format('woff');
+  font-weight: 700;
+}
+
+@import "defaults";
+
+// Body
+
+$em-base: 16px;
+//$primary-color: #005498;
+//$alert-color: lighten(#6d180b, 15%);
+$global-radius: 0;
+
+$navy-dark: #0A0C18;
+$navy-medium: #0F1A28;
+$navy-light: #142A45;
+
+$gradient-dark: linear-gradient(45deg, $navy-medium 0%, $navy-medium 30%, $navy-light 100%);
+
+$accent-color-light: #5e96ff;
+$accent-color: #357BFF;
+$accent-color-dark: #1854c2;
+
+$green: #03e283;
+$green-dark: #036f40;
+
+$grey-color-light: #F4F5F9;
+$grey-color-medium: #E4E6E9;
+$grey-color-dark: #d2d4d8;
+
+// Headings
+
+//$header-font-family: "Lucida Grande", Georgia, Verdana, "Helvetica", Helvetica, Arial, sans-serif;
+//$header-font-weight: normal;
+//$header-font-color: #BA3925;
+$header-top-margin: 1em;
+//$subheader-font-color: darken($header-font-color, 15%);
+$sect-divider-size: 1px;
+$sect-divider-style: solid;
+$sect-divider-color: #ddd;
+
+// Paragraphs
+
+// Inline Code
+
+// Code Blocks
+// *Recommended highlight.js themes: foundation
+
+$pre-font-size: .9em;
+$pre-font-family: monospace, sans-serif;
+$pre-bg: #eee;
+$pre-line-height: 1.4;
+$pre-border-size: 1px;
+$pre-border-color: #ccc;
+$pre-border-style: solid;
+$pre-font-color: black;
+$pre-padding: .8em .8em .65em .8em;
+
+// Links
+
+//$anchor-text-decoration: underline;
+
+// Lists
+$list-side-margin: emCalc(24px);
+$definition-list-header-margin-bottom: emCalc(5px);
+$definition-list-margin-bottom: emCalc(20px);
+// FIXME need to account for nested definition list
+//$definition-list-content-margin-left: 0;
+
+// Blockquotes
+
+//$blockquote-font-color: lighten($body-font-color, 30%);
+//$blockquote-cite-font-size: inherit;
+//$blockquote-cite-font-color: darken($blockquote-font-color, 10%);
+
+// Tables
+
+$table-head-font-size: inherit;
+$table-row-font-size: inherit;
+$table-line-height: 1.4;

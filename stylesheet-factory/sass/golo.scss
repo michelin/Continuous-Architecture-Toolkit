@@ -1,0 +1,51 @@
+@import "fonts/golo-collection";
+@import "settings/golo";
+@import "components/asciidoc";
+@import "components/awesome-icons";
+
+#toc.toc2 ul ul {
+  list-style-type: circle;
+  padding-left: emCalc(16px) * 2;
+}
+
+.sect1 {
+  padding-bottom: 0 !important;
+  margin-bottom: $panel-margin-bottom * 2;
+}
+
+// shift heading text slightly to left to account for font appearance
+#header h1 {
+  font-weight: bold;
+  position: relative;
+  left: emCalc(-1px);
+}
+
+#content {
+  h2, h3, h4, h5, #toctitle {
+    position: relative;
+    left: emCalc(-1px);
+  }
+
+  h2 {
+    font-weight: bold;
+  }
+}
+
+.paragraph.lead > p,
+#preamble > .sectionbody > .paragraph:first-of-type p {
+  color: black;
+}
+
+// recommended pygments-style values: bw, colorful
+pre.pygments.highlight {
+  background-color: $pre-bg;
+}
+
+.pygments .tok-err {
+  border: none !important;
+  color: #800000 !important;
+}
+
+.pygments .tok-c {
+  color: #999 !important;
+}
