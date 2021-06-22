@@ -8,7 +8,7 @@
 
 The key pre-requisite to defining architecture roles is to start from a clear vision of what architecture is. The link below explores the architecture concept and how it relates to architecture roles.
 
-link:what-is-architecture.html[Return to the CAF diagram]
+link:what-is-architecture.html[What is architecture?]
 
 === Abundance of architect roles
 
