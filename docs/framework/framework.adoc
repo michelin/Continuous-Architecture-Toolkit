@@ -2,7 +2,7 @@
 //:doctype: book
 //:reproducible:
 
-//[[framework]]
+[[framework]]
 === Continuous Architecture Framework (CAF)
 _By Frédéric Lé and Jean-Pierre Le Cam_
 //:toc: preamble
