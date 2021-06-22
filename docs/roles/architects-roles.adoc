@@ -6,9 +6,9 @@
 == Architect Roles
 //:toc: preamble
 
-The key pre-requisite to defining architecture roles is to start from a clear vision of what architecture is. The link below explores the architecture concept and how it relates to architecture roles.
+Alongside Yves Caseau we believe _"that architecture in a lean & agile approach is not a specialty reserved for experts but a skill that all team members must possess, at varying levels" footnote:[L’approche lean de la transformation digitale : Du client au code et du code au client, Dunod 2020, ISBN : 978-2-10-081615-6]_
 
-link:what-is-architecture.html[What is architecture?]
+This is why we would like to start by defining what we mean by architecture, see link:what-is-architecture.html[What is architecture?]. This does not mean Continuous Architecture will not define architecture roles, we will do. It implies that we will also describe the architecture dimension of non-architect roles, in particular when those roles have a digital dimension.
 
 === Abundance of architect roles
 
