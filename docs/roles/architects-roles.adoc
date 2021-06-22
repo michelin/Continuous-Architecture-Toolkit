@@ -4,7 +4,6 @@
 
 [[architect roles]]
 == Architect Roles
-//:toc: preamble
 
 The key pre-requisite to defining architecture roles is to start from a clear vision of what architecture is. The link below explores the architecture concept and how it relates to architecture roles.
 
@@ -14,7 +13,7 @@ link:what-is-architecture.html[Return to the CAF diagram]
 
 For the last 10 years or so, different architect roles raised: enterprise architects, solution architects, infrastructure architects, network architects, integration architects, security architects, data architects ... 
 
-Behind this trend there was the idea that architects roles need to be organize around "layers" which represent IT specialities, and master it from top to bottom. Facing digital world and the need to continuously  delivery modern distributed information systems, this leads to several problems
+Behind this trend there was the idea that architects roles need to be organize around "layers" which represent IT specialties, and master it from top to bottom. Facing digital world and the need to continuously  delivery modern distributed information systems, this leads to several problems
 
 1. Architects became hyper-specialist in their discipline and lost the perspective of the overall system. ​​​​​​​This very specialized approach did not help to consider all the stacks on which products were built: from deep roots within infrastructure to highly functional layers and lead to take design decisions that are locally optimal but were not as a whole.
 2. As more knowledge accrues in one discipline, and people specialize in it more, it becomes harder for inter-disciplinary understanding to happen.
