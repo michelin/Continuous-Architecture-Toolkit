@@ -2,8 +2,9 @@
 //:doctype: book
 //:reproducible:
 
-[[architect roles]]
+[[architect-roles]]
 == Architect Roles
+//:toc: preamble
 
 The key pre-requisite to defining architecture roles is to start from a clear vision of what architecture is. The link below explores the architecture concept and how it relates to architecture roles.
 
@@ -64,6 +65,6 @@ Product delivery teams get asked to do a lot of different things, each of which 
 Roles, job positions and persons are different things: 
 
 * A role is a set of activities that needs to be done in a team. 
-* A person can have one or more roles depending on the person's skill sets and appetence. We've seen several cases where both Product Architect and Fullstack Architect were fullfiled by the same person. 
-* It's perfectly acceptable to have some architecture activites performed by team members
+* A person can have one or more roles depending on the person's skill sets and appetence. We've seen several cases where both Product Architect and Fullstack Architect were fulfilled by the same person. 
+* It's perfectly acceptable to have some architecture activities performed by team members
 * Depending on the roles a person can take, it defines its job position.
