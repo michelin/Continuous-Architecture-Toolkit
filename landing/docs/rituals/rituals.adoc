@@ -1,0 +1,21 @@
+Through Continuous Architecture, we're promoting several mindset shifts:
+
+* Architecture is a set of activities that are performed in teams where we should architects
+* A dialog zone must be created so the team can exchange and debate on architecture. It's a place where the intentional architecture meets the emerging design.
+
+Agile ceremonies that we know such as daily scrums, sprint planning ... put some discipline on the delivery operating model. Continuous Architecture rituals are inspired from this idea: we believe that having regular ceremonies with clear attendees and agenda at the team level will help to practice architecture collectively.
+
+So far, we have documented several rituals
+
+[cols=3*]
+|===
+| xref:team-autonomy-readiness.adoc[Team autonomy readiness]
+| xref:architecture-kata.adoc[Architecture Kata]
+| xref:weekly-architecture-meeting.adoc[Weekly Architecture Meeting]
+| Ritual to evaluate the team's level of readiness for autonomy in taking architecture decisions based on the context
+| Architecture Katas are about to repeat the architecture "movement" often enough to memorize it and perfect it over time. 
+| Weekly ritual to review on going architecture decisions and focus on architectural problems
+| image:./img/team-autonomy-readiness.png[Click to enlarge,width=256,link="./img/team-autonomy-readiness.png"]
+| image:./img/architecture-kata.png[Click to enlarge,width=256,link="./img/architecture-kata.png"]
+| image:./img/weekly-architecture-meeting.png[Click to enlarge,width=256,link="./img/weekly-architecture-meeting.png"]
+|===

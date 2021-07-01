@@ -1,0 +1,12 @@
+//:sectnums:
+//:doctype: book
+//:reproducible:
+
+[[what-is-architecture]]
+==== What Is Architecture?
+//:toc: preamble
+//xref:o-caf-deployment[o-caf-deployment-vision]
+
+Xxx
+
+link:architects-roles.html[Return to roles definition]

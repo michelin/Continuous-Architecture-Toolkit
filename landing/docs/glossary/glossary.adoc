@@ -1,0 +1,10 @@
+= Glossary
+//:sectnums:
+//:doctype: book
+//:reproducible:
+:page-show-toc: false
+
+[[glossary]]
+Test
+
+Xxx
