@@ -17,8 +17,8 @@ html {
 body {
   color: $text-color;
   font-family: $base-font;
-  font-size: 1rem; // fallback when clamp() fn not supported 
-  font-size: unquote("clamp(1rem, 1.5vw, 22px)");
+  font-size: 18px;
+  // font-size: unquote("clamp(1rem, 1.5vw, 22px)");
   font-weight: 400;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
@@ -35,15 +35,15 @@ h1, h2, h3, h4, h5, h6 {
 
 .xlarge-font {
   font-size: 2rem; // fallback when clamp() fn not supported 
-  font-size: clamp(2rem, 3vw, 54px);
+  // font-size: clamp(2rem, 3vw, 54px);
 }
 .large-font {
   font-size: 1.4rem; // fallback when clamp() fn not supported 
-  font-size: clamp(1.4rem, 2.25vw, 32px);
+  // font-size: clamp(1.4rem, 2.25vw, 32px);
 }
 .small-font {
   font-size: 0.8rem; // fallback when clamp() fn not supported 
-  font-size: clamp(0.8rem, 1.2vw, 18px);
+  // font-size: clamp(0.8rem, 1.2vw, 18px);
 }
 
 .black {
@@ -130,6 +130,47 @@ pre {
   padding: 0 $spacing-unit*2;
 }
 
+.doc-content {
+  width: 100%;
+  min-height: 80vh;
+
+  .main-content {
+    width: 100%;
+    max-width: 1000px;
+    padding: 0 $spacing-unit*2;
+    margin-bottom: 40px;
+
+    &.large {
+      max-width: 1300px;
+    }
+  }
+
+  .toc {
+    border-right: solid 1px $grey-color-medium;
+    background-color: $grey-color-light;
+    padding: $spacing-unit $spacing-unit $spacing-unit $spacing-unit;
+    min-width: 340px;
+    max-width: 340px;
+    z-index: 0;
+
+    .toc-content {
+      position: sticky;
+      top: $spacing-unit;
+    }
+
+    ul {
+      margin: 0;
+      position: sticky;
+      top: 20px;
+
+      li {
+        list-style: none;
+        margin-left: $spacing-unit/2;
+      }
+    }
+  }
+}
+
 .header {
   position: fixed;
   top: 0;
@@ -142,6 +183,27 @@ pre {
   transform: translateY(0);
   transition: background-color 0.3s, transform 0.3s;
 
+  &.doc {
+    position: relative;
+    padding-top: 0;
+    z-index: 1;
+    background-color: white;
+    box-shadow: $base-shadow;
+    height: 70px;
+    
+    .logo-dark {
+      opacity: 1;
+    }
+
+    .links a {
+      color: $text-color;
+  
+      &:hover {
+        color: $accent-color;
+      }
+    }
+  }
+
   .logo {
     display: inline-flex;
     height: 40px;
@@ -151,6 +213,17 @@ pre {
       position: absolute;
       top: 0;
       left: 0;
+      height: 100%;
+    }
+  }
+
+  .doc-logo {
+    display: inline-flex;
+    height: 40px;
+    position: relative;
+    
+    img {
+      display: block;
       height: 100%;
     }
   }
@@ -204,6 +277,8 @@ pre {
 
 .footer {
   background-color: $grey-color-medium;
+  position: relative;
+  z-index: 1;
 
   .footer-logo {
     width: 200px;
@@ -212,6 +287,12 @@ pre {
       display: block;
       width: 100%;
     }
+  }
+}
+
+.footer-links {
+  a {
+    color: $text-color;
   }
 }
 

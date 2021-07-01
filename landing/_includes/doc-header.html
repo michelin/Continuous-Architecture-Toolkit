@@ -1,0 +1,13 @@
+<header class="header doc row justc-center alitems-stretch" role="banner">
+  <div class="content-wrapper row justc-space-b alitems-center">
+    <a class="doc-logo" href="{{site.data.header.logo-url}}">
+      <img class="logo-dark" src="{{site.baseurl}}/assets/imgs/continuous-architecture-logo-dark.svg" alt="logo">
+    </a>
+    <div class="links">
+      
+      {% for link in site.data.header.links %}
+        <a class="bold mgl-s" href="{{link.url}}">{{link.text}}</a>
+      {% endfor %}
+    </div>
+  </div>
+</header>

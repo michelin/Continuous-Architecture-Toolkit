@@ -1,23 +1,35 @@
 @font-face {
   font-family: 'clear-sans';
-  src: url('fonts/ClearSans-Thin.woff') format('woff');
+  src: url('fonts/ClearSans-Thin-webfont.eot') format('eot');
+  src: url('fonts/ClearSans-Thin-webfont.ttf') format('truetype'),
+       url('fonts/ClearSans-Thin-webfont.svg') format('svg'),
+       url('fonts/ClearSans-Thin-webfont.woff') format('woff');
   font-weight: 200;
 }
 
 @font-face {
   font-family: 'clear-sans';
-  src: url('fonts/ClearSans-Light.woff') format('woff');
+  src: url('fonts/ClearSans-Light-webfont.eot') format('eot');
+  src: url('fonts/ClearSans-Light-webfont.ttf') format('truetype'),
+       url('fonts/ClearSans-Light-webfont.svg') format('svg'),
+       url('fonts/ClearSans-Light-webfont.woff') format('woff');
   font-weight: 400;
 }
 
 @font-face {
   font-family: 'clear-sans';
-  src: url('fonts/ClearSans-Regular.woff') format('woff');
+  src: url('fonts/ClearSans-Regular-webfont.eot') format('eot');
+  src: url('fonts/ClearSans-Regular-webfont.ttf') format('truetype'),
+       url('fonts/ClearSans-Regular-webfont.svg') format('svg'),
+       url('fonts/ClearSans-Regular-webfont.woff') format('woff');
   font-weight: 500;
 }
 
 @font-face {
   font-family: 'clear-sans';
-  src: url('fonts/ClearSans-Bold.woff') format('woff');
+  src: url('fonts/ClearSans-Bold-webfont.eot') format('eot');
+  src: url('fonts/ClearSans-Bold-webfont.ttf') format('truetype'),
+       url('fonts/ClearSans-Bold-webfont.svg') format('svg'),
+       url('fonts/ClearSans-Bold-webfont.woff') format('woff');
   font-weight: 700;
 }

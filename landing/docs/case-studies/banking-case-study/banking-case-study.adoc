@@ -1,0 +1,62 @@
+= Banking Case Study
+Frédéric Lé <frederic9@gmail.com>, Jean-Pierre Le Cam <jean-pierre.le-cam@wanadoo.fr>
+v0.1
+// Metadata
+:description: Banking Case Study to illustrate Agile Architecture practices
+:keywords: Case Study, banking
+:main-title: Banking Case Study
+
+// Settings:
+:icons: 
+:idprefix:
+:idseparator: -
+:preface-title: 
+:toc2:
+:toc:
+:toclevels: 3
+:numbered:
+:sectlinks:
+:sectanchors:
+:experimental:
+:stylesdir: ./styles
+:scriptsdir: ./js
+// GitHub admonitions:
+ifdef::env-github[]
+:tip-caption: :bulb:
+:note-caption: pass:[&#8505;]
+:important-caption: :heavy_exclamation_mark:
+:caution-caption: :fire:
+:warning-caption: :warning:
+endif::[]
+// tag::all[]
+:imagesdir: ./img
+
+[.lead]
+== Introduction
+
+This banking Case Study has been developed to illustrate Agile Architecture practices. It will be mainly used to test the meta-model and provide an example to be used during training sessions.
+
+This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. 
+To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/ 
+or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
+
+
+
+
+
+
+// CC license image
+image::/assets/imgs/doc/by-sa.png[fig-cc-license,100,100, align="left"]
+
+//....
+//.Footer 
+//....
+// end::all[]
+//....
+
+//.Include 
+//....
+//[[SECTIONB]]
+//== Section B title
+//include::sectionB-filename.adoc[leveloffset=+1,tag=all]
+//....

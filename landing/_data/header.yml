@@ -1,11 +1,11 @@
 logo-url: /
 links:
   - text: Manifesto
-    url: https://continuous-architecture.org/docs/manifest/manifesto.html
+    url: /docs/manifest/manifesto.html
   - text: Join us
     url: https://github.com/michelin/Continuous-Architecture-Toolkit/blob/master/governance/contributing.adoc
   - text: Glossary
-    url: ./docs/glossary/glossary.html
+    url: /docs/glossary/glossary.html
   - text: Github repo
     url: https://github.com/michelin/Continuous-Architecture-Toolkit/
   - text: License
