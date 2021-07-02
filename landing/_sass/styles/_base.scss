@@ -26,6 +26,10 @@ body {
        -o-font-feature-settings: "kern" 1;
           font-feature-settings: "kern" 1;
   font-kerning: normal;
+
+  @include media-query($mobile) {
+    font-size: 16px;
+  }
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -146,6 +150,10 @@ pre {
 
     &.large {
       max-width: 1300px;
+    }
+
+    @include media-query($mobile) {
+      padding: 0 $spacing-unit;
     }
   }
 
@@ -329,12 +337,16 @@ pre {
     top: 100%;
     right: 0;
     width: 100%;
-    max-width: 360px;
+    max-width: 300px;
     padding: $spacing-unit/2;
     opacity: 0;
     pointer-events: none;
     transform: translateX(50px);
     transition: opacity 0.2s, transform 0.2s;
+
+    @include media-query($mobile) {
+      max-width: none;
+    }
 
     .menu-card {
       width: 100%;

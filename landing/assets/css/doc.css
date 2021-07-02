@@ -750,6 +750,10 @@ b.conum * { color: inherit !important; }
 
 body { font-family: "clear-sans", Sans-Serif; font-size: 18px; }
 
+@media screen and (max-width: 580px) {
+  body {font-size: 16px; }
+}
+
 h1, h2, h3, #toctitle, .sidebarblock > .content > .title, h4, h5, h6 { font-family: "clear-sans", Sans-Serif; }
 
 h1, h2 { font-weight: 700; }

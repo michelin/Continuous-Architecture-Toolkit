@@ -98,17 +98,18 @@ layout: landing
   </div>
 
 
-  <div class="case-studies row justc-center pdv-l">
+  <div class="case-studies row justc-center pdv-l m-pdv-m">
     <div class="content-wrapper pdt-s pdb-l column justc-center">
       <h3 class="cs-title xlarge-font black mgb-m" id="case-studies">Case Studies</h3>
-      <div class="row aliself-stretch">
-        <div class="case-studies-list pdb-m">
+      <div class="row aliself-stretch m-column">
+        <div class="case-studies-list pdb-m 
+                    m-row m-justc-spaceb m-pdb-0 m-justc-space-b">
           {% for case_study in page.case_studies %}
-            <div class="cs-list-entry row alitems-center mgb-s" index="{{forloop.index}}" id="list{{forloop.index}}">
-              <div class="case-study-logo no-shrink mgr-s">
+            <div class="cs-list-entry row alitems-center mgb-s m-mgb-0 m-column" index="{{forloop.index}}" id="list{{forloop.index}}">
+              <div class="case-study-logo no-shrink mgr-s m-mgr-0 m-mgb-s s-mgb-0">
                 <img src="{{case_study.logo}}" alt="logo">
               </div>
-              <div>
+              <div class="cs-list-text m-column m-alitems-center">
                 <h6 class="black">{{case_study.company}}</h6>
                 <div class="light">{{case_study.title}}</div>
               </div>
@@ -118,6 +119,15 @@ layout: landing
         <div class="case-studies-content flex-1 aliself-stretch row alitems-stretch">
           {% for case_study in page.case_studies %}
             <div class="cs-content-entry" id="content{{forloop.index}}">
+              <div class="cs-header-mobile mgb-s">
+                <div class="case-study-logo no-shrink mgr-s">
+                  <img src="{{case_study.logo}}" alt="logo">
+                </div>
+                <div class="column justc-center">
+                  <h6 class="black">{{case_study.company}}</h6>
+                  <div class="light">{{case_study.title}}</div>
+                </div>
+              </div>
               <h6 class="large-font mgb-s bold">{{case_study.detailed_title}}</h6>
               {{case_study.content | markdownify }}
               <a class="feature-link mgt-xs" href="{{ page.features.left.url }}">Learn more →</a>
