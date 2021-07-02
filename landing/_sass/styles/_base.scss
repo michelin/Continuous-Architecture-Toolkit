@@ -128,6 +128,10 @@ pre {
   width: 100%;
   max-width: 1500px;
   padding: 0 $spacing-unit*2;
+
+  @include media-query($mobile) {
+    padding: 0 $spacing-unit;
+  }
 }
 
 .doc-content {
@@ -182,6 +186,10 @@ pre {
   background-color: transparent;
   transform: translateY(0);
   transition: background-color 0.3s, transform 0.3s;
+
+  @include media-query($tablet) {
+    display: none !important;
+  }
 
   &.doc {
     position: relative;
@@ -272,6 +280,109 @@ pre {
         color: $accent-color;
       }
     }
+  }
+}
+
+.mobile-header-placeholder {
+  display: none;
+  height: 50px;
+  width: 100%;
+
+  @include media-query($tablet) {
+    display: block;
+  }
+}
+
+.menu-overlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 2;
+}
+
+.mobile-menu {
+  display: none !important;
+
+  .logo-mobile {
+    height: 30px;
+    width: auto;
+    display: block;
+  }
+
+  @include media-query($tablet) {
+    display: flex !important;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 3;
+    background-color: white;
+    box-shadow: $base-shadow;
+    height: 50px;
+  }
+
+  .menu-content {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 100%;
+    max-width: 360px;
+    padding: $spacing-unit/2;
+    opacity: 0;
+    pointer-events: none;
+    transform: translateX(50px);
+    transition: opacity 0.2s, transform 0.2s;
+
+    .menu-card {
+      width: 100%;
+      background-color: white;
+      border-radius: 12px;
+      box-shadow: $base-shadow, 0 0 0 4px rgba(24, 84, 194,0.1);
+      display: flex;
+      flex-direction: column;
+      align-items:stretch;
+      padding: $spacing-unit/4 $spacing-unit;
+
+      a {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 50px;
+        text-decoration: none;
+        color: #1854c2;
+        
+        &:visited {
+          color: #1854c2;
+        }
+
+        &:not(:last-child) {
+          border-bottom: solid 1px $grey-color-light;
+        }
+
+        &:after {
+          content: "";
+          display: block;
+          width: 10px;
+          height: 10px;
+          border-top: solid 2px $grey-color-dark;
+          border-right: solid 2px $grey-color-dark;
+          transform: rotate(45deg);
+        }
+      }
+    }
+  }
+
+  &.visible .menu-content {
+    opacity: 1;
+    pointer-events: all;
+    transform: translateX(0px);
+  }
+
+  &.visible + .menu-overlay {
+    pointer-events: all;
   }
 }
 

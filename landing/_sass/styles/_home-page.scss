@@ -1,6 +1,6 @@
 .hero {
   width: 100%;
-  height: 90vh;
+  min-height: 90vh;
   background: $gradient-dark;
   color: $white;
 }
@@ -46,10 +46,23 @@
     border-radius: 30px;
     border-top-right-radius: 0;
   }
+
+  @include media-query($tablet) {
+    width: 60%;
+  }
+
+  @include media-query($mobile) {
+    width: 80%;
+  }
 }
 
 .hero-text {
   width: 50%;
+
+  @include media-query($tablet) {
+    width: 100%;
+    text-align: center;
+  }
 }
 
 .features {
@@ -66,16 +79,20 @@
 
 .cards-wrapper {
   width: 50%;
+
+  @include media-query($tablet) {
+    width: 100%;
+  }
 }
 
 .feature-card {
   background-color: $white;
   border-radius: 30px;
   box-shadow: $base-shadow;
-  padding: $spacing-unit*1.5 $spacing-unit*2;
+  padding: $spacing-unit*1.5 ;
 
   @include media-query($laptop) {
-    padding: $spacing-unit $spacing-unit;
+    padding: $spacing-unit;
   }
 }
 
@@ -105,6 +122,10 @@
   .ref-item {
     width: 70%;
 
+    @include media-query($tablet) {
+      width: 100%;
+    }
+
     .ref-image {
       width: 180px;
       height: auto;
@@ -120,6 +141,10 @@
 
     .ref-text {
       background-color: $grey-color-light;
+
+      @include media-query($tablet) {
+        display: none;
+      }
     }
 
     &:nth-child(odd) {
@@ -161,6 +186,42 @@
 
       .ref-text {
         border-radius: 30px 0 30px 30px;
+      }
+    }
+
+    @include media-query($tablet) {
+      &:nth-child(odd) {
+        flex-direction: column;
+        align-items: center;
+
+        .ref-image, .ref-title {
+          position: relative;
+          z-index: 1;
+          margin-right: 0;
+        }
+      }
+
+      &:nth-child(even) {
+        flex-direction: column;
+        align-items: center;
+
+        .ref-image, .ref-title {
+          position: relative;
+          z-index: 1;
+          margin-left: 0;
+        }
+      }
+    }
+
+    .ref-text-mobile {
+      display: none;
+
+      @include media-query($tablet) {
+        display: block;
+        border-radius: 30px;
+        background-color: $grey-color-light;
+        padding: 120px $spacing-unit $spacing-unit;
+        margin-top: -120px;
       }
     }
   }
