@@ -1,0 +1,20 @@
+<div class="mobile-header-placeholder"></div>
+
+<div class="mobile-menu row justc-space-b alitems-center pdh-s">
+  <a href="/">
+    <img class="logo-mobile" src="{{site.baseurl}}/assets/imgs/continuous-architecture-logo-dark.svg" alt="logo">
+  </a>
+  <div class="menu-button">
+    Menu
+  </div>
+  <div class="menu-content">
+    <div class="menu-card">
+      {% for link in site.data.header.links %}
+        <a class="bold" href="{{link.url}}">{{link.text}}</a>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+<div class="menu-overlay"></div>
+
