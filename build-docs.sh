@@ -2,11 +2,13 @@
 
 WORKDIR=$(pwd)
 
+echo $(pwd)
+
 mkdir -p dist/docs
 echo "Render Asciidoctor HTML content in 'dist/docs/index.html' from 'docs' directory"
 # docker run --rm -v $WORKDIR:/documents/ asciidoctor/docker-asciidoctor asciidoctor -D dist/docs --backend=html5 docs/index.adoc
 
-docker run --rm -v $WORKDIR:/documents/ asciidoctor/docker-asciidoctor asciidoctor -D dist/docs -R docs '**/*.adoc' -d book
+docker run --rm -v $WORKDIR:/documents/ asciidoctor/docker-asciidoctor asciidoctor stylesheet=./stylesheet-factory/stylesheets/continuous-architecture.css -D dist/docs -R docs '**/*.adoc' -d book
 
 if [ $? -eq 0 ]; then
     echo "Successfully rendered Asciidoctor HTML content in 'dist/docs/index.html'"

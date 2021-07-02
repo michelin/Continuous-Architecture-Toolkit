@@ -81,6 +81,10 @@ references:
     content: |-
       Continuous Architecture toolkit leverages the architectural runway, a practice coming from the [SAFe and Scaled Agile Framework](https://www.scaledagileframework.com/) ® 
       SAFe and Scaled Agile Framework are registered trademarks of Scaled Agile, Inc.
+  - name: DDD-crew
+    image: assets/imgs/references/ddd-crew.png
+    content: |-
+      [Domain-Design Design Crew](https://github.com/ddd-crew) is an open source project aiming to help adopt the famous Eric Evans' DDD approach. DDD-crew is really an inspirational source for us and we hope we can contribute back. 
 value_proposition:
   title:
   text: |-
