@@ -31,7 +31,7 @@
     <main class="page-content" aria-label="Content">
       <div class="doc-content">
         <div class="row alitems-stretch">
-          {% if page.show-toc != false %}
+          {% if page.show-toc == true %}
             <div class="toc">
               <div class="toc-content">{{ page.document | tocify_asciidoc }}</div>
             </div>

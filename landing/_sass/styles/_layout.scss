@@ -45,36 +45,28 @@
 //   FLEXBOX   //
 /////////////////
 
-.column {
+@mixin flex {
   display: flex;
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
   display: -webkit-flex;
+}
+
+.column {
+  @include flex;
   flex-direction: column;
 }
 .row {
-  display: flex;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
+  @include flex;
   flex-direction: row;
 }
 .column-reverse {
-  display: flex;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
+  @include flex;
   flex-direction: column-reverse;
 }
 .row-reverse {
-  display: flex;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
+  @include flex;
   flex-direction: row-reverse;
 }
 
@@ -107,10 +99,10 @@
 
 
 @include media-query($laptop) {
-  .l-row { flex-direction: row;}
-  .l-column { flex-direction: column;}
-  .l-column-reverse {flex-direction: column-reverse;}
-  .l-row-reverse {flex-direction: row-reverse;}
+  .l-row { @include flex; flex-direction: row;}
+  .l-column { @include flex; flex-direction: column;}
+  .l-column-reverse {@include flex; flex-direction: column-reverse;}
+  .l-row-reverse {@include flex; flex-direction: row-reverse;}
 
   .l-wrap {flex-wrap: wrap;}
   .l-no-wrap {flex-wrap: nowrap;}
@@ -135,10 +127,10 @@
 }
 
 @include media-query($tablet) {
-  .m-row { flex-direction: row;}
-  .m-column { flex-direction: column;}
-  .m-column-reverse {flex-direction: column-reverse;}
-  .m-row-reverse {flex-direction: row-reverse;}
+  .m-row { @include flex; flex-direction: row;}
+  .m-column { @include flex; flex-direction: column;}
+  .m-column-reverse {@include flex; flex-direction: column-reverse;}
+  .m-row-reverse {@include flex; flex-direction: row-reverse;}
 
   .m-wrap {flex-wrap: wrap;}
   .m-no-wrap {flex-wrap: nowrap;}
@@ -163,10 +155,10 @@
 }
 
 @include media-query($mobile) {
-  .s-row { flex-direction: row;}
-  .s-column { flex-direction: column;}
-  .s-column-reverse {flex-direction: column-reverse;}
-  .s-row-reverse {flex-direction: row-reverse;}
+  .s-row { @include flex; flex-direction: row;}
+  .s-column { @include flex; flex-direction: column;}
+  .s-column-reverse {@include flex; flex-direction: column-reverse;}
+  .s-row-reverse {@include flex; flex-direction: row-reverse;}
 
   .s-wrap {flex-wrap: wrap;}
   .s-no-wrap {flex-wrap: nowrap;}

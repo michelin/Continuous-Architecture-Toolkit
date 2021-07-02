@@ -132,6 +132,7 @@
       border-radius: 22px;
       overflow: hidden;
       margin-top: 6px;
+      box-shadow: 0 0 0 4px rgba(24, 84, 194,0.1);
 
       img {
         display: block;
@@ -198,6 +199,7 @@
           position: relative;
           z-index: 1;
           margin-right: 0;
+          text-align: center;
         }
       }
 
@@ -209,6 +211,7 @@
           position: relative;
           z-index: 1;
           margin-left: 0;
+          text-align: center;
         }
       }
     }
@@ -239,6 +242,12 @@
 
 .case-studies-list {
   width: 30%;
+  min-width: 350px;
+
+  @include media-query($tablet) {
+    width: 100%;
+    min-width: 0;
+  }
 }
 
 .cs-list-entry {
@@ -249,6 +258,16 @@
   margin-right: $spacing-unit;
   cursor: pointer;
 
+  @include media-query($tablet) {
+    margin-right: 0;
+    margin-bottom: $spacing-unit;
+    padding: $spacing-unit;
+
+    &:not(:last-child) {
+      margin-right: $spacing-unit;
+    }
+  }
+
   &:hover {
     background-color: $navy-dark;
   }
@@ -258,6 +277,28 @@
     border-bottom-right-radius: 0;
     border-right: solid 12px $accent-color;
     margin-right: 0;
+
+    @include media-query($tablet) {
+      border-top-right-radius: 20px;
+      border-bottom-right-radius: 0;
+      border-bottom-left-radius: 0;
+      border-right: none;
+      border-bottom: solid 12px $accent-color;
+      margin-bottom: 0;
+
+      &:not(:last-child) {
+        margin-right: $spacing-unit;
+      }
+    }
+  }
+
+  .cs-list-text {
+    @include media-query($tablet) {
+      text-align: center;
+    }
+    @include media-query($mobile) {
+      display: none;
+    }
   }
 }
 
@@ -270,6 +311,11 @@
   img {
     width: 100%;
   }
+
+  @include media-query($mobile) {
+    width: 50px;
+    height: 50px;
+  }
 }
 
 .cs-content-entry {
@@ -277,10 +323,39 @@
   display: none;
   background-color: $white;
   border-radius: 30px;
-  border-top-left-radius: 0;
   padding: $spacing-unit*2 $spacing-unit*3;
+
+  &:first-child {
+    border-top-left-radius: 0;
+  }
+
+  @include media-query($tablet) {
+    padding: $spacing-unit*1.5;
+    
+    &:last-child {
+      border-top-right-radius: 0;
+    }
+  }
+
+  @include media-query($mobile) {
+    padding: $spacing-unit;
+  }
 
   &.visible {
     display: block;
+  }
+
+  .cs-header-mobile {
+    display: none;
+    
+    @include media-query($mobile) {
+      display: flex;
+      align-items: center;
+
+
+      .case-study-logo {
+        box-shadow: 0 0 0 4px rgba(24, 84, 194,0.1);
+      }
+    }
   }
 }

@@ -1,3 +1,5 @@
+= Rituals 
+
 Through Continuous Architecture, we're promoting several mindset shifts:
 
 * Architecture is a set of activities that are performed in teams where we should architects
