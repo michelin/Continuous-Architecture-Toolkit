@@ -1,0 +1,36 @@
+---
+layout: landing
+---
+
+<div class="about-wrapper column alitems-center">
+  <div class="about-us-hero">
+    <h1 class="xlarge-font black mgb-l">About us</h1>
+  </div>
+  
+  <div class="content-wrapper row wrap justc-space-b pdv-xl">
+    {% for person in page.team %}
+      <div class="person-entry mgb-m column">
+        <div class="row alitems-center mgb-xs">
+          {% assign imgSize = person.image | size %}
+          {% if imgSize < 2 %}
+            <div class="team-image no-pic">
+              {% assign splittedName = person.name | split: " " %}
+              {% for word in splittedName %}{{word | slice: 0 }}{% endfor %}
+            </div>
+          {% else %}
+            <div class="team-image">
+              <img src="{{site.baseurl}}{{person.image}}" alt="{{person.name}}">
+            </div>
+          {% endif %}
+          <div class="person-description flex-1 mgl-s">
+            <h2 class="large-font bold mgb-xxs">{{person.name}}</h2>
+            <div class="grey-text">{{person.role | markdownify }}</div>
+          </div>
+        </div>
+        <div class="person-bio">
+          {{person.bio | markdownify }}
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>

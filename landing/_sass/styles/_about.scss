@@ -1,0 +1,49 @@
+.about-us-hero {
+  width: 100%;
+  padding: $spacing-unit*8 $spacing-unit $spacing-unit*2;
+  background: $gradient-dark;
+
+  h1 {
+    color: white;
+    text-align: center;
+  }
+}
+
+.about-wrapper .content-wrapper {
+  max-width: 1200px;
+}
+
+.person-entry {
+  width: 48%;
+}
+
+.team-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 300px;
+  box-shadow: 0 0 0 4px rgba(24, 84, 194,0.2);
+  overflow: hidden;
+
+  img {
+    display: block;
+    height: 100%;
+    min-width: 100%;
+  }
+
+  &.no-pic {
+    background-color: $grey-color-light;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 900;
+  }
+}
+
+.person-bio {
+  background-color: $grey-color-light;
+  border-radius: 20px;
+  border-top-left-radius: 0;
+  padding: $spacing-unit;
+}
