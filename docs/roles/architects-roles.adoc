@@ -36,11 +36,10 @@ Sticking to the principle that architects should focus on system as a whole, cro
 |xref:enterprise-architect.adoc[Enterprise Architect]
 |xref:product-architect.adoc[Product Architect]
 |xref:fullstack-architect.adoc[Fullstack Architect]
-| image:./img/enterprise-architect-role.png[Click to enlarge,width=256,link="./img/enterprise-architect-role.png"]
-| image:./img/product-architect-role.png[Click to enlarge,width=256,link="./img/product-architect-role.png"]
-| image:./img/fullstack-architect-role.png[Click to enlarge,width=256,link="./img/fullstack-architect-role.png"]
+| image:./img/enterprise-architect-role.jpg[Click to enlarge,width=256,link="./img/enterprise-architect-role.jpg"]
+| image:./img/product-architect-role.jpg[Click to enlarge,width=256,link="./img/product-architect-role.jpg"]
+| image:./img/fullstack-architect-role.jpg[Click to enlarge,width=256,link="./img/fullstack-architect-role.jpg"]
 |===
-
 
 === Why only describing three roles?
 

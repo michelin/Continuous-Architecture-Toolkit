@@ -23,9 +23,10 @@ team:
       Olivier is an IT Distinguished Engineer at Michelin with almost 20 years of experience in software engineering and architecture. Passionated in finding solutions to users’ problems with technology, Olivier coaches teams in their journey to deliver incredible products and for a couple of years now platforms too. Involved in many initiatives around Michelin core business, he is also working in the service & solution and consumer experience areas. Recognized as a disrupter, he’s continuously pushing organizations to adopt new business models and new ways of working. Recently he worked on an open source project to help software architect dealing with the continuous nature of today’s software delivery.
     image: /assets/imgs/team/ojauze.jpg
   - name: Nicolas Chevalier
-    role: Founder @ Gluendo
+    role: Founder @ [glue N'DO](http://gluendo.com)
     bio:
-    image:
+      For more than 20 years, I have been supporting the challenges of digital transformation. My different experiences (digital strategic plan, deployment of "empowering" organizational models, management of enterprise architecture department, animation of inter-company workgroup at club URBA-EA , participation in associations on the management of the 21st century MOM 21) and my observations led me to found glue N'DO. At glue N'DO, we are convinced that an integral approach combining the development of the consciousness of people and organizations, deployment of collaborative models with special attention to the new fundamentals of the digital world ( end-user centricity, business and digital cycles, continuous architecture, data prime, open innovation) is key for sustainable growth. After being part of the construction and implementation of Continuous Architecture operating model and Toolbox within Michelin, consolidating the model, enriching the toolbox in an open approach of sharing and co-construction is a strong motivation.
+    image: /assets/imgs/team/nicolas.jpg
   - name: Frédéric Lé
     role: Founder @ youragileway.com
     bio: |-
