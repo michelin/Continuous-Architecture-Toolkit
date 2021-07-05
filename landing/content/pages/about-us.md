@@ -27,9 +27,9 @@ team:
     bio:
     image:
   - name: Frédéric Lé
-    role: 
-    bio:
-    image:
+    role: Owner @ youragileway.com
+    bio:  
+    image: /assets/imgs/team/frederic_le.jpg
   - name: Corentin Moussard
     role: |-
       Graphic designer, [alune.fr](https://alune.fr)
