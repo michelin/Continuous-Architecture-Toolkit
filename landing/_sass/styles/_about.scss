@@ -15,6 +15,10 @@
 
 .person-entry {
   width: 48%;
+
+  @include media-query($tablet) {
+    width: 100%;
+  }
 }
 
 .team-image {
