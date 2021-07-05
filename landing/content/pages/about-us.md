@@ -29,7 +29,7 @@ team:
   - name: Frédéric Lé
     role: Founder @ youragileway.com
     bio: |-
-      Frédéric is a Digital Transformation, Enterprise Architect and Process Management thought leader and practitioner. As an industry advisor, he has led the development of the Open Agile Architecture Standard<sup>TM</sup> and has contributed to the development of the Body of Knowledge<sup>TM</sup>.
+      Frédéric is a Digital Transformation, Enterprise Architect and Process Management thought leader and practitioner. As an industry advisor, he has led the development of the Open Agile Architecture Standard<sup>TM</sup> and has contributed to the development of the Digital Practitioner Body of Knowledge<sup>TM</sup>.
       He has over 30 years professional experience working for global firms in Europe and North America as a Management Consultant and Architecture Leader. He is currently serving as administrator of "France Processus" which is the French chapter of the Association of Business Process Management Professional (abpmp.org).
     image: /assets/imgs/team/frederic_le.jpg
   - name: Corentin Moussard
