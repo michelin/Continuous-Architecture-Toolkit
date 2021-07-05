@@ -23,12 +23,14 @@ team:
       Olivier is an IT Distinguished Engineer at Michelin with almost 20 years of experience in software engineering and architecture. Passionated in finding solutions to users’ problems with technology, Olivier coaches teams in their journey to deliver incredible products and for a couple of years now platforms too. Involved in many initiatives around Michelin core business, he is also working in the service & solution and consumer experience areas. Recognized as a disrupter, he’s continuously pushing organizations to adopt new business models and new ways of working. Recently he worked on an open source project to help software architect dealing with the continuous nature of today’s software delivery.
     image: /assets/imgs/team/ojauze.jpg
   - name: Nicolas Chevalier
-    role: founder @ Gluendo
+    role: Founder @ Gluendo
     bio:
     image:
   - name: Frédéric Lé
-    role: Owner @ youragileway.com
-    bio:  
+    role: Founder @ youragileway.com
+    bio:
+      Frédéric is a Digital Transformation, Enterprise Architect and Process Management thought leader and practitioner. As an industry advisor, he has led the development of the Open Agile Architecture Standard and has contributed to the development of the Digital Practitioner Body of Knowledge.
+      He has over 30 years professional experience working for global firms in Europe and the US as a Management Consultant and Head of Architecture. He is currently serving as administrator of France Processus which represents the Association of Business Process Management Professionals (abpmp.org) in France.
     image: /assets/imgs/team/frederic_le.jpg
   - name: Corentin Moussard
     role: |-
