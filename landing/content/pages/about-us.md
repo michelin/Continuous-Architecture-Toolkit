@@ -4,11 +4,11 @@ permalink: /about-us/
 team:
   - name: Jérémie Grodziski
     role: |-
-      Sr. Software Architect
+      Sr. Software Architect, [web site](https://grodziski.com)
     bio: |-
       Jérémie is passionated in designing and building software that are simple and useful. He has 20 years of experiences in various industries and companies of different sizes using a wide range of technology.  
       Dealing with complexity everyday, both essential and accidental, he is always looking for simplicity. Jérémie is a strong promoter of Domain-Driven-Design and Behavior-Driven Development approaches, that he considers as very efficient ways of designing software. He likes to study complex problems and provide suitable solutions, taking into account all the constraints (scope, cost/delay, quality). I have a strong technical expertise that I combine with a deep work on the domain, in order to provide a lot of value and be able to deal effectively with complexity.  
-    image:
+    image:  /assets/imgs/team/jgrodziski.png
   - name: Thierry Fraudet
     role: |-
       Fellow @ Michelin
@@ -23,7 +23,7 @@ team:
       Olivier is an IT Distinguished Engineer at Michelin with almost 20 years of experience in software engineering and architecture. Passionated in finding solutions to users’ problems with technology, Olivier coaches teams in their journey to deliver incredible products and for a couple of years now platforms too. Involved in many initiatives around Michelin core business, he is also working in the service & solution and consumer experience areas. Recognized as a disrupter, he’s continuously pushing organizations to adopt new business models and new ways of working. Recently he worked on an open source project to help software architect dealing with the continuous nature of today’s software delivery.
     image: /assets/imgs/team/ojauze.jpg
   - name: Nicolas Chevalier
-    role: founder Gluendo
+    role: founder @ Gluendo
     bio:
     image:
   - name: Frédéric Lé
@@ -39,7 +39,8 @@ team:
     image: /assets/imgs/team/cmoussard.jpg
   - name: Jérôme Regnier
     role: |-
-      XXX @ Société Générale
+      Enterprise Architect @ Société Générale
     bio:
-    image:
+      Jérôme started to work in 1993 in the IT field, as a software consultant. Then he moved to project manager role to end up as a Service Director of a software firm. Before becoming an Enterprise Architect for the french Department of Health, he became the Chief Technology Office of a corporate finance company. Today, he is still an Enterprise Architect for a french major bank. Living in Paris, Jérôme graduated as Engineer from the ENSIIE/CNAM school.
+    image: /assets/imgs/team/jerome.jpg
 ---
