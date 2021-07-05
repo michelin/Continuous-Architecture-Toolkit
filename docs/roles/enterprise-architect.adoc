@@ -2,4 +2,4 @@ work in progress
 
 We propose the below visual to recap these different activities and the other roles with which an enterprise architect will be connected.
 
-image:./img/EnterpriseArchitect_Role.png[Enterpise architect]
+image:./img/enterprise-architect-role.jpg[Enterpise architect]

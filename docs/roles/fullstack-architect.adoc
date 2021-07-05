@@ -14,4 +14,4 @@ Within the product team, she/he is the Technical Architect covering all stacks (
 
 We propose the below visual to recap these different activities and the other roles with which a fullstack architect will be connected.
 
-image:./img/FullstackArchitect_Role.png[Fullstack architect]
+image:./img/fullstack-architect-role.jpg[Fullstack architect]

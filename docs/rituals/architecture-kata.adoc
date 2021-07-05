@@ -38,7 +38,7 @@ Unless you're practicing architecture every day, we often spend our time on very
 image::architects_do.jpg[]
 (courtesy from https://www.innoq.com/en/staff/stefan-tilkov/[Stefan Tilkov]). 
 
-So if you find yourself in this situation, we have a ritual that was created to help you: it's the architecture kata and we want to give credits to https://archkatas.herokuapp.com[Ted Neward] who formalized it several years ago and was later popularized by https://nealford.com/katas/[Neil Ford].
+So if you find yourself in this situation, we have a ritual that was created to help you: it's the architecture kata and we want to give credits to https://archkatas.herokuapp.com[Ted Neward] who formalized it several years ago and was later popularized by https://nealford.com/katas/[Neil Ford]. 
 
 == Why having a ritual to practice architecture ?
 
