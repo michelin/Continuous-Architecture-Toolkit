@@ -1,0 +1,18 @@
+== Terms and definitions
+
+[[JTBD]]
+=== JTBD
+alt:[Job To Be Done]
+domain:[Experience Objectives]
+
+A JTBD is a goal or an objective independent of your solution
+A job statement is Verb + Object + Clarifier
+
+
+[example]
+Move Money.
+
+NOTE: Blabla.
+
+[.source]
+<<Book>>, The term "JTBD" has been coined by Clayton M. Christensen, Taddy Hall, Karen Dillon, and David S. Duncan in their Book : Know Your Customers’ “Jobs to Be Done”
