@@ -1,0 +1,20 @@
+[[service]]
+==== JTBD
+
+[[Business]]
+===== Context Business
+
+XXX
+
+footnote:[this is a footnote]
+
+*Example*
+
+YYY
+
+[[Technology]]
+===== Context technology
+
+ZZZ
+
+
