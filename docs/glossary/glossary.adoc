@@ -5,6 +5,6 @@
 [[glossary]]
 ==== Glossary
 //:toc: preamble
-Test
 
-Xxx
+include::JTBD.adoc[]
+
