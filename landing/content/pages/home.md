@@ -86,6 +86,7 @@ references:
     content: |-
       [Domain-Design Design Crew](https://github.com/ddd-crew) is an open source project aiming to help adopt the famous Eric Evans' DDD approach. DDD-crew is really an inspirational source for us and we hope we can contribute back. 
 value_proposition:
+  image:
   title:
   text: |-
     lorem ipsum
