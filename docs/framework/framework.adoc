@@ -3,12 +3,12 @@
 //:reproducible:
 
 [[framework]]
-=== Continuous Architecture Framework (CAF)
+=== Continuous Architecture Framework
 _By Frédéric Lé and Jean-Pierre Le Cam_
 //:toc: preamble
 //xref:o-aaf-deployment[o-aaf-deployment-vision]
 
-The Continuous Architecture Framework or CAF is organized into six related views as depicted in the figure below.
+The Continuous Architecture Framework (or CAF) is organized into six related views as depicted in the figure below.
 
 image::./img/ca-framework-v08.svg[900,align="center",opts=inline]
 
