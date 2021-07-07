@@ -7,6 +7,6 @@
 //:toc: preamble
 //xref:o-aaf-deployment[o-aaf-deployment-vision]
 
-Xxx
+The _Operations view_ characterizes the abilities of the enterprise's resources and processes. It is influenced by the VCAP Framework footnote:[Operations Strategy: Principles and Practice by Jan A. Van Mieghem and Gad Allon, 2nd edition, 2015]. The operations view covers the ensemble of assets and processes of the enterprise. It affects what the operating system of the enterprise can or cannot do. 
 
 link:framework.html[Return to the CAF diagram]
