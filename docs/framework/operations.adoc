@@ -17,8 +17,8 @@ The figure below inspired by the VCAP framework summarizes the dimension to cons
 
 image::./img/operations.svg[800,align="left",opts=inline]
 
-[classical-operations-strategy]
-===== Classical Operations Strategy approach
+[[classical-operations-strategy]]
+===== Classical Operations
 
 The capabilities required to deliver the products the enterprise markets define:
 
@@ -29,7 +29,7 @@ The capabilities required to deliver the products the enterprise markets define:
 
 The asset XXX
 
-[digital-operations]
+[[digital-operations]]
 ===== Digital Operations
 
 Digital technology provides powerful levers that can help dramatically improve the operational capabilities of the enterprise.
