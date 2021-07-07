@@ -3,8 +3,9 @@
 //:reproducible:
 
 [[glossary]]
-==== Glossary
+=== Glossary
 //:toc: preamble
 
-include::JTBD.adoc[]
+//include::JTBD.adoc[]
+include::service.adoc[]
 

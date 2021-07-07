@@ -1,9 +1,7 @@
-== Terms and definitions
-
 [[JTBD]]
-=== JTBD
-alt:[Job To Be Done]
-domain:[Experience Objectives]
+==== JTBD
+//alt:[Job To Be Done]
+//domain:[Experience Objectives]
 
 A JTBD is a goal or an objective independent of your solution
 A job statement is Verb + Object + Clarifier
