@@ -11,7 +11,7 @@ The _Operations view_ characterizes the abilities of the enterprise's resources 
 
 The Capability perspective treats the Operating System as a black box and focuses on the desired and actual dimensions along which it excels (or not). 
 
-_Values_ are the third factor that affects what the Operating System can or cannot do. Values are the standards by which employees set priorities and behave. For example, when the enterprise values service employee's autonomy it is more capable of solving customer problems compared to one where employees follow procedures blindly.
+_Values_ are the third factor that affects what the Operating System can or cannot do. Values are the standards by which employees set priorities and behave. For example when an enterprise values service employees' autonomy, it is more capable of solving customer problems compared to one where employees follow procedures blindly.
 
 
 
