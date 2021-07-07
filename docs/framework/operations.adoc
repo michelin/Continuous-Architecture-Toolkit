@@ -13,10 +13,26 @@ The Capability perspective treats the Operating System as a black box and focuse
 
 _Values_ are the third factor that affects what the Operating System can or cannot do. Values are the standards by which employees set priorities and behave. For example when an enterprise values service employees' autonomy, it is more capable of solving customer problems compared to one where employees follow procedures blindly.
 
-The figure below inspired from the VCAP framework summarizes the dimension to consider when assessing an existing Operations and formulating an _Operation Strategy_.
+The figure below inspired by the VCAP framework summarizes the dimension to consider when assessing the current situation and formulating an _Operation Strategy_.
 
 image::./img/operations.svg[800,align="left",opts=inline]
 
+[classical-operations-strategy]
+===== Classical Operations Strategy approach
+
+The capabilities required to deliver the products the enterprise markets define:
+
+* The cost of operating that must be achieved for the product to be profitable. Because price is set by the market, design to cost is a common approach to develop products and their production processes
+* The lead time which determines how long it takes to serve customers and how much they have to wait
+* The quality of outputs determines the expected degree of excellence of products and processes 
+* Operations flexibility determines the expected ability of the enterprise to cope with changes in inputs, activity levels or volumes
+
+The asset XXX
+
+[digital-operations]
+===== Digital Operations
+
+Digital technology provides powerful levers that can help dramatically improve the operational capabilities of the enterprise.
 
 
 link:framework.html[Return to the CAF diagram]
