@@ -7,7 +7,7 @@
 //:toc: preamble
 //xref:o-aaf-deployment[o-aaf-deployment-vision]
 
-The _Operations view_ characterizes the abilities of the enterprise's resources and processes. The CAF is influenced by the *Value Capability Assets Processes* (or VCAP) framework footnote:[Operations Strategy: Principles and Practice by Jan A. Van Mieghem and Gad Allon, 2nd edition, 2015]. The Operations View covers the ensemble of _Assets_ and _Processes_ of the enterprise. It affects what the _Operating System_ of the enterprise can or cannot do. Together with the concept of _Value_, it determines the _Capabilities_ of the enterprise. 
+In a recent article footnote:[Why Do So Many Strategies Fail? Leaders focus on the parts rather than the whole by David J. Collis From the hbr.org, July–August 2021], David J. Collis observes CEOs in innovative enterprises often neglect to invest in capabilities needed to sustain a long-term competitive advantage. The _Operations View_ addresses this shortcoming by shaping the enterprise's resources and processes to create the needed capabilities. The CAF starts from the *Value Capability Assets Processes* (or VCAP) framework footnote:[Operations Strategy: Principles and Practice by Jan A. Van Mieghem and Gad Allon, 2nd edition, 2015] and extend it to address _Digital Operations_. The Operations View covers the ensemble of _Assets_ and _Processes_ of the enterprise. It affects what the _Operating System_ of the enterprise can or cannot do. Together with the concept of _Value_, it determines the _Capabilities_ of the enterprise. 
 
 The Capability perspective treats the Operating System as a black box and focuses on the desired and actual dimensions along which it excels (or not). 
 
