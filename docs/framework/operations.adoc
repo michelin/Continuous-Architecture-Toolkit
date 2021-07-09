@@ -27,7 +27,15 @@ The capabilities required to deliver the products the enterprise markets define:
 * The quality of outputs determines the expected degree of excellence of products and processes 
 * Operations flexibility determines the expected ability of the enterprise to cope with changes in inputs, activity levels or volumes
 
-The asset XXX
+The process view specifies how the activities required to develop and produce the goods and services of the enterprise are structured. The process view addresses the questions below:
+
+* For each activity, identify qualified suppliers of the resource required to perform them and decide whether to outsource them or not
+* Decide how the activities performs in-house are performed, which knowledge and skills employees possess and how effective coordination is achieved
+* Adjust capacity to meet the variability of demand while achieving the targeted service levels and operating costs
+* Continuously improve processes through incremental and breakthrough innovations
+* Manage operational risks to improve the resiliency of operations
+
+To coordinate and 
 
 [[digital-operations]]
 ===== Digital Operations
