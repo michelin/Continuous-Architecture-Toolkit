@@ -42,7 +42,7 @@ To coordinate and perform their activities, the enterprise needs a bundle of rea
 * What kinds of assets do we need? What is the right level of automation? How polyvalent should employees be?
 * Where should assets be located and how are they positioned within the operating network of the enterprise? 
 
-Digital technology has the potential to impact most of the operating variables. For example, in the Cloud era the management of IT infrastructure capacity changes dramatically. Instead of investing building data centers the enterprise can purchase IT infrastructure as a service and rapidly grow or shrink capacity when needed. The next section will describe the salient characteristics of a digital operating model. 
+Digital technology has the potential to impact most of the operating variables. For example, in the Cloud era the management of IT infrastructure capacity changes dramatically. Instead of investing in data centers, the enterprise can purchase IT infrastructure as a service and rapidly grow or shrink capacity when needed. The next section will describe the salient characteristics of a digital operating model. 
 
 [[digital-operations]]
 ===== Digital Operations
