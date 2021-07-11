@@ -12,6 +12,14 @@
       {% for link in site.data.header.links %}
         <a class="bold" href="{{link.url}}">{{link.text}}</a>
       {% endfor %}
+
+      <div class="social-links-header mobile row justc-center aliself-stretch mgt-xs ">
+        {% for socialLink in site.data.header.socialLinks %}
+          <a class="social-icon mgl-s mgr-s" href="{{socialLink.url}}">
+            {% include {{socialLink.icon}} %}
+          </a>
+        {% endfor %}
+      </div>
     </div>
   </div>
 </div>

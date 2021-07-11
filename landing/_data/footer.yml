@@ -1,8 +1,11 @@
 logo-url: /
 links:
   - text: Github
+    icon: github-logo.svg
     url: https://github.com/michelin/Continuous-Architecture-Toolkit/
   - text: Slack
+    icon: slack-logo.svg
     url: https://continuousarc-onh6387.slack.com/archives/C01C9MXJMGE
   - text: Twitter
+    icon: twitter-logo.svg
     url: https://twitter.com/ContinuousArch

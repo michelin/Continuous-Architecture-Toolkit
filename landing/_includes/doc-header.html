@@ -3,11 +3,19 @@
     <a class="doc-logo" href="{{site.data.header.logo-url}}">
       <img class="logo-dark" src="{{site.baseurl}}/assets/imgs/continuous-architecture-logo-dark.svg" alt="logo">
     </a>
-    <div class="links">
+    <div class="links row">
       
       {% for link in site.data.header.links %}
         <a class="bold mgl-s" href="{{link.url}}">{{link.text}}</a>
       {% endfor %}
+
+      <div class="social-links-header row mgl-s pdl-xs">
+        {% for socialLink in site.data.header.socialLinks %}
+          <a class="social-icon mgl-xs" href="{{socialLink.url}}">
+            {% include {{socialLink.icon}} %}
+          </a>
+        {% endfor %}
+      </div>
     </div>
   </div>
 </header>

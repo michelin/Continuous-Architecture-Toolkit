@@ -291,6 +291,64 @@ pre {
   }
 }
 
+.social-links-header {
+  border-left: solid 1px $grey-color-medium;
+
+  .social-icon {
+    svg {
+      width: 20px;
+
+      path {
+        fill: $white;
+      }
+    }
+
+    &:hover {
+      background-color: transparent !important;
+
+      svg path {
+        fill: $accent-color;
+      }
+    }
+  }
+}
+
+.social-links-header.mobile {
+  border-left: none;
+  margin-bottom: 5px;
+
+  .social-icon {
+    &:after {
+      display: none !important;
+    }
+
+    svg {
+      width: 24px;
+      path {
+        fill: $accent-color-dark;
+        opacity: 0.8;
+      }
+    }
+  }
+}
+
+.header.scrolled, .header.doc {
+  .social-icon {
+    svg {
+      path {
+        fill: $text-color;
+        opacity: 0.7;
+      }
+    }
+    &:hover {
+      svg path {
+        fill: $accent-color;
+        opacity: 1;
+      }
+    }
+  }
+}
+
 .mobile-header-placeholder {
   display: none;
   height: 50px;
@@ -364,10 +422,10 @@ pre {
         align-items: center;
         height: 50px;
         text-decoration: none;
-        color: #1854c2;
+        color: $accent-color-dark;
         
         &:visited {
-          color: #1854c2;
+          color: $accent-color-dark;
         }
 
         &:not(:last-child) {
@@ -418,11 +476,27 @@ pre {
     text-decoration: none;
     color: $text-color;
 
+    svg {
+      width: 20px;
+      
+      margin-right: 5px;
+  
+      path {
+        fill: $text-color;
+        opacity: 0.7;
+      }
+    }
+
     &:hover {
       color: $accent-color;
       opacity: 1;
+
+      svg path {
+        fill: $accent-color;
+      }
     }
   }
+
 }
 
 
