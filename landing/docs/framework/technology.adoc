@@ -9,7 +9,7 @@
 
 In his seminal article _"Why Software Is Eating The World"_ footnote:[see: https://www.wsj.com/articles/SB10001424053111903480904576512250915629460] Marc Andreessen observes Software is eating much of the value chain of industries that primarily exist in the physical world. For example in today's cars, software runs the engines, controls safety features, entertains passengers and has the ability to drive autonomously. This is why the CAF focuses on two major topics:
 
-* How to design modular software architectures
+* Designing modular software architectures
 * The symbiotic coupling of machines and humans footnote:[see: The Design of Future Things by Don Norman. ISBN: 978-0-465-00228-3]
 
 
