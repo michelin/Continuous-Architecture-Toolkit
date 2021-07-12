@@ -47,7 +47,15 @@ Digital technology has the potential to impact most of the operating variables. 
 [[digital-operations]]
 ===== Digital Operations
 
-We will now analyze how digital technologies impact the operating system's processes and assets.
+We will now analyze how digital technologies impact the operating system's processes and assets. 
+
+Digital technologies are used to:
+
+* Increase the process automation level by replacing humans by software, for example using Robotic Process Automation (RPA)
+* Improve the intelligence level of process execution using _Machine Learning_ or AI
+* Shift the burden of performing process activities from the enterprise to clients or third parties through self-care
+
+
 
 
 link:/docs/framework/framework.html[Return to the CAF diagram]
