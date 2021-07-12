@@ -47,7 +47,7 @@ Digital technology has the potential to impact most of the operating variables. 
 [[digital-operations]]
 ===== Digital Operations
 
-We will now analyze how digital technologies impact operations.
+We will now analyze how digital technologies impact the operating system's processes and assets.
 
 
 link:/docs/framework/framework.html[Return to the CAF diagram]

@@ -49,6 +49,7 @@ The next section will describe the salient characteristics of a digital operatin
 ===== Digital Operations
 
 Digital technology provides powerful levers that can help dramatically improve the operational capabilities of the enterprise.
+TEST!
 
 
 link:framework.html[Return to the CAF diagram]
