@@ -47,7 +47,7 @@ Digital technology has the potential to impact most of the operating variables. 
 [[digital-operations]]
 ===== Digital Operations
 
-Digital technology provides powerful levers that can help dramatically improve the operational capabilities of the enterprise.
+We will now analyze how digital technologies impact operations.
 
 
 link:/docs/framework/framework.html[Return to the CAF diagram]
