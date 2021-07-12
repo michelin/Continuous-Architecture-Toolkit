@@ -15,7 +15,7 @@ _Values_ are the third factor that affects what the Operating System can or cann
 
 The figure below, inspired by the VCAP framework, summarizes the dimension to consider when assessing the current situation and formulating an _Operations Strategy_.
 
-image::./img/operations.svg[800,align="left",opts=inline]
+image::/assets/imgs/doc/operations.svg[800,align="left",opts=inline]
 
 [[classical-operations-strategy]]
 ===== Classical Operations
@@ -50,4 +50,4 @@ Digital technology has the potential to impact most of the operating variables. 
 Digital technology provides powerful levers that can help dramatically improve the operational capabilities of the enterprise.
 
 
-link:framework.html[Return to the CAF diagram]
+link:/docs/framework/framework.html[Return to the CAF diagram]
