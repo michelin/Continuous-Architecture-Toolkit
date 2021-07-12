@@ -55,7 +55,7 @@ Digital technologies are used to:
 * Improve process execution intelligence using _Machine Learning_ or AI
 * Shift activities from the enterprise to clients or third parties through self-care
 
-When software replaces humans, it is easier to grow or shrink capacity to adjust to demand variability. In the cloud era, compute network or data resources are provisioned through APIs or self-care with automatic enforcement of enterprise's policies. Compared to a labor intensive model with approval procedures, it is more cost effective and agile.
+When software replaces humans, it is easier to grow or shrink capacity to adjust to demand variability. In the cloud era, compute, network or data resources are provisioned through APIs or self-service systems with automatic enforcement of enterprise's policies. Compared to a labor intensive model with approval procedures, it is more cost effective and agile.
 
 Smart automation offers an alternative to full automation by augmenting humans using technologies such as AI or exoskeleton bionic devices to improve 
 employees' skills or physical limitations. Alongside with Garry Kasparov we think It’s time for humans and machines to work together footnote:[see: https://medium.com/@Jordan.Teicher/garry-kasparov-its-time-for-humans-and-machines-to-work-together-8cd9e1dc735a].
