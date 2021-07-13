@@ -36,7 +36,7 @@ endif::rootpath[]
 
 Practices used for systemic decomposition of an enterprise
 
-image::/assets/imgs/doc/granularity-level.png[]
+image::./img/granularity-level.png[]
 
 
 

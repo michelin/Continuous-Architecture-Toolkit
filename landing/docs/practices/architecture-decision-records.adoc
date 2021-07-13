@@ -20,7 +20,7 @@ Jason Yip in https://jchyip.medium.com/impact-of-a-bad-decision-vs-time-spent-de
 * Decisive: Low impact of a bad decision, low time spent deciding;
 * Overly cautious: Low impact of a bad decision, high time spent deciding.
 
-image::/assets/imgs/doc/decision_time_spent.png[]
+image::./img/decision_time_spent.png[]
 
 You should try to position your decisions in these quadrants to make sure you're spending the appropriate time on them.
 

@@ -13,4 +13,4 @@ Defining a role is always difficult as each company can have its own role / job 
 
 We propose the below visual to recap these different activities and the other roles with which a product architect will be connected.
 
-image:./img/ProductArchitect_Role.png[Product architect]
+image:./img/product-architect-role.jpg[Product architect]

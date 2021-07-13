@@ -35,8 +35,9 @@ endif::rootpath[]
 
 Unless you're practicing architecture every day, we often spend our time on very different activites as depicted on the below charts.
 
-image::/assets/imgs/doc/architects_do.jpg[]
-(courtesy from https://www.innoq.com/en/staff/stefan-tilkov/[Stefan Tilkov]). 
+image:architects_do.jpg[]
+
+(courtesy from https://www.innoq.com/en/staff/stefan-tilkov/[Stefan Tilkov])
 
 So if you find yourself in this situation, we have a ritual that was created to help you: it's the architecture kata and we want to give credits to https://archkatas.herokuapp.com[Ted Neward] who formalized it several years ago.
 

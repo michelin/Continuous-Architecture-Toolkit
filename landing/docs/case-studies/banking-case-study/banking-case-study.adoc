@@ -46,7 +46,7 @@ or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
 
 
 // CC license image
-image::/assets/imgs/doc/by-sa.png[fig-cc-license,100,100, align="left"]
+image::./img/by-sa.png[fig-cc-license,100,100, align="left"]
 
 //....
 //.Footer 

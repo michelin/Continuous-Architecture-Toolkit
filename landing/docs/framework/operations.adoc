@@ -15,9 +15,8 @@ _Values_ are the third factor that affects what the Operating System can or cann
 
 The figure below, inspired by the VCAP framework, summarizes the dimension to consider when assessing the current situation and formulating an _Operations Strategy_.
 
-image::/assets/imgs/doc/operations.svg[800,align="left",opts=inline]
+image::./img/operations.svg[800,align="left",opts=inline]
 
-[[classical-operations-strategy]]
 ===== Classical Operations
 
 The capabilities required to deliver the products the enterprise markets define:

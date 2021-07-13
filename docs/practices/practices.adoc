@@ -1,7 +1,0 @@
-= Architecture practices
-
-Developers have practices to help them do a better job. Things like Test Driven Development, design patterns etc. Why can't we propose some to architects? because if we don't how can we expect architects to do a better job? On this page, we propose some practices that we believe could be helpful for architects and that are aligned with the xref:../manifest/manifesto.adoc[Continuous Architecture Manifesto]
-
-* xref:architecture-runway.adoc[Architecture Runway]: this practice aims to make sure the product backlog contains the intentional architecture items as well as the emerging design ones. Not only they appear in the backlog but they are also prioritized (like business features).
-* xref:architecture-decision-records.adoc[Architecture Decision Records]: architects take decision all the time and we need to keep track of them. This kit is about the decision making process we need to follow.
-* xref:scoping360.adoc[scoping 360]: this one is a huge practice not only covering architecture aspects. It's a complete methodology to help assembling a team aligned on a vision and ready to deliver its products. And in the workshops sequence that compose the scoping 360 approach, we can find an architecture workshop.

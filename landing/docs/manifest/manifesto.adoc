@@ -12,4 +12,4 @@ There are famous manifesto out there such as the https://agilemanifesto.org[Agil
 7. Risk-driven prioritization: do customer-centric features with major architectural impact first. Let's take an example to illustrate this: you want to decompose your monolith and you have the choice between doing it on back office features or user facing ones. We do recommend to start with the user facing features. Why? yes the risk of implementing such changes on a critical part of your product is higher so the benefits for your users will be. In that case, moving to a micro services approach will enable the team to deliver faster, reduce the impact of a change, scale differently the different parts of your product ...
 
 
-image::/assets/imgs/doc/manifesto.jpg[Continuous Architecture Manifesto]
+image::./img/manifesto.jpg[Continuous Architecture Manifesto]

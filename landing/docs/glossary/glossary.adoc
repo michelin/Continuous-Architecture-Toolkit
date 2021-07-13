@@ -1,10 +1,13 @@
-= Glossary
 //:sectnums:
 //:doctype: book
 //:reproducible:
-:page-show-toc: false
 
 [[glossary]]
-Test
+=== Glossary
+//:toc: preamble
 
-Xxx
+// Text to describe the glossary and its structure
+
+//include::JTBD.adoc[]
+include::service.adoc[]
+

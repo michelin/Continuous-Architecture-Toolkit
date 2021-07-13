@@ -33,7 +33,7 @@ The distribution network is organized into groups of branches by territory and l
 
 Operating Units sell products and/or services to external or internal clients and have an income statement and possibly a balance sheet.
 
-image::/assets/imgs/doc/enterprise-decomposition.svg[800,align="left",opts=inline]
+image::./img/enterprise-decomposition.svg[800,align="left",opts=inline]
 
 Beyond the choice of vocabulary lies more interesting questions:
 
