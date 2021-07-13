@@ -1,6 +1,5 @@
-Begin to familiarize yourself with the key tenets of the Continuous Architecture (CA) manifesto:
 
-image:../img/manifesto.jpg[Continuous Architecture Manifesto]
+Begin to familiarize yourself with the key tenets of the link:/docs/manifest/manifesto.html[Continuous Architecture Manifesto]
 
 At the team level, start experimenting a few CA practices and rituals, in particular documenting your architecture decisions using the Architecture Decision Records (ADRs) template or assessing your team's autonomy. 
 
