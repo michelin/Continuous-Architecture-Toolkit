@@ -10,7 +10,9 @@
 The Organization view maps the hierarchical decomposition of the enterprise into an organizational model. 
 The figure below describes the way the CAF suggests you model your organization.
 
-image::img/organization.svg[600,align="left",opts=inline]
+++++
+<object type="image/svg+xml" data="img/organization.svg">Your browser does not support SVGs</object>
+++++
 
 We need to complete the structural decomposition of the enterprise into Operating units:
 
@@ -22,7 +24,9 @@ The CAF proposes content that cover each of the organizational dimensions covere
 
 https://teamtopologies.com[Team topologies] is very popular in our industry now and we think it makes complete sense in our architecture context. The figure below presents the CAF's generic team topologies model.
 
-image::img/team-topologies.svg[400,align="left",opts=inline]
+++++
+<object type="image/svg+xml" data="img/team-topologies.svg">Your browser does not support SVGs</object>
+++++
 
 As you can see, we emphasize only two of the four topologies. It does not mean that Complex sub-system or enablement teams are not relevant but for us, Stream aligned teams and platform teams are the topologies we think matter most. The first is directly aligned (as its name suggests) with the value stream and the product notion. While the second promotes the idea that platform teams can help to reduce cognitive loads on stream aligned teams by providing them self-service platforms. Providing easy to consume services like a Kubernetes cluster is indeed helping stream aligned teams to focus on the value creation. 
 
