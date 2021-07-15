@@ -26,7 +26,7 @@ When shifting to a truly agile organization, you might discover your teams are m
 
 During this transitions you might discover the existing reward system of your enterprise gets in the way of agile ways of working. For example teams may be get rewarded when the deliver outputs and not when customers experience outcomes. At that stage you might have to talk to management and HR to move the needle and evolve the existing reward system.
 
-Last but not the least, we recommend you put in place some impact tracking system to document the benefits of these local changes. At that stage you might be ready to add a top-down component to your change agenda.
+Last but not the least, we recommend you put in place some impact tracking system to document the benefits of your bottom-up approach. This will help build the case for a more ambitious change journey. At this stage you might be ready to add a top-down component to your change agenda.
 
 ==== Start your journey top-down
 
