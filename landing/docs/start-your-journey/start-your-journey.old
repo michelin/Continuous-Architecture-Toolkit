@@ -1,32 +1,15 @@
-[[start-your-journey]]
-=== Start your journey
 
-The deployment of the new ways of working (practices, rituals, framework) described in the Continuous Architecture Framework and Toolbox is a major change journey. There is no single pathway to move your enterprise (or part of it) from its current state to the _"to-be"_ state we recommend and which is embodied in the key tenets of the link:/docs/manifest/manifesto.html[Continuous Architecture Manifesto].
+Begin to familiarize yourself with the key tenets of the link:/docs/manifest/manifesto.html[Continuous Architecture Manifesto]
 
-There are two ways of starting your journey:
+At the team level, start experimenting a few CA practices and rituals, in particular documenting your architecture decisions using the Architecture Decision Records (ADRs) template or assessing your team's autonomy. 
 
-* Bottom-up: deploy Continuous Architecture on a limited scope with a magnitude of change compatible with your existing organization's culture
-* Top-down: design and deploy a more ambitious change journey which scope will a subset of your enterprise, for example one of its _Operating Unit_.
-
-The bottom-up approach can help you _"test the water"_ and demonstrated success. At some point when your organization will ready for a more ambitious change agenda you will likely need to shift to a combination of bottom-up and top-down approach.
-
-The diagram below which is described in the _Organization"_ view of the link:/docs/framework/framework.html[Continuous Architecture Framework], can help you define the scope and pace of your change journey. 
+Though agile teams are as autonomous as possible, they operate in a environment that has constraints and provides guidance and supports. This is why you should be concerned next by the teams of teams level. The diagram below show the dimensions of a comprehensive change program. 
 
 ++++
 <object type="image/svg+xml" data="img/organization.svg">Your browser does not support SVGs</object>
 ++++
 
-==== Start journey Bottom-up 
-
-The bottom-up approach is mostly at the team level and scopes one or a few agile teams. First you will start experimenting a few CA practices and rituals without changing the way teams are structured, for example documenting your architecture decisions using the Architecture Decision Records (ADRs) template or assessing teams' autonomy. 
-
-If your teams are structured along projects or functional skills you might discover they are not cross-functional and 
-
-Though agile teams are as autonomous as possible, they operate in a environment that has constraints and provides guidance and supports. This is why you should be concerned next by the teams of teams level. The diagram below show the dimensions of a comprehensive change program. 
-
-==== Start your journey top-down
-
-
+Extending the scope of your CA change journey will requires you deploy new practices in a logical order. The CA Framework will help you position the pieces of your change journey in a coherent order.
 
 
 == Proposition Nicolas

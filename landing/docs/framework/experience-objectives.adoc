@@ -1,9 +1,9 @@
-= Experience Objectives
+[[experience-objectives]]
+=== Experience Objectives
 //:sectnums:
 //:doctype: book
 //:reproducible:
 
-[[experience-objectives]]
 //:toc: preamble
 //xref:o-aaf-deployment[o-aaf-deployment-vision]
 
