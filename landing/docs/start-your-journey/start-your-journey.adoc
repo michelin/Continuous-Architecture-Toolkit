@@ -48,7 +48,7 @@ MICHELIN's CONTINUOUS ARCHITECTURE roll-out is an example towards what we call a
  
 Nota : We reference Kotter's recent books on "accelerate" and recent "change" for additional insights on his classic principle 'people and culture first'.
 
-== CREATE A SENSE OF URGENCY
+===== CREATE A SENSE OF URGENCY
 
 ____
 "Help others see the need for change through a bold and aspirational opportunity statement which communicates the importance of acting immediately". Kotterinc.com
@@ -64,7 +64,7 @@ You, advanced digital leaders and architects, develop awareness and provide tang
 
 image:./img/vuca.png[]
 
-== BUILD A GUIDING COALITION
+===== BUILD A GUIDING COALITION
 
 ____
 "A volunteer army needs a coalition of effective people – born of its own ranks – to guide it, coordinate it and communicate its activities". Kotterinc.com
@@ -88,7 +88,7 @@ You, advanced digital leaders and architects,  on-board engaged people ready for
 
 image:./img/yestereday.png[]
 
-== FORM A STRATEGIC VISION
+===== FORM A STRATEGIC VISION
 
 ____
 "Clarify how the future will be different from the past and how you can make that future a reality through initiatives linked directly to the vision." Kotterinc.com
@@ -104,7 +104,7 @@ There are famous manifestoes out there such as the Agile Manifesto, the Reactive
 
 image:./img/manifesto.jpg[]
 
-== The CONTINUOUS ARCHITECTURE's Challenge (MICHELIN's journey 2019/20)
+===== The CONTINUOUS ARCHITECTURE's Challenge (MICHELIN's journey 2019/20)
 
 Improving architecture by accelerating the decision-making dynamic is a constant and global preoccupation. But where and how to start? Identifying the core challenges with a common direction and illustrating what could be done in terms of roles, practices and rituals may help the teams to orient their innovative energy and get quick-wins. 
 
@@ -114,7 +114,7 @@ image:./img/challenges.png[]
 
 You, advanced digital leaders and architects, assess the way you are 'architecting' in order to clarify where you can bring value and identify the primary challenges.
  
-== ENLIST A VOLUNTEER ARMY
+===== ENLIST A VOLUNTEER ARMY
 
 "Large-scale change can only occur when massive numbers of people rally around a common opportunity. They must be bought-in and urgent to drive change – moving in the same direction". Kotterinc.com
 
@@ -130,7 +130,7 @@ A good architect leader develops the team skills to put the chosen dart in the B
  
 You, advanced digital leaders and architects, enroll people in your organisation giving them awareness, autonomy and the CONTINUOUS ARCHITECTURE toolbox, so they are able to lead the change and develop outstanding skills where it really matters.
  
-== ENABLE ACTION BY REMOVING BARRIERS
+===== ENABLE ACTION BY REMOVING BARRIERS
 
 ____
 "Removing barriers such as inefficient processes and hierarchies provides the freedom necessary to work across silos and generate real impact". Kotterinc.com
@@ -143,7 +143,7 @@ Thanks to that, former governance barriers could be removed, if the conditions (
 
 You, digital leaders and architects, define and monitor an evolutive collaborative model so that integrity can be maintained, avoiding bureaucratics slowdow.
 
-== SUSTAIN ACCELERATION
+===== SUSTAIN ACCELERATION
 
 ____
 "Press harder after the first successes. Your increasing credibility can improve systems, structures and policies. Be relentless with initiating change after change until the vision is a reality". Kotterinc.com
@@ -158,7 +158,7 @@ That's why, for instance, at Michelin, GlueN'DO is building an academy with trai
 * Business knowledge and expertise
 * Leadership and soft skills
  
-== INSTITUTE CHANGE
+===== INSTITUTE CHANGE
 
 ____
 "Articulate the connections between the new behaviors and organizational success, making sure they continue until they become strong enough to replace old habits". Kotterinc.com
