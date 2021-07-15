@@ -26,6 +26,13 @@ When shifting to a truly agile organization, you might discover your teams are m
 
 During this transitions you might discover the existing reward system of your enterprise gets in the way of agile ways of working. For example teams may be get rewarded when the deliver outputs and not when customers experience outcomes. At that stage you might have to talk to management and HR to move the needle and evolve the existing reward system.
 
+.The example of Michelin's journey (2019/20)
+[michelin-example]
+At Michelin we first concentrated on 5 progress areas as depicted below.
+
+image:./img/challenges.png[]
+
+
 Last but not the least, we recommend you put in place some impact tracking system to document the benefits of your bottom-up approach. This will help build the case for a more ambitious change journey. At this stage you might be ready to add a top-down component to your change agenda.
 
 ==== Start your journey top-down
@@ -98,21 +105,21 @@ The vision is dependent on your context. According to Ken Wilber's model, the vi
  
 To support the CONTINUOUS ARCHITECTURE initiative, we proposed a Manifesto to underline the shift in term of architecture mindset. 
   
-The CONTINUOUS ARCHITECTURE's Manifesto
+//The CONTINUOUS ARCHITECTURE's Manifesto
 
-There are famous manifestoes out there such as the Agile Manifesto, the Reactive manifesto [Reactive one] etc with which the CONTINUOUS ARCHITECTURE Manifesto does not even try to compete. Our intention is to list our beliefs around our architecture operating model. To move from a former waterfall approach - where architecture is done mainly before features are implemented, into a continuous runway, as architects, we need to adopt a new mindset embodied in the seven believes below:
+//There are famous manifestoes out there such as the Agile Manifesto, the Reactive manifesto [Reactive one] etc with which the CONTINUOUS ARCHITECTURE Manifesto does not even try to compete. Our intention is to list our beliefs around our architecture operating model. To move from a former waterfall approach - where architecture is done mainly before features are implemented, into a continuous runway, as architects, we need to adopt a new mindset embodied in the seven believes below:
 
-image:./img/manifesto.jpg[]
+//image:./img/manifesto.jpg[]
 
-===== The CONTINUOUS ARCHITECTURE's Challenge (MICHELIN's journey 2019/20)
+//===== The CONTINUOUS ARCHITECTURE's Challenge (MICHELIN's journey 2019/20)
 
-Improving architecture by accelerating the decision-making dynamic is a constant and global preoccupation. But where and how to start? Identifying the core challenges with a common direction and illustrating what could be done in terms of roles, practices and rituals may help the teams to orient their innovative energy and get quick-wins. 
+//Improving architecture by accelerating the decision-making dynamic is a constant and global preoccupation. But where and how to start? Identifying the core challenges with a common direction and illustrating what could be done in terms of roles, practices and rituals may help the teams to orient their innovative energy and get quick-wins. 
 
-With Michelin's Architecture stakeholders, at first we concentrate on five area of progress:
+//With Michelin's Architecture stakeholders, at first we concentrate on five area of progress:
  
-image:./img/challenges.png[]
+//image:./img/challenges.png[]
 
-You, advanced digital leaders and architects, assess the way you are 'architecting' in order to clarify where you can bring value and identify the primary challenges.
+//You, advanced digital leaders and architects, assess the way you are 'architecting' in order to clarify where you can bring value and identify the primary challenges.
  
 ===== ENLIST A VOLUNTEER ARMY
 
