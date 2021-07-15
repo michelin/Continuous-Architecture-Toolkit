@@ -7,31 +7,31 @@
 //:toc: preamble
 //xref:o-aaf-deployment[o-aaf-deployment-vision]
 
-Defining terminology is a useful starting point when reading or writing on a subject to prevent any confusion or assumptions. We will use the term Digital Product shorten to Product for simplification purposes to refer to products delivered by an IT organization. By product we mean goods and/or services, so it can be tangible (workstation, Mobile phone, ..) or intangible (Order management system, Fleet management, collaboration suite, ...). A product that meets clients' needs as captured in the *Experience Objectives* view.
+Defining terminology is a useful starting point when reading or writing on a subject to prevent any confusion or assumptions. We will use the term _"Product"_ to refer to a named collection of business capabilities valuable to a defined customer segment footnote:[https://www.gartner.com/en/information-technology/glossary/product-digital-business]. As Gartner observes _"Although products (in the context of digital business) principally serve external customers, software organizations can also apply a product model to any collection of business capabilities delivered in a coherent value stream to internal customers"_. Products are goods and/or services that can be tangible (tire, smart phone, workstation, ...) or intangible (mortgage loan, automobile insurance, email service, ...). Products meets clients' needs as captured in the *Experience Objectives* view.
 
-The most important consideration when defining products is to clearly articulate and understand the concept of "customer" as the products we create, manage and maintain ultimately exist to deliver essential capabilities for them. The "customer" here can be: a developer, a support analyst, an employee or a "real" customer/consumer. So in this model we will use the term end-users to refer to all kind of product's customers.
+The most important consideration when defining products is to clearly articulate and understand the concept of "customer" as the products we create, manage and maintain ultimately exist to deliver essential capabilities for them. The "customer" here can be: an external customer or consumer or an internal customer such as an employee or a developer. The term end-user is also used to refer to who uses a product although an end-user is not always the person or entity who pays for the product.
 
 Product provides a set of services / features delivered to it's community of end-users through continuous flow of releases, during all it's life cycle, from ideation to retirement, in order to continuously deliver value and enable continuous change & agility.
 
-It's a way of organizing IT around how Information Systems and IT technology are consumed (or the value that is perceived by stakeholders), rather than how they are produced & deliver or the functionality they offer.
-Even if there is a high level of variability in defining what is a product, there are common attributes and guidlines to consider when defining what is and is not a product:
+It's a way of organizing cross-functional agile teams around a continuous stream of value rather than a "one-off" temporary organizational structure.
+Even if there is a high level of variability in defining what is a product, there are common attributes and guidelines to consider when defining what is and is not a product:
 
-* can serve internal or external *customers*
+* can serve external or internal external *customers*
 * is clearly defined by its *business capabilities*
-* delivers capabilities that customers *value*
+* delivers capabilities to a defined *customer segment*
 * can be a *repeatable service*
-* can be a *platform* (one sided/multi sided)
+* can be a *platform*, for example one-sided or multi-sided
 * can be bought, sold, subscribed and/or *funded*
-* has *competition* and a product *lifecycle*
+* has *competition* and follows a product *lifecycle*
 
 footnote:[source Gartner, ID:441404]
 
-Products are materialized by one or several software and/or hardware components. It is a mistake to think that a product equals an application as defined historicaly. It could be but this is not always the true.
+Digital products are materialized by one or several software and/or hardware components and its related production and services processes. It is a mistake to think that a product equals an application as defined historically. It could be but this is not always the case.
 
-A product team is responsible for the product delivery, including plan build and run activities and this during the whole product lifecycle (from ideation to retirement). These teams are cross-functionnal, self-organized, have dedicated members, long-lived, co-located as far as possible. Specifically, they are cross-functionnal having all skills required to fulfill their missions with a mix of IT and business staff; they are focused on and measured by outcomes (rather than output); and they are empowered to figure out the best way to solve the problems they’ve been asked to solve.
+A product team is responsible for all product development and delivery activities during the whole product lifecycle (from ideation to retirement). These teams are cross-functional, self-organized, have dedicated members, long-lived, and co-located when possible. Specifically cross-functional means having all the skills required to fulfill their mission with a mix of IT and business people; they are focused and measured by outcomes (rather than output); and they are empowered to figure out the best way to solve the problems of their customers.
 
 The purpose of a product team in this sense is to solve problems in ways our end-users love, yet work for our business.
 
-Usually a product team is a squad (5-10 people), but can be a squad of squads for big products. The size of a product team or the product's portfollio a team manage can vary during the time.
+Usually a product team is a squad (5-10 people), but can be a _Squad_ of squads or _Tribe_ for big products. The size of a product team or the product's portfolio a team manage can vary over time time.
 
 link:framework.html[Return to the CAF diagram]
