@@ -7,6 +7,7 @@ There are two ways of starting your journey:
 
 * Bottom-up: deploy Continuous Architecture on a limited scope with a magnitude of change compatible with your existing organization's culture
 * Top-down: design and deploy a more ambitious change journey which scope will a subset of your enterprise, for example one of its _Operating Unit_.
+* Organic: combination of bottom-up and top-down
 
 The bottom-up approach can help you _"test the water"_ and demonstrated success. At some point when your organization will ready for a more ambitious change agenda you will likely need to shift to a combination of bottom-up and top-down approach.
 
@@ -37,7 +38,11 @@ Last but not the least, we recommend you put in place some impact tracking syste
 
 ==== Start your journey top-down
 
+Classical top-down change management has limits (to-be developed)
 
+==== Promote an organic change approach
+
+Situation potential... Create an environment (to-be developed)
 
 
 // == Proposition Nicolas
