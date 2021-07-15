@@ -1,7 +1,7 @@
 [[start-your-journey]]
 === Start your journey
 
-The deployment of the new ways of working (practices, rituals, framework) described in the Continuous Architecture Framework and Toolbox is a major change journey. There is no single pathway to move your enterprise (or part of it) from its current state to the _"to-be"_ state we recommend and which is embodied in the key tenets of the link:/docs/manifest/manifesto.html[Continuous Architecture Manifesto].
+The deployment of the new ways of working (practices, rituals, framework) described in the Continuous Architecture Framework and Toolbox is a major change journey. There is no single pathway to move your enterprise (or part of it) from its current state to the ideal state (or north star) we recommend and which is embodied in the key tenets of the link:/docs/manifest/manifesto.html[Continuous Architecture Manifesto].
 
 There are two ways of starting your journey:
 
