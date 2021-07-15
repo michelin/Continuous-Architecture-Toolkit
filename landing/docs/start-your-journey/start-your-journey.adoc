@@ -20,16 +20,20 @@ The diagram below which is described in the _Organization"_ view of the link:/do
 
 The bottom-up approach is mostly at the team level and scopes one or a few agile teams. First you will start experimenting a few CA practices and rituals without changing the way teams are structured, for example documenting your architecture decisions using the Architecture Decision Records (ADRs) template or assessing teams' autonomy. 
 
-If your teams are structured along projects or functional skills you might discover they are not cross-functional and 
+If your teams are structured along projects or functional skills you might discover they are not cross-functional and they are slowed-down by too many dependencies. At that point you might want to revisit the existing teams' topology and shift from them from a project structure and mindset to a product one as described in link:/docs/framework/organization.html[Organization].
 
-Though agile teams are as autonomous as possible, they operate in a environment that has constraints and provides guidance and supports. This is why you should be concerned next by the teams of teams level. The diagram below show the dimensions of a comprehensive change program. 
+When shifting to a truly agile organization, you might discover your teams are missing key skills, for example product owners or agile coach ones. To close we recommend investing first in re-skilling existing teams members and possibly hiring new talents.
+
+During this transitions you might discover the existing reward system of your enterprise gets in the way of agile ways of working. For example teams may be get rewarded when the deliver outputs and not when customers experience outcomes. At that stage you might have to talk to management and HR to move the needle and evolve the existing reward system.
+
+Last but not the least, we recommend you put in place some impact tracking system to document the benefits of these local changes. At that stage you might be ready to add a top-down component to your change agenda.
 
 ==== Start your journey top-down
 
 
 
 
-== Proposition Nicolas
+// == Proposition Nicolas
 
 Act now and Think big !
  
