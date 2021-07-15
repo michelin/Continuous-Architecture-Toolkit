@@ -12,5 +12,8 @@ In his seminal article _"Why Software Is Eating The World"_ footnote:[see: https
 * Designing modular software architectures
 * Symbiotic coupling of machines and humans footnote:[see: The Design of Future Things by Don Norman. ISBN: 978-0-465-00228-3]
 
+The 2017 State of DevOps Report observes the quality of architecture correlates with fast CI/CD pipelines and more broadly with IT performance. This is in line with the 2015 DevOps report's findings which states that high-performing teams are more likely to have loosely-coupled architectures than medium and low-performing teams.
+
+The Continuous Architecture Framework and Toolkit covers the _Domain Driven Design Strategic Patterns_ which help modularize a system based on domain modeling.
 
 link:framework.html[Return to the CAF diagram]
