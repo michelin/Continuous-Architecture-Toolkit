@@ -34,4 +34,8 @@ The purpose of a product team in this sense is to solve problems in ways our end
 
 Usually a product team is a squad (5-10 people), but can be a _Squad_ of squads or _Tribe_ for big products. The size of a product team or the product's portfolio a team manage can vary over time time.
 
+To get all the benefits from product team, you should consider adopting the product mindset over the traditionnal project approach for your organization. We got our inspiration here from an https://martinfowler.com/articles/products-over-projects.html(article) wrote by Sriram Narayan and published on Martin Fowler's web site. We created this visual to show the differences between the two approaches:
+
+image::./img/project_vs_product.png[]
+
 link:framework.html[Return to the CAF diagram]

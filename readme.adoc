@@ -49,14 +49,16 @@ Check out our link:governance/governance.adoc#governance[Governance] for informa
 ==== Asciidoctor and Jekyll
 
 The https://continuous-architecture.org[Continuous Architecture landing page] is built with https://jekyllrb.com[Jekyll], the content with https://asciidoctor.org[Asciidoctor].
-The website building is done with Docker image of Jekyll and Asciidoctor to avoid any specific environment trouble.
-The website whoe static HTML files is rendered in the `dist` directory.
+The website building is done with Docker image of Jekyll (in which the jekyll-asciidoc plugin is used as specified in the Gemfile) to avoid any specific environment trouble.
+The website static HTML files are generated in the `dist` directory.
 
 ==== MacOS
 
-. https://docs.docker.com/docker-for-mac/install/[Install Docker Desktop]
-. Run the `build.sh` script at the directory root
-. Open the generated HTML: `open dist/index.html`
+* https://docs.docker.com/docker-for-mac/install/[Install Docker Desktop]
+* Run the `build.sh` script at the directory root with either "build" or "serve" parameter.
+** "build" will generate the files in the dist directory
+** serve will allow you to view the generated website in your browser http://0.0.0.0:4000[0.0.0.0:4000] as long as the container is running
+* if you only want to generate html files from the asciidoc sources, you can use the build-docs.sh script
 
 == License
 

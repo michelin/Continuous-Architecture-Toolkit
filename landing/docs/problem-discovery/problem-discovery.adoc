@@ -8,7 +8,7 @@ In his book _"Kaizen and the art of creative thinking"_ Shigeo Shingo footnote:[
 * Clarify the problem
 * Find the cause.
 
-Finding the right problems is the a critical first step that is too often skipped. Engineers and architects are by training proficient problem solvers. What happens when they do not even realize a problem exists, or when they misunderstand the nature of the problem altogether?
+Finding the right problems is the critical first step that is too often skipped. Engineers and architects are by training proficient problem solvers. What happens when they do not even realize a problem exists, or when they misunderstand the nature of the problem altogether?
 
 In his book _"What's your problem? To solve your toughest problems, change the problems you solve"_ Thomas Wedell-Wedellsborg footnote:[Harvard Business Review Press, 2020, ISBN 9781633697225] asks a challenging question: are you solving the right problems? *Problem Discovery* aims at helping agile teams find the right problems and better frame them.
 
@@ -21,7 +21,7 @@ In her book _"The pyramid principle: logic in writing and thinking_" footnote:[P
 Alongside with Barbara Minto, we recommend you start by creating a useful structure of the situation. In a VUCA environment, causal relationships are not likely to be linear and simple. This is why we think the best way to represent a situation is to create a systems view of the enterprise or of part of it. The book _"The fith discipline fieldbook"_ includes a section, _"Starting with storytelling_" footnote:[Section 16 by Jennifer Kemeny, Michael Goodman and Rick Karash, a Currency book, 1994, ISBN 0-385-47256-0] which provides a simple way to model a systems view of an organization. A good system thinker is someone who can see four levels operating simultaneously: events, patterns of behavior, systems and mental models:
 
 * *Events* refer to individual events which have recently troubled the enterprise. They are symptoms of the problems you try to identify
-* *Patterns of behavior* is about understanding you apparently isolated events relate to each other; the authors suggest selecting key variables and tracking them back three or four years to discover trends
+* *Patterns of behavior* is about understanding how apparently isolated events relate to each other; the authors suggest selecting key variables and tracking them back three or four years to discover trends
 * The *systemic structure* is about representing the key interrelationships that link these factors; This is an iterative process which consists in adding and removing hypothesis until you can draw a meaningful and possibly simple diagram that provides a useful representation of the system
 * last level is about changing the existing *Mental Models* of the actors of the enterprise when these are based of flawed causality assumptions.
 
@@ -29,7 +29,7 @@ When representing a systemic structure, implicit or explicit system boundary ass
 
 == Reframe problems
 
-Reframing a problem is about changing the way you see it. Whether you framed the problem yourself or someone else did it for you, it is a good practice to take a step back and possibly modify the way it is defined. For example if you define your problem as the waiting time between at a bus stop is too long you will focus on solutions that increase bus frequency which may be sub-optimum from a capacity usage and cost view point. 
+Reframing a problem is about changing the way you see it. Whether you framed the problem yourself or someone else did it for you, it is a good practice to take a step back and possibly modify the way it is defined. For example if you define your problem as the waiting time at a bus stop is too long you will focus on solutions that increase bus frequency which may be sub-optimum from a capacity usage and cost view point. 
 
 If you define your problem as the waiting time is perceived as too long you might explore solutions that address the perception problem. For example you might inform passengers in each bus station when the next bus will arrive. By providing this information you create predictability which changes the way the waiting time is perceived.
 
