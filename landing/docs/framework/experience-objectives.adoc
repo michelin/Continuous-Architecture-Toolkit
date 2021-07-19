@@ -23,6 +23,6 @@ The Experience Objectives view provides a template to analyze customers' JTBD, s
 
 +
 
-We recommend using Design Thinking to conduct the iterative learning process that verifies customer hypothetis though prototyping and experimentation.
+We recommend using Design Thinking to conduct the iterative learning process that verifies customer hypothesis though prototyping and experimentation.
 
 link:framework.html[Return to the CAF diagram]
