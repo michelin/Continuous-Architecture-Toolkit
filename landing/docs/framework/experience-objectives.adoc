@@ -14,11 +14,12 @@ A paper published in the Harvard Business Review footnote:[Why Do So Many Strate
 * Strategic adaptation must become an ongoing, iterative process of hypothesis, experimentation, learning, and action
 * The value-creation potential of a business model should be based on making a hypothesis on what's the "job to be done" for customers
 
-The Experience Objectives view provides a template to analyze customers' JTBD, see below.
+The Experience Objectives view provides a template to analyze customers' JTBD, see below:
 
 ++++
 <object type="image/svg+xml" data="img/jtbd-example.svg">Your browser does not support SVGs</object>
 ++++
+
 
 Design Thinking provides the iterative learning process that verifies customer hypothetis though prototyping and experimentation.
 
