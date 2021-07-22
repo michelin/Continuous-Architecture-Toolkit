@@ -1,0 +1,5 @@
+=== Artifact
+domain:[Core]
+source:[WordNet]
+
+A man-made object taken as a whole.
