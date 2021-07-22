@@ -3,6 +3,8 @@
 include::product-cx_job-to-be-done.adoc[]
 include::product-cx_product-capability.adoc[]
 include::product-cx_product.adoc[]
+include::product-cx_goods.adoc[]
+include::product-cx_service.adoc[]
 
 include::lean_value-stream.adoc[]
 include::lean_value-stream-mapping.adoc[]

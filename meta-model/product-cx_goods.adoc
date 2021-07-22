@@ -1,0 +1,6 @@
+=== Goods
+domain:[Product and customer experience]
+
+Artifact offered for sale during which property is transferred from the seller (vendor) to the buyer (vendee).
+
+NOTE: Goods can be tangible or intangible
