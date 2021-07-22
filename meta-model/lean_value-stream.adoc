@@ -1,0 +1,3 @@
+=== Lean Value Stream
+domain:[Lean]
+All of the actions, both value-creating and non-value-creating, required to bring a product from concept to launch (also known as the development value stream) and from order to delivery (also known as the operational value stream). These include actions to process information from the customer and actions to transform the product on its way to the customer. (Source: xref:LEIa[LEI])

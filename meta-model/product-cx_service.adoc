@@ -1,0 +1,4 @@
+=== service
+domain:[Operating Domain]
+Work done by one person or group that benefits another.
+

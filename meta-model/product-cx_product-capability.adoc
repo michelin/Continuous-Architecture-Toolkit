@@ -1,0 +1,8 @@
+=== product capability
+alt:[product functionality]
+alt:[product feature]
+domain:[Product and customer experience]
+
+Capabilities offered by a product.
+
+NOTE: It summarizes the capabilities offered by a product services and/or goods.

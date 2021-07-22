@@ -1,0 +1,10 @@
+=== Value Stream Mapping
+domain:[Lean]
+alt:[VSM]
+source:[https://www.lean.org/Workshops/vsm_online_demo/glossary.pdf]
+A pencil-and-paper tool used in two stages:
+a) Follow a product’s production path from beginning to end and 
+draw a visual representation of every process in the material and 
+information flows. 
+b) Then draw a future state map of how value should flow. The most 
+important map is the future state map.

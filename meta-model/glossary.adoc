@@ -1,25 +1,17 @@
 == Terms and definitions
 
-[[product capability]]
-=== product feature
-alt:[product functionality]
-alt:[product feature]
-domain:[Product and customer experience]
+include::product-cx_job-to-be-done.adoc[]
+include::product-cx_product-capability.adoc[]
+include::product-cx_product.adoc[]
 
-Capabilities offered by a product.
+include::lean_value-stream.adoc[]
+include::lean_value-stream-mapping.adoc[]
 
-NOTE: It summarizes the capabilities offfered by the product services and/or goods.
+include::core_artifact.adoc[]
+include::core_capability.adoc[]
 
-[[product]]
-=== product
-domain:[Product and customer experience]
 
-Merchandises offered for sale and associated with contractual obligations.
-Products come in two forms:
-1. Goods produced as the result of manufacturing,
-2. Services, i.e. some work done by one person or group that benefits another.
 
-NOTE: A product always include the service of sales.
 
 [[goods]]
 === goods

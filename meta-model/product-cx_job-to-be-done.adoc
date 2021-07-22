@@ -1,0 +1,9 @@
+=== Job to be done
+domain:[Product and customer experience]
+alt[JTBD]
+source:[Clayton Christensen: https://hbswk.hbs.edu/item/clay-christensen-the-theory-of-jobs-to-be-done]
+A specific piece of work required to be done as a duty by a customer.
+The job to be done is a context of experience in which products delivered by an enterprise aimed to provide beneficial outcomes in carrying out this work.
+When products fit the need in the context of experience, they are said to be "hired" by the customer.
+
+*When we buy a product, we essentially ‘hire’ something to get a job done. If it does the job well, when we are confronted with the same job, we hire that same product again. And if the product does a crummy job, we ‘fire’ it and look around for something else we might hire to solve the problem.*

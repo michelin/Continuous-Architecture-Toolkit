@@ -1,0 +1,9 @@
+=== product
+domain:[Product and customer experience]
+
+Merchandises offered for sale and associated with contractual obligations.
+Products come in two forms:
+1. Goods produced as the result of manufacturing,
+2. Services, i.e. some work done by one person or group that benefits another.
+
+NOTE: A product always include the service of sales.
