@@ -37,7 +37,7 @@ Classical top-down change management has limits. This is why we promote an organ
 
 An organic approach is about creating an environment for a situation potential. It can start with a bottom-up first step to demonstrate the benefits on a small environment carefully selected. We could think good performing teams are a place of choice to start with but we would recommend to pick teams that have some difficulties like long time to make decisions or high level of technical debts. These kind of teams will be willing to listen to you and try new things to make some progresses. In this phase, you can use ADRs, the runway and put in place all the rituals we have. The idea is to use whatever helps the teams. 
 
-Once your demonstrators are producing their first results, you can then seek for support from your organisation. It will help kicking off the second phase of your plan with a top down approach but not a classical one which aims to cover an Operating Unit from top to bottom. Instead of choosing a given Operating Unit, we'll try to address several domains at the same time. But Organic means we recognize that each domain can progress as its own pace because they can have different constraints. It promotes adaptation as your domain may have specific needs or rules you have to deal with.
+Once your demonstrators are producing their first results, you can then seek for support from your organization. It will help kicking off the second phase of your plan with a top down approach but not a classical one which aims to cover an Operating Unit from top to bottom. Instead of choosing a given Operating Unit, we'll try to address several domains at the same time. But Organic means we recognize that each domain can progress as its own pace because they can have different constraints. It promotes adaptation as your domain may have specific needs or rules you have to deal with.
 
 In a sense, the organic approach is a mix of bottom-up and top-down. 
 
@@ -85,13 +85,13 @@ We put in place a simple tracking system to help them follow their progresses.
 
 image:img/michelin-organic.png[]
 
-We are still in the organic mode and we progressivly extend our perimeter: other geographic zones, infrastructure teams, digital teams ... As of mid 2021, we have covered two zones and 60 architectes making our Organic approach successfull. But we can also recognize it has some limits especially in how we help our organization to adopt the product approach which is somehting by design not limited to the IT structure.
+We are still in the organic mode and we progressively extend our perimeter: other geographic zones, infrastructure teams, digital teams ... As of mid 2021, we have covered two zones and 60 architects making our Organic approach successful. But we can also recognize it has some limits especially in how we help our organization to adopt the product approach which is something by design not limited to the IT structure.
 
 ====== Michelin's 5 initial challenges
 
 Each company has its own Architecture's challenges due to its business ecosystem, historical organization, contract model or technological choices. At Michelin we first concentrated on 5 progress areas as depicted below. We do acknowledge that these progress areas are tightly linked to our context and may not fit yours. Thus, Continuous Architecture is not a "to be" model to implement.
 
-The 5 initial challenges Michelin deciced to tackle first and on which we tried to focus are presented in the figure below.
+The 5 initial challenges Michelin decided to tackle first and on which we tried to focus are presented in the figure below.
 
 image:./img/challenges.png[600,600]
 
