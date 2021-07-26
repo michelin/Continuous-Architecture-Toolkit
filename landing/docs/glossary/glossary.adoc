@@ -10,13 +10,11 @@ The glossary contains the definition of the key terms used in the Continuous Arc
 
 The glossary is work in progress and will be continuously updated.
 
-//include::JTBD.adoc[]
-//include::service.adoc[]
+//include::../docs/glossary/JTBD.adoc[]
+//include::../docs/glossary/service.adoc[]
 
-[[Architecture]]
-==== Architecture
+include::../docs/glossary/architecture.adoc[]
 
-===== Context: Product Architecture
 
 
 
