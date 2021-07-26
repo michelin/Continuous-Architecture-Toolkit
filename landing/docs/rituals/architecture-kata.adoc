@@ -36,7 +36,7 @@ endif::rootpath[]
 
 Unless you're practicing architecture every day, we often spend our time on very different activites as depicted on the below charts.
 
-image:architects_do.jpg[]
+image::architects_do.jpg[600,600]
 
 (courtesy from https://www.innoq.com/en/staff/stefan-tilkov/[Stefan Tilkov])
 
