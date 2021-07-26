@@ -41,7 +41,7 @@ Last but not the least, we recommend you put in place some impact tracking syste
 //image:./img/challenges.png[]
 
 [michelin-organic-change]
-==== Organic change approach: Michelin example
+==== Organic change approach: Michelin's example
 
 Three years ago, Michelin diagnosed that architecture could become n unbearable bottleneck and would not be able to sustain the digital acceleration. It was necessary to consider a structural change to better support the delivery team in their attempt to deliver value; at the same time, develop an operating model to maintain integrity at scale with empowered people, notably the architect community. 
 
@@ -53,3 +53,36 @@ Let's describe the journey and on its main achievements:
 * The Continuous operating model in a nutshell schema 
 * The enablers: a shared vision; a guiding team; an open toolbox; an evolutionary model; a community and network 
 * To conclude, organic change is about: "Thinking big and acting small" 
+
+MICHELIN's continuous architecture journey is a transformational journey. From the beginning, the aim was not only to put new architectural approaches and roles in place but to develop a new architectural collaborative model, able to support the digital transformation. The change is progressive, step-by-step, without nevertheless, a predefined road map and at a rate of change at the hand of stakeholders. 
+
+This journey has two phases, a rising phase and an organic roll-out phase.
+
+===== Transformation journey phases
+
+====== Rising phase 
+ 
+The rising phase was important because it was a way to prove that a shift makes sense as it was relevant to simplify the architecture roles; to concentrate on architecture decisions; and to change the architecture's collaborative model in a more conversational and teams-mode. The rising phase gave credibility and enabled the organization to identify the structural barriers to be removed, to avoid the temptation of former habits of architecture control-mode.
+
+After months of experiments on some strategic products, it was time to capitalize on it, consolidate these practices in an operating model so that the team making the choice to launch the journey, would have the toolbox and the supportive environment to be able to succeed. 
+
+====== Organic roll-out 
+
+Despite the Covid pandemic, the years 2020/2021 were the years to implement the new model organically. As we were convinced that the behaviors and practices would depend upon people’s ability to adopt new beliefs, and on organization to adopt a new culture, the choice was to empower the architect community as an agent of change (to be honest, it was because of the frugality of the change resources too.
+
+On-boarding sessions were set up to start individual and architecture team journeys. It was like 'day-offs' from the operational work, a time to share their individual architecture beliefs with each another and a moment to have a step back about their architecture context, challenges and environment. The common aim of all sessions was to envision the model and the cultural shift, but also to identify which new collaborative practices to put into place in accordance to each context. The duo of architects, Full Stack Architect and Product Architect, were empowered as change leaders. Based on their own beliefs and leadership skills, they would redesign the local model and develop awareness so that stakeholders would be able to implement the "just enough" practices in their playground scope. 
+
+===== Michelin's 5 initial challenges
+
+Continuous Architecture is not a "to be" model to implement. It is a pragmatic approach to organically transform what make sense to be agile and accelerate the local digital value.  Nevertheless, at a global level, there are some pain points, difficulties, challenges that are common within the organization and that would make sense to deal with them at the organization level in order to benefit from synergies and to achieve enterprise-wide transformation 
+
+Each enterprise has its own Architecture's challenges depending on to its business ecosystem, legacy of its organization, contract model or technological choices. 
+
+The 5 initial challenges Michelin to tackle first and on which we tried to focus are presented in the figure below.
+
+image:./img/challenges.png[600,600]
+
+
+
+
+
