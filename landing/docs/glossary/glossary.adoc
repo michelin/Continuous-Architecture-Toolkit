@@ -8,6 +8,6 @@
 
 // Text to describe the glossary and its structure
 
-include::JTBD.adoc[]
+include::../docs/glossary/JTBD.adoc[]
 //include::service.adoc[]
 
