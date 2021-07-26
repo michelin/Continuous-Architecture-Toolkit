@@ -6,7 +6,7 @@
 
 _Product Architecture_is: (1) the arrangement of _functional elements_; (2) the mapping from functional elements to _physical components_; (3) the specification of the _interfaces_ among interacting physical components. footnote:["The role of product architecture in the manufacturing firm" by  Karl Ulrich, Massachusetts Institute of Technology, Sloan School of Management, December 1993]
 
-Perhaps the most important characteristic of a product’s architecture is its modularity.footnote:["Product Design and Development" by Ulrich, Karl T, Eppinger, Steven D and Yang, Maria  C., McGraw-Hill Higher Education. 7th Edition, ISBN 978-1-260-04365-5]
+Perhaps the most important characteristic of a product’s architecture is its <<modularity>>.
 
 [[system-architecture]]
 ===== System Thinking Context
