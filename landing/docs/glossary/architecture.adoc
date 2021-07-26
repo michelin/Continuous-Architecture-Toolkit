@@ -4,18 +4,18 @@
 [[product-architecture]]
 ===== Product Context
 
-_Product Architecture_ is: (1) the arrangement of _functional elements_; (2) the mapping from functional elements to _physical components_; (3) the specification of the _interfaces_ among interacting physical components. footnote:["The role of product architecture in the manufacturing firm" by  Karl Ulrich, Massachusetts Institute of Technology, Sloan School of Management, December 1993]
+_Product Architecture_ is: (1) the arrangement of _functional elements_; (2) the mapping from functional elements to _physical components_; (3) the specification of the _interfaces_ among interacting physical components footnote:["The role of product architecture in the manufacturing firm" by  Karl Ulrich, Massachusetts Institute of Technology, Sloan School of Management, December 1993].
 
 Perhaps the most important characteristic of a product’s architecture is its <<modularity>>.
 
 [[system-architecture]]
 ===== System Thinking Context
 
-System architecture is the embodiment of concept, the allocation of physical/informational  function to the elements of form, and the definition of relationships among the elements  and with the surrounding context. footnote:["System Architecture" by Cameron, Bruce, Crawley, Edward Selva and Daniel, Global Edition. Pearson Education Limited. ISBN 10: 1-292-11084-8]
+System architecture is the embodiment of concept, the allocation of physical/informational  function to the elements of form, and the definition of relationships among the elements  and with the surrounding context footnote:["System Architecture" by Cameron, Bruce, Crawley, Edward Selva and Daniel, Global Edition. Pearson Education Limited. ISBN 10: 1-292-11084-8].
 
 [[software-architecture]]
 ===== ISO/IEC/IEEE Context
 
-Architecture is the fundamental organization of a system, embodied in its components, their relationships to each other and to the environment, and the principles governing its design and  evolution.footnote:[ISO/IEC/IEEE Standard 42010]
+Architecture is the fundamental organization of a system, embodied in its components, their relationships to each other and to the environment, and the principles governing its design and  evolution footnote:[ISO/IEC/IEEE Standard 42010].
 
 
