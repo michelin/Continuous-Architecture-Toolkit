@@ -2,7 +2,7 @@
 ==== Modularity
 
 [product-modularity]
-==== Product Modularity
+===== Product Context
 
 A _Modular Architecture_ has the following two properties footnote:["Product Design and Development" by Ulrich, Karl T, Eppinger, Steven D and Yang, Maria  C., McGraw-Hill Higher Education. 7th Edition, ISBN 978-1-260-04365-5]:
 
@@ -17,7 +17,7 @@ The opposite of a modular architecture is an _Integral Architecture_.
 
 
 [software-modularity]
-==== Software Context
+===== Software Context
 
 According to Parnas, Clement and Weiss footnote:[The Modular Structure of Complex Systems by D. L. Parnas, University of Victoria; P. C. Clements and D. M. Weiss, U.S. Naval Research Laboratory] the primary goal of the decomposition into modules is reduction of overall software cost by allowing
 modules to be designed and revised independently. Specific goals of the module decomposition are:
