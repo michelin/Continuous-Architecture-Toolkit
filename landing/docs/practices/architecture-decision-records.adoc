@@ -1,8 +1,11 @@
-= Decisions, you said decisions?
+[[architecture-decision-record]]
+=== Architecture Decision Record
+
+==== Decisions, you said decisions?
 
 Taking decisions plays a big role in a life of an architect. Almost every day we take decisions. Instead of trying to define what a decision is and on what they should be taken, we prefer to refer to Martin Fowler who said "Architecture is about the important stuff. Whatever that is". So decisions have to be made for important topics ;) The rule of thumb here could be: a decision is needed when the cost of change / rework will be important. 
 
-== The last responsible moment
+===== The last responsible moment
 
 Our creed is to wait for the last responsible moment to take decisions. There are two main reasons for this approach: 
 
@@ -11,7 +14,7 @@ Our creed is to wait for the last responsible moment to take decisions. There ar
 
 There are two main caveats with this approach. The first one is to determine when you think you have enough information to decide. The last thing we want is to have architects waiting indefinitively to have all the informations they think they need. Some times you need to make hypothesis instead of waiting the information. The second one is that it can generate some inconfort within your team. Indeed, quite often team members are waiting the approval (or blessing would be more appropriate) from "the archtiects" before proceeding.
 
-== How much time should I spend on this decision?
+===== How much time should I spend on this decision?
 
 Jason Yip in https://jchyip.medium.com/impact-of-a-bad-decision-vs-time-spent-deciding-d9bdc241163[Impact of a bad decision vs time spent deciding] came up with an interesting perspective on the time we should spend to take decision. To determine it, he combined the time spent deciding with the impact of a bad decision. He ended up with 4 quarands:
 
@@ -24,11 +27,11 @@ image::./img/decision_time_spent.png[]
 
 You should try to position your decisions in these quadrants to make sure you're spending the appropriate time on them.
 
-== Who contribute to this decision making process?
+===== Who contribute to this decision making process?
 
 Should all decisions be made by architects? no we don't think so but architects are clearly leading this process. Once, we've said that, it's implicit that whoever in the team have something to say on this decision should be contributing to this process. We also want to make it clear that unless your team is completely autonomous on everything, external contributors can also be involved: it could be subject matter experts, other architects, CTOs ...
 
-== The decision making process
+===== The decision making process
 
 Speaking of processes these days seems a bit awkward maybe. But we think we need a small dose of process here as it can really help to produce high quality decisions. Making decisions goes through 5 different steps:
 
