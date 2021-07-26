@@ -1,4 +1,4 @@
-= Weekly architecture meeting
+=== Weekly architecture meeting
 
 We need to create the conditions for the dialog within the team on architecture topics and we think a weekly and short ritual is very effective to achieve this objective. We propose to have this follow up so team members can share:
 
