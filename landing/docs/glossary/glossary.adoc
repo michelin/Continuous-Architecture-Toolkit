@@ -14,6 +14,7 @@ The glossary is work in progress and will be continuously updated.
 //include::../docs/glossary/service.adoc[]
 
 include::../docs/glossary/architecture.adoc[]
+include::../docs/glossary/modularity.adoc[]
 
 
 
