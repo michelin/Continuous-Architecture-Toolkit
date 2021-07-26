@@ -4,9 +4,11 @@
 [[product-architecture]]
 ===== Product Context
 
-_Product Architecture_ is the arrangement of functional elements into physical chunks which become the building blocks for the product or family of products. Architecture decisions determine how to divide a product or product family into chunks, how to assign functional elements to chunks and how much modularity to impose.
+_Product Architecture_is: (1) the arrangement of _functional elements_; (2) the mapping from functional elements to _physical components_; (3) the specification of the _interfaces_ among interacting physical components.
 
-footnote:["Product Design and Development" by Ulrich, Karl T, Eppinger, Steven D and Yang, Maria  C., McGraw-Hill Higher Education. 7th Edition, ISBN 978-1-260-04365-5]
+footnote:["The role of product architecture in the manufacturing firm" by  Karl Ulrich, Massachusetts Institute of Technology, Sloan School of Management, December 1993]
+
+//footnote:["Product Design and Development" by Ulrich, Karl T, Eppinger, Steven D and Yang, Maria  C., McGraw-Hill Higher Education. 7th Edition, ISBN 978-1-260-04365-5]
 
 [[system-architecture]]
 ===== System Engineering Context
