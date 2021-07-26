@@ -1,4 +1,5 @@
-= Can we help architects to practice?
+=== Can we help architects practice more often their craft?
+
 // Metadata:
 :description: Rituals
 :keywords: guide
@@ -41,7 +42,7 @@ image:architects_do.jpg[]
 
 So if you find yourself in this situation, we have a ritual that was created to help you: it's the architecture kata and we want to give credits to https://archkatas.herokuapp.com[Ted Neward] who formalized it several years ago.
 
-== Why having a ritual to practice architecture ?
+==== Why having a ritual to practice architecture ?
 
 The two below quotes are self explanatory we believe:
 
@@ -53,7 +54,7 @@ Naming this ritual kata is a direct analogy to the Japanese Kata word (形, 型)
 
 The idea of an architecture kata is then to repeat the architecture "movement" often enough to memorize it and perfect it over time. 
 
-== How the ritual is conducted?
+==== How the ritual is conducted?
 
 There are only two pre-requisites to organize an architecture kata: you need a topic / problem to work on and you need to have at least 2 hours ahead of you.
 
