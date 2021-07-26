@@ -1,9 +1,9 @@
-= The architecture of your product is a journey
+=== Architecting your product is a journey
 
 This practice is designed around several believes
 
 . The times when architects came down from their ivory tower to dictate teams what to do are over.
-. People working on products on a day to day basis are well positionned to say something interesting on its architecture and design. This is what we call the emerging design. 
+. People working on products on a day to day basis are well positioned to say something interesting on its architecture and design. This is what we call the emerging design. 
 . On the other hand, emergent design alone could be risky especially when developing large and complex systems. There is still room for architects to drive (Notice here we said drive, not imposed) the architecture of products. If they don't do it, an architecture will emerge from the ground and they'll undergo it. The set of intentions from architects is called the intentional architecture.
 . The architecture of a product is a journey: we need to adapt its course depending on the constraints and changes we get along the way. 
 
@@ -20,7 +20,7 @@ This dialog zone is healthy because
 * the teams can influence and correct the intentional architecture using feedback from field and feeds the future with new ideas. 
 * it gives many opportunities to architects to convince instead of impose, provides guidance for crosss-team alignment and manage dependencies between products
 
-== The runway practice in a nutshell
+==== The runway practice in a nutshell
 
 As many practices in the Continuous Architecture operating model, the runway is continuous. We recommend to follow it at least once a year and if possible 2 to 3 times to enable pivots before the cost of change becomes too high.
 
@@ -38,6 +38,6 @@ The below visual illustrate this practice.
 
 image:./img/kit-architecture-runway.png[]
 
-The runway naming is very important here: it's not a one time exercice. It has to evolve along with your product. New features will be required, new constraints will rise, your product will enter the rollout stage ... you need to keep updating your runway to deal with these changes. The weekly architecture ceremonies as architecture workshops during the scoping 360° are good places to work on the architecture runway as it ensures there is some space for the dialog.
+The runway naming is very important here: it's not a one time exercise. It has to evolve along with your product. New features will be required, new constraints will rise, your product will enter the rollout stage ... you need to keep updating your runway to deal with these changes. The weekly architecture ceremonies as architecture workshops during the scoping 360° are good places to work on the architecture runway as it ensures there is some space for the dialog.
 
 ^(1)^ SAFe and Scaled Agile Framework are registered trademarks of Scaled Agile, Inc.
