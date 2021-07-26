@@ -43,3 +43,13 @@ Last but not the least, we recommend you put in place some impact tracking syste
 [michelin-organic-change]
 ==== Organic change approach: Michelin example
 
+Three years ago, Michelin diagnosed that architecture could become n unbearable bottleneck and would not be able to sustain the digital acceleration. It was necessary to consider a structural change to better support the delivery team in their attempt to deliver value; at the same time, develop an operating model to maintain integrity at scale with empowered people, notably the architect community. 
+
+The Continuous Architecture initiative was born: Michelin and Glue N'DO joined their forces in order to design and roll out an operating model to address Michelin architecture's main challenges. 
+Let's describe the journey and on its main achievements:
+
+* The last 3 years: From boosters to global organic deployment 
+* The 5 Michelin's initial challenges 
+* The Continuous operating model in a nutshell schema 
+* The enablers: a shared vision; a guiding team; an open toolbox; an evolutionary model; a community and network 
+* To conclude, organic change is about: "Thinking big and acting small" 
