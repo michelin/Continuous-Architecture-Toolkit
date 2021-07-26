@@ -1,0 +1,23 @@
+[[architecture]]
+==== Architecture
+
+[[product-architecture]]
+===== Product Context
+
+_Product Architecture_ is the arrangement of functional elements into components or physical chunks which become the building blocks for the product or family of products. Architecture decisions Architecture define how to divide a product or product family into chunks, how to assign functional elements to chunks and how much modularity to impose.
+
+footnote:["Product Design and Development" by Ulrich, Karl T, Eppinger, Steven D and Yang, Maria  C., McGraw-Hill Higher Education. 7th Edition, ISBN 978-1-260-04365-5]
+
+XXX
+
+[[system-architecture]]
+===== System Engineering Context
+
+XXX
+
+[[software-architecture]]
+===== Software Engineering Context
+
+XXX
+
+
