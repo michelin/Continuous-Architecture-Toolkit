@@ -19,7 +19,7 @@ The opposite of a modular architecture is an _Integral Architecture_.
 [software-modularity]
 ==== Software Context
 
-According to Parnas, Clement and Weiss footnote:[The Modular Structure of Complex Systems by D. L. Parnas, University of Victoria; P. C. Clements and D. M. Weiss, U.S. Naval Research Laboratory] The primary goal of the decomposition into modules is reduction of overall software cost by allowing
+According to Parnas, Clement and Weiss footnote:[The Modular Structure of Complex Systems by D. L. Parnas, University of Victoria; P. C. Clements and D. M. Weiss, U.S. Naval Research Laboratory] the primary goal of the decomposition into modules is reduction of overall software cost by allowing
 modules to be designed and revised independently. Specific goals of the module decomposition are:
 
 * (a) each module’s structure should be simple enough that it can be understood fully;
@@ -34,5 +34,4 @@ widely used modules;
 modules, i.e., except for interface changes, programmers changing the individual modules should
 not need to communicate.
 
-If the interfaces of the modules are not revised, it should be possible to run and test any combination
-of old and new module versions.
+If the interfaces of the modules are not revised, it should be possible to run and test any combination of old and new module versions.
