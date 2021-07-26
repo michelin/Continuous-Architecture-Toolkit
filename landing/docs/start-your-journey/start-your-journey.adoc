@@ -46,7 +46,7 @@ Last but not the least, we recommend you put in place some impact tracking syste
 Three years ago, Michelin diagnosed that architecture could become n unbearable bottleneck and would not be able to sustain the digital acceleration. It was necessary to consider a structural change to better support the delivery team in their attempt to deliver value; at the same time, develop an operating model to maintain integrity at scale with empowered people, notably the architect community. 
 
 The Continuous Architecture initiative was born: Michelin and Glue N'DO joined their forces in order to design and roll out an operating model to address Michelin architecture's main challenges. 
-Let's describe the journey and on its main achievements:
+Let's describe the journey and its main achievements:
 
 * The last 3 years: From boosters to global organic deployment 
 * The 5 Michelin's initial challenges 
@@ -58,7 +58,7 @@ MICHELIN's continuous architecture journey is a transformational journey. From t
 
 This journey has two phases, a rising phase and an organic roll-out phase.
 
-===== Transformation journey phases
+===== Transformation journey's phases
 
 ====== Rising phase 
  
@@ -81,6 +81,22 @@ Each enterprise has its own Architecture's challenges depending on to its busine
 The 5 initial challenges Michelin to tackle first and on which we tried to focus are presented in the figure below.
 
 image:./img/challenges.png[600,600]
+
+Identifying these 5 core challenges was a way to facilitate the choice of practices, roles, rituals accordingly and to act as a "call for action" towards the stakeholders, even though they made the final choice 
+
+====== Connect the dots
+
+Michelin architecture was way too often a top-down approach in the past: architects were pushing their designs to delivery teams and then moving on the next project. It was needed to revisit this approach and adopt a "meet into the middle" one. 
+
+There will always be a Michelin intentional architecture defining company orientation, common capabilities, shared principles : we have an ideal of what we want to do given the constraints and the environment we're evolving in. This provides level enough to allow delivery teams to effectively adapt the intentional part to their specific context in order to develop their product value. 
+
+We also have to consider the emergent design: teams developing products master them and have something to say about their design. They can influence and correct the intentional architecture and also feeds the future with new ideas. However emergent design alone is not sufficient when developing large systems as it can cause excessive rework at some point or under used of business and IT capabilities. 
+
+Hence Michelin aim to enlarge the meet in the middle between intentional architecture and emergent design. The zone is called the dialog zone. It must be opened enough to meet the challenge through a conversational model. 
+
+Concretely, continuous architecture is pushing for rituals or practices to make sure there is some space where this dialog is possible.  
+
+====== Continuous
 
 
 
