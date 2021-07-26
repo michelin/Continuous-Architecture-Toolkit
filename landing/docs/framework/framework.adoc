@@ -4,7 +4,7 @@
 
 [[framework]]
 === Continuous Architecture Framework
-_By Frédéric Lé and Jean-Pierre Le Cam_
+_By Frédéric Lé <fle@youragileway.com> and Jean-Pierre Le Cam <jean-pierre.le-cam@wanadoo.fr>_
 //:toc: preamble
 //xref:o-aaf-deployment[o-aaf-deployment-vision]
 
