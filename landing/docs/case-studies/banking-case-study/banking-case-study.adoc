@@ -1,5 +1,5 @@
 = Banking Case Study
-Frédéric Lé <frederic9@gmail.com>, Jean-Pierre Le Cam <jean-pierre.le-cam@wanadoo.fr>
+Frédéric Lé <fle@youragileway.com>, Jean-Pierre Le Cam <jean-pierre.le-cam@wanadoo.fr>
 v0.1
 // Metadata
 :description: Banking Case Study to illustrate Agile Architecture practices
@@ -34,7 +34,7 @@ endif::[]
 [.lead]
 == Introduction
 
-This banking Case Study has been developed to illustrate Agile Architecture practices. It will be mainly used to test the meta-model and provide an example to be used during training sessions.
+This banking Case Study is under development. Its purpose is to to illustrate Continuous Architecture practices. It will be mainly used to test the meta-model and provide an example to be used during training sessions.
 
 This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. 
 To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/ 
