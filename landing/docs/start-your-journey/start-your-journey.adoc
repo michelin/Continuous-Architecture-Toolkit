@@ -98,6 +98,8 @@ Concretely, continuous architecture is pushing for rituals or practices to make 
 
 ====== Continuous
 
+There is a big change to deal with in the VUCA world: software engineering became continuous : continuous exploration to identify the problem to fix, continuous building to develop the product value, continuous deployment to operate and harvest the value. 
+
 
 
 
