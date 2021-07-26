@@ -1,5 +1,5 @@
 = Banking Case Study
-Frédéric Lé <fle@youragileway.com>, Jean-Pierre Le Cam <jean-pierre.le-cam@wanadoo.fr>
+_By Frédéric Lé <fle@youragileway.com> and Jean-Pierre Le Cam <jean-pierre.le-cam@wanadoo.fr>_
 v0.1
 // Metadata
 :description: Banking Case Study to illustrate Agile Architecture practices
