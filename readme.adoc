@@ -56,9 +56,9 @@ The website static HTML files are generated in the `dist` directory.
 
 * https://docs.docker.com/docker-for-mac/install/[Install Docker Desktop]
 * Run the `build.sh` script at the directory root with either "build" or "serve" parameter.
-** "build" will generate the files in the dist directory
-** serve will allow you to view the generated website in your browser http://0.0.0.0:4000[0.0.0.0:4000] as long as the container is running
-* if you only want to generate html files from the asciidoc sources, you can use the build-docs.sh script
+** `build` will generate the files in the dist directory
+** `serve` will allow you to view the generated website in your browser http://0.0.0.0:4000[0.0.0.0:4000] as long as the container is running
+* if you only want to generate html files from the asciidoc sources, you can use the `build-docs.sh` script
 
 == License
 
