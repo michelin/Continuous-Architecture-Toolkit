@@ -1,0 +1,10 @@
+==== product
+//domain:[Product and customer experience]
+
+Something that is made to be sold and associated with contractual obligations.
+Products come in two forms:
+
+. <<goods>> produced as the result of manufacturing,
+. <<service-business>>, i.e. some work done by one person or group that benefits another.
+
+NOTE: A product always include the service of sales.
