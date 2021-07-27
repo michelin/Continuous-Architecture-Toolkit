@@ -1,0 +1,7 @@
+[[problem]]
+==== Intent
+
+===== Lean context
+
+A "problem" is ... the gap between the way things are now and the way they're supposed to be, or you want them to be, in the future footnote:[Mapping to see: Value Stream improvement for thr office and services. A learning solution from the Lean Enterprise Institute. April 2007]. 
+

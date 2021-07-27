@@ -1,0 +1,5 @@
+[[value-stream]]
+==== Value Stream
+
+A _Value Stream_ is all the steps, both value-creating and nonvalue-creating, required to complete a product or a service from beginning to end footnote:[Mapping to see: Value Stream improvement for thr office and services. A learning solution from the Lean Enterprise Institute. April 2007]. 
+
