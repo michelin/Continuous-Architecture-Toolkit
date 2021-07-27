@@ -2,7 +2,7 @@
 
 One of the key objective of Continuous Architecture operating model is to safely entrust product teams in taking architecture decisions to enable end-to-end ownership and continuous delivery. This means that we need to decentralize decision making on architecture while keeping the integrity of an information system which is usally compose of thousands of applications with complex interweaving flows of data between them.
 
-To achieve this objective and as different delivery teams require varying levels of oversight to successfully conduct architecture activities, C.A. operating model proposes a formal approach to evaluate their level of readiness for autonomy in taking architecture decisions based on the context. This assessment is done on a regular basis, over a 12 to 18 months horizon, during the xref:team-readiness-ritual[Team readiness for autonomy ritual] with the autonomy readiness tool.
+To achieve this objective and as different delivery teams require varying levels of oversight to successfully conduct architecture activities, C.A. operating model proposes a formal approach to evaluate their level of readiness for autonomy in taking architecture decisions based on the context. This assessment is done on a regular basis, over a 12 to 18 months horizon, during the xref:team-readiness-ritual[Team readiness for autonomy ritual,700,700] with the autonomy readiness tool.
 
 ===== The team autonomy readiness tool
 
