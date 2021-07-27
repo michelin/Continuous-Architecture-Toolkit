@@ -15,10 +15,13 @@ The glossary is work in progress and is continuously updated.
 
 include::../docs/glossary/architecture.adoc[]
 include::../docs/glossary/artifact.adoc[]
+include::../docs/glossary/capability.adoc[]
+include::../docs/glossary/capacity.adoc[]
 include::../docs/glossary/emergence.adoc[]
 include::../docs/glossary/intent.adoc[]
 include::../docs/glossary/goods.adoc[]
 include::../docs/glossary/modularity.adoc[]
+include::../docs/glossary/operating-system.adoc[]
 include::../docs/glossary/problem.adoc[]
 include::../docs/glossary/value-stream.adoc[]
 
