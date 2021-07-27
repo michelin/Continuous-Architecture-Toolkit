@@ -11,12 +11,12 @@ image::./img/from-idea-to-retirement.png[Product lifecycle & Scoping 360°,700,7
 ==== Scoping 360° guiding principles & goals
 
 * *Time boxed*: To quickly converge towards tradeoff. The duration (usually between 2 to 6 weeks) of the scoping depends on the adaptation to the  context, but as soon as we agreed on the planning, the end-date is fixed. 
-* *Unit of time, unit of place*: To encourage cooperation, all the people, business and IS/IT, who have to deal with one of the themes addressed in the scoping participate at the same time and in the same (virtual) place to the workshops that deals with the theme. The journey is as important as the scoping delivrables, so all participants must experience the same journey.
+* *Unit of time, unit of place*: To encourage cooperation, all the people, business and IS/IT, who have to deal with one of the themes addressed in the scoping participate at the same time and in the same (virtual) place to the workshops that deals with the theme. The journey is as important as the scoping deliverables, so all participants must experience the same journey.
 * *Incremental & evolutive*: The goal is to be ready to start implementing the next release not all future releases of your product until the end of its life. As scoping 360° is an iterative approach, you will have opportunity to readjust when needed.
-* *See the whole*: When we say 360°, we really mean it. The methodology is designed to go through all the different perspectice you need to get a complete and hollistic view of your product. 
+* *See the whole*: When we say 360°, we really mean it. The methodology is designed to go through all the different perspectives you need to get a complete and holistic view of your product. 
 * *Enjoy*: have fun and learn together.
 
-image::img/scoping360-workshops.png[Scoping 360° timeline,700,700]
+image::img/scoping360-workshops.png[Scoping 360° timeline,800,800]
 
 360° means that the scoping covers all themes that the agile team will have to deal for the delivery of the product:
 
@@ -35,13 +35,13 @@ The different workshops are based on a mix of Lean, Agile, User research (UX, De
 * define the product design, 
 * plan your Minimum Viable Product.  
  
-image::img/scoping360-goals.png[Scoping 360° goals,700,700]
+image::img/scoping360-goals.png[Scoping 360° goals,800,800]
 
 ==== Architecture workshops in Scoping 360°
 
 To outline the architecture of a product, we have defined a sequence of workshops as represented in the below figure. As for the whole scoping approach, we tried to cover all aspects of the architecture in a 360° overview manner. Behind each workshop, the objective is to collectively and progressively define the architecture of your products but also to produce the minimal set of architecture deliverables. Because yes we do believe architecture documents have to be produced.
 
-image::img/scoping360-architecture.png[Scoping 360° architecture,700,700]
+image::img/scoping360-architecture.png[Scoping 360° architecture,800,800]
 
 . It starts with a knowledge sharing session to allow workshop attendees to share as much as they want on the current IT solutions. If you are building a brand new product then this step is optional of course. But otherwise, try to gather information on user feedbacks, problems and statistics coming from the operations ...
 . Then we do recommend to start the architecture outlining process by applying the Domain Driven Design practices. Remember that the earlier phases of the scoping 360 helps you to discover the problem your product is helping to solve. So the problem space mentioned in DDD is already partially dealt with. But performing an event storming can be extremely useful to describe your business domain through its main business events. The ubiquitous language surfaces thanks to the event storming and bounded contexts can be identified. Each context is a solution for a problem identified in the business domain. Defining how bounded contexts related to each other and describing each contexts complete the approach.
