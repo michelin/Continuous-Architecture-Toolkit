@@ -1,5 +1,5 @@
 [[problem]]
-==== Intent
+==== Problem
 
 ===== Lean context
 
