@@ -12,7 +12,7 @@
 :toc:
 :toc2:
 :toclevels: 3
-:numbered:
+//:numbered:
 :sectlinks:
 :sectanchors:
 :experimental:
@@ -76,4 +76,4 @@ icon:thumbs-down[2x] : You thought they missed a few things, enough to make you 
 
 The below visual recaps how an architecture kata is conducted:
 
-image:architecture-kata.png[]
+image:architecture-kata.png[800,800]
