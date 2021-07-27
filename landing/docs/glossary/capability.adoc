@@ -1,0 +1,4 @@
+[[capability-view]]
+==== Capability View
+
+A _Capability View_ summarizes what the <<business-operating-system>> is, or should be, particularly good at footnote:[Operations Strategy: Principles and Practices by Jan A. Van Mieghem and Gad Allon. Dynamic Ideas, 2015]

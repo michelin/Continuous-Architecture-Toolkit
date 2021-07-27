@@ -1,6 +1,6 @@
-=== Goods
-domain:[Product and customer experience]
+==== Goods
+//domain:[Product and customer experience]
 
-Artifact offered for sale during which property is transferred from the seller (vendor) to the buyer (vendee).
+Artifact offered for sale, or possessions that can be moved footnote:[See, https://dictionary.cambridge.org/dictionary/english/goods].
 
 NOTE: Goods can be tangible or intangible
