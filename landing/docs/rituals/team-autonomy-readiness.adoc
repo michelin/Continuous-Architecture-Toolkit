@@ -2,7 +2,7 @@
 
 One of the key objective of Continuous Architecture operating model is to safely entrust product teams in taking architecture decisions to enable end-to-end ownership and continuous delivery. This means that we need to decentralize decision making on architecture while keeping the integrity of an information system which is usally compose of thousands of applications with complex interweaving flows of data between them.
 
-To achieve this objective and as different delivery teams require varying levels of oversight to successfully conduct architecture activities, C.A. operating model proposes a formal approach to evaluate their level of readiness for autonomy in taking architecture decisions based on the context. This assessmeent is done on a regular basis, over a 12 to 18 months horizon, during the xref:team-readiness-ritual[Team readiness for autonomy ritual] with the autonomy readiness tool.
+To achieve this objective and as different delivery teams require varying levels of oversight to successfully conduct architecture activities, C.A. operating model proposes a formal approach to evaluate their level of readiness for autonomy in taking architecture decisions based on the context. This assessment is done on a regular basis, over a 12 to 18 months horizon, during the xref:team-readiness-ritual[Team readiness for autonomy ritual] with the autonomy readiness tool.
 
 ===== The team autonomy readiness tool
 
@@ -10,13 +10,13 @@ The tool proposes 3 different levels of centralization/decentralization model fo
 
 * *Level 1*: The delivery team is autonomous to make the architectural decisions necessary for the evolution of the products it manages. Product & Fullstack architects provide support on-demand.
 * *Level 2*: Architectural decisions are taken under the guidance of Product and Fullstack architects in charge of the domain/product line to which the product belongs. They lead the collaboration between all actors, ensure the end to end integrity and consistency of the system at scale while developing delivery teams judgement (coaching & mentoring) to increase their autonomy.
-* *Level 3*: Architectural decisions need to be taken centraly under governance of enterprise architecture. EA architects educate architects community and delivery teams on new architecture considerations to increase their autonomy.
+* *Level 3*: Architectural decisions need to be taken centrally under governance of enterprise architecture. EA architects educate architects community and delivery teams on new architecture considerations to increase their autonomy.
 
 The level of readiness is defined delivery team by delivery team based on the assessment around 2 dimensions.
 
 * On *Y* axis: the delivery team maturity regarding:
 ** knowledge and mastery of architecture guiderails (principles, blueprints & standards) of the organisation it belongs to.
-** technical and functional skills assessment of the delivry team's members.
+** technical and functional skills assessment of the delivery team's members.
 * on *X* axis: the level of architecture risks related to the product considering among other things:
 ** the stage of the product in its life cycle
 ** dependencies with other products and cross-team decisions needs
@@ -24,7 +24,7 @@ The level of readiness is defined delivery team by delivery team based on the as
 ** level of investment
 ** sourcing that engage the company
 
-image::./img/kit-autonomy-assesment.png[Team Readiness for Autonomy,800,800]
+image::./img/kit-autonomy-assesment.png[Team Readiness for Autonomy,700,700]
 
 TIP: Together, the team’s functional & technical maturity and the level of architecture risk determine its level of readiness to self-manage architectural decisions on products it manages.
 
@@ -42,11 +42,11 @@ Evaluation of teams autonomy readiness is done on a regular basis during this ri
 
 image:./img/team-autonomy-readiness.png[Team Readiness for Autonomy]
 
-Attendees are usually the Delivery Manager, the Lead Architect, the EA Architect and optionaly techical leaders and team leaders of delivery squads.
+Attendees are usually the Delivery Manager, the Lead Architect, the EA Architect and optionally technical leaders and team leaders of delivery squads.
 
-The main outcome of the meeting is obviously the assessement of teams formalized in the xref:team-readiness-poster[Team Autonomy readiness poster] but the dialogue between the parties is equally important. The ritual is also the opportunity to update link:./img/kit-generic-progress-plan.png[Continuous Architecture progress & skill plans] for delivery teams and architects as needed.
+The main outcome of the meeting is obviously the assessment of teams formalized in the xref:team-readiness-poster[Team Autonomy readiness poster] but the dialogue between the parties is equally important. The ritual is also the opportunity to update link:./img/kit-generic-progress-plan.png[Continuous Architecture progress & skill plans] for delivery teams and architects as needed.
 
-To prepare such assesment, Product & Fullstack architects have to consider different inputs:
+To prepare such assessment, Product & Fullstack architects have to consider different inputs:
 
 * Products roadmaps for the next 12 to 18 months
 * Last link:./img/kit-generic-progress-plan.png[Continuous Architecture progress & skill plans] review if it was done before
