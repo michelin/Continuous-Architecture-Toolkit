@@ -1,10 +1,10 @@
-== Team Autonomy Readiness
+=== Team Autonomy Readiness
 
 One of the key objective of Continuous Architecture operating model is to safely entrust product teams in taking architecture decisions to enable end-to-end ownership and continuous delivery. This means that we need to decentralize decision making on architecture while keeping the integrity of an information system which is usally compose of thousands of applications with complex interweaving flows of data between them.
 
 To achieve this objective and as different delivery teams require varying levels of oversight to successfully conduct architecture activities, C.A. operating model proposes a formal approach to evaluate their level of readiness for autonomy in taking architecture decisions based on the context. This assessmeent is done on a regular basis, over a 12 to 18 months horizon, during the xref:team-readiness-ritual[Team readiness for autonomy ritual] with the autonomy readiness tool.
 
-==== The team autonomy readiness tool
+===== The team autonomy readiness tool
 
 The tool proposes 3 different levels of centralization/decentralization model for architecture decision making which are:
 
@@ -24,11 +24,11 @@ The level of readiness is defined delivery team by delivery team based on the as
 ** level of investment
 ** sourcing that engage the company
 
-image:./img/kit-autonomy-assesment.png[Team Readiness for Autonomy]
+image::./img/kit-autonomy-assesment.png[Team Readiness for Autonomy,800,800]
 
 TIP: Together, the team’s functional & technical maturity and the level of architecture risk determine its level of readiness to self-manage architectural decisions on products it manages.
 
-As one of the responsability or the architect role in C.A. operating model is to educate delivery teams in design and architecture considerations, the assessment ritual is the opportunity to evaluate C.A practices adopted (the A symbol on the poster) and identify areas to improve with the delivery team (T symbol in the poster). That's the purpose of the radar on the right. It's made to help the team assess itself again the 8 most important areas of Continuous Architecture: 
+As one of the responsibility or the architect role in C.A. operating model is to educate delivery teams in design and architecture considerations, the assessment ritual is the opportunity to evaluate C.A practices adopted (the A symbol on the poster) and identify areas to improve with the delivery team (T symbol in the poster). That's the purpose of the radar on the right. It's made to help the team assess itself again the 8 most important areas of Continuous Architecture: 
 
 * Empowerment of the team: product approach & architecture roles
 * Rituals & practices
@@ -36,7 +36,7 @@ As one of the responsability or the architect role in C.A. operating model is to
 * One system properties: how you products comply to the evergreen principle
 
 [[team-readiness-ritual]]
-==== The team autonomy readiness assessment ritual
+===== The team autonomy readiness assessment ritual
 
 Evaluation of teams autonomy readiness is done on a regular basis during this ritual facilitated by the Product architect and the Fullstack architect for the product or line of products they manage.
 
@@ -52,9 +52,9 @@ To prepare such assesment, Product & Fullstack architects have to consider diffe
 * Last link:./img/kit-generic-progress-plan.png[Continuous Architecture progress & skill plans] review if it was done before
 * Global architecture asssements of their product portfolio (level of obsolecence & IT debt, alignment with architecture principles & blueprints, quality of service, quality of experience,...)
 
-==== Team autonomy readiness assessment outcome example
+===== Team autonomy readiness assessment outcome example
 
-Here is an example of an assesment done on a domain composed of several delivery teams.
+Here is an example of an assessment done on a domain composed of several delivery teams.
 [cols=2*]
 |===
 | Rounded rectangles materializes long lived teams. As you can see, on this domain, one team is considered autonomous when it comes to architecture because they do have the skills within the teams to do the architecture and the level of risk is considered acceptable. We have two teams that are maturing toward this autonomy thanks to architects being embedded into them. And we have one team that require to be steered as it is positionned on critical business process without the skills in the team to safely make those decisions. For each team, a set of post-its are defined: green ones represent latest achievements and red ones progress areas.
