@@ -29,11 +29,16 @@ When shifting to a truly agile organization, you might discover your teams are m
 
 During this transitions you might discover the existing reward system of your enterprise gets in the way of agile ways of working. For example teams may be get rewarded when the deliver outputs and not when customers experience outcomes. At this stage a bottom-up approach may reach its limit. For example you might have to talk to management and HR to move the needle and evolve the existing reward system. It is time to initiate a more ambitious change journey.
 
-You may also consider deploying a management framework, for example link:https://www.kotterinc.com/8-steps-process-for-leading-change/[Kotter's 8-Step Process for Leading Change]. Since in a VUCA world classical top-down change management has limits and each enterprise is likely to conduct a change management journey that meets it specific needs describing a change management framework is out of the scope of Continuous Architecture.
-
 ==== Start your top-down journey
 
-Classical top-down change management has limits. This is why we promote an organic change approach.
+Continuous architecture was not designed to be deployed using a top down approach.
+Nevertheless, a Classical top-down can be chosen and with some limits (to-be developed)
+
+You may also consider deploying a management framework, for example link:https://www.kotterinc.com/8-steps-process-for-leading-change/[Kotter's 8-Step Process for Leading Change]. Since in a VUCA world classical top-down change management has limits and each enterprise is likely to conduct a change management journey that meets it specific needs describing a change management framework is out of the scope of Continuous Architecture.
+
+pending Frederic
+
+==== Start your organic journey
 
 An organic approach is about creating an environment for a situation potential. It can start with a bottom-up first step to demonstrate the benefits on a small environment carefully selected. We could think good performing teams are a place of choice to start with but we would recommend to pick teams that have some difficulties like long time to make decisions or high level of technical debts. These kind of teams will be willing to listen to you and try new things to make some progresses. In this phase, you can use ADRs, the runway and put in place all the rituals we have. The idea is to use whatever helps the teams. 
 
@@ -108,4 +113,46 @@ Behind the **see the whole** is hidden two distinct elements
 
 **Re(Balance)** is all about making space in product backlog to "non functional" items. Too often in the past the priority was given to "business" features leading to not taking enough into account what is important architecturally wise like expected performance, quality of services, upgrading technical components ... It led to a significant deterioration of the quality of service of our products. We needed to re-balance this and we used for that the Architecture Runway.
 
-Last but not least: **people**. Changing the architecture operating model is all about the people. So here we took care of defining our architects roles and their required skills. And to help bridge the gap (if any), we put in place an architecture academy with identified trainings but also a coaching proposal and collaborative intelligence tools like link:/docs/rituals/architecture-kata.html[Architecture Katas].
+Last but not least: **people**. Changing the architecture operating model is all about the people. So here we took care of defining our architects roles and their required skills. And to help bridge the gap (if any), we put in place an architecture academy with identified trainings but also a coaching proposal and collaborative intelligence tools like link:/doc/rituals/architecture-kata.html[Architecture Katas].
+
+===== The enablers
+
+Having a new operating model is essential but not enough. We needed some enablers to make the change happen. By enabler we mean: a shared vision, a guiding team, an open toolbox, a scalable model and a community.
+ 
+====== A shared vision and a guiding team coalition
+
+At the beginning, even though the Michelin's feature teams were working in an agile mode, it become obvious that the architecture activities were not fully adapted to an agile world. In a VUCA context, the near future is not predictable, then the Information System needs to be developed in a way that it can evolve whatever the new scenario looks like. Let’s develop our products in the most decoupled way as possible became an obsession for us. We had to redefine our reference architecture patterns to promote not only monoliths, but cloud native, event driven and micro-services solutions built using technical platforms. 
+
+Architectural patterns & new technologies are key to give flexibility to the IT system and become a data-driven company. But a pure "tech" push was not going to work. A group of people, mainly architects, were convinced that yesterday's architecture methodologies and processes will not deliver future solutions. As many other companies, Michelin is coming from a world where architecture decisions were taken centrally and, with the increasing need of speed and continuous delivery, architecture would have become an unbearable bottleneck. But decentralization is more complex than simply delegating authority. In other words, it was time to develop alignment and autonomy over control and to rebuild the architecture collaborative model while making sure we could maintain our system integrity at scale and making people autonomous and safe when they take initiative. 
+  
+Sharing the need of rapid change and building a guiding coalition based on some advanced successful experience was crucial in the journey. The consolidation phase leads to seven core beliefs that are highlighted in the Continuous Architecture Manifesto.
+  
+====== An open toolbox 
+  
+The Continuous Architecture's toolbox is a set of practical tools, practices and rituals for architects. But we had a fundamental believe: each team is different and need to adopt the toolbox in its context. At Glue N'DO, we are crazy of darts. For the Continuous Architecture Toolbox, we suggested to Michelin teams an architecture's dart game: the teams would have to identify the practices adapted to their context and select the one to be positioned in the bull's eye. A good architect servant leader develops the team skills in order to put the chosen dart in the Bull's eye. 
+  
+====== A scalable collaborative model 
+
+Michelin's teams may not have the same architecture maturity due to turnover, discovering of technologies, business and IT knowledge or staffing issues. Their products may not have the same architecture challenges depending on their impacts, maturity stages from innovation or scaling to even decommissioning perspectives. In Continuous Architecture, we provide an autonomy assessment kit. 
+  
+The goal is to define locally the good collaborative model based on a shared assessment between architects, former 'decision makers' (the management)  and 'doers' (the squads) about the situation and coming challenges on 2 axes : team maturity vs product architecture challenge. 
+  
+The stakeholders will define the cutting edge organization, the way architects will support the team and lead some topics by themselves. The former governance barriers would be removed or maintained depending on whether the conditions (architecture’s risks and team’s capabilities) are met or not. 
+
+It appears key to define and monitor an evolutive collaborative model so that integrity can be maintained, avoiding bureaucratic slowdown. 
+
+====== A community and network 
+
+With the internal and open-source Continuous Architecture communities, Michelin aims to build a supportive environment to be part of or guide the architecture’s core stakeholders. At Michelin, the Continuous Architecture community of Practices is organized monthly at both local and global level. Thanks to the open source initiative, it will be a way of joining our forces, building a step ahead model, avoiding pitfalls and accelerating the change. 
+  
+====== An Organic change approach : "Think big and act small" 
+
+Launching a Continuous Architecture journey is changing the way architecture's decisions are taken in order to develop alignment and autonomy at different levels in the organization. It is a kind of 'big opportunity' which requires a leading change that, not only re-engineer the processes and methodologies, but also transform the underlying mindset, culture and learning model. 
+
+Top-down change management demonstrated its inadequacy. At best, it brings an illusion of change. It does not favor empowerment of people and a sense of discernment, which are required to spread out a Continuous Architecture operating model. We expect digital stakeholders and architects to play a role in the new model and to act as leaders of change, participating actively in the architecture's learning organization.
+
+Bottom-up change management may quickly reach a glass ceiling effect as the environment would not be prepared for it. As a consequence, a lot of energy may be wasted to deal with constraints. Bottom-up is not an option neither. 
+
+As an independent experienced professional in enterprise architecture, my recommendation is an Organic approach as we did in Michelin. You could be inspired by Kotter's methodology, to well conduct the Continuous Architecture journey. My advice: Think big and Act small! 
+
+By thinking big, I mean communicate on a vision while building up a supportive and favorable environment, daring to remove the structural barriers. By acting small, the idea is to take the time to empower local teams so that the teams will implement what makes sense for them taking into account their context, defining the acceptable speed of change while identifying synergic opportunities and being innovative. 
