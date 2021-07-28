@@ -1,0 +1,8 @@
+=== Organization
+domain:[Operations]
+source: Rusell Ackoff
+An organization is a purposeful entity that contains at least two sub-entities (individuals or teams), which purpose is to produce a common outcome(s).
+An organization has a functional division of labor in pursuit of the common purpose(s).
+Its functionally distinct sub-entities can respond to each other's behavior through observation or communication.
+At least one of the sub-entity has a system-control function for the attainment of the organization goals.
+
