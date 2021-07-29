@@ -1,0 +1,3 @@
+=== Outcome
+domain:[Core]
+Event that is a change of state of some object in the domain that has become available due the activity of a producer for the benefit of a consumer.

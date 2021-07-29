@@ -11,21 +11,6 @@ include::lean_value-stream-mapping.adoc[]
 
 include::core_artifact.adoc[]
 include::core_capability.adoc[]
+include::core_outcome.adoc[]
 
-
-
-
-[[goods]]
-=== goods
-domain:[Product and customer experience]
-
-Artifact offered for sale in which property is transferred from the seller (vendor) to the buyer (vendee).
-
-NOTE: Goods can be tangile or intangible
-
-[[service]]
-=== service
-domain:[Operating Domain]
-
-Work done by one person or group that benefits another.
-
+include::operation_organization.adoc[]
