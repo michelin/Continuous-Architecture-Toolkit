@@ -6,6 +6,8 @@ socialLinks:
     url: https://continuousarc-onh6387.slack.com/archives/C01C9MXJMGE
   - icon: twitter-logo.svg
     url: https://twitter.com/ContinuousArch
+  - icon: linkedin-logo.svg
+    url: https://www.linkedin.com/company/continuous-architecture/about/?viewAsMember=true    
 links:
   - text: Manifesto
     url: /docs/manifest/manifesto.html
