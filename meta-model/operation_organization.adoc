@@ -2,7 +2,6 @@
 domain:[Operations]
 source: Rusell Ackoff
 An organization is a purposeful entity that contains at least two sub-entities (individuals or teams), which purpose is to produce a common outcome(s).
-An organization has a functional division of labor in pursuit of the common purpose(s).
-Its functionally distinct sub-entities can respond to each other's behavior through observation or communication.
-At least one of the sub-entity has a system-control function for the attainment of the organization goals.
-
+It is the relationships between what sub-entities do and the pursuit of their common purpose that give unity and identity to their organization.
+An organization has a functional division of labor in pursuit of the common purpose(s). One of the sub-entities has a coordination function 
+for the attainment of the organization goals.
