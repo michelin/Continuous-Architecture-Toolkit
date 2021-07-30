@@ -1,5 +1,5 @@
 === Job to be done
 domain:[Product and customer experience]
 alt[JTBD]
-Jobs to be done - the progress that the customer is trying to make in a given circumstance—what the customer hopes to accomplish.
-It is a circumstance in which products delivered by an enterprise aim to provide beneficial outcomes in carrying out this work.
+    The progress that the customer is trying to make in a given circumstance — what the customer hopes to accomplish.
+    It is a circumstance in which the customer is expecting solutions that are able to provide beneficial outcomes in carrying out his work.”
