@@ -1,0 +1,17 @@
+==== customer needs
+//domain:[Product and customer experience]
+Customer needs are necessities that arise related to the consumption of solutions, in accomplishment of jobs-to-be-done.
+This includes:
+* outcomes to be provided to accomplish the job.
+* qualities of outcomes and qualities of outcome delivery against which customer measure how successfully they are getting the job done.
+* constraints under which these outcomes and their qualities are delivered (laws, environmental context, etc.)
+Needs are related to the utility and functional part of jobs-to-be-done.
+
+For instance, when I am sick, I have a JTBD : get cured.
+To get cured, I have the need to get a medical appointment quickly. This needs formalizes itself into:
+* To get cured, I need a “quickly confirmed medical appointment”.
+* outcome: confirmed medical appointment (state of affair).
+* quality of delivery: quickly (less than 2 days)
+* constraints: I don't have a driving license.
+
+Source: Lance Bettencourt - Service Innovation: How to Go from Customer Needs to Breakthrough Services
