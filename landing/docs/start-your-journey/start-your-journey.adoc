@@ -39,16 +39,14 @@ During this transitions you might discover the existing reward system of your en
 
 //pending Frederic
 
-Scaling agility beyond a few teams is challenging because of the scope and magnitude of changes the enterprise needs to make. For example, enterprises which conducted such an agile at scale journey modified their operating model and changed their culture. 
+Scaling agility beyond a few teams is challenging because of the scope and magnitude of changes the enterprise needs to make. For example, enterprises not only must transform their operating model but also change their culture which is challenging. 
 
-Let's illustrate this with the example of three large banks which adopted an agile operating model inspired by the Spotify model footnote:[See experience report from Société Générale and Fidelity] footnote:[see ING's agile transformation article: https://www.mckinsey.com/industries/financial-services/our-insights/ings-agile-transformation].
+Let's illustrate this with the example of three large banks which adopted an agile operating model inspired by the Spotify model footnote:[See experience report from Société Générale and Fidelity] footnote:[see ING's agile transformation article: https://www.mckinsey.com/industries/financial-services/our-insights/ings-agile-transformation] which defines two categories of teams:
 
-The new organizational model defines two categories of teams:
+* Teams aligned with the continuous delivery flow of some product or features, referred to as _stream-aligned teams_ footnote:[See: https://teamtopologies.com/book], designated as _Squads_ and _Tribes_ in the Spotify model
+* Teams that develop expertise and knowledge across stream-aligned teams, designated as _Chapters_ and _Guilds_ in the Spotify model
 
-* Teams aligned with the continuous delivery flow of some product or features, often referred to as _stream-aligned teams_ footnote:[See: https://teamtopologies.com/book] and designated as _Squad_ and _Tribes_ in the Spotify model
-* Teams developing expertise and knowledge across stream-aligned teams and designated as _Chapters_ and _Guilds_ in the Spotify model
-
-In the Fidelity and ING examples, the new organizational model was implemented in a top-down manner. Employees had to re-apply for new positions... 
+In the Fidelity and ING examples, the new organizational model was implemented in a top-down manner. Employees had to re-apply for the positions defined by the Spotify model... 
 
 Adopting a new organizational model is not sufficient. Other aspects of the operating model must change:
 
@@ -56,21 +54,21 @@ Adopting a new organizational model is not sufficient. Other aspects of the oper
 * On the people side, re-skilling and up-skilling must be planned and executed
 * On the cultural side, the leadership model, the ways of working, the beliefs, mindset and behaviors must evolve
 
-On the last point: 
+For example: 
 
-* In the Société Générale example, _aligned autonomy_ was facilitated by a shared purpose and a set of cascading Objectives and Key Results (OKRs)
-* In the Fidelity example, a set of leadership principles helped modify the culture; among them we can quote, tells it like it is and enables candid debate, empower others to make decisions or owns the outcome.  
+* At Société Générale, _aligned autonomy_ was facilitated by a shared purpose and a set of cascading Objectives and Key Results (OKRs)
+* At Fidelity, a set of leadership principles such as _"tells it like it is and enables candid debate"_, _"empower others to make decisions"_ or _"owns the outcome"_ helped modify the culture 
 
-When steering a change journey that has so many moving parts, it may be tempting to use a comprehensive change management approach. Describing a general purpose management framework is beyond the scope of Continuous Architecture. For the reader who is looking for one, Kotter's 8-Step Process for Leading Change footnote:[See: https://www.kotterinc.com/8-steps-process-for-leading-change/] is an industry recognized one.
+When steering a change journey that has so many moving parts, it may be tempting to use a comprehensive change management approach. Describing a general purpose change management framework is beyond the scope of Continuous Architecture. For the reader who is looking for one, Kotter's 8-Step Process for Leading Change footnote:[See: https://www.kotterinc.com/8-steps-process-for-leading-change/] is a place to start.
 
-A word of advise, it is risky to focus on frameworks that are in the solution space before making sure your enterprise is trying to solve the right problems. It applies both to _Agile @Scale_ frameworks such as SAFe or Spotify or change management frameworks.
+A word of advise, it is risky to focus on frameworks that are in the solution space before making sure your enterprise is tackling the right problems. It applies both to _Agile @Scale_ frameworks such as SAFe or Spotify and change management frameworks.
 
-By mimicking the Spotify model (i.e. Tribes, Squads, Chapters, ...), enterprises are at risk of neglecting two key agility ingredients footnote:[See: https://www.infoq.com/news/2016/10/no-spotify-model/ or https://www.business2community.com/strategy/there-is-no-spotify-model-for-scaling-agile-02284278]:
+By mimicking the Spotify model (i.e. Tribes, Squads, Chapters, ...), enterprises are at risk of neglecting two key ingredients footnote:[See: https://www.infoq.com/news/2016/10/no-spotify-model/ or https://www.business2community.com/strategy/there-is-no-spotify-model-for-scaling-agile-02284278]:
 
-* A culture of experimentation that facilitates the emergence of an agile @scale model that meets the specific needs and circumstances of the enterprise
-* The cultural change that is needed to successfully implement a new agile @scale operating model.
+* A culture of experimentation that facilitates the emergence of an agile @scale model that meets the specific needs and of the enterprise
+* The cultural dimension that is a pre-requisite to successfully implementing a new agile @scale operating model.
 
-Continuous Architecture was not designed to be deployed alongside the top-down deployment of agile @scale or change management frameworks. Instead, we advocate an organic approach that starts from the specific problems and circumstances of the enterprise, mix bottom-up with top-down and promotes continuous experimentation and learning.
+Continuous Architecture was not designed to be deployed alongside the top-down deployment of agile @scale or change management frameworks. Instead, we advocate an organic approach that starts from the specific problems and circumstances of the enterprise, mixes bottom-up with top-down and promotes continuous experimentation and learning.
 
 [organic-journey]
 ==== Start your organic journey
