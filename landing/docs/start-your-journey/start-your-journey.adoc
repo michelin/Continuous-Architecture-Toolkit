@@ -40,12 +40,14 @@ During this transitions you might discover the existing reward system of your en
 
 Scaling agility beyond a few teams is challenging because of the scope and magnitude of changes the enterprise needs to make. For example, enterprises which conducted such an agile at scale journey modified their operating model and changed their culture. 
 
-Let's illustrate this with the example of three large banks which adopted an agile operating model inspired by the Spotify model footnote:[See experience report from Société Générale and Fidelity INvestments] footnote:[see ING's agile transformation article: https://www.mckinsey.com/industries/financial-services/our-insights/ings-agile-transformation].
+Let's illustrate this with the example of three large banks which adopted an agile operating model inspired by the Spotify model footnote:[See experience report from Société Générale and Fidelity] footnote:[see ING's agile transformation article: https://www.mckinsey.com/industries/financial-services/our-insights/ings-agile-transformation].
 
 The new organizational model defines two categories of teams:
 
-* Teams aligned with the continuous delivery flow of some product or features, often referred to as _stream-aligned teams_ footnote:[See: https://teamtopologies.com/book]
-* Teams developing expertise and knowledge across stream-aligned teams
+* Teams aligned with the continuous delivery flow of some product or features, often referred to as _stream-aligned teams_ footnote:[See: https://teamtopologies.com/book] and designated as _Squad_ and _Tribes_ in the Spotify model
+* Teams developing expertise and knowledge across stream-aligned teams and designated as _Chapters_ and _Guilds_ in the Spotify model
+
+In the Fidelity and ING examples, the new organizational model was implemented in a top-down manner... Employees had to re-apply to new positions. 
 
 
 
