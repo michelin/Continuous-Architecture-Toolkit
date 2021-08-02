@@ -25,18 +25,20 @@ Then, we recommend to experiment a few CA practices without changing the way tea
 
 If your teams are structured along projects or functional skills you might discover they are not cross-functional and they are slowed-down by too many dependencies. At that point you might want to revisit the existing teams' topologies and shift them from a project structure and mindset to a product one as described in the link:/docs/framework/organization.html[Organization] section.
 
-When shifting to a truly agile organization, you might discover your teams are missing key skills, for example product owners or agile practionners ones. To close we recommend investing first in re-skilling existing teams members and possibly hiring new talents.
+When shifting to a truly agile organization, you might discover your teams are missing key skills, for example product owners or agile practitioners ones. To close we recommend investing first in re-skilling existing teams members and possibly hiring new talents.
 
 During this transitions you might discover the existing reward system of your enterprise gets in the way of agile ways of working. For example teams may be get rewarded when the deliver outputs and not when customers experience outcomes. At this stage a bottom-up approach may reach its limit. For example you might have to talk to management and HR to move the needle and evolve the existing reward system. It is time to initiate a more ambitious change journey.
 
 ==== Start your top-down journey
 
-Continuous architecture was not designed to be deployed using a top down approach.
-Nevertheless, a Classical top-down can be chosen and with some limits (to-be developed)
+//Continuous architecture was not designed to be deployed using a top down approach.
+//Nevertheless, a Classical top-down can be chosen and with some limits (to-be developed)
 
-You may also consider deploying a management framework, for example link:https://www.kotterinc.com/8-steps-process-for-leading-change/[Kotter's 8-Step Process for Leading Change]. Since in a VUCA world classical top-down change management has limits and each enterprise is likely to conduct a change management journey that meets it specific needs describing a change management framework is out of the scope of Continuous Architecture.
+//You may also consider deploying a management framework, for example link:https://www.kotterinc.com/8-steps-process-for-leading-change/[Kotter's 8-Step Process for Leading Change]. Since in a VUCA world classical top-down change management has limits and each enterprise is likely to conduct a change management journey that meets it specific needs describing a change management framework is out of the scope of Continuous Architecture.
 
-pending Frederic
+//pending Frederic
+
+Scaling agility beyond a few teams is challenging because of the scope and magnitude of the changes the enterprise needs to make.  
 
 ==== Start your organic journey
 
