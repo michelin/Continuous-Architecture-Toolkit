@@ -65,7 +65,7 @@ A word of advise, it is risky to focus on frameworks that are in the solution sp
 
 By mimicking the Spotify model (i.e. Tribes, Squads, Chapters, ...), enterprises are at risk of neglecting two key ingredients footnote:[See: https://www.infoq.com/news/2016/10/no-spotify-model/ or https://www.business2community.com/strategy/there-is-no-spotify-model-for-scaling-agile-02284278]:
 
-* A culture of experimentation that facilitates the emergence of an agile @scale model that meets the specific needs and of the enterprise
+* A culture of experimentation to help the emergence of an agile @scale model that meets the specific needs and of the enterprise
 * The cultural dimension that is a pre-requisite to successfully implementing a new agile @scale operating model.
 
 Continuous Architecture was not designed to be deployed alongside the top-down deployment of agile @scale or change management frameworks. Instead, we advocate an organic approach that starts from the specific problems and circumstances of the enterprise, mixes bottom-up with top-down and promotes continuous experimentation and learning.
