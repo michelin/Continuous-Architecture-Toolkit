@@ -61,7 +61,7 @@ For example:
 
 When steering a change journey that has so many moving parts, it may be tempting to use a comprehensive change management approach. Describing a general purpose change management framework is beyond the scope of Continuous Architecture. For the reader who is looking for one, Kotter's 8-Step Process for Leading Change footnote:[See: https://www.kotterinc.com/8-steps-process-for-leading-change/] is a place to start.
 
-A word of advise, it is risky to focus on frameworks that are in the solution space before making sure your enterprise is tackling the right problems. It applies both to _Agile @Scale_ frameworks such as SAFe or Spotify and change management frameworks.
+A word of advise, it is risky to focus on frameworks that are in the solution space before making sure your enterprise is tackling the right problems. It applies to both _Agile @Scale_ frameworks such as SAFe or Spotify and change management frameworks.
 
 By mimicking the Spotify model (i.e. Tribes, Squads, Chapters, ...), enterprises are at risk of neglecting two key ingredients footnote:[See: https://www.infoq.com/news/2016/10/no-spotify-model/ or https://www.business2community.com/strategy/there-is-no-spotify-model-for-scaling-agile-02284278]:
 
