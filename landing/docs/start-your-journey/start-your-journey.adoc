@@ -38,7 +38,11 @@ During this transitions you might discover the existing reward system of your en
 
 //pending Frederic
 
-Scaling agility beyond a few teams is challenging because of the scope and magnitude of the changes the enterprise needs to make.  
+Scaling agility beyond a few teams is challenging because of the scope and magnitude of changes the enterprise needs to make. For example, enterprises which conducted such an agile at scale journey modified their operating model and changed their culture. 
+
+Let's illustrate this with the example of three large banks which adopted an agile operating model inspired by the Spotify model footnote:[See experience report from Société Générale and Fidelity INvestments] footnote:[see ING's agile transformation article: https://www.mckinsey.com/industries/financial-services/our-insights/ings-agile-transformation].
+
+
 
 ==== Start your organic journey
 
