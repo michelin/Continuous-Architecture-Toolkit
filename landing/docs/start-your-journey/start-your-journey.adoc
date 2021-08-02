@@ -29,6 +29,7 @@ When shifting to a truly agile organization, you might discover your teams are m
 
 During this transitions you might discover the existing reward system of your enterprise gets in the way of agile ways of working. For example teams may be get rewarded when the deliver outputs and not when customers experience outcomes. At this stage a bottom-up approach may reach its limit. For example you might have to talk to management and HR to move the needle and evolve the existing reward system. It is time to initiate a more ambitious change journey.
 
+[top-down-journey]
 ==== Start your top-down journey
 
 //Continuous architecture was not designed to be deployed using a top down approach.
@@ -64,6 +65,14 @@ When steering a change journey that has so many moving parts, it may be tempting
 
 A word of advise, it is risky to focus on frameworks that are in the solution space before making sure your enterprise is trying to solve the right problems. It applies both to _Agile @Scale_ frameworks such as SAFe or Spotify or change management frameworks.
 
+By mimicking the Spotify model (i.e. Tribes, Squads, Chapters, ...), enterprises are at risk of neglecting two key agility ingredients footnote:[See: https://www.infoq.com/news/2016/10/no-spotify-model/ or https://www.business2community.com/strategy/there-is-no-spotify-model-for-scaling-agile-02284278]:
+
+* A culture of experimentation that facilitates the emergence of an agile @scale model that meets the specific needs and circumstances of the enterprise
+* The cultural change that is needed to successfully implement a new agile @scale operating model.
+
+Continuous Architecture was not designed to be deployed alongside the top-down deployment of agile @scale or change management frameworks. Instead, we advocate an organic approach that starts from the specific problems and circumstances of the enterprise, mix bottom-up with top-down and promotes continuous experimentation and learning.
+
+[organic-journey]
 ==== Start your organic journey
 
 An organic approach is about creating an environment for a situation potential. It can start with a bottom-up first step to demonstrate the benefits on a small environment carefully selected. We could think good performing teams are a place of choice to start with but we would recommend to pick teams that have some difficulties like long time to make decisions or high level of technical debts. These kind of teams will be willing to listen to you and try new things to make some progresses. In this phase, you can use ADRs, the runway and put in place all the rituals we have. The idea is to use whatever helps the teams. 
