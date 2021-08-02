@@ -60,7 +60,9 @@ On the last point:
 * In the Société Générale example, _aligned autonomy_ was facilitated by a shared purpose and a set of cascading Objectives and Key Results (OKRs)
 * In the Fidelity example, a set of leadership principles helped modify the culture; among them we can quote, tells it like it is and enables candid debate, empower others to make decisions or owns the outcome.  
 
-Describing a comprehensive change management approach is beyond the scope of Continuous Architecture. For the reader who is looking for a comprehensive change management framework, Kotter's 8-Step Process for Leading Change footnote:[See: https://www.kotterinc.com/8-steps-process-for-leading-change/] is an industry recognized one.
+When steering a change journey that has so many moving parts, it may be tempting to use a comprehensive change management approach. Describing a general purpose management framework is beyond the scope of Continuous Architecture. For the reader who is looking for one, Kotter's 8-Step Process for Leading Change footnote:[See: https://www.kotterinc.com/8-steps-process-for-leading-change/] is an industry recognized one.
+
+A word of advise, it is risky to focus on frameworks that are in the solution space before making sure your enterprise is trying to solve the right problems. It applies both to _Agile @Scale_ frameworks such as SAFe or Spotify or change management frameworks.
 
 ==== Start your organic journey
 
