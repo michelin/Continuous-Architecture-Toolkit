@@ -10,8 +10,6 @@ The glossary contains the definition of the key terms used in the Continuous Arc
 
 The glossary is work in progress and is continuously updated.
 
-//include::../docs/glossary/service.adoc[]
-
 include::../docs/glossary/architecture.adoc[]
 include::../docs/glossary/artifact.adoc[]
 include::../docs/glossary/capability.adoc[]
@@ -23,6 +21,7 @@ include::../docs/glossary/goods.adoc[]
 include::../docs/glossary/modularity.adoc[]
 include::../docs/glossary/operating-system.adoc[]
 include::../docs/glossary/problem.adoc[]
+include::../docs/glossary/service.adoc[]
 include::../docs/glossary/value-stream.adoc[]
 
 
