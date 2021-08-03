@@ -43,10 +43,10 @@ Scaling agility beyond a few teams is challenging because of the scope and magni
 
 Let's illustrate this with the example of three large banks that adopted an agile operating model inspired by Spotify footnote:[See experience report from Société Générale and Fidelity] footnote:[see ING's agile transformation article: https://www.mckinsey.com/industries/financial-services/our-insights/ings-agile-transformation]. It defines two categories of teams:
 
-* Teams aligned with the continuous delivery flow of some product or features, referred to as _stream-aligned teams_ footnote:[See: https://teamtopologies.com/book], designated as _Squads_ and _Tribes_ in the Spotify model
+* _Stream-aligned teams_ footnote:[See: https://teamtopologies.com/book], designated as _Squads_ and _Tribes_ in the Spotify model
 * Teams that develop expertise and knowledge across stream-aligned teams, designated as _Chapters_ and _Guilds_ in the Spotify model
 
-In the Fidelity and ING examples, the new organizational model was implemented in a top-down manner. Employees had to re-apply for the positions defined by the Spotify model... 
+In the Fidelity and ING examples, the new organizational model was implemented in a top-down manner. Employees had to re-apply for new positions defined using the Spotify model... 
 
 Adopting a new organizational model is not sufficient. Other aspects of the operating model must change:
 
