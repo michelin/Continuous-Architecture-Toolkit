@@ -3,14 +3,7 @@
 //alt:[Job To Be Done]
 //domain:[Experience Objectives]
 
-A JTBD is a goal or an objective independent of your solution
-A job statement is Verb + Object + Clarifier
+“Job” is shorthand for what an individual really seeks to accomplish in a given circumstance footnote:[Source: https://hbr.org/2016/09/know-your-customers-jobs-to-be-done].
 
+A Job-To-Be-Done or JTBD is a goal or an objective independent of your solution. It is described by a job statement which takes the form: Verb + Object + Clarifier
 
-[example]
-Move Money.
-
-NOTE: Blabla.
-
-[.source]
-<<Book>>, The term "JTBD" has been coined by Clayton M. Christensen, Taddy Hall, Karen Dillon, and David S. Duncan in their Book : Know Your Customers’ “Jobs to Be Done”
