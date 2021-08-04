@@ -8,22 +8,23 @@
 
 The glossary contains the definition of the key terms used in the Continuous Architecture Toolkit and Framework. Since a term may have more than one meaning depending on its usage context, more than one contextualized definition will be entered in the glossary.
 
-The glossary is work in progress and is continuously updated.
+The glossary is work in progress and is continuously updated. You can read definition by clicking on a terms. 
 
-include::../docs/glossary/architecture.adoc[]
-include::../docs/glossary/artifact.adoc[]
-include::../docs/glossary/capability.adoc[]
-include::../docs/glossary/capacity.adoc[]
-include::../docs/glossary/emergence.adoc[]
-include::../docs/glossary/event.adoc[]
-include::../docs/glossary/intent.adoc[]
-include::../docs/glossary/JTBD.adoc[]
-include::../docs/glossary/good.adoc[]
-include::../docs/glossary/modularity.adoc[]
-include::../docs/glossary/operating-system.adoc[]
-include::../docs/glossary/problem.adoc[]
-include::../docs/glossary/public-good.adoc[]
-include::../docs/glossary/public-service.adoc[]
-include::../docs/glossary/service.adoc[]
-include::../docs/glossary/value-stream.adoc[]
+<<architecture>>
+<<artifact>>
+<<capability>>
+<<capacity>>
+<<emergence>>
+<<event>>
+<<intent>>
+<<JTBD>>
+<<good>>
+<<modularity>>
+<<operating-system>>
+<<problem>>
+<<public-good>>
+<<public-service>>
+<<service>>
+<<value-stream>>
+
 

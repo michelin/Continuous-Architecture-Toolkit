@@ -18,4 +18,5 @@ System architecture is the embodiment of concept, the allocation of physical/inf
 
 Architecture is the fundamental organization of a system, embodied in its components, their relationships to each other and to the environment, and the principles governing its design and  evolution footnote:[ISO/IEC/IEEE Standard 42010].
 
+link:/docs/glossary/glossary.html[Return glossary]
 
