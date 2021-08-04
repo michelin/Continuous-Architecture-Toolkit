@@ -1,10 +1,12 @@
+
+[product]
 ==== product
 //domain:[Product and customer experience]
 
-Something that is made to be sold and associated with contractual obligations.
+Something produced by a process or that is grown or obtained through farming footnote:[See definitions: https://www.merriam-webster.com/dictionary/product, https://dictionary.cambridge.org/dictionary/english/product].
 Products come in two forms:
 
-. <<goods>> produced as the result of manufacturing,
-. <<service-business>>, i.e. some work done by one person or group that benefits another.
+* <<good>>
+* <<service>>
 
-NOTE: A product always include the service of sales.
+Product are private or public. Public products as often referred to as <<public-good>

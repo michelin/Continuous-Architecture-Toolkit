@@ -1,0 +1,6 @@
+[[good]]
+==== Good
+
+In the _Product_ context, means something that has economic utility or satisfies an economic want footnote:[See definition: https://www.merriam-webster.com/dictionary/goods]
+
+NOTE: Goods can be tangible or intangible

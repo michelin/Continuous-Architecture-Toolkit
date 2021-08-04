@@ -1,6 +1,0 @@
-==== Goods
-//domain:[Product and customer experience]
-
-Artifact offered for sale, or possessions that can be moved footnote:[See, https://dictionary.cambridge.org/dictionary/english/goods].
-
-NOTE: Goods can be tangible or intangible
