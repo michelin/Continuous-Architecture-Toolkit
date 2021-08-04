@@ -9,4 +9,4 @@ Products come in two forms:
 * <<good>>
 * <<service>>
 
-Product are private or public. Public products as often referred to as <<public-good>
+Product are private or public. When public, products are referred to as <<public-good>> or <<public-service>>.
