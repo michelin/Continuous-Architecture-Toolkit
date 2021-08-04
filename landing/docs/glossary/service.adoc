@@ -11,4 +11,6 @@ Work done by one person or group that benefits another.
 
 A mechanism to enable access to one or more capabilities, where the access is provided using a prescribed interface and is exercised consistent with constraints and policies as specified by the service description footnote:[Source: OASIS]
 
+link:/docs/glossary/glossary.html[Return to glossary]
+
 

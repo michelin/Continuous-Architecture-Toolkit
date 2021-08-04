@@ -7,3 +7,6 @@
 
 A Job-To-Be-Done or JTBD is a goal or an objective independent of your solution. It is described by a job statement which takes the form: Verb + Object + Clarifier
 
+link:/docs/glossary/glossary.html[Return to glossary]
+
+

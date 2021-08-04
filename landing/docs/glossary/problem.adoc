@@ -12,3 +12,6 @@ Before getting drawn into details, scouring a stated problem for clues while com
 * Exploring the frame to understand the original problem statement
 * Breaking the frame to challenge the initial framing of the problem
 
+link:/docs/glossary/glossary.html[Return to glossary]
+
+

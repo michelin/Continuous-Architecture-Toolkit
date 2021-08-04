@@ -1,4 +1,7 @@
 [[capability-view]]
 ==== Capability View
 
-A _Capability View_ summarizes what the <<business-operating-system>> is, or should be, particularly good at footnote:[Operations Strategy: Principles and Practices by Jan A. Van Mieghem and Gad Allon. Dynamic Ideas, 2015]
+A _Capability View_ summarizes what the link:/docs/glossary/operating-system.html[Operating System (business context)] is, or should be, particularly good at footnote:[Operations Strategy: Principles and Practices by Jan A. Van Mieghem and Gad Allon. Dynamic Ideas, 2015]
+
+link:/docs/glossary/glossary.html[Return to glossary]
+

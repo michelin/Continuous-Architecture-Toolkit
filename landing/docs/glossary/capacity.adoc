@@ -2,3 +2,5 @@
 ==== Capacity
 
 The maximal sustainable output rate of a resource footnote:[Operations Strategy: Principles and Practices by Jan A. Van Mieghem and Gad Allon. Dynamic Ideas, 2015]
+
+link:/docs/glossary/glossary.html[Return to glossary]

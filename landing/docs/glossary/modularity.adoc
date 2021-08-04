@@ -35,3 +35,6 @@ modules, i.e., except for interface changes, programmers changing the individual
 not need to communicate.
 
 If the interfaces of the modules are not revised, it should be possible to run and test any combination of old and new module versions.
+
+link:/docs/glossary/glossary.html[Return to glossary]
+

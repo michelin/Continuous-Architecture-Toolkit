@@ -15,4 +15,6 @@ Event are state transitions that footnote:[https://leanpub.com/introducing_event
 . May be triggered by Time
 . May be the result of some Cascading reaction
 
+link:/docs/glossary/glossary.html[Return to glossary]
+
 

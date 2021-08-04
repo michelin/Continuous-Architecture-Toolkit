@@ -9,4 +9,8 @@ Products come in two forms:
 * <<good>>
 * <<service>>
 
-A product can be private or public. When public, a proiduct is referred to as <<public-good>> or <<public-service>>.
+A product can be private or public. When public, a proiduct is referred to as link:/docs/glossary/public-good.html[Public Good] or link:/docs/glossary/public-service.html[Public Service].
+
+
+link:/docs/glossary/glossary.html[Return to glossary]
+
