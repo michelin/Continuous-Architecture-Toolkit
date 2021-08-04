@@ -10,21 +10,21 @@ The glossary contains the definition of the key terms used in the Continuous Arc
 
 The glossary is work in progress and is continuously updated. You can read definition by clicking on a terms. 
 
-<<architecture>>
-<<artifact>>
-<<capability>>
-<<capacity>>
-<<emergence>>
-<<event>>
-<<intent>>
-<<JTBD>>
-<<good>>
-<<modularity>>
-<<operating-system>>
-<<problem>>
-<<public-good>>
-<<public-service>>
-<<service>>
-<<value-stream>>
+* <<architecture>>
+* <<artifact>>
+* <<capability>>
+* <<capacity>>
+* <<emergence>>
+* <<event>>
+* <<intent>>
+* <<JTBD>>
+* <<good>>
+* <<modularity>>
+* <<operating-system>>
+* <<problem>>
+* <<public-good>>
+* <<public-service>>
+* <<service>>
+* <<value-stream>>
 
 

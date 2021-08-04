@@ -1,3 +1,6 @@
+[[artifact]]
 ==== Artifact
 
 A man-made object taken as a whole.
+
+link:/docs/glossary/glossary.html[Return to glossary]
