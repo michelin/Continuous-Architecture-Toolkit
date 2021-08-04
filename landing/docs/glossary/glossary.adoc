@@ -15,6 +15,7 @@ include::../docs/glossary/artifact.adoc[]
 include::../docs/glossary/capability.adoc[]
 include::../docs/glossary/capacity.adoc[]
 include::../docs/glossary/emergence.adoc[]
+include::../docs/glossary/event.adoc[]
 include::../docs/glossary/intent.adoc[]
 include::../docs/glossary/JTBD.adoc[]
 include::../docs/glossary/good.adoc[]
@@ -25,8 +26,4 @@ include::../docs/glossary/public-good.adoc[]
 include::../docs/glossary/public-service.adoc[]
 include::../docs/glossary/service.adoc[]
 include::../docs/glossary/value-stream.adoc[]
-
-
-
-
 
