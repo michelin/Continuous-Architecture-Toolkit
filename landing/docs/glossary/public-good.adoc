@@ -1,5 +1,4 @@
-
-[public-good]
+[[public-good]]
 ==== Public Good
 
 In economics, a public good refers to a commodity or service that is made available to all members of a society footnote:[See definition: https://www.investopedia.com/terms/p/public-good.asp].
