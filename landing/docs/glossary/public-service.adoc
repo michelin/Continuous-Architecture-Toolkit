@@ -1,7 +1,7 @@
 [[public-service]]
 ==== Public Service
 
-A public service is footnote:[See definition: https://www.merriam-webster.com/dictionary/public%20service]:
+A public service is defined as footnote:[See definition: https://www.merriam-webster.com/dictionary/public%20service]:
 
 . The business of supplying a commodity (such as electricity or gas) or service (such as transportation) to any or all members of a community
 . A service rendered in the public interest
