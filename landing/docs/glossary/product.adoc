@@ -9,7 +9,7 @@ Products come in two forms:
 * link:/docs/glossary/good.html[Good]
 * link:/docs/glossary/service.html[Service (business context)]
 
-A product can be private or public. When public, a proiduct is referred to as link:/docs/glossary/public-good.html[Public Good] or link:/docs/glossary/public-service.html[Public Service].
+A product can be private or public. When public, a product is referred to as link:/docs/glossary/public-good.html[Public Good] or link:/docs/glossary/public-service.html[Public Service].
 
 
 link:/docs/glossary/glossary.html[Return to glossary]
