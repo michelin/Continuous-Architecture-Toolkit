@@ -5,7 +5,7 @@
 [[organization]]
 ==== Organization
 //:toc: preamble
-//xref:o-aaf-deployment[o-aaf-deployment-vision]
+
 
 The Organization view maps the hierarchical decomposition of the enterprise into an organizational model. 
 The figure below describes the way the CAF suggests you model your organization.

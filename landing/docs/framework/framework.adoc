@@ -6,7 +6,7 @@
 === Continuous Architecture Framework
 _By Frédéric Lé <fle@youragileway.com> and Jean-Pierre Le Cam <jean-pierre.le-cam@wanadoo.fr>_
 //:toc: preamble
-//xref:o-aaf-deployment[o-aaf-deployment-vision]
+
 
 We build software in a continuous manner, let's adapt our architecture operating model to it. That would be the elevator pitch for our Continuous Architecture initiative. 
  

@@ -5,7 +5,7 @@
 
 [[product]]
 //:toc: preamble
-//xref:o-aaf-deployment[o-aaf-deployment-vision]
+
 
 Defining terminology is a useful starting point when reading or writing on a subject to prevent any confusion or assumptions. We will use the term _"Product"_ to refer to a named collection of business capabilities valuable to a defined customer segment footnote:[https://www.gartner.com/en/information-technology/glossary/product-digital-business]. As Gartner observes _"Although products (in the context of digital business) principally serve external customers, software organizations can also apply a product model to any collection of business capabilities delivered in a coherent value stream to internal customers"_. Products are goods and/or services that can be tangible (tire, smart phone, workstation, ...) or intangible (mortgage loan, automobile insurance, email service, ...). Products meets clients' needs as captured in the *Experience Objectives* view.
 

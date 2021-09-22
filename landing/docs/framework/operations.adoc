@@ -5,7 +5,7 @@
 [[operations]]
 ==== Operations
 //:toc: preamble
-//xref:o-aaf-deployment[o-aaf-deployment-vision]
+
 
 In a recent article footnote:[Why Do So Many Strategies Fail? Leaders focus on the parts rather than the whole by David J. Collis From the hbr.org, July–August 2021], David J. Collis observes CEOs in innovative enterprises often neglect to invest in capabilities needed to sustain a long-term competitive advantage. The _Operations View_ addresses this shortcoming by shaping the enterprise's resources and processes to create the needed capabilities. The CAF starts from the *Value Capability Assets Processes* (or VCAP) framework footnote:[Operations Strategy: Principles and Practice by Jan A. Van Mieghem and Gad Allon, 2nd edition, 2015] and extend it to address _Digital Operations_. 
 

@@ -5,7 +5,7 @@
 
 [[Technology]]
 //:toc: preamble
-//xref:o-aaf-deployment[o-aaf-deployment-vision]
+
 
 In his seminal article _"Why Software Is Eating The World"_ footnote:[see: https://www.wsj.com/articles/SB10001424053111903480904576512250915629460] Marc Andreessen observes Software is eating much of the value chain of industries that primarily exist in the physical world. For example in today's cars, software runs the engines, controls safety features, entertains passengers and has the ability to drive autonomously. The direct consequence of this trend is that we are under an exponential flow of changes to support new business ambitions and an increasing rate of change of technologies.
 

@@ -5,7 +5,7 @@
 
 [[enterprise-decomposition]]
 //:toc: preamble
-//xref:o-aaf-deployment[o-aaf-deployment-vision]
+
 
 An enterprise is a complex system. Alongside with Herbert Simon, we argue hierarchy is one of the central structural schemes that the architect of complexity uses footnote:[The Architecture of Complexity by Herbert A. Simon, Proceedings of the American Philosophical Society, Vol. 106, No. 6. (Dec. 12, 1962), pp.467-482.]. By a hierarchic system, or hierarchy, Herbert Simon means a system that is composed of interrelated sub-systems, each of the latter being, in turn, hierarchic in structure until we reach some lowest level of elementary subsystem. 
 
