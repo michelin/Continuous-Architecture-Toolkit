@@ -15,4 +15,4 @@ Imagine you could invent your journey toward a digital and agile operating model
 
 link:/docs/problem-discovery/problem-discovery.html[Discovering] the problems that challenge your enterprise is the starting point of your link:/docs/start-your-journey/start-your-journey.html[Continuous Architecture journey].
 
-The current CA version is a MVP that will evolve continuously. The CA team will periodically add new content and is looking for link:https://github.com/michelin/Continuous-Architecture-Toolkit/blob/master/governance/contributing.adoc[new contributors].
+The current CA version is a MVP that evolves continuously. The CA team will periodically add new content and is looking for link:https://github.com/michelin/Continuous-Architecture-Toolkit/blob/master/governance/contributing.adoc[new contributors].
