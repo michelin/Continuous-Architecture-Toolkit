@@ -39,4 +39,5 @@ marketing launch text (FR & EN)
     * DDD community: Cyrill Martraire, Mathias Verraes, Roméo
     * International: Gregor Hophe, Stefan Tilkov
     * Yves Caseau & CTO DXC Dan Huchon
+    * Com au association professionnelle: Club Urba-EA, ADIRA, ...
 3. Identify relays internally art Michelin & Société Générale so their employees could also communicate on CA
