@@ -1,6 +1,7 @@
 //:sectnums:
 //:doctype: book
 //:reproducible:
+//Comment
 
 [[caf-messages]]
 === What is Continuous Architecture and why it matters?
