@@ -4,14 +4,15 @@
 //Comment
 
 [[caf-messages]]
-=== What is Continuous Architecture and why it matters?
+=== Develop and Operate Outstanding Digital Products with an Operating Model that works!
 //:toc: preamble
 
-Imagine you could invent your journey toward a digital and agile operating model that works for your enterprise. Continuous Architecture (CA) offers a new frame of reference footnote:[See definition https://www.merriam-webster.com/dictionary/frame%20of%20reference] that unlike most alternative industry frameworks:
-
+Continuous Architecture (CA) offers a new frame of reference footnote:[See definition https://www.merriam-webster.com/dictionary/frame%20of%20reference] that:
+* Address the specific needs of your enterprise by promoting specific organizational and architecture models
+* Develop and operate products that deliver an outstanding experience by leveraging digital technology and operations footnote:[See: https://continuous-architecture.org/docs/framework/framework.html]
 * Offers a truly open source license footnote:[See: https://github.com/michelin/Continuous-Architecture-Toolkit#license]
-* Leverages digital technology and operations to help develop and operate products that deliver an outstanding experience footnote:[See: https://continuous-architecture.org/docs/framework/framework.html]
-* Do not promote generic organizational and architecture models that fail to address the specific needs of your enterprise.
+
+Imagine what you could invent!
 
 link:/docs/problem-discovery/problem-discovery.html[Discovering] the problems that challenge your enterprise is the starting point of your link:/docs/start-your-journey/start-your-journey.html[Continuous Architecture journey].
 
