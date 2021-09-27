@@ -8,6 +8,7 @@
 //:toc: preamble
 
 Continuous Architecture (CA) offers a new frame of reference footnote:[See definition https://www.merriam-webster.com/dictionary/frame%20of%20reference] that:
+
 * Address the specific needs of your enterprise by promoting specific organizational and architecture models
 * Develop and operate products that deliver an outstanding experience by leveraging digital technology and operations footnote:[See: https://continuous-architecture.org/docs/framework/framework.html]
 * Offers a truly open source license footnote:[See: https://github.com/michelin/Continuous-Architecture-Toolkit#license]
