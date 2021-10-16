@@ -9,7 +9,7 @@ hero:
    *Architect the agile operating system your enterprise needs to develop and operate outstanding digital products*
 
    Continuous Architecture offers guiding ideas, practices, rituals and methods. Unlike most existing frameworks it:
-   - Starts from your problems instead of promoting generic organizational and architecture models
+   - Starts from your problems instead of promoting generic organizational or architecture models
    - Operationalizes the shift from project to product
    - Leverages the power of modern software engineering practices
    - And is truly open
