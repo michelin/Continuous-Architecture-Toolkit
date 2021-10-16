@@ -7,11 +7,9 @@
 === Architect the agile operating system your enterprise needs to develop and operate outstanding digital products
 //:toc: preamble
 
-Continuous Architecture (CA) offers link:/docs/manifest/manifesto.html[guiding ideas], link:/docs/practices/practices.html[practices], link:/docs/rituals/rituals.html[rituals] and link:/docs/framework/framework.html[methods] that unlike most existing frameworks:
+Continuous Architecture (CA) offers link:/docs/manifest/manifesto.html[guiding ideas], link:/docs/practices/practices.html[practices], link:/docs/rituals/rituals.html[rituals] and link:/docs/framework/framework.html[methods]. Unlike most existing frameworks it::
 
-* Starts from your link:https:/docs/problem-discovery/problem-discovery.html[problems] instead of promoting generic organizational and architecture models
+* Starts from your link:https:/docs/problem-discovery/problem-discovery.html[problems] instead of promoting generic organizational or architecture models
 * Operationalizes the shift from project to link:/docs/framework/product.html[product]
 * Leverages the power of modern link:/docs/framework/technology.html[software engineering]
 * And is truly open footnote:[See: https://github.com/michelin/Continuous-Architecture-Toolkit#license]
-
-The current CA version is a MVP that evolves continuously. The CA team periodically adds new content and is looking for link:https://github.com/michelin/Continuous-Architecture-Toolkit/blob/master/governance/contributing.adoc[new contributors].

@@ -8,8 +8,13 @@ hero:
   image: assets/imgs/hero-cover.jpg
   title: Continuous Architecture
   baseline: |-
-    For enterprises that leverage the architecture discipline to accelerate their journey toward a digital and agile operating model in a Volatile, Uncertain, Complex and Ambiguous (VUCA) world.  
-    The Continuous Architecture Toolkit provides a set of Practices and Rituals that organized into an operating model to help the actors of the enterprise create new digital offerings, deliver superior customer experience, improve and automate their operations and modernize IT.
+   **Architect the agile operating system your enterprise needs to develop and operate outstanding digital products**.
+
+   Continuous Architecture offers guiding ideas, practices, rituals and methods. Unlike most existing frameworks it:
+   - Starts from your problems instead of promoting generic organizational or architecture models
+   - Operationalizes the shift from project to product
+   - Leverages the power of modern software engineering practices
+   - And is truly open
   call_to_action:
     text: Start your journey 
     url: /docs/start-your-journey/start-your-journey.html
