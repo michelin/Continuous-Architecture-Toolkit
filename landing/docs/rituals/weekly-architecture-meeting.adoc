@@ -5,7 +5,7 @@ We need to create the conditions for the dialog within the team on architecture 
 * the results of proof of concepts or spikes
 * architecture decisions being processed or that have to be re-opened
 * an update on the architecture runway of your product
-* the result of a Root Caut Analysis following a production issue
+* the result of a Root Cause Analysis following a production issue
 * ... 
 
 image:./img/weekly-architecture-meeting.png[]

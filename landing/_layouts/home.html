@@ -3,16 +3,23 @@ layout: landing
 ---
 
 <div class="home">
-  
+
+  <div class="catchphrase row justc-center alitems-stretch">
+    <div class="content-wrapper row justc-center alitems-center pd-xl m-column s-pdh-m" style="padding-bottom: 20px">
+      <div class="catchphrase-text mgl-l column m-mgl-0 m-alitems-center">
+        <h1 class="xlarge-font black">"{{ page.catchphrase.baseline }}"</h1>
+      </div>
+    </div>
+  </div>
+
   <div class="hero row justc-center alitems-stretch">
-    <div class="content-wrapper row justc-center alitems-center pd-xl m-column s-pdh-m">
+    <div class="content-wrapper row justc-center alitems-center pd-xl m-column s-pdh-m" style="padding-top: 40px">
       <div class="hero-image-wrapper row justc-center alitems-center mgr-l m-mgr-0 m-mgb-l">
         <div class="hero-image">
           <img src="{{page.hero.image}}" alt="">
         </div>
       </div>
       <div class="hero-text mgl-l column m-mgl-0 m-alitems-center">
-        <h1 class="xlarge-font black mgb-s">{{ page.hero.title }}</h1>
         <div class="light mgb-m">{{ page.hero.baseline | markdownify }}</div>
         <a class="button white aliself-start m-aliself-center" href="{{ page.hero.call_to_action.url }}">{{ page.hero.call_to_action.text }}</a>
       </div>

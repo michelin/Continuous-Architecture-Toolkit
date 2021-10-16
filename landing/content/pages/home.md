@@ -2,6 +2,8 @@
 # this is yml in md so it is indentation sensitive
 layout: home
 permalink: /
+catchphrase:
+  baseline: Build your operating model to develop and operate outstanding digital products
 hero:
   image: assets/imgs/hero-cover.jpg
   title: Continuous Architecture

@@ -21,3 +21,18 @@ So far, we have documented several rituals
 | image:./img/architecture-kata.png[Click to enlarge,width=256,link="./img/architecture-kata.png"]
 | image:./img/weekly-architecture-meeting.png[Click to enlarge,width=256,link="./img/weekly-architecture-meeting.png"]
 |===
+
+[cols=3*]
+|===
+| xref:peer-review.adoc[Architecture peer review]
+| xref:scoping360-architecture.adoc[Architecture workshop]
+| 
+| Weekly touch point to leverage the architecture community in a safe environment on given problems
+| Workshop to conduct with the team to define the product architecture 
+| 
+| image:./img/peer-review.jpeg[Click to enlarge,width=256,link="./img/peer-review.jpeg"]
+| image:./img/scoping-architecture.png[Click to enlarge,width=256,link="./img/scoping-architecture.png"]
+| 
+|===
+
+

@@ -1,6 +1,20 @@
+.catchphrase{
+  width: 100%;
+  min-height: 9vh;
+  background: $gradient-dark;
+  font-style: italic;
+  color: $white;
+}
+
+.catchphrase-text {
+  width: 90%;
+  padding-top:25px;
+  text-align: center;
+}
+
 .hero {
   width: 100%;
-  min-height: 90vh;
+  min-height: 9vh;
   background: $gradient-dark;
   color: $white;
 }
