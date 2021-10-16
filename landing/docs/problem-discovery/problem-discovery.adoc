@@ -33,7 +33,7 @@ Reframing a problem is about changing the way you see it. Whether you framed the
 
 If you define your problem as the waiting time is perceived as too long you might explore solutions that address the perception problem. For example you might inform passengers in each bus station when the next bus will arrive. By providing this information you create predictability which changes the way the waiting time is perceived.
 
-Reframing is different from analyzing. It is a higher-level activity that helps you think _"out of the bax"_. The framing theory developed by Gregory Bateson in 1972 footnote:[Arowolo, Sunday. (2017). UNDERSTANDING FRAMING THEORY. 10.13140/RG.2.2.25800.52482.] suggests that how something is presented to the audience (called “the frame”) influences the choices people make about how to process that information. Frames are abstractions that work to organize or structure message meaning.
+Reframing is different from analyzing. It is a higher-level activity that helps you think _"out of the box"_. The framing theory developed by Gregory Bateson in 1972 footnote:[Arowolo, Sunday. (2017). UNDERSTANDING FRAMING THEORY. 10.13140/RG.2.2.25800.52482.] suggests that how something is presented to the audience (called “the frame”) influences the choices people make about how to process that information. Frames are abstractions that work to organize or structure message meaning.
 
 Thomas Wedell-Wedellsborg Notes that _"Reframing is not limited to the start of the process, nor should it be done independent of the work of analyzing and solving the problem. On the contrary, your understanding of the problem will develop alongside your solution."_
 

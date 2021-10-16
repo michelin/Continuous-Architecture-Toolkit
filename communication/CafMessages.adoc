@@ -4,17 +4,14 @@
 //Comment
 
 [[caf-messages]]
-=== Develop and Operate Outstanding Digital Products with an Operating Model that works!
+=== Architect the agile operating system your enterprise needs to develop and operate outstanding digital products
 //:toc: preamble
 
-Continuous Architecture (CA) offers a new frame of reference footnote:[See definition https://www.merriam-webster.com/dictionary/frame%20of%20reference] that:
+Continuous Architecture (CA) offers link:/docs/manifest/manifesto.html[guiding ideas], link:/docs/practices/practices.html[practices], link:/docs/rituals/rituals.html[rituals] and link:/docs/framework/framework.html[methods] that unlike most existing frameworks:
 
-* Address the specific needs of your enterprise by promoting specific organizational and architecture models
-* Develop and operate products that deliver an outstanding experience by leveraging digital technology and operations footnote:[See: https://continuous-architecture.org/docs/framework/framework.html]
-* Offers a truly open source license footnote:[See: https://github.com/michelin/Continuous-Architecture-Toolkit#license]
+* Starts from your link:https:/docs/problem-discovery/problem-discovery.html[problems] instead of promoting generic organizational and architecture models
+* Operationalizes the shift from project to link:/docs/framework/product.html[product]
+* Leverages the power of modern link:/docs/framework/technology.html[software engineering]
+* And is truly open footnote:[See: https://github.com/michelin/Continuous-Architecture-Toolkit#license]
 
-Imagine what you could invent!
-
-link:/docs/problem-discovery/problem-discovery.html[Discovering] the problems that challenge your enterprise is the starting point of your link:/docs/start-your-journey/start-your-journey.html[Continuous Architecture journey].
-
-The current CA version is a MVP that evolves continuously. The CA team will periodically add new content and is looking for link:https://github.com/michelin/Continuous-Architecture-Toolkit/blob/master/governance/contributing.adoc[new contributors].
+The current CA version is a MVP that evolves continuously. The CA team periodically adds new content and is looking for link:https://github.com/michelin/Continuous-Architecture-Toolkit/blob/master/governance/contributing.adoc[new contributors].
