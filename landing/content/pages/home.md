@@ -9,10 +9,11 @@ hero:
   title: Continuous Architecture
   baseline: |-
    Continuous Architecture offers guiding ideas, practices, rituals and methods. Unlike most existing enterprise architecture or agile at scale frameworks, Continuous Architecture:
-   - Starts from your problems instead of promoting generic organizational or architecture models
-   - Operationalizes the shift from project to product
-   - Leverages the power of modern software engineering practices
-   - And is truly open
+  values: 
+    - Starts from your problems instead of promoting generic organizational or architecture models
+    - Operationalizes the shift from project to product
+    - Leverages the power of modern software engineering practices
+    - Is truly open
   call_to_action:
     text: Start your journey 
     url: /docs/start-your-journey/start-your-journey.html

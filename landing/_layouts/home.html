@@ -4,25 +4,33 @@ layout: landing
 
 <div class="home">
 
-  <div class="catchphrase row justc-center alitems-stretch">
+  <!-- <div class="catchphrase row justc-center alitems-stretch">
     <div class="content-wrapper row justc-center alitems-center pd-xl m-column s-pdh-m" style="padding-bottom: 20px">
       <div class="catchphrase-text mgl-l column m-mgl-0 m-alitems-center">
-        <h1 class="xlarge-font black">"{{ page.catchphrase.baseline }}"</h1>
+        
       </div>
     </div>
-  </div>
+  </div> -->
 
-  <div class="hero row justc-center alitems-stretch">
+  <div class="hero column justc-center alitems-center">
     <div class="content-wrapper row justc-center alitems-center pd-xl m-column s-pdh-m" style="padding-top: 40px">
       <div class="hero-image-wrapper row justc-center alitems-center mgr-l m-mgr-0 m-mgb-l">
         <div class="hero-image">
           <img src="{{page.hero.image}}" alt="">
         </div>
       </div>
-      <div class="hero-text mgl-l column m-mgl-0 m-alitems-center">
-        <div class="light mgb-m">{{ page.hero.baseline | markdownify }}</div>
-        <a class="button white aliself-start m-aliself-center" href="{{ page.hero.call_to_action.url }}">{{ page.hero.call_to_action.text }}</a>
+      <div class="column justc-center aliself-stretch hero-text mgl-xl m-mgl-0 m-mgt-s m-alitems-center">
+        <h1 class="hero-title black">{{ page.catchphrase.baseline }}</h1>
+        <div class="light mgt-s mgb-s m-mgt-m">{{ page.hero.baseline | markdownify }}</div>
+        <div class="column alitems-stretch hero-values">
+          {% for value in page.hero.values %}
+            <div>{{value}}</div>
+          {% endfor %}
+        </div>
       </div>
+    </div>
+    <div class="column justc-center mgt-s m-mgt-0">
+        <a class="button white aliself-start m-aliself-center" href="{{ page.hero.call_to_action.url }}">{{ page.hero.call_to_action.text }}</a>
     </div>
   </div>
 

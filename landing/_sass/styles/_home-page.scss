@@ -1,22 +1,31 @@
-.catchphrase{
-  width: 100%;
-  min-height: 9vh;
-  background: $gradient-dark;
-  font-style: italic;
-  color: $white;
-}
+// .catchphrase{
+//   width: 100%;
+//   min-height: 9vh;
+//   background: $gradient-dark;
+//   // font-style: italic;
+//   color: $white;
+// }
 
-.catchphrase-text {
-  width: 90%;
-  padding-top:25px;
-  text-align: center;
-}
+// .catchphrase-text {
+//   width: 90%;
+//   padding-top:25px;
+//   text-align: center;
+// }
 
 .hero {
   width: 100%;
-  min-height: 9vh;
+  // min-height: 9vh;
   background: $gradient-dark;
   color: $white;
+  padding: $spacing-unit*8 0 $spacing-unit*6 0;
+
+  @include media-query($tablet) {
+    padding: $spacing-unit*4 0 $spacing-unit*3 0;
+  }
+
+  @include media-query($mobile) {
+    padding: $spacing-unit*4 0 $spacing-unit*3 0;
+  }
 }
 
 .hero-image-wrapper {
@@ -78,6 +87,45 @@
     text-align: center;
   }
 }
+
+.hero-title {
+  font-size: 40px;
+
+  @include media-query($tablet) {
+    font-size: 40px;
+  }
+
+  @include media-query($mobile) {
+    font-size: 30px;
+  }
+}
+
+.hero-txt-content {
+  max-width: 600px;
+}
+
+.hero-values {
+  div {
+    // border-radius: 8px;
+    border-left: solid 4px $accent-color-dark;
+    color: white;
+    padding-left: $spacing-unit/2;
+
+    @include media-query($tablet) {
+      border-radius: 8px;
+      border: solid 2px $accent-color-dark;
+      background-color: rgba(53, 124, 255, 0.05);
+      padding: $spacing-unit/2;
+    }
+
+    &:not(:last-child) {
+      margin-bottom: $spacing-unit/2;
+    }
+  }
+}
+
+
+
 
 .features {
   background-color: $grey-color-light;
