@@ -3,15 +3,13 @@
 layout: home
 permalink: /
 catchphrase:
-  baseline: Build your operating model to develop and operate outstanding digital products
+  baseline: Build your architecture operating model to develop and operate outstanding digital products
 hero:
   image: assets/imgs/hero-cover.jpg
   title: Continuous Architecture
   baseline: |-
-   **Architect the agile operating system you need to develop and operate outstanding digital products**.
-
-   Continuous Architecture offers guiding ideas, practices, rituals and methods. Unlike most existing enterprise architecture or agile at scale frameworks:
-   - Continuous architecture starts with problem discovery instead of promoting generic organizational or architecture models
+   Continuous Architecture offers guiding ideas, practices, rituals and methods. Unlike most existing enterprise architecture or agile at scale frameworks, Continuous Architecture:
+   - Starts from your problems instead of promoting generic organizational or architecture models
    - Operationalizes the shift from project to product
    - Leverages the power of modern software engineering practices
    - And is truly open

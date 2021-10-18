@@ -7,7 +7,7 @@ Two important messages here:
 * This ritual should not only be used at the beginning of your product lifecycle but for each main iteration or Minimal Viable Product. And you can adapt the sequence depending on your need. It's quite obvious you'll spend more time up front than for sub-sequent MVPs.
 * It's crucial to focus your discussion on the next product increment (ie MVP). Do not try to answers all questions to produce the ultimate architecture target.
 
-image:./img/scoping-architecture.jpg[]
+image:./img/scoping-architecture.png[]
 
 ==== How have we constructed our sequence? 
 
@@ -21,7 +21,14 @@ image:./img/scoping-architecture.jpg[]
 
 The below images are extracted from a https://miro.com/[Miro] board we created. Miro is a collaboration tool that helps creating content online and that fits well this kind of workshop. You'll recognize the sequence we just described.
 
-image:./img/workshop-architecture-1.png[]
+The board backup can be found link:./refs/workshop-architecture.rtb[here]
 
-image:./img/workshop-architecture-2.png[]
+image:./img/workshop-architecture-1-2.png[]
+
+image:./img/workshop-architecture-3-4.png[]
+
+image:./img/workshop-architecture-5-6.png[]
+
+image:./img/workshop-architecture-last.png[]
+
 
