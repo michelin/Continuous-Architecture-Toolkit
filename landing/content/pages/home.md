@@ -3,7 +3,7 @@
 layout: home
 permalink: /
 catchphrase:
-  baseline: Build your architecture operating model to develop and operate outstanding digital products
+  baseline: Build your agile operating model to develop and operate outstanding digital products
 hero:
   image: assets/imgs/hero-cover.jpg
   title: Continuous Architecture
