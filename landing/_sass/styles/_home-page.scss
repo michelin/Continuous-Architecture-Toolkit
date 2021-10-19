@@ -90,6 +90,7 @@
 
 .hero-title {
   font-size: 40px;
+  line-height: 1.2;
 
   @include media-query($tablet) {
     font-size: 40px;
