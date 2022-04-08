@@ -15,6 +15,7 @@
 :scriptsdir: ./js
 :imagesdir: ./img
 // GitHub admonitions:
+// Test
 ifdef::env-github[]
 :tip-caption: :bulb:
 :note-caption: pass:[&#8505;]
