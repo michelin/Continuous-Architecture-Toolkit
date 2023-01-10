@@ -6,7 +6,7 @@ It teaches us how to shape the organization so that it facilitates and does not 
 
 image:./img/conway-law.png[]
 
-Chances are we've all suffered the consequences of Conway's Law. So why not apply the reverse Conway's maneuver, which recommends that you evolve the organizational structure of your teams to promote the architecture you want. It's a simple but powerful idea.
+Chances are we've all suffered the consequences of Conway's Law. So why not apply the inverse Conway's maneuver, which recommends that you evolve the organizational structure of your teams to promote the architecture you want. It's a simple but powerful idea.
 
 Team topologies describes four topologies. All the four team topologies are important of course but 2 are pro-eminent from our perspective: Stream aligned teams and platform teams. The first is directly aligned (as its name suggests) with the value stream ^(1)^ of your company and fits well the product approach. While the second promotes the idea that platform teams can help reducing cognitive loads on stream aligned teams by providing them self-service platforms. Providing easy to consume services like a Kubernetes cluster is indeed helping stream aligned teams to focus on the value creation. The interaction modes helps to improve inter-team communication and ways of working. 
 
