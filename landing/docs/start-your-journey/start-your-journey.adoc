@@ -1,5 +1,5 @@
 [[start-your-journey]]
-=== Start your journey
+= Start your journey
 
 The deployment of the new ways of working (practices, rituals, framework) described in the Continuous Architecture Framework and Toolbox is a major change journey. There is no single pathway to move your enterprise (or part of it) from its current state to the ideal state (or north star) we recommend and which is embodied in the key tenets of the link:/docs/manifest/manifesto.html[Continuous Architecture Manifesto].
 
@@ -17,7 +17,7 @@ The diagram below which is described in the _"Organization"_ view of the link:/d
 <object type="image/svg+xml" data="img/organization.svg">Your browser does not support SVGs</object>
 ++++
 
-==== Start your Bottom-up journey
+## Start your Bottom-up journey
 
 The bottom-up approach is mostly at the team level and scopes one or few agile teams. First you will start assessing teams'  autonomy as each team as a uniq combination of people & skills and a different master degree on architecture activities. The link:/docs/rituals/team-autonomy-readiness.html[team autonomy readiness tool] was designed for this purposed. 
 
@@ -30,7 +30,7 @@ When shifting to a truly agile organization, you might discover your teams are m
 During this transitions you might discover the existing reward system of your enterprise gets in the way of agile ways of working. For example teams may be get rewarded when the deliver outputs and not when customers experience outcomes. At this stage a bottom-up approach may reach its limit. For example you might have to talk to management and HR to move the needle and evolve the existing reward system. It is time to initiate a more ambitious change journey.
 
 [top-down-journey]
-==== Start your top-down journey
+## Start your top-down journey
 
 //Continuous architecture was not designed to be deployed using a top down approach.
 //Nevertheless, a Classical top-down can be chosen and with some limits (to-be developed)
@@ -71,7 +71,7 @@ By mimicking the Spotify model (i.e. Tribes, Squads, Chapters, ...), enterprises
 Continuous Architecture was not designed to be deployed alongside the top-down deployment of agile @scale or change management frameworks. Instead, we advocate an organic approach that starts from the specific problems and circumstances of the enterprise, mixes bottom-up with top-down and promotes continuous experimentation and learning.
 
 [organic-journey]
-==== Start your organic journey
+## Start your organic journey
 
 An organic approach is about creating an environment for a situation potential. It can start with a bottom-up first step to demonstrate the benefits on a small environment carefully selected. We could think good performing teams are a place of choice to start with but we would recommend to pick teams that have some difficulties like long time to make decisions or high level of technical debts. These kind of teams will be willing to listen to you and try new things to make some progresses. In this phase, you can use ADRs, the runway and put in place all the rituals we have. The idea is to use whatever helps the teams. 
 
@@ -80,7 +80,7 @@ Once your demonstrators are producing their first results, you can then seek for
 In a sense, the organic approach is a mix of bottom-up and top-down. 
 
 [michelin-organic-change]
-===== Organic change approach: Michelin's example
+### Organic change approach: Michelin's example
 
 Three years ago, Michelin diagnosed that architecture could become an unbearable bottleneck and would not be able to sustain the digital acceleration. It was necessary to consider a structural change to better support the delivery team in their attempt to deliver value; at the same time, develop an operating model to maintain integrity at scale with empowered people, notably the architect community. The Continuous Architecture initiative was born: Michelin and Glue N'DO joined their forces to design and roll out an operating model to address Michelin architecture's main challenges. 
 
@@ -95,7 +95,7 @@ Michelin's Continuous Architecture journey is a transformational one. From the b
 
 This journey has two phases: the rising phase and the organic roll-out phase.
 
-====== Transformation journey's phases
+#### Transformation journey's phases
 
 *Rising phase* 
  
@@ -125,7 +125,7 @@ image:img/michelin-organic.png[]
 
 We are still in the organic mode and we progressively extend our perimeter: other geographic zones, infrastructure teams, digital teams ... As of mid 2021, we have covered two zones and 60 architects making our Organic approach successful. But we can also recognize it has some limits especially in how we help our organization to adopt the product approach which is something by design not limited to the IT structure.
 
-====== Michelin's 5 initial challenges
+#### Michelin's 5 initial challenges
 
 Each company has its own Architecture's challenges due to its business ecosystem, historical organization, contract model or technological choices. At Michelin we first concentrated on 5 progress areas as depicted below. We do acknowledge that these progress areas are tightly linked to our context and may not fit yours. Thus, Continuous Architecture is not a "to be" model to implement.
 
@@ -148,11 +148,11 @@ Behind the **see the whole** is hidden two distinct elements
 
 Last but not least: **people**. Changing the architecture operating model is all about the people. So here we took care of defining our architects roles and their required skills. And to help bridge the gap (if any), we put in place an architecture academy with identified trainings but also a coaching proposal and collaborative intelligence tools like link:/doc/rituals/architecture-kata.html[Architecture Katas].
 
-===== The enablers
+#### The enablers
 
 Having a new operating model is essential but not enough. We needed some enablers to make the change happen. By enabler we mean: a shared vision, a guiding team, an open toolbox, a scalable model and a community.
  
-====== A shared vision and a guiding team coalition
+##### A shared vision and a guiding team coalition
 
 At the beginning, even though the Michelin's feature teams were working in an agile mode, it become obvious that the architecture activities were not fully adapted to an agile world. In a VUCA context, the near future is not predictable, then the Information System needs to be developed in a way that it can evolve whatever the new scenario looks like. Let’s develop our products in the most decoupled way as possible became an obsession for us. We had to redefine our reference architecture patterns to promote not only monoliths, but cloud native, event driven and micro-services solutions built using technical platforms. 
 
@@ -160,11 +160,11 @@ Architectural patterns & new technologies are key to give flexibility to the IT 
   
 Sharing the need of rapid change and building a guiding coalition based on some advanced successful experience was crucial in the journey. The consolidation phase leads to seven core beliefs that are highlighted in the Continuous Architecture Manifesto.
   
-====== An open toolbox 
+##### An open toolbox 
   
 The Continuous Architecture's toolbox is a set of practical tools, practices and rituals for architects. But we had a fundamental believe: each team is different and need to adopt the toolbox in its context. At Glue N'DO, we are crazy of darts. For the Continuous Architecture Toolbox, we suggested to Michelin teams an architecture's dart game: the teams would have to identify the practices adapted to their context and select the one to be positioned in the bull's eye. A good architect servant leader develops the team skills in order to put the chosen dart in the Bull's eye. 
   
-====== A scalable collaborative model 
+##### A scalable collaborative model 
 
 Michelin's teams may not have the same architecture maturity due to turnover, discovering of technologies, business and IT knowledge or staffing issues. Their products may not have the same architecture challenges depending on their impacts, maturity stages from innovation or scaling to even decommissioning perspectives. In Continuous Architecture, we provide an autonomy assessment kit. 
   
@@ -174,11 +174,11 @@ The stakeholders will define the cutting edge organization, the way architects w
 
 It appears key to define and monitor an evolutive collaborative model so that integrity can be maintained, avoiding bureaucratic slowdown. 
 
-====== A community and network 
+##### A community and network 
 
 With the internal and open-source Continuous Architecture communities, Michelin aims to build a supportive environment to be part of or guide the architecture’s core stakeholders. At Michelin, the Continuous Architecture community of Practices is organized monthly at both local and global level. Thanks to the open source initiative, it will be a way of joining our forces, building a step ahead model, avoiding pitfalls and accelerating the change. 
   
-====== An Organic change approach : "Think big and act small" 
+##### An Organic change approach : "Think big and act small" 
 
 Launching a Continuous Architecture journey is changing the way architecture's decisions are taken in order to develop alignment and autonomy at different levels in the organization. It is a kind of 'big opportunity' which requires a leading change that, not only re-engineer the processes and methodologies, but also transform the underlying mindset, culture and learning model. 
 

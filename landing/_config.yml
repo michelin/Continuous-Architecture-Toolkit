@@ -12,6 +12,10 @@ asciidoctor:
   attributes:
     - icons=font
     
+algolia:
+  application_id: CA_WebSite
+  index_name: jekyll
+  search_only_api_key: 96a98d738921aee297c35e182f52ce2f 
 
 keep_files:
   - docs
