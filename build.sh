@@ -6,6 +6,10 @@ WORKDIR=$(pwd)
 	build)
 		echo "Render web site HTML content including adoc with Jekyll in 'dist' directory from 'landing' directory"
         docker run --rm --volume="$WORKDIR:/srv/jekyll" -it jekyll/jekyll:4.2.0 jekyll build --source landing --destination dist 
+		docker exec -w /Users/olivierjauze/Documents/GitHub/Continuous-Architecture-Toolkit -ti 790196039b4a bundle install
+		docker exec -ti 790196039b4a jekyll help
+		docker exec -ti 790196039b4a bundle exec jekyll algolia
+		bundle install 
 		;;
 	serve)
 		echo "Render web site (HTML content including adoc with Jekyll in 'dist' directory from 'landing' directory) & serve it at 0.0.0.0:4000"

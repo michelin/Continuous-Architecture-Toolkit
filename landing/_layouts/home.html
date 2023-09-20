@@ -19,6 +19,7 @@ layout: landing
           <img src="{{page.hero.image}}" alt="">
         </div>
       </div>
+
       <div class="column justc-center aliself-stretch hero-text mgl-xl m-mgl-0 m-mgt-s m-alitems-center">
         <h1 class="hero-title black">{{ page.catchphrase.baseline }}</h1>
         <div class="light mgt-s mgb-s m-mgt-m">{{ page.hero.baseline | markdownify }}</div>
@@ -83,36 +84,6 @@ layout: landing
     </div>
   </div>
 
-
-  <div class="references row justc-center pdv-xl m-pdv-l">
-    <div class="content-wrapper column alitems-center">
-      <h3 class="xlarge-font black mgb-xl m-mgb-m" id="references">References</h3>
-      <div class="aliself-stretch column">
-        {% for ref in page.references %}
-        <div class="ref-item mgb-xl m-mgb-l">
-          {% if ref.image %}
-            <div class="ref-image no-shrink">
-              <img src="{{ref.image}}" alt="ref">
-            </div>
-          {% endif %}
-          <div class="ref-content" id="{{ ref.name | slugify }}">
-            <div class="ref-title large-font bold mgb-s m-mgt-s">
-              {{ref.name}}
-            </div>
-            <div class="ref-text pd-m">
-              {{ref.content | markdownify }}
-            </div>
-          </div>
-          <div class="ref-text-mobile">
-            {{ref.content | markdownify }}
-          </div>
-        </div>
-      {% endfor %}
-      </div>
-    </div>
-  </div>
-
-
   <div class="case-studies row justc-center pdv-l m-pdv-m">
     <div class="content-wrapper pdt-s pdb-l column justc-center">
       <h3 class="cs-title xlarge-font black mgb-m" id="case-studies">Case Studies</h3>
@@ -149,6 +120,34 @@ layout: landing
             </div>
           {% endfor %}
         </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="references row justc-center pdv-xl m-pdv-l">
+    <div class="content-wrapper column alitems-center">
+      <h3 class="xlarge-font black mgb-xl m-mgb-m" id="references">References</h3>
+      <div class="aliself-stretch column">
+        {% for ref in page.references %}
+        <div class="ref-item mgb-xl m-mgb-l">
+          {% if ref.image %}
+            <div class="ref-image no-shrink">
+              <img src="{{ref.image}}" alt="ref">
+            </div>
+          {% endif %}
+          <div class="ref-content" id="{{ ref.name | slugify }}">
+            <div class="ref-title large-font bold mgb-s m-mgt-s">
+              {{ref.name}}
+            </div>
+            <div class="ref-text pd-m">
+              {{ref.content | markdownify }}
+            </div>
+          </div>
+          <div class="ref-text-mobile">
+            {{ref.content | markdownify }}
+          </div>
+        </div>
+      {% endfor %}
       </div>
     </div>
   </div>

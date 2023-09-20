@@ -4,6 +4,7 @@ gem "jekyll", "~> 4.2.0"
 
 group :jekyll_plugins do
   gem 'jekyll-asciidoc'
+  gem 'jekyll-algolia'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
