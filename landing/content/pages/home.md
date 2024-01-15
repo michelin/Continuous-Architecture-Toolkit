@@ -17,6 +17,29 @@ hero:
   call_to_action:
     text: Start your journey 
     url: /docs/start-your-journey/start-your-journey.html
+timeline:
+  events:
+    - title: "Continuous Architecture as a Product"
+      time: "26th January / 1pm-2pm"
+      location: Online
+      url: https://continuous-architecture.org/
+      details: 
+    - title: Workshop Domain-Driven Design 
+      time: "30 January / 10am-12pm"
+      location: Online
+      url: https://continuous-architecture.org/
+    - title: Continuous Architecture and Complexity
+      time: February - Exact date to-be-defined
+      location: Online
+      url: https://continuous-architecture.org/
+    - title: Experience Report - URSAFF Proteine
+      time: "March - Exact date to-be-defined"
+      location: Online
+      url: https://continuous-architecture.org/
+    - title: Continuous Architecture Kata Day
+      time: "20th March / 9am-5pm"
+      location: La Grande Fabrique - Montreuil
+      url: https://continuous-architecture.org/
 features:
   top:
     title: "Problem Discovery"
