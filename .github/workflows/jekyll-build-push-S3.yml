@@ -17,7 +17,7 @@ jobs:
           mkdir -p ./dist
       - name: Jekyll build
         id: jekyll-build
-        uses: helaili/jekyll-action@v2
+        uses: helaili/jekyll-action@v2.5
         with:
           jekyll_build_options: --destination ../dist
           build_only: true
