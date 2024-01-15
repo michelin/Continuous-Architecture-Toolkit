@@ -20,6 +20,12 @@ algolia:
 keep_files:
   - docs
 
+plugins:
+  - jekyll-postcss
+
+postcss:
+  cache: false
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
