@@ -43,7 +43,9 @@ jobs:
         id: pages
         uses: actions/configure-pages@v4
       - name: Build with Jekyll
-        run: bundle exec jekyll build --source landing --destination dist
+        run: |
+          bundle install
+          bundle exec jekyll build --source landing --destination dist
         working-directory: ./landing
         env:
           JEKYLL_ENV: production
