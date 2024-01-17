@@ -45,7 +45,7 @@ jobs:
       - name: Build with Jekyll
         run: |
           bundle install
-          bundle exec jekyll build --source landing --destination dist
+          bundle exec jekyll build --destination dist
         working-directory: ./landing
         env:
           JEKYLL_ENV: production
