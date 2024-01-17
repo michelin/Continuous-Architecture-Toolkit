@@ -30,6 +30,9 @@ jobs:
   # Build job
   build:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [18.x]
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -42,13 +45,30 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v4
+      - name: Use Node.js ${{ matrix.node-version }} (for getting yarn)
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: 'npm'
+      - name: Setup Tailwind CSS, postcss, etc. using NPM
+        id: tailwind
+        run: yarn install
+      - name: Gem Bundle installation for Jekyll
+        working-directory: ./landing
+        run: bundle install
       - name: Build with Jekyll
-        run: |
-          bundle install
-          bundle exec jekyll build --destination dist
+        run: bundle exec jekyll build --destination dist
         working-directory: ./landing
         env:
           JEKYLL_ENV: production
+      - uses: shallwefootball/s3-upload-action@master
+        name: Upload landing site to S3
+        id: S3
+        with:
+          aws_key_id: ${{ secrets.AWS_KEY_ID }}
+          aws_secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY}}
+          aws_bucket: ${{ secrets.AWS_BUCKET }}
+          source_dir: 'landing/dist'
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
