@@ -50,9 +50,11 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
           cache: 'npm'
+          cache-dependency-path: './landing'
       - name: Setup Tailwind CSS, postcss, etc. using NPM
         id: tailwind
         run: yarn install
+        working-directory: ./landing
       - name: Gem Bundle installation for Jekyll
         working-directory: ./landing
         run: bundle install
