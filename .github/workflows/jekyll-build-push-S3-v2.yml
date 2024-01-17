@@ -53,5 +53,5 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           name: landing
-          path: landing/dist/*
+          path: ./landing/dist/*
 
