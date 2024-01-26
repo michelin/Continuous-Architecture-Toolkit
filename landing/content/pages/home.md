@@ -22,7 +22,7 @@ timeline:
     - title: "Continuous Architecture as a Product"
       time: "26th January / 1pm-2pm"
       location: Online
-      url: https://continuous-architecture.org/
+      url: https://www.linkedin.com/events/archiasaproduct7153030937193189377/about/
       details: 
     - title: Workshop Domain-Driven Design 
       time: "30 January / 10am-12pm"
@@ -37,7 +37,7 @@ timeline:
       location: Online
       url: https://continuous-architecture.org/
     - title: Continuous Architecture Kata Day
-      time: "20th March / 9am-5pm"
+      time: "22th March / 9am-5pm"
       location: La Grande Fabrique - Montreuil
       url: https://continuous-architecture.org/
 features:
