@@ -24,10 +24,11 @@ timeline:
       location: Online
       url: https://www.linkedin.com/events/archiasaproduct7153030937193189377/about/
       details: 
-    - title: Workshop Domain-Driven Design 
-      time: "30 January / 10am-12pm"
+    - title: Domain-Driven Design Kit - Experience Feedback
+      time: "30th, January / 10am-12pm"
       location: Online
-      url: https://continuous-architecture.org/
+      next: true
+      url: https://www.linkedin.com/events/domain-drivendesignkitexperienc7157664311870459906
     - title: Continuous Architecture and Complexity
       time: February - Exact date to-be-defined
       location: Online
@@ -37,7 +38,7 @@ timeline:
       location: Online
       url: https://continuous-architecture.org/
     - title: Continuous Architecture Kata Day
-      time: "22th March / 9am-5pm"
+      time: "22th, March / 9am-5pm"
       location: La Grande Fabrique - Montreuil
       url: https://continuous-architecture.org/
 features:

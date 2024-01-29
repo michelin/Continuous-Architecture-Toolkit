@@ -42,7 +42,7 @@ layout: landing
             <img class="fill-current text-blue-500" src="assets/imgs/calendar.svg" alt="icon">
           </div>
           <div class="flex-1 ml-4">
-            <h2 class="text-3xl font-bold pb-8" style="color: rgb(11,29,55)">Next Events</h2>
+            <h2 class="text-3xl font-bold pb-8" style="color: rgb(11,29,55)">Events of the Community</h2>
           </div>
         </div>
         <div class="mx-auto alitems-center mt-8">
@@ -55,7 +55,7 @@ layout: landing
                     </svg>
                   </span>
                   <h3 class="flex items-center mb-1 text-lg font-semibold" style="color: rgb(11,29,55)">{{ event.title }}
-                  {% if forloop.first == true %}
+                  {% if event.next == true %}
                     <span class="bg-blue-100 text-blue-600 text-sm font-medium me-2 px-2.5 py-0.5 rounded ms-3">Next</span>
                   {% endif %}
                   </h3>
