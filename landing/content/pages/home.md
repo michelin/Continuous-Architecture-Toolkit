@@ -20,25 +20,25 @@ hero:
 timeline:
   events:
     - title: "Continuous Architecture as a Product"
-      time: "26th January / 1pm-2pm"
+      time: "26th January 2024 / 1pm-2pm"
       location: Online
       url: https://www.linkedin.com/events/archiasaproduct7153030937193189377/about/
       details: 
     - title: Domain-Driven Design Kit - Experience Feedback
-      time: "30th, January / 10am-12pm"
+      time: "30th, January 2024 / 10am-12pm"
       location: Online
-      next: true
       url: https://www.linkedin.com/events/domain-drivendesignkitexperienc7157664311870459906
     - title: Continuous Architecture and Complexity
-      time: February - Exact date to-be-defined
+      time: February 2024 - Exact date to-be-defined
+      next: true
       location: Online
       url: https://continuous-architecture.org/
-    - title: Experience Report - URSAFF Proteine
-      time: "March - Exact date to-be-defined"
+    - title: Experience Report - URSSAF Proteine
+      time: "March 2024 - Exact date to-be-defined"
       location: Online
       url: https://continuous-architecture.org/
     - title: Continuous Architecture Kata Day
-      time: "22th, March / 9am-5pm"
+      time: "2nd, April 2024 / 9am-5pm"
       location: La Grande Fabrique - Montreuil
       url: https://continuous-architecture.org/
 features:
