@@ -19,26 +19,20 @@ hero:
     url: /docs/start-your-journey/start-your-journey.html
 timeline:
   events:
-    - title: "Continuous Architecture as a Product"
-      time: "26th January 2024 / 1pm-2pm"
-      location: Online
-      url: https://www.linkedin.com/events/archiasaproduct7153030937193189377/about/
-      details: 
-    - title: Domain-Driven Design Kit - Experience Feedback
-      time: "30th, January 2024 / 10am-12pm"
-      location: Online
-      url: https://www.linkedin.com/events/domain-drivendesignkitexperienc7157664311870459906
-    - title: Continuous Architecture and Complexity
-      time: February 2024 - Exact date to-be-defined
-      next: true
-      location: Online
-      url: https://continuous-architecture.org/
-    - title: Experience Report - URSSAF Proteine
-      time: "March 2024 - Exact date to-be-defined"
-      location: Online
-      url: https://continuous-architecture.org/
     - title: Continuous Architecture Kata Day
       time: "2nd, April 2024 / 9am-5pm"
+      location: La Grande Fabrique - Montreuil
+      url: https://continuous-architecture.org/
+    - title: SRE Webinar
+      time: "15th, May 2024 / 1pm-2pm"
+      location: Online
+      url: https://www.linkedin.com/events/webinarsre7186298047163723776/
+    - title: SRE Day
+      time: "21, June 2024 / Full Day"
+      location: La Grande Fabrique - Montreuil
+      url: https://continuous-architecture.org/
+    - title: Continuous Architecture Day
+      time: "1st, October 2024 / Full Day"
       location: La Grande Fabrique - Montreuil
       url: https://continuous-architecture.org/
 features:
