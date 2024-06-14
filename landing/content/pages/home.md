@@ -22,13 +22,13 @@ timeline:
     - title: SRE Day: Site Reliability Engineering
       time: "21, June 2024 / Full Day 9am-4pm"
       location: La Grande Fabrique - 12 rue Dolorès Ibarruri 94300 Montreuil
-      url: https://www.linkedin.com/posts/continuous-architecture_save-the-date-vendredi-21-juin-fabien-activity-7192179184486535170-aGym
-    - title: Continuous Architecture Kata Day
-      time: "TBD - Autumn 2024"
-      location: La Grande Fabrique - Montreuil
-      url: https://continuous-architecture.org/
+      url: https://www.linkedin.com/events/sredaycontinuousarchitecture7206931914778181632/about/
     - title: Continuous Architecture Day
       time: "1st, October 2024 / Full Day"
+      location: La Grande Fabrique - Montreuil
+      url: https://continuous-architecture.org/
+    - title: Continuous Architecture Kata Day
+      time: "TBD - Autumn 2024"
       location: La Grande Fabrique - Montreuil
       url: https://continuous-architecture.org/
 features:
