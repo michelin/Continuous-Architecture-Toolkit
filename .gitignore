@@ -4,3 +4,4 @@ Gemfile.lock
 .envrc
 dist
 landing/node_modules
+.vscode/
