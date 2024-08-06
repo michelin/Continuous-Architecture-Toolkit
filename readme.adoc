@@ -76,7 +76,7 @@ Please, refer to the link:LICENSE[Apache license file] and link:http://creativec
 Continuous architecture toolkit was initially developed by mailto:thierry.fraudet@michelin.com[Thierry Fraudet] & mailto:ojauze@gmail.com[Olivier Jauze] from Michelin and by mailto:nch.nicolas.chevalier@gmail.com[Nicolas Chevalier] from Gluendo to setup an agile architecture operating model and to support the
 Michelin digital journey.
 
-They were quickly joined by a group of enthusiasts from DXC, Société Générale and others sharing the same ideas about the evolution of architecture in the world of information system design and this project is now maintains by the following core group of people:
+They were quickly joined by a group of enthusiasts from DXC, Société Générale and others, sharing the same ideas about the evolution of architecture in the world of information system design and this project is now maintained by the following core group of people:
 
 * mailto:thierry.fraudet@michelin.com[Thierry Fraudet] (Michelin)
 * mailto:ojauze@gmail.com[Olivier Jauze] (Michelin)
