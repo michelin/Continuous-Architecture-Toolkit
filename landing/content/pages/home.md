@@ -19,10 +19,6 @@ hero:
     url: /docs/start-your-journey/start-your-journey.html
 timeline:
   events:
-    - title: "SRE Day: Site Reliability Engineering"
-      time: "21, June 2024 / Full Day 9am-4pm"
-      location: La Grande Fabrique - 12 rue Dolorès Ibarruri 94300 Montreuil
-      url: https://www.linkedin.com/events/sredaycontinuousarchitecture7206931914778181632/about/
     - title: Continuous Architecture Day
       time: "1st, October 2024 / Full Day"
       location: Gluendo - 198 avenue de France à Paris M° Quai de la Gare
