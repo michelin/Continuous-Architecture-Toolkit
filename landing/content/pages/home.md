@@ -25,8 +25,8 @@ timeline:
       url: https://www.linkedin.com/events/sredaycontinuousarchitecture7206931914778181632/about/
     - title: Continuous Architecture Day
       time: "1st, October 2024 / Full Day"
-      location: La Grande Fabrique - Montreuil
-      url: https://continuous-architecture.org/
+      location: Gluendo - 198 avenue de France à Paris M° Quai de la Gare
+      url: https://www.linkedin.com/feed/update/urn:li:activity:7236625217278676993/?actorCompanyId=67911051
     - title: Continuous Architecture Kata Day
       time: "TBD - Autumn 2024"
       location: La Grande Fabrique - Montreuil
