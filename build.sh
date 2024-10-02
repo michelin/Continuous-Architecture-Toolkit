@@ -12,7 +12,7 @@ WORKDIR=$(pwd)
 		docker run --rm --volume="$WORKDIR:/srv/jekyll" --publish 4000:4000 -it jekyll/jekyll:4.2.0  jekyll serve --source landing --destination dist 
 		;;
 	*)
-		echo "Sorry, I don't understand"
+		echo "An option has to be provided to this script: either 'build' or 'serve'"
 		;;
   esac
 
