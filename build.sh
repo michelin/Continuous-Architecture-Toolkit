@@ -5,15 +5,11 @@ WORKDIR=$(pwd)
   case $1 in
 	build)
 		echo "Render web site HTML content including adoc with Jekyll in 'dist' directory from 'landing' directory"
-        docker run --rm --volume="$WORKDIR:/srv/jekyll" -it jekyll/jekyll:4.2.0 jekyll build --source landing --destination dist 
-		docker exec -w /Users/olivierjauze/Documents/GitHub/Continuous-Architecture-Toolkit -ti 790196039b4a bundle install
-		docker exec -ti 790196039b4a jekyll help
-		docker exec -ti 790196039b4a bundle exec jekyll algolia
-		bundle install 
+        docker run --rm --volume="$WORKDIR:/srv/jekyll" -it jekyll/jekyll:4.2.2 jekyll build --source landing --destination dist 
 		;;
 	serve)
 		echo "Render web site (HTML content including adoc with Jekyll in 'dist' directory from 'landing' directory) & serve it at 0.0.0.0:4000"
-		docker run --rm --volume="$WORKDIR:/srv/jekyll" --publish 4000:4000 -it jekyll/jekyll:4.2.0  jekyll serve --source landing --destination dist 
+		docker run --rm --volume="$WORKDIR:/srv/jekyll" --publish 4000:4000 -it jekyll/jekyll:4.2.2  jekyll serve --source landing --destination dist
 		;;
 	*)
 		echo "Sorry, I don't understand"

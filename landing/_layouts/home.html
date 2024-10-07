@@ -37,6 +37,9 @@ layout: landing
 
   <div class="features row justc-center pdv-l">
     <div class="content-wrapper column alitems-stretch">
+      
+      {% include google-search.html %}
+
       <div class="feature-card column mgb-s alitems-start">
         <div class="row alitems-center mgb-xs">
           <div class="feature-icon mgr-s">
@@ -64,6 +67,7 @@ layout: landing
             <div class="grey-text">{{ page.features.left.text | markdownify }}</div>
           </div>
         </div>
+
         <div class="cards-wrapper">
           {% for feature in page.features.right %}
             <div class="feature-card {% if forloop.last == false %} mgb-s {% endif %} " id="{{ feature.title | slugify }}">
