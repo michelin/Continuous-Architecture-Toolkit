@@ -83,6 +83,13 @@ case_studies:
     content: |-
       We used the Jobs-To-Be-Done approach to understand what treasurers seek to accomplish. A job is a goal or an objective independent of the products or services a bank offers. Bank clients, in this example treasurers, purchase your products or services as a mean to an end which is to help them better do their jobs. For example, treasurers forecast the cash flows that result from their operations to estimate working capital requirements. If a bank can predict small businesses’ minimum sales with high accuracy, it can invent a differentiated lending product. We illustrate this outside-in approach helped the bank innovate.
     url: /docs/case-studies/banking-case-study/banking-case-study.html
+  - company: Michelin
+    logo: assets/imgs/logo-michelin.jpg
+    title: Architecture for flow
+    detailed_title: How Continuous Architecture leverages Domain Driven Design and team topologies to achieve the architecture for flow state
+    content: |-
+      A data platform team operating in the Connected Mobility field was facing delivery issues slowing them down up to a point it took ages to deliver a simple evolution or feature. This case study will show how this monolith data platform was broken up in smaller pieces and how we adapted the organization to the architecture (and not the other way around).
+    url: /docs/case-studies/architecture-for-flow/ultim.html    
 references:
   - name: Continuous Architecture
     image: assets/imgs/references/ca-book-cover.jpg
