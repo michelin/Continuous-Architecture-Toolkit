@@ -73,10 +73,9 @@ Please, refer to the link:LICENSE[Apache license file] and link:http://creativec
 [[MAINTAINERS]]
 == Maintainers
 
-Continuous architecture toolkit was initially developed by mailto:thierry.fraudet@michelin.com[Thierry Fraudet] & mailto:ojauze@gmail.com[Olivier Jauze] from Michelin and by mailto:nch.nicolas.chevalier@gmail.com[Nicolas Chevalier] from Gluendo to setup an agile architecture operating model and to support the
-Michelin digital journey.
+Continuous architecture toolkit was initially developed by mailto:thierry.fraudet@michelin.com[Thierry Fraudet] & mailto:ojauze@gmail.com[Olivier Jauze] from Michelin and by mailto:nch.nicolas.chevalier@gmail.com[Nicolas Chevalier] from Gluendo to setup an agile architecture operating model and to support the Michelin digital journey.
 
-They were quickly joined by a group of enthusiasts from DXC, Société Générale and others sharing the same ideas about the evolution of architecture in the world of information system design and this project is now maintains by the following core group of people:
+They were quickly joined by a group of enthusiasts from DXC, Société Générale and others, sharing the same ideas about the evolution of architecture in the world of information system design and this project is now maintained by the following core group of people:
 
 * mailto:thierry.fraudet@michelin.com[Thierry Fraudet] (Michelin)
 * mailto:ojauze@gmail.com[Olivier Jauze] (Michelin)
@@ -85,5 +84,7 @@ They were quickly joined by a group of enthusiasts from DXC, Société Général
 * mailto:corentin.moussard@gmail.com[Corentin Moussard] (Graphic Designer)
 * mailto:jerome.regnier@socgen.com[Jerome Regnier] (Société Générale)
 * mailto:jeremie@grodziski.com[Jérémie Grodziski] (Adixe)
+* mailto:romain.chapon@michelin.com[Romain Chapon] (Michelin)
+* mailto:yoni.boukhobza@socgen.com[Yoni Boukhobza] (Société Générale)
 
 note: sadly, Jean-Marc Bunouf passed away before the first MVP of our open source project. Even thought he couldn't make it to the end, Jean-Marc greatly contributed to our project and we're all very thankfull to him.

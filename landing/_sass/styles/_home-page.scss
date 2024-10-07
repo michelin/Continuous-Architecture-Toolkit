@@ -126,7 +126,38 @@
 }
 
 
+.timeline {
+  background-color: $grey-color-light;
 
+  .content-wrapper {
+    width: 90%;
+
+    @include media-query($laptop) {
+      width: 100%;
+    }
+  }
+}
+
+.timeline-wrapper {
+  width: 50%;
+
+  @include media-query($tablet) {
+    width: 100%;
+  }
+}
+
+.timeline-icon {
+  width: 80px;
+
+  @include media-query($laptop) {
+    width: 60px;
+  }
+
+  img {
+    display: block;
+    width: 100%;
+  }
+}
 
 .features {
   background-color: $grey-color-light;
