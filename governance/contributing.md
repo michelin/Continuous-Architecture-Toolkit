@@ -1,33 +1,8 @@
-= Contributing to Continuous Architecture toolkit
-// Metadata:
-:description: Toolkit Elaboration Guide
-:keywords: guide
-:main-title: Continuous Architecture Toolkit 
-// Settings:
-:icons: font
-:idprefix:
-:idseparator: -
-:preface-title: 
-:numbered!:
-:sectlinks:
-:sectanchors:
-:stylesdir: ./css
-:scriptsdir: ./js
-:imagesdir: ./img
-// GitHub admonitions:
-ifdef::env-github[]
-:tip-caption: :bulb:
-:note-caption: pass:[&#8505;]
-:important-caption: :heavy_exclamation_mark:
-:caution-caption: :fire:
-:warning-caption: :warning:
-endif::[]
-
 Thanks for your interest in contributing! This document outlines how we expect contributions to happen.
 
 WARNING: Note that contributions can only be made by individuals representing themselves, not by a company.
 
-1. Start by searching the https://github.com/michelin/Continuous-Architecture-Toolkit/issues[issue tracker] to see if your contribution, be it a problem or a suggestion for an enhancement, was brought up before.
+1. Start by searching the [issue tracker](https://github.com/michelin/Continuous-Architecture-Toolkit/issues) to see if your contribution, be it a problem or a suggestion for an enhancement, was brought up before.
 2. If nothing satisfying comes up, feel free to file a new issue. Provide as many details about your idea, problem, or suggestion as possible.
 3. Once a conversation with one or more maintainers has taken place, it should become clear when it is appropriate to suggest a change via a pull request.
 4. Fork the project repository and add materials on a topic of your choice. Then submit a pull request outlining your changes so maintainers can review what you've added and work with you to polish it.
@@ -35,4 +10,4 @@ WARNING: Note that contributions can only be made by individuals representing th
 
 == Getting Involved
 
-search our https://github.com/michelin/Continuous-Architecture-Toolkit/issues[issue tracker] for issues with the "help wanted" label
+search our [issue tracker](https://github.com/michelin/Continuous-Architecture-Toolkit/issues) for issues with the "help wanted" label

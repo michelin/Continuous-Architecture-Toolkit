@@ -1,36 +1,7 @@
-= Governance
-// Metadata:
-:description: Governance
-:keywords: guide
-:main-title: Continuous Architecture Toolkit 
-// Settings:
-:icons: 
-:idprefix:
-:idseparator: -
-:preface-title: 
-:toc2:
-:toc:
-:toclevels: 3
-:numbered:
-:sectlinks:
-:sectanchors:
-:experimental:
-:imagesdir: ./img
-:stylesdir: ./styles
-:scriptsdir: ./js
-// GitHub admonitions:
-ifdef::env-github[]
-:tip-caption: :bulb:
-:note-caption: pass:[&#8505;]
-:important-caption: :heavy_exclamation_mark:
-:caution-caption: :fire:
-:warning-caption: :warning:
-endif::[]
-
 The objective of this document is to describe the process of decision
 making and defines the social rules of interaction for our project.
 
-== Community
+# Community
 
 If you'd like to speak to maintainers of this project, you can reach us
 through a bunch of different channels.
@@ -39,7 +10,7 @@ through a bunch of different channels.
 by using the @github/Continuous-Architecture-Toolkit handle.
 * *Slack* We're pretty active on slack.
 
-== Roles and Responsibilities
+## Roles and Responsibilities
 
 * *Users* are community members who have a need for Continuous Architecture Toolkit. They are the most important members of the community and without them the project would have no purpose. Anyone can be a user; there are no special requirements. We asks users to participate in community and give us as much feedback as they can. User contributions enable the project team to ensure that they are satisfying the needs of those users. +
 See link:contributing.adoc[Contributor guide] for more details.
@@ -48,12 +19,10 @@ See link:contributing.adoc[Contributor guide] for more details.
 * *Maintainers* are people responsible over the direction of the project and are committed to improving it in the long run. There are the only people in a project with commit access. 
 See link:maintainer-guide.adoc[Maintainer guide] for more details. 
 
-== Decision-Making process
+## Decision-Making process
 
-The default decision making mechanism for the Continuous Architecture
-Toolkit project is
-http://www.apache.org/foundation/how-it-works.html#decision-making[lazy
-consensus]. This means that any decision on issues is considered
+The default decision making mechanism for the Continuous Architecture Toolkit project is [lazy
+consensus](http://www.apache.org/foundation/how-it-works.html#decision-making). This means that any decision on issues is considered
 supported by the core team as long as nobody objects.
 
 Silence on any consensus decision is implicit agreement and equivalent
@@ -63,16 +32,14 @@ If any team member raises objections, the team members work together
 towards a solution that all involved can accept. This solution is again
 subject to lazy consensus.
 
-=== Commit Policy
+### Commit Policy
 
-To approve change proposals from contributors, Continuous Architecture
-Toolkit projet apply the Review-Then-Commit policy which requires that
-all pull-request changes receive
-http://www.apache.org/foundation/how-it-works.html#decision-making[lazy
-consensus] approval by maintainers, meaning at least one binding +1 vote
+To approve change proposals from contributors, Continuous Architecture Toolkit projet apply the Review-Then-Commit policy which requires that
+all pull-request changes receive [lazy
+consensus](http://www.apache.org/foundation/how-it-works.html#decision-making) approval by maintainers, meaning at least one binding +1 vote
 and no vetos (-1) in order to be committed.
 
-=== Governance Committee
+### Governance Committee
 
 For other matters that need consensus like:
 
@@ -97,20 +64,11 @@ organized as required and conducted using a video call. Participation is
 open to all maintainers. Agenda items can be added by any maintainers by
 simply adding topics to the Governance Meeting Agenda.
 
-Decisions are taken with a
-http://www.apache.org/foundation/how-it-works.html#decision-making[lazy
-consensus approach] except nominated maintainers membership.
+Decisions are taken with a [lazy
+consensus approach](http://www.apache.org/foundation/how-it-works.html#decision-making) except nominated maintainers membership.
 
-=== Maintainer member status
+### Maintainer member status
 
-Maintainer member status may be given to those who have made major
-ongoing contributions to the Continuous Architecture toolkit for at
-least 3 months. This is usually in the form of assets improvements
-and/or notable work on documentation, but organizing events or community
-support could also be taken into account.
+Maintainer member status may be given to those who have made major ongoing contributions to the Continuous Architecture toolkit for at least 3 months. This is usually in the form of assets improvements and/or notable work on documentation, but organizing events or community support could also be taken into account.
 
-New members may be proposed by any existing maitainers. It is highly
-desirable to reach consensus about acceptance of a new member. However,
-the proposal is ultimately voted on by a formal majority vote (requires
-more binding +1 votes than binding -1 votes) during Governance
-Committee.
+New members may be proposed by any existing maitainers. It is highly desirable to reach consensus about acceptance of a new member. However, the proposal is ultimately voted on by a formal majority vote (requires more binding +1 votes than binding -1 votes) during Governance Committee.
