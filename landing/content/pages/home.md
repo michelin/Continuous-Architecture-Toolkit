@@ -34,7 +34,7 @@ features:
       *What are the major issues facing your enterprise?* Engineers and architects are proficient at solving problems, they are often less skilled at challenging the way problems are stated. Spending time solving the wrong problem wastes the enterprise's time and resources. Therefore, Continuous Architecture recommends to pay attention to the way problems are framed because it largely influences solutions. Reframing a problem can sometimes help you find radically different and more effective solutions. The discovery of a problem begins with an acute sense of observation that leads you to ask the right questions. Reframing also requires the open minded attitude that can help you think out of the box. 
     icon: assets/imgs/magnifier-icon.svg
     url: /docs/problem-discovery/problem-discovery.html
-  left:
+  left  :
     title: "Framework"
     text: |-
       The tools and kits we have created can be used in isolation or they can work together to help the enterprise change to be more successful. In a  **V**olatile, **U**ncertain, **C**omplex or **A**mbiguous world, it is important to bring structure while enabling business and operational agility. The Continuous Architecture Framework (CAF) combines intentional architecture and emergent design to help autonomous teams align around a common purpose and a set of shared Objectives and Key Results (OKRs) while preserving agile teams' autonomy. Team autonomy is a pre-requisite to speed because it reduces coordination activities that slow down teams. On the other hand, when autonomous teams are mis-aligned it increases the risk of delivering poor client and employee experience due to ineffective coordination.
